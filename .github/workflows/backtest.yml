@@ -57,6 +57,9 @@ jobs:
             --limit "${{ github.event.inputs.limit }}" \
             --out reports
 
+      - name: Recompute rule lift across every backtest on record
+        run: python -m scanner.analyze 'reports/backtest-*.json' --out reports/rule-lift.md
+
       - name: Commit the result
         run: |
           git config user.name "github-actions[bot]"
