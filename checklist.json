@@ -1,5 +1,5 @@
 {
-  "version": "0.3",
+  "version": "0.4",
   "title": "The 100-Bagger Checklist",
   "route": "Built for Phelps' fourth route: reinvestment of earnings at high rates of return. Routes 1-3 (commodity re-rating, capital-structure leverage, inflation leverage) are deliberately excluded - see stage 1.5.",
   "sources": {
@@ -155,7 +155,7 @@
           "BUFFETT · LYNCH",
           "H",
           "gate",
-          "stated"
+          "book"
         ],
         [
           "1.2",
@@ -163,7 +163,7 @@
           "BUFFETT",
           "H",
           "gate",
-          "stated"
+          "book"
         ],
         [
           "1.3",
@@ -171,7 +171,7 @@
           "BUFFETT",
           "H",
           "gate",
-          "stated"
+          "book"
         ],
         [
           "1.4",
@@ -179,7 +179,7 @@
           "BUFFETT",
           "M+H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "1.5",
@@ -187,7 +187,7 @@
           "PHELPS",
           "H",
           "gate",
-          "stated"
+          "book"
         ],
         [
           "1.6",
@@ -195,7 +195,7 @@
           "LYNCH",
           "H",
           "gate",
-          "stated"
+          "book"
         ],
         [
           "1.7",
@@ -203,7 +203,7 @@
           "LEONARD",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "1.8",
@@ -234,7 +234,7 @@
           "AKRE · SMITH · MAYER",
           "M",
           "major",
-          "stated"
+          "talk"
         ],
         [
           "2.2",
@@ -242,7 +242,7 @@
           "AKRE · LEONARD",
           "M+H",
           "major",
-          "stated"
+          "talk"
         ],
         [
           "2.3",
@@ -266,7 +266,7 @@
           "MAYER",
           "M",
           "major",
-          "stated"
+          "book"
         ],
         [
           "2.6",
@@ -290,7 +290,7 @@
           "PRICE",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "2.9",
@@ -298,7 +298,7 @@
           "FISHER #2",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "2.10",
@@ -306,7 +306,7 @@
           "SMITH",
           "M",
           "major",
-          "stated"
+          "book"
         ],
         [
           "2.11",
@@ -314,7 +314,7 @@
           "FISHER #5 · SMITH",
           "M",
           "major",
-          "stated"
+          "book"
         ],
         [
           "2.12",
@@ -322,7 +322,7 @@
           "FISHER #6",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "2.13",
@@ -338,7 +338,7 @@
           "FISHER #3",
           "M+H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "2.15",
@@ -346,7 +346,7 @@
           "FISHER #4",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "2.16",
@@ -378,7 +378,7 @@
           "FISHER #11",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "2.20",
@@ -386,7 +386,7 @@
           "PABRAI",
           "M+H",
           "major",
-          "stated"
+          "talk"
         ]
       ]
     },
@@ -402,7 +402,7 @@
           "DAVIS",
           "M+H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "3.2",
@@ -410,7 +410,7 @@
           "MAYER",
           "M",
           "major",
-          "stated"
+          "book"
         ],
         [
           "3.3",
@@ -426,7 +426,7 @@
           "MAUBOUSSIN",
           "M+H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "3.5",
@@ -442,7 +442,7 @@
           "TEMPLETON",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "3.7",
@@ -481,7 +481,7 @@
           "GREENWALD",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "4.2",
@@ -489,7 +489,7 @@
           "BUFFETT",
           "M+H",
           "major",
-          "stated"
+          "talk"
         ],
         [
           "4.3",
@@ -505,7 +505,7 @@
           "MARATHON",
           "M+H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "4.5",
@@ -521,7 +521,7 @@
           "MAUBOUSSIN",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "4.7",
@@ -561,7 +561,7 @@
           "SLEEP",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "4.12",
@@ -569,7 +569,7 @@
           "THIEL",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "4.13",
@@ -601,7 +601,7 @@
           "LYNCH · CASSEL",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "4.17",
@@ -617,7 +617,7 @@
           "PABRAI",
           "H",
           "major",
-          "stated"
+          "talk"
         ],
         [
           "4.19",
@@ -625,7 +625,7 @@
           "PABRAI",
           "H",
           "minor",
-          "stated"
+          "talk"
         ],
         [
           "4.20",
@@ -633,7 +633,7 @@
           "PABRAI",
           "H",
           "minor",
-          "stated"
+          "talk"
         ]
       ]
     },
@@ -657,7 +657,7 @@
           "PABRAI",
           "M+H",
           "major",
-          "stated"
+          "talk"
         ],
         [
           "5.3",
@@ -713,7 +713,7 @@
           "FISHER #13 · CASSEL",
           "M+H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "5.10",
@@ -768,7 +768,7 @@
           "LYNCH #12",
           "M",
           "major",
-          "stated"
+          "book"
         ],
         [
           "6.3",
@@ -776,7 +776,7 @@
           "RUSSO",
           "H",
           "major",
-          "derived"
+          "talk"
         ],
         [
           "6.4",
@@ -792,7 +792,7 @@
           "RUSSO · AKRE",
           "M+H",
           "major",
-          "derived"
+          "talk"
         ],
         [
           "6.6",
@@ -800,7 +800,7 @@
           "PABRAI",
           "M+H",
           "major",
-          "stated"
+          "talk"
         ],
         [
           "6.7",
@@ -808,7 +808,7 @@
           "PABRAI",
           "H",
           "major",
-          "stated"
+          "talk"
         ],
         [
           "6.8",
@@ -816,7 +816,7 @@
           "FISHER #9",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "6.9",
@@ -824,7 +824,7 @@
           "FISHER #14",
           "M+H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "6.10",
@@ -832,7 +832,7 @@
           "FISHER #15 · BUFFETT",
           "H",
           "gate",
-          "stated"
+          "book"
         ],
         [
           "6.11",
@@ -840,7 +840,7 @@
           "THORNDIKE",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "6.12",
@@ -848,7 +848,7 @@
           "THORNDIKE · LYNCH #13",
           "M",
           "major",
-          "stated"
+          "book"
         ],
         [
           "6.13",
@@ -888,7 +888,7 @@
           "FISHER #7",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "6.18",
@@ -896,7 +896,7 @@
           "FISHER #8",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "6.19",
@@ -904,7 +904,7 @@
           "FISHER #10",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "6.20",
@@ -912,7 +912,7 @@
           "FISHER #12",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "6.21",
@@ -1078,7 +1078,7 @@
           "LYNCH #1",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "8.2",
@@ -1086,7 +1086,7 @@
           "LYNCH #2,3,7",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "8.3",
@@ -1094,7 +1094,7 @@
           "LYNCH #4 · GREENBLATT",
           "M",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "8.4",
@@ -1102,7 +1102,7 @@
           "LYNCH #5 · CASSEL",
           "M",
           "major",
-          "stated"
+          "book"
         ],
         [
           "8.5",
@@ -1110,7 +1110,7 @@
           "LYNCH #8",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "8.6",
@@ -1118,7 +1118,7 @@
           "LYNCH #10",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "8.7",
@@ -1126,7 +1126,7 @@
           "LYNCH #11",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "8.8",
@@ -1173,7 +1173,7 @@
           "MUNGER · PABRAI",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "9.2",
@@ -1181,7 +1181,7 @@
           "MUNGER · PABRAI",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "9.3",
@@ -1197,7 +1197,7 @@
           "MUNGER",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "9.5",
@@ -1205,7 +1205,7 @@
           "MUNGER",
           "H",
           "minor",
-          "stated"
+          "book"
         ],
         [
           "9.6",
@@ -1221,7 +1221,7 @@
           "BUFFETT · SPIER",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "9.8",
@@ -1293,7 +1293,7 @@
           "PHELPS",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "10.5",
@@ -1301,7 +1301,7 @@
           "KIRBY · MAYER",
           "H",
           "major",
-          "stated"
+          "book"
         ],
         [
           "10.6",
@@ -1338,5 +1338,5 @@
       ]
     }
   ],
-  "provenance": "Every question is marked STATED or DERIVED. STATED means the named source asked this question, in these words or close to them, in a published book, letter or recorded talk. DERIVED means the source described the failure mode or principle and the question is my operationalization of it. Nothing here is a leaked private checklist."
+  "provenance": "Every question is marked with where it comes from. BOOK: the named source wrote this question, in these words or close to them, in a published book, letter or research paper - the highest-confidence attribution. TALK: the source asked it in a recorded lecture, interview or podcast; his words, but transcribed rather than authored, so the phrasing is approximate. DERIVED: the source described the principle or the failure mode, and the question is my operationalization of it - it carries no borrowed authority and should be argued with on its own merits. Nothing here is a leaked private checklist."
 }

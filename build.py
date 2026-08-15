@@ -57,14 +57,16 @@ def build_md(per_stage, totals):
         "| `M` | Machine-answerable from structured data or filings text |",
         "| `H` | Human judgment required |",
         "| `M+H` | Machine surfaces the evidence, human renders the verdict |",
-        "| **stated** | The named source asked this question, in these words or close to them |",
+        "| **book** | The source wrote this in a published book, letter or research paper |",
+        "| **talk** | The source asked it in a recorded lecture or interview; phrasing approximate |",
         "| *derived* | The source described the principle; the question is my operationalization |",
         "",
         "## Provenance",
         "",
         DATA["provenance"],
         "",
-        f"**{totals['stated']} stated, {totals['derived']} derived.**",
+        f"**{totals['book']} from published text, {totals['talk']} from recorded talks, "
+        f"{totals['derived']} derived.**",
         "",
         "## Sources",
         "",
@@ -89,7 +91,7 @@ def build_md(per_stage, totals):
         L += [f"## {st['n']} — {st['t']}", "", st["note"], ""]
         L += ["| # | Question | Source | Provenance | Type | Weight |", "|---|---|---|---|---|---|"]
         for id_, q, src, typ, wt, prov in st["items"]:
-            pv = "**stated**" if prov == "stated" else "*derived*"
+            pv = "*derived*" if prov == "derived" else f"**{prov}**"
             L.append(f"| {id_} | {strip_html(q)} | {src} | {pv} | `{typ}` | {WEIGHT_LABEL[wt]} |")
         if st.get("quote"):
             L += ["", f"> {strip_html(st['quote'])}"]
@@ -225,7 +227,8 @@ blockquote em{color:var(--ink)}
 .t-src{background:transparent;color:var(--ink-3);border:1px solid var(--rule)}
 .t-m{background:transparent;color:var(--machine);border:1px solid currentColor}
 .t-h{background:transparent;color:var(--human);border:1px solid currentColor}
-.t-stated{background:var(--accent);color:var(--surface)}
+.t-book{background:var(--accent);color:var(--surface)}
+.t-talk{background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent)}
 .t-derived{background:transparent;color:var(--ink-3);border:1px dashed var(--rule)}
 .empty{padding:28px 14px;color:var(--ink-3);font-size:14px;background:var(--surface);
   border-bottom:1px solid var(--rule-2)}
@@ -270,7 +273,7 @@ marked for whether a machine or a human has to answer it.</p>
 <div class="tile"><div class="n">{totals['items']}</div><div class="l">Questions</div></div>
 <div class="tile"><div class="n">{totals['gate']}</div><div class="l">Disqualifying gates</div></div>
 <div class="tile"><div class="n">{totals['machine']}</div><div class="l">Machine-answerable</div></div>
-<div class="tile"><div class="n">{totals['stated']}</div><div class="l">The source's own words</div></div>
+<div class="tile"><div class="n">{totals['book']}+{totals['talk']}</div><div class="l">The source's own words</div></div>
 </div>
 <p class="standfirst" style="font-size:15px">{DATA['provenance']}</p>
 </div></header>
@@ -284,7 +287,8 @@ marked for whether a machine or a human has to answer it.</p>
 <button class="f" data-t="M" aria-pressed="false">Machine</button>
 <button class="f" data-t="H" aria-pressed="false">Human</button></div>
 <div class="grp"><span class="lab">Provenance</span>
-<button class="f" data-p="stated" aria-pressed="false">Stated</button>
+<button class="f" data-p="book" aria-pressed="false">Book</button>
+<button class="f" data-p="talk" aria-pressed="false">Talk</button>
 <button class="f" data-p="derived" aria-pressed="false">Derived</button></div>
 <div class="count" id="count"></div>
 </div></div>
