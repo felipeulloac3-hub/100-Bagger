@@ -19,13 +19,10 @@ Lift is the median forward return of companies a rule **passed** minus those it 
 | `2.17` | 95 | 76% | 370 | 95% | **+18%** | 23% | 31% |
 | `3.7` | 95 | 76% | 370 | 95% | **+18%** | 23% | 31% |
 | `5.5` | 98 | 81% | 367 | 94% | **+13%** | 32% | 29% |
-| `2.11` | 26 | 141% | 439 | 89% | **-52%** | 42% | 28% |
-| `2.16` | 30 | 147% | 435 | 89% | **-58%** | 40% | 29% |
 
 ## Rules not earning their weight
 
-- `2.11` — lift -52%, and 42% of what it rejected reached 3x against 28% of what it accepted
-- `2.16` — lift -58%, and 40% of what it rejected reached 3x against 29% of what it accepted
+_None. Every rule with enough observations sorted in the right direction._
 
 ## What this cannot tell you
 
