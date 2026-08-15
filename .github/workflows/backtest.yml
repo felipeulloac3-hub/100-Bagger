@@ -1,0 +1,76 @@
+name: Backtest
+
+# Manual only. A backtest is something you read and argue with, not something
+# that should quietly rerun on a schedule and accumulate reports nobody opens.
+
+on:
+  workflow_dispatch:
+    inputs:
+      as_of:
+        description: "Screening date, YYYY-MM-DD. SEC XBRL thins out before ~2011."
+        required: true
+        default: "2013-12-31"
+      years:
+        description: "Holding period in years"
+        required: true
+        default: "10"
+      limit:
+        description: "Cap candidates (0 = no cap; start small, the full run is slow)"
+        required: false
+        default: "300"
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -t .
+
+      - name: Restore SEC cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: sec-cache-${{ github.run_id }}
+          restore-keys: sec-cache-
+
+      - name: Backtest
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "::error::SEC_USER_AGENT repository variable is not set."
+            exit 1
+          fi
+          python -m scanner.backtest \
+            --as-of "${{ github.event.inputs.as_of }}" \
+            --years "${{ github.event.inputs.years }}" \
+            --limit "${{ github.event.inputs.limit }}" \
+            --out reports
+
+      - name: Commit the result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "Backtest ${{ github.event.inputs.as_of }} / ${{ github.event.inputs.years }}y"
+            git push
+          fi
+
+      - name: Summarize
+        if: always()
+        run: |
+          f="reports/backtest-${{ github.event.inputs.as_of }}-${{ github.event.inputs.years }}y.md"
+          [ -f "$f" ] && cat "$f" >> "$GITHUB_STEP_SUMMARY" || true
