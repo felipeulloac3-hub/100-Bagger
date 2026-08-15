@@ -326,3 +326,82 @@ class TestMissDiagnostics(unittest.TestCase):
         md = B.report(d)
         self.assertIn("Where the screen was wrong", md)
         self.assertIn("BIG", md)
+
+
+class TestRuleWeightsReflectMeasuredLift(unittest.TestCase):
+    """Weights are evidence now, not taste. Pin them so a regression is loud."""
+
+    DEMOTED = {"2.11", "2.13", "2.16", "5.10", "7.2"}
+
+    def test_anti_predictive_rules_are_minor(self):
+        from scanner import rules
+        weights = {rid: w for rid, w, _ in rules.RULES}
+        for rid in self.DEMOTED:
+            self.assertEqual(weights[rid], "minor",
+                             f"{rid} measured negative or zero lift and must not be major")
+
+    def test_the_strongest_rules_remain_major(self):
+        from scanner import rules
+        weights = {rid: w for rid, w, _ in rules.RULES}
+        for rid in ("5.4", "5.1", "5.12", "2.1", "2.3", "3.2"):
+            self.assertEqual(weights[rid], "major", f"{rid} measured strong positive lift")
+
+    def test_demoted_rules_still_run(self):
+        """Demoted, not deleted -- they may still catch a fraud the median misses."""
+        from scanner import rules
+        self.assertTrue(self.DEMOTED <= {rid for rid, _, _ in rules.RULES})
+
+    def test_each_demotion_records_its_evidence(self):
+        from scanner import rules
+        src = Path(rules.__file__).read_text()
+        for rid in self.DEMOTED:
+            i = src.index(f'@rule("{rid}", "minor")')
+            self.assertIn("lift", src[max(0, i - 700):i],
+                          f"{rid} was demoted without recording the measurement")
+
+
+class TestAnalyze(unittest.TestCase):
+    def _rows(self):
+        # A rule that sorts correctly, and one that sorts backwards.
+        good = [{"ticker": f"G{i}", "flagged": True, "ret": 2.0, "score": 0.9,
+                 "coverage": 0.9, "band": "worth reading", "blocked_by": []}
+                for i in range(25)]
+        bad = [{"ticker": f"B{i}", "flagged": False, "ret": 0.1, "score": 0.4,
+                "coverage": 0.9, "band": "not yet", "blocked_by": ["GOOD"]}
+               for i in range(25)]
+        inv = [{"ticker": f"I{i}", "flagged": False, "ret": 5.0, "score": 0.4,
+                "coverage": 0.9, "band": "not yet", "blocked_by": ["BAD"]}
+               for i in range(25)]
+        return good + bad + inv
+
+    def test_positive_lift_for_a_rule_that_sorts_correctly(self):
+        from scanner import analyze
+        t = {r["rule"]: r for r in analyze.lift_table(self._rows())}
+        self.assertGreater(t["GOOD"]["lift"], 0)
+
+    def test_negative_lift_for_a_rule_that_sorts_backwards(self):
+        from scanner import analyze
+        t = {r["rule"]: r for r in analyze.lift_table(self._rows())}
+        self.assertLess(t["BAD"]["lift"], 0)
+
+    def test_thin_samples_are_excluded(self):
+        """A rule with a handful of observations must not reach the table at all.
+
+        Reporting it invites acting on it, and overlapping start dates mean the
+        nominal count already overstates the independent evidence.
+        """
+        from scanner import analyze
+        rows = self._rows() + [{"ticker": f"R{i}", "flagged": False, "ret": 9.0,
+                                "score": 0.1, "coverage": 0.5, "band": "not yet",
+                                "blocked_by": ["RARE"]} for i in range(11)]
+        self.assertNotIn("RARE", {r["rule"] for r in analyze.lift_table(rows)})
+        self.assertGreaterEqual(analyze.MIN_OBSERVATIONS, 20)
+
+    def test_report_flags_the_underperformers_and_states_its_limits(self):
+        from scanner import analyze
+        md = analyze.render(self._rows(), ["2013-12-31"])
+        self.assertIn("Rules not earning their weight", md)
+        self.assertIn("`BAD`", md)
+        self.assertIn("Overlapping start dates", md)
+        self.assertIn("UNKNOWN is counted as passing", md)
+        self.assertIn("Demote on this evidence; do not delete", md)
