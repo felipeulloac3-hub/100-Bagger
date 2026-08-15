@@ -111,6 +111,22 @@ def markdown(results: list, generated: str, scanned: int) -> str:
             L += [f"- `{v.id}` {v.detail}" for v in rows]
             L.append("")
 
+    # Every name that cleared the gates, including the ones that scored too low
+    # to be written up. A screen you cannot see the rejections of is a screen you
+    # cannot check.
+    if keep:
+        L += ["## Everything that cleared the gates", "",
+              "| Ticker | Band | Score | Coverage | Top reason it is not higher |",
+              "|---|---|---|---|---|"]
+        for r in keep:
+            worst = next((v for v in r.verdicts
+                          if v.status == FAIL and v.weight == "major"), None)
+            why = worst.detail.split(" — ")[0] if worst else "—"
+            score = f"{r.score:.0%}" if r.score is not None else "—"
+            L.append(f"| {r.ticker} | {r.band} | {score} | {r.coverage:.0%} | "
+                     f"{why[:90]} |")
+        L.append("")
+
     excluded = [r for r in results if r.excluded]
     if excluded:
         L += [f"## Excluded at the gates ({len(excluded)})", ""]

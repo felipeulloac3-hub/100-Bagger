@@ -57,7 +57,7 @@ def fetch(url: str, cache_key: str | None = None, ttl_hours: int = 24) -> bytes 
     req = urllib.request.Request(url, headers={
         "User-Agent": user_agent(),
         "Accept-Encoding": "gzip, deflate",
-        "Accept": "application/json",
+        "Accept": "application/json, text/csv, */*",
     })
     try:
         with urllib.request.urlopen(req, timeout=45) as r:
@@ -149,17 +149,68 @@ def shares_outstanding(facts: dict | None) -> float | None:
     return float(max(rows, key=lambda r: r.get("end", ""))["val"])
 
 
-def price_history(ticker: str, days: int = 90) -> list[tuple[str, float, float]]:
-    """(date, close, dollar volume) from Stooq's free daily CSV, newest last."""
+def _range_for(days: int) -> str:
+    """Yahoo accepts named ranges rather than a day count."""
+    if days > 2000:
+        return "max"
+    if days > 700:
+        return "10y"
+    return "1y"
+
+
+def _yahoo(ticker: str, days: int) -> list[tuple[str, float, float]]:
+    """Yahoo's chart endpoint. Primary source: unlike Stooq it answers from
+    cloud IP ranges, which is where this actually runs.
+
+    Prefers adjusted close so splits do not read as price collapses. At the most
+    recent date the adjustment factor is 1, so the latest point is still the raw
+    price a market cap needs.
+    """
+    rng = _range_for(days)
+    b = fetch(f"https://query1.finance.yahoo.com/v8/finance/chart/"
+              f"{ticker.upper()}?range={rng}&interval=1d",
+              f"px_y_{ticker.upper()}_{rng}", ttl_hours=24)
+    if not b:
+        return []
+    try:
+        d = json.loads(b)
+        res = (d.get("chart") or {}).get("result") or []
+        if not res:
+            return []
+        r = res[0]
+        stamps = r.get("timestamp") or []
+        q = (r.get("indicators", {}).get("quote") or [{}])[0]
+        closes = q.get("close") or []
+        vols = q.get("volume") or []
+        adj = (r.get("indicators", {}).get("adjclose") or [{}])[0].get("adjclose") or []
+    except (ValueError, KeyError, IndexError, TypeError):
+        return []
+
+    import datetime as _d
+    out = []
+    for i, ts in enumerate(stamps):
+        px = adj[i] if i < len(adj) and adj[i] is not None else (
+            closes[i] if i < len(closes) else None)
+        if px is None:
+            continue
+        v = vols[i] if i < len(vols) and vols[i] is not None else 0.0
+        date = _d.datetime.fromtimestamp(ts, _d.timezone.utc).strftime("%Y-%m-%d")
+        out.append((date, float(px), float(px) * float(v)))
+    return out[-days:]
+
+
+def _stooq(ticker: str, days: int) -> list[tuple[str, float, float]]:
+    """Fallback. Free daily CSV, but it rate-limits cloud IPs aggressively and
+    then returns a plain-text notice instead of data -- hence the header check."""
     b = fetch(f"https://stooq.com/q/d/l/?s={ticker.lower()}.us&i=d",
-              f"px_{ticker.upper()}", ttl_hours=24)
+              f"px_s_{ticker.upper()}", ttl_hours=24)
     if not b:
         return []
     lines = b.decode("utf-8", "replace").strip().splitlines()
     if len(lines) < 2 or not lines[0].lower().startswith("date"):
         return []
     out = []
-    for ln in lines[-days:]:
+    for ln in lines[1:]:
         p = ln.split(",")
         if len(p) < 6:
             continue
@@ -168,7 +219,20 @@ def price_history(ticker: str, days: int = 90) -> list[tuple[str, float, float]]
         except ValueError:
             continue
         out.append((p[0], close, close * vol))
-    return out
+    return out[-days:]
+
+
+def price_history(ticker: str, days: int = 90) -> list[tuple[str, float, float]]:
+    """(date, close, dollar volume), newest last. Empty when no source answers.
+
+    An empty result is not an error: the caller records the affected questions as
+    UNKNOWN, which is the correct outcome for a price we could not obtain.
+    """
+    for source in (_yahoo, _stooq):
+        h = source(ticker, days)
+        if h:
+            return h
+    return []
 
 
 def quote(ticker: str) -> tuple[float | None, float | None]:

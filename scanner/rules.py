@@ -10,6 +10,7 @@ as doctrine whether or not anyone ever endorsed it.
 """
 from __future__ import annotations
 
+import datetime as _dt
 from dataclasses import dataclass, field
 from typing import Callable
 
@@ -17,6 +18,17 @@ from . import metrics as M
 from . import facts as F
 
 PASS, FAIL, UNKNOWN = "PASS", "FAIL", "UNKNOWN"
+
+# JUDGMENT: how far back a late filing still counts against a company.
+RECENT_LATE_FILING_YEARS = 2
+
+
+def _years_before(date: str, years: int) -> str:
+    d = _dt.date.fromisoformat(date)
+    try:
+        return d.replace(year=d.year - years).isoformat()
+    except ValueError:                       # 29 February
+        return d.replace(year=d.year - years, day=28).isoformat()
 
 
 @dataclass
@@ -44,6 +56,13 @@ class Context:
     price: float | None = None
     shares_out: float | None = None
     avg_dollar_volume: float | None = None
+    # The date the scan is being run as of. The backtest sets this so recency
+    # tests are measured from the historical date, not from today.
+    as_of: str | None = None
+
+    @property
+    def as_of_date(self) -> str:
+        return self.as_of or _dt.date.today().isoformat()
 
     @property
     def market_cap(self) -> float | None:
@@ -88,13 +107,29 @@ def _cmp(value, threshold, direction, fmt, label, note):
 
 @rule("0.6", "gate")
 def late_filings(ctx):
-    nt = [f for f in ctx.forms if str(f.get("form", "")).startswith("NT ")]
+    """Late filings disqualify only when recent.
+
+    A notice from five years ago is history; one from last year is a live signal
+    about the finance function. Recency is the principled cut. The tempting
+    alternative -- exempting the 2020-21 window when the SEC granted blanket
+    COVID relief -- would be choosing dates to rescue a particular company, which
+    is the curve-fitting this whole project exists to avoid.
+    """
     if not ctx.forms:
         return _v(UNKNOWN, "no filing history available")
-    if nt:
-        return _v(FAIL, f"{len(nt)} late-filing notice(s): "
-                        + ", ".join(f"{f['form']} {f.get('filingDate','')}" for f in nt[:3]))
-    return _v(PASS, "no NT 10-K or NT 10-Q on record")
+    nt = [f for f in ctx.forms if str(f.get("form", "")).startswith("NT ")]
+    if not nt:
+        return _v(PASS, "no NT 10-K or NT 10-Q on record")
+
+    cutoff = _years_before(ctx.as_of_date, RECENT_LATE_FILING_YEARS)
+    recent = [f for f in nt if f.get("filingDate", "") >= cutoff]
+    listed = ", ".join(f"{f['form']} {f.get('filingDate', '')}" for f in nt[:4])
+
+    if recent:
+        return _v(FAIL, f"{len(recent)} late-filing notice(s) since {cutoff}: {listed} "
+                        f"— JUDGMENT: {RECENT_LATE_FILING_YEARS}-year recency window")
+    return _v(PASS, f"late filings exist but none since {cutoff} ({listed}) "
+                    f"— JUDGMENT: treated as history, not a live signal")
 
 
 @rule("0.11", "gate")

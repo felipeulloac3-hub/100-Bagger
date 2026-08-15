@@ -277,3 +277,69 @@ class TestReport(unittest.TestCase):
         d = scan.to_dict(res[0])
         self.assertEqual(json.loads(json.dumps(d))["ticker"], "TEST")
         self.assertTrue(all({"id", "status", "detail"} <= set(v) for v in d["verdicts"]))
+
+
+class TestLateFilingRecency(unittest.TestCase):
+    """0.6 disqualifies on recent late filings only.
+
+    Exempting the 2020-21 COVID relief window instead would mean picking dates to
+    rescue one company, which is the curve-fitting this project exists to avoid.
+    """
+
+    def _forms(self, *dates):
+        return [{"form": "10-K", "filingDate": "2025-02-01"}] + \
+               [{"form": "NT 10-K", "filingDate": d} for d in dates]
+
+    def test_recent_late_filing_is_a_gate_failure(self):
+        res = R.evaluate(ctx(X.compounder(), forms=self._forms("2025-03-01"),
+                             as_of="2026-01-01"))
+        self.assertTrue(res.excluded)
+        self.assertEqual(verdicts(res)["0.6"].status, R.FAIL)
+
+    def test_old_late_filing_passes_but_is_disclosed(self):
+        res = R.evaluate(ctx(X.compounder(), forms=self._forms("2021-03-16", "2022-03-17"),
+                             as_of="2026-01-01"))
+        self.assertFalse(res.excluded)
+        v = verdicts(res)["0.6"]
+        self.assertEqual(v.status, R.PASS)
+        self.assertIn("2021-03-16", v.detail)      # still visible to the reader
+        self.assertIn("history", v.detail)
+
+    def test_the_boundary_is_measured_from_the_as_of_date(self):
+        """The same filing is recent in 2023 and historical in 2026."""
+        forms = self._forms("2022-03-17")
+        self.assertEqual(
+            verdicts(R.evaluate(ctx(X.compounder(), forms=forms, as_of="2023-01-01")))["0.6"].status,
+            R.FAIL)
+        self.assertEqual(
+            verdicts(R.evaluate(ctx(X.compounder(), forms=forms, as_of="2026-01-01")))["0.6"].status,
+            R.PASS)
+
+    def test_no_filings_at_all_is_unknown(self):
+        v = verdicts(R.evaluate(ctx(X.compounder(), forms=[])))["0.6"]
+        self.assertEqual(v.status, R.UNKNOWN)
+
+    def test_defaults_to_today_when_no_as_of_given(self):
+        c = ctx(X.compounder())
+        self.assertEqual(len(c.as_of_date), 10)
+        self.assertIsNone(c.as_of)
+
+
+class TestEverythingClearedIsVisible(unittest.TestCase):
+    """A low scorer must still appear, or you cannot audit the rejections."""
+
+    def test_low_scorer_appears_in_the_summary_table(self):
+        from scanner import scan
+        good = R.evaluate(ctx(X.compounder()))
+        weak = R.evaluate(ctx(X.cyclical()))
+        weak.ticker = "OCC"
+        md = scan.markdown([good, weak], "now", 2)
+        self.assertIn("Everything that cleared the gates", md)
+        self.assertIn("OCC", md, "a name that cleared the gates must be listed")
+
+    def test_table_gives_a_reason_not_just_a_number(self):
+        from scanner import scan
+        weak = R.evaluate(ctx(X.cyclical()))
+        md = scan.markdown([weak], "now", 1)
+        self.assertIn("Top reason it is not higher", md)
+        self.assertIn("revenue decline", md)
