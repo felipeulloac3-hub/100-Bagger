@@ -81,14 +81,14 @@ def fetch(url: str, cache_key: str | None = None, ttl_hours: int = 24) -> bytes 
     return body
 
 
-def _json(url, key, ttl=24):
-    b = fetch(url, key, ttl)
+def _json(url, key, ttl_hours=24):
+    b = fetch(url, key, ttl_hours)
     return json.loads(b) if b else None
 
 
 def tickers() -> dict[str, dict]:
     """CIK -> {ticker, name, exchange} for every exchange-listed filer."""
-    d = _json(f"{WWW}/files/company_tickers_exchange.json", "tickers", ttl=168)
+    d = _json(f"{WWW}/files/company_tickers_exchange.json", "tickers", ttl_hours=168)
     if not d:
         return {}
     cols = {name: i for i, name in enumerate(d["fields"])}
@@ -111,7 +111,7 @@ def frame(concept: str, period: str, unit: str = "USD", ns: str = "us-gaap") -> 
     build the universe instead of one per company.
     """
     d = _json(f"{SEC}/api/xbrl/frames/{ns}/{concept}/{unit}/{period}.json",
-              f"frame_{ns}_{concept}_{unit}_{period}", ttl=168)
+              f"frame_{ns}_{concept}_{unit}_{period}", ttl_hours=168)
     if not d:
         return {}
     return {str(r["cik"]).zfill(10): float(r["val"]) for r in d.get("data", [])
@@ -152,7 +152,7 @@ def shares_outstanding(facts: dict | None) -> float | None:
 def price_history(ticker: str, days: int = 90) -> list[tuple[str, float, float]]:
     """(date, close, dollar volume) from Stooq's free daily CSV, newest last."""
     b = fetch(f"https://stooq.com/q/d/l/?s={ticker.lower()}.us&i=d",
-              f"px_{ticker.upper()}", ttl=24)
+              f"px_{ticker.upper()}", ttl_hours=24)
     if not b:
         return []
     lines = b.decode("utf-8", "replace").strip().splitlines()

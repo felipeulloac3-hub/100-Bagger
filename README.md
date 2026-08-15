@@ -81,11 +81,16 @@ All free. SEC `companyfacts` and `submissions` for fundamentals and filing
 history, the XBRL `frames` API to build the universe in a few hundred requests
 rather than one per company, and Stooq daily CSVs for price and volume.
 
-**The network layer is unverified.** It was written in a sandbox whose egress
-policy blocks `sec.gov` and `stooq.com`, so `edgar.py` has never made a live
-request. Everything downstream of it is tested against fixtures. The first
-Actions run is the real test of `edgar.py`, and tag handling across thousands of
-real filers is where the remaining surprises are.
+**Network-layer status.** The SEC path is confirmed working against the live
+API: the first Actions run fetched filings, computed metrics and scored
+companies end to end. The price path crashed on that run with a keyword-argument
+mismatch — a line the development sandbox could never execute, because its
+egress policy blocks `stooq.com`. That is now fixed and `tests/test_edgar.py`
+stubs `urlopen` so every network function is invoked at least once; fixture tests
+of the logic layer cannot catch a `TypeError` in a function they never call.
+
+Tag handling across thousands of real filers is where the remaining surprises
+are.
 
 ## The backtest
 
