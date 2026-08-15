@@ -183,6 +183,53 @@ def _survivorship(d: dict) -> str:
     return " ".join(parts)
 
 
+def _misses(d: dict, n: int = 6) -> list[str]:
+    """The screen's errors in both directions, named.
+
+    Aggregates say whether the screen worked; only the individual misses say
+    *why*. A rule that blocks the biggest winner in the sample is worth more
+    scrutiny than one that shifts a median by three points -- particularly here,
+    where the whole objective is the right tail, and a screen that lifts the
+    median while truncating the tail has failed at the actual job.
+    """
+    rows = [r for r in d.get("rows", []) if r.get("ret") is not None]
+    if not rows:
+        return []
+
+    L: list[str] = []
+    missed = sorted((r for r in rows if not r["flagged"]),
+                    key=lambda r: -r["ret"])[:n]
+    if missed:
+        L += ["### Winners it rejected", "",
+              "| Ticker | Return | Band | Rules that blocked it |", "|---|---|---|---|"]
+        for r in missed:
+            blocked = ", ".join(f"`{b}`" for b in r["blocked_by"][:5]) or "—"
+            L.append(f"| {r['ticker']} | {r['ret']:+.0%} | {r['band']} | {blocked} |")
+        L.append("")
+
+    worst = sorted((r for r in rows if r["flagged"]), key=lambda r: r["ret"])[:n]
+    if worst:
+        L += ["### Losers it flagged", "",
+              "| Ticker | Return | Score | Coverage |", "|---|---|---|---|"]
+        for r in worst:
+            sc = f"{r['score']:.0%}" if r.get("score") is not None else "—"
+            L.append(f"| {r['ticker']} | {r['ret']:+.0%} | {sc} | {r['coverage']:.0%} |")
+        L.append("")
+
+    # Which rules most often stood between the screen and a big winner.
+    from collections import Counter
+    big = [r for r in rows if not r["flagged"] and r["ret"] >= 2.0]
+    if big:
+        c = Counter(b for r in big for b in r["blocked_by"])
+        L += [f"### Rules that most often blocked a 3x or better ({len(big)} such names)",
+              "", "| Rule | Times it blocked one |", "|---|---|"]
+        L += [f"| `{rule}` | {k} |" for rule, k in c.most_common(8)]
+        L += ["", "A rule near the top of this table is either doing its job — most "
+                  "big movers are junk that got lucky — or it is the reason the screen "
+                  "cannot see the tail. Reading the names is the only way to tell.", ""]
+    return L
+
+
 def report(d: dict) -> str:
     f = d["flagged"]
     r = d["rest"]
@@ -244,6 +291,9 @@ def report(d: dict) -> str:
         "",
         _survivorship(d),
         "",
+        "## Where the screen was wrong",
+        "",
+    ] + (_misses(d) or ["_No priced names to diagnose._", ""]) + [
         "## Verdict",
         "",
         d["verdict"],
@@ -280,6 +330,7 @@ def main(argv=None) -> int:
     flagged_rets, rest_rets = [], []
     flagged_unpriced = flagged_delisted = 0
     evaluated = passed_gates = flagged_count = errored = 0
+    rows: list[dict] = []       # per-name detail; without it the misses are invisible
 
     for i, cik in enumerate(ciks, 1):
         if i % 100 == 0:
@@ -305,6 +356,14 @@ def main(argv=None) -> int:
             flagged_count += 1
 
         ret, still = forward_return(history, as_of, exit_date)
+        rows.append({
+            "ticker": res.ticker, "name": res.name, "cik": cik,
+            "band": res.band, "flagged": is_flagged,
+            "score": res.score, "coverage": res.coverage,
+            "ret": ret, "still_trading": still,
+            "blocked_by": [v.id for v in res.verdicts
+                           if v.status == rules.FAIL and v.weight in ("gate", "major")],
+        })
         if ret is None:
             if is_flagged:
                 flagged_unpriced += 1
@@ -360,6 +419,7 @@ def main(argv=None) -> int:
         "flagged_median_with_wipeouts": with_wipeouts,
         "verdict": verdict,
         "rules": [x[0] for x in rules.RULES],
+        "rows": rows,
     }
 
     out = pathlib.Path(a.out)
