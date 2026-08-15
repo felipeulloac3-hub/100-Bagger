@@ -1,0 +1,200 @@
+"""Run the Scan across the US market and write a ranked reading list.
+
+This is a prefilter, not a verdict. Its only job is to turn thousands of filers
+into a few dozen worth an hour of your attention, with every number cited so the
+next stage -- the dossier, then the checklist -- starts from evidence rather than
+from a score.
+
+    python -m scanner.scan --out reports/
+"""
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import json
+import pathlib
+import sys
+
+from . import edgar, rules
+from .rules import FAIL, PASS, UNKNOWN, Context, evaluate
+
+
+def build_universe(min_rev: float, max_rev: float, years: int = 2) -> dict[str, float]:
+    """CIKs whose most recent reported annual revenue falls in the band.
+
+    Revenue is the size proxy rather than market cap, because one frames request
+    gives revenue for every filer while market cap would need a price per name.
+    Mayer's 365 started at a median of roughly $170m of revenue.
+    """
+    this_year = dt.date.today().year
+    found: dict[str, float] = {}
+    for concept in ("Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax"):
+        for y in range(this_year - 1, this_year - 1 - years, -1):
+            for cik, val in edgar.frame(concept, f"CY{y}").items():
+                if cik not in found and min_rev <= val <= max_rev:
+                    found[cik] = val
+    return found
+
+
+def build_context(cik: str, meta: dict, with_price: bool) -> Context | None:
+    fx = edgar.company_facts(cik)
+    if not fx:
+        return None
+    subs = edgar.submissions(cik)
+    price = volume = None
+    if with_price and meta.get("ticker"):
+        price, volume = edgar.quote(meta["ticker"])
+    return Context(
+        cik=cik,
+        ticker=meta.get("ticker", "?"),
+        name=meta.get("name", fx.get("entityName", "?")),
+        fx=fx,
+        forms=edgar.recent_forms(subs),
+        exchange=meta.get("exchange"),
+        price=price,
+        shares_out=edgar.shares_outstanding(fx),
+        avg_dollar_volume=volume,
+    )
+
+
+def to_dict(res) -> dict:
+    return {
+        "ticker": res.ticker, "name": res.name, "cik": res.cik,
+        "band": res.band, "score": res.score, "coverage": res.coverage,
+        "market_cap": res.market_cap,
+        "gate_failures": [v.id for v in res.gate_failures],
+        "verdicts": [{"id": v.id, "status": v.status, "weight": v.weight,
+                      "detail": v.detail, "value": v.value} for v in res.verdicts],
+    }
+
+
+def markdown(results: list, generated: str, scanned: int) -> str:
+    keep = [r for r in results if not r.excluded]
+    read = [r for r in keep if r.band == "worth reading"]
+    border = [r for r in keep if r.band == "borderline"]
+
+    L = [
+        "# 100-Bagger Scan",
+        "",
+        f"_{generated} — {scanned} filers examined, {len(keep)} cleared the gates._",
+        "",
+        "**This is a reading list, not a recommendation.** The scan answers only the ",
+        "questions SEC XBRL can answer. It cannot tell you whether you understand the ",
+        "business, whether management is honest, or whether the moat is widening — the ",
+        "questions that actually decide a 100-bagger. Read `score` next to `coverage`: ",
+        "a high score on thin coverage means the scan could not measure most of what ",
+        "it wanted to.",
+        "",
+        f"## Worth reading ({len(read)})",
+        "",
+    ]
+
+    if not read:
+        L += ["_Nothing cleared the bar this run. That is a normal outcome — the "
+              "combination being screened for is rare, and a scan that always "
+              "returns something is not screening._", ""]
+
+    for r in read + border:
+        head = f"### {r.ticker} — {r.name}"
+        if r.band == "borderline":
+            head += "  _(borderline)_"
+        mc = f"${r.market_cap/1e6:,.0f}m" if r.market_cap else "market cap unknown"
+        L += [head, "",
+              f"`score {r.score:.0%}` · `coverage {r.coverage:.0%}` · {mc} · "
+              f"[filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany"
+              f"&CIK={r.cik}&type=10-K)", ""]
+        for status, label in ((FAIL, "Failed"), (PASS, "Passed"), (UNKNOWN, "Unanswered")):
+            rows = [v for v in r.verdicts if v.status == status and v.weight != "gate"]
+            if not rows:
+                continue
+            L.append(f"**{label} ({len(rows)})**")
+            L += [f"- `{v.id}` {v.detail}" for v in rows]
+            L.append("")
+
+    excluded = [r for r in results if r.excluded]
+    if excluded:
+        L += [f"## Excluded at the gates ({len(excluded)})", ""]
+        for r in excluded[:80]:
+            why = "; ".join(f"{v.id}: {v.detail}" for v in r.gate_failures)
+            L.append(f"- **{r.ticker}** — {why}")
+        if len(excluded) > 80:
+            L.append(f"- _…and {len(excluded) - 80} more_")
+        L.append("")
+
+    L += ["---", "",
+          "Generated by `scanner/scan.py`. Thresholds marked SOURCED come from a named "
+          "investor; those marked JUDGMENT are the author's and carry no outside "
+          "authority. Not investment advice."]
+    return "\n".join(L)
+
+
+def main(argv=None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--out", default="reports", help="output directory")
+    ap.add_argument("--min-revenue", type=float, default=20e6)
+    ap.add_argument("--max-revenue", type=float, default=2e9)
+    ap.add_argument("--limit", type=int, default=0, help="cap candidates (for testing)")
+    ap.add_argument("--tickers", default="", help="comma-separated tickers; skips the universe build")
+    a = ap.parse_args(argv)
+
+    listed = edgar.tickers()
+    if not listed:
+        print("could not load the exchange listing; aborting", file=sys.stderr)
+        return 1
+
+    if a.tickers:
+        want = {t.strip().upper() for t in a.tickers.split(",") if t.strip()}
+        candidates = [c for c, m in listed.items() if m["ticker"].upper() in want]
+    else:
+        universe = build_universe(a.min_revenue, a.max_revenue)
+        candidates = [c for c in universe if c in listed]      # exchange-listed only
+        print(f"universe: {len(universe)} filers in the revenue band, "
+              f"{len(candidates)} of them exchange-listed")
+
+    if a.limit:
+        candidates = candidates[:a.limit]
+
+    # Pass one skips prices, so the expensive per-ticker quote is only paid for
+    # names that already cleared the gates.
+    first = []
+    for i, cik in enumerate(candidates, 1):
+        if i % 100 == 0:
+            print(f"  {i}/{len(candidates)}")
+        ctx = build_context(cik, listed[cik], with_price=False)
+        if ctx:
+            first.append((cik, evaluate(ctx)))
+
+    shortlist = [cik for cik, r in first
+                 if not r.excluded and (r.score or 0) >= 0.5 and r.coverage >= 0.4]
+    print(f"{len(shortlist)} cleared the gates; pricing them")
+
+    results = []
+    priced = {}
+    for cik in shortlist:
+        ctx = build_context(cik, listed[cik], with_price=True)
+        if ctx:
+            priced[cik] = evaluate(ctx)
+    for cik, r in first:
+        results.append(priced.get(cik, r))
+
+    results.sort(key=lambda r: (r.excluded, -(r.score or 0), -r.coverage))
+
+    out = pathlib.Path(a.out)
+    out.mkdir(parents=True, exist_ok=True)
+    stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+    generated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    (out / "latest.md").write_text(markdown(results, generated, len(candidates)))
+    (out / f"{stamp}.json").write_text(json.dumps(
+        {"generated": generated, "scanned": len(candidates),
+         "rules": [r[0] for r in rules.RULES],
+         "results": [to_dict(r) for r in results]}, indent=2))
+
+    keep = [r for r in results if not r.excluded]
+    print(f"wrote {out/'latest.md'}: {len(keep)} cleared gates, "
+          f"{sum(1 for r in keep if r.band == 'worth reading')} worth reading")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
