@@ -120,6 +120,7 @@ def evaluate_at(cik: str, as_of: str) -> tuple[Context, object] | None:
         price=price,
         shares_out=edgar.shares_outstanding(fx),
         avg_dollar_volume=volume,
+        as_of=as_of,          # recency tests measure from then, not from today
     )
     res = evaluate(ctx)
     return ctx, res, history
