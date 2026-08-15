@@ -5,35 +5,35 @@
   "universe": 300,
   "evaluated": 298,
   "passed_gates": 253,
-  "flagged_count": 56,
-  "flagged_unpriced": 19,
+  "flagged_count": 61,
+  "flagged_unpriced": 18,
   "flagged_delisted": 0,
   "errored": 0,
   "flagged": {
-    "n": 37,
-    "median": 1.093933359563863,
-    "mean": 1.255240367274408,
-    "win_rate": 0.7567567567567568,
-    "p25": 0.009619229009189434,
-    "p75": 2.0364361859081446,
-    "best": 8.643950695408213,
-    "worst": -0.9635416666666666,
-    "multibaggers_10x": 0
-  },
-  "rest": {
-    "n": 83,
-    "median": 0.7694820283600239,
-    "mean": 1.358870698583873,
-    "win_rate": 0.7710843373493976,
-    "p25": 0.07216493020922732,
-    "p75": 1.9234486539345852,
+    "n": 43,
+    "median": 1.2604479748955102,
+    "mean": 1.8619591814931815,
+    "win_rate": 0.7906976744186046,
+    "p25": 0.19518449330047893,
+    "p75": 2.363372084411639,
     "best": 12.18181807376391,
-    "worst": -0.9955444057751868,
+    "worst": -0.9635416666666666,
     "multibaggers_10x": 1
   },
+  "rest": {
+    "n": 77,
+    "median": 0.7134305924840314,
+    "mean": 1.0281287891871136,
+    "win_rate": 0.7532467532467533,
+    "p25": 0.009619229009189434,
+    "p75": 1.5572247769924732,
+    "best": 6.185697815196912,
+    "worst": -0.9955444057751868,
+    "multibaggers_10x": 0
+  },
   "benchmark": 0.9895298632458138,
-  "flagged_median_with_wipeouts": 1.093933359563863,
-  "verdict": "The flagged set beat both the rest of its own universe (109% vs 77% median) and the benchmark. One start date is one sample; repeat across several before trusting it.",
+  "flagged_median_with_wipeouts": 1.2604479748955102,
+  "verdict": "The flagged set beat both the rest of its own universe (126% vs 71% median) and the benchmark. One start date is one sample; repeat across several before trusting it.",
   "rules": [
     "0.6",
     "0.11",
@@ -68,7 +68,7 @@
       "cik": "0000002491",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6326530612244898,
+      "score": 0.5609756097560976,
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
@@ -87,14 +87,13 @@
       "cik": "0000003545",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8269230769230769,
+      "score": 0.8333333333333334,
       "coverage": 0.84,
       "ret": -0.0518089357579683,
       "still_trading": true,
       "blocked_by": [
         "2.1",
-        "2.5",
-        "2.11"
+        "2.5"
       ]
     },
     {
@@ -103,13 +102,12 @@
       "cik": "0000003570",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.7931034482758621,
+      "score": 0.8260869565217391,
       "coverage": 0.52,
       "ret": 3.0516626769165303,
       "still_trading": true,
       "blocked_by": [
-        "5.1",
-        "5.10"
+        "5.1"
       ]
     },
     {
@@ -118,7 +116,7 @@
       "cik": "0000004969",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8421052631578947,
+      "score": 0.8,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
@@ -132,7 +130,7 @@
       "cik": "0000005133",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8378378378378378,
+      "score": 0.7777777777777778,
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
@@ -159,7 +157,7 @@
       "cik": "0000006284",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8620689655172413,
+      "score": 0.8095238095238095,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
@@ -173,12 +171,11 @@
       "cik": "0000006845",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8235294117647058,
+      "score": 0.8571428571428571,
       "coverage": 0.56,
       "ret": 0.8636357967720596,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
         "5.5"
       ]
     },
@@ -188,13 +185,12 @@
       "cik": "0000007623",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7,
+      "score": 0.6875,
       "coverage": 0.68,
       "ret": -0.6652368932666615,
       "still_trading": true,
       "blocked_by": [
         "2.3",
-        "2.11",
         "5.1",
         "5.5"
       ]
@@ -205,7 +201,7 @@
       "cik": "0000007789",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7857142857142857,
+      "score": 0.75,
       "coverage": 0.48,
       "ret": 0.7100064843555884,
       "still_trading": true,
@@ -220,7 +216,7 @@
       "cik": "0000008177",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.85,
+      "score": 0.8125,
       "coverage": 0.44,
       "ret": -0.26375144501473946,
       "still_trading": true,
@@ -234,13 +230,11 @@
       "cik": "0000009326",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.9210526315789473,
+      "score": 0.9666666666666667,
       "coverage": 0.68,
       "ret": 2.275810648501112,
       "still_trading": true,
-      "blocked_by": [
-        "2.11"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "?",
@@ -260,7 +254,7 @@
       "cik": "0000010048",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.9117647058823529,
+      "score": 0.8846153846153846,
       "coverage": 0.6,
       "ret": -0.14439408886120364,
       "still_trading": true,
@@ -286,7 +280,7 @@
       "cik": "0000013573",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8461538461538461,
+      "score": 0.8,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
@@ -300,15 +294,13 @@
       "cik": "0000014177",
       "band": "borderline",
       "flagged": false,
-      "score": 0.5714285714285714,
+      "score": 0.6,
       "coverage": 0.52,
       "ret": 0.07216493020922732,
       "still_trading": true,
       "blocked_by": [
         "2.10",
-        "2.11",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -317,14 +309,13 @@
       "cik": "0000014195",
       "band": "borderline",
       "flagged": false,
-      "score": 0.62,
+      "score": 0.575,
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.1",
         "2.5",
-        "2.11",
         "2.17",
         "3.7",
         "5.5"
@@ -360,7 +351,7 @@
       "cik": "0000019149",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.6785714285714286,
+      "score": 0.55,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
@@ -376,7 +367,7 @@
       "cik": "0000019745",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8,
+      "score": 0.7586206896551724,
       "coverage": 0.64,
       "ret": 2.119763689293146,
       "still_trading": true,
@@ -391,14 +382,12 @@
       "cik": "0000020232",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.64,
+      "score": 0.7058823529411765,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "5.5",
-        "5.10",
-        "7.2"
+        "5.5"
       ]
     },
     {
@@ -407,7 +396,7 @@
       "cik": "0000023111",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.88,
+      "score": 0.8571428571428571,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
@@ -421,7 +410,7 @@
       "cik": "0000023194",
       "band": "not yet",
       "flagged": false,
-      "score": 0.43243243243243246,
+      "score": 0.42424242424242425,
       "coverage": 0.6,
       "ret": -0.9007550833007986,
       "still_trading": true,
@@ -431,7 +420,6 @@
         "2.10",
         "5.1",
         "5.4",
-        "5.10",
         "7.1"
       ]
     },
@@ -439,9 +427,9 @@
       "ticker": "CAG",
       "name": "CONAGRA BRANDS INC.",
       "cik": "0000023217",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.5535714285714286,
+      "score": 0.5434782608695652,
       "coverage": 0.88,
       "ret": 0.7134305924840314,
       "still_trading": true,
@@ -449,8 +437,6 @@
         "2.1",
         "2.5",
         "2.10",
-        "2.11",
-        "2.13",
         "2.17",
         "3.7",
         "7.1"
@@ -486,13 +472,12 @@
       "cik": "0000025475",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8064516129032258,
+      "score": 0.8095238095238095,
       "coverage": 0.56,
       "ret": 1.3667961270297089,
       "still_trading": true,
       "blocked_by": [
-        "2.5",
-        "2.11"
+        "2.5"
       ]
     },
     {
@@ -501,7 +486,7 @@
       "cik": "0000027673",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7096774193548387,
+      "score": 0.64,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
@@ -517,13 +502,12 @@
       "cik": "0000027996",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.782608695652174,
+      "score": 0.7777777777777778,
       "coverage": 0.72,
       "ret": -0.4693929088481512,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.13",
         "5.5"
       ]
     },
@@ -545,14 +529,12 @@
       "cik": "0000030822",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6285714285714286,
+      "score": 0.6896551724137931,
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.3",
-        "2.11",
-        "2.13",
         "5.1"
       ]
     },
@@ -562,12 +544,11 @@
       "cik": "0000031107",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8285714285714286,
+      "score": 0.8518518518518519,
       "coverage": 0.64,
       "ret": 0.9311410685590307,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
         "5.5"
       ]
     },
@@ -577,14 +558,12 @@
       "cik": "0000031347",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.5909090909090909,
+      "score": 0.6428571428571429,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "5.10",
-        "6.15",
-        "7.2"
+        "6.15"
       ]
     },
     {
@@ -603,15 +582,13 @@
       "ticker": "ESCA",
       "name": "ESCALADE INC",
       "cik": "0000033488",
-      "band": "borderline",
-      "flagged": false,
-      "score": 0.7073170731707317,
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.7575757575757576,
       "coverage": 0.72,
       "ret": 0.8378777160115742,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
-        "2.13",
         "5.1",
         "5.5"
       ]
@@ -634,7 +611,7 @@
       "cik": "0000034903",
       "band": "not yet",
       "flagged": false,
-      "score": 0.52,
+      "score": 0.45454545454545453,
       "coverage": 0.84,
       "ret": 0.31614566237165187,
       "still_trading": true,
@@ -655,7 +632,7 @@
       "cik": "0000036966",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.6785714285714286,
+      "score": 0.5909090909090909,
       "coverage": 0.48,
       "ret": 0.58885962782474,
       "still_trading": true,
@@ -683,13 +660,12 @@
       "cik": "0000038079",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.7647058823529411,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.5",
-        "2.16"
+        "2.5"
       ]
     },
     {
@@ -698,22 +674,21 @@
       "cik": "0000038984",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7272727272727273,
+      "score": 0.75,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "5.5",
-        "5.10"
+        "5.5"
       ]
     },
     {
       "ticker": "FEIM",
       "name": "FREQUENCY ELECTRONICS INC",
       "cik": "0000039020",
-      "band": "worth reading",
-      "flagged": true,
-      "score": 0.7631578947368421,
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7,
       "coverage": 0.68,
       "ret": 0.0870110445929968,
       "still_trading": true,
@@ -741,7 +716,7 @@
       "cik": "0000040211",
       "band": "not yet",
       "flagged": false,
-      "score": 0.475,
+      "score": 0.4411764705882353,
       "coverage": 0.64,
       "ret": 1.7158477836672446,
       "still_trading": true,
@@ -751,7 +726,6 @@
         "2.17",
         "3.7",
         "5.4",
-        "5.10",
         "7.1"
       ]
     },
@@ -761,7 +735,7 @@
       "cik": "0000042316",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.25,
+      "score": 0.22727272727272727,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
@@ -770,9 +744,7 @@
         "2.10",
         "5.1",
         "5.4",
-        "5.10",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -793,14 +765,11 @@
       "cik": "0000045919",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.72,
+      "score": 0.8421052631578947,
       "coverage": 0.48,
       "ret": -0.8998683096379377,
       "still_trading": true,
-      "blocked_by": [
-        "2.13",
-        "7.2"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "HSY",
@@ -808,7 +777,7 @@
       "cik": "0000047111",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.918918918918919,
+      "score": 0.8888888888888888,
       "coverage": 0.6,
       "ret": 1.2234610404397719,
       "still_trading": true,
@@ -822,7 +791,7 @@
       "cik": "0000047518",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6808510638297872,
+      "score": 0.5945945945945946,
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
@@ -838,9 +807,9 @@
       "ticker": "EGP",
       "name": "EASTGROUP PROPERTIES INC",
       "cik": "0000049600",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.5681818181818182,
+      "score": 0.5,
       "coverage": 0.76,
       "ret": 3.050955912154711,
       "still_trading": true,
@@ -859,13 +828,11 @@
       "cik": "0000049754",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.6785714285714286,
+      "score": 0.7727272727272727,
       "coverage": 0.48,
       "ret": -0.12892135067871047,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
-        "2.13",
         "5.12"
       ]
     },
@@ -875,7 +842,7 @@
       "cik": "0000051548",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7391304347826086,
+      "score": 0.6842105263157895,
       "coverage": 0.68,
       "ret": null,
       "still_trading": false,
@@ -916,7 +883,7 @@
       "cik": "0000056679",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6470588235294118,
+      "score": 0.5714285714285714,
       "coverage": 0.6,
       "ret": 1.5268552032061837,
       "still_trading": true,
@@ -933,13 +900,11 @@
       "cik": "0000056868",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8260869565217391,
+      "score": 0.8823529411764706,
       "coverage": 0.48,
       "ret": 0.9893338942655556,
       "still_trading": true,
-      "blocked_by": [
-        "7.2"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "LEE",
@@ -947,13 +912,12 @@
       "cik": "0000058361",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.6,
+      "score": 0.5789473684210527,
       "coverage": 0.48,
       "ret": -0.8103112896778599,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.13",
         "5.4"
       ]
     },
@@ -963,7 +927,7 @@
       "cik": "0000060849",
       "band": "not yet",
       "flagged": false,
-      "score": 0.34782608695652173,
+      "score": 0.3333333333333333,
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
@@ -972,12 +936,9 @@
         "2.3",
         "2.5",
         "2.10",
-        "2.11",
-        "2.16",
         "5.1",
         "5.4",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -986,7 +947,7 @@
       "cik": "0000061004",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7096774193548387,
+      "score": 0.64,
       "coverage": 0.56,
       "ret": 2.16311352457961,
       "still_trading": true,
@@ -1002,7 +963,7 @@
       "cik": "0000062234",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8064516129032258,
+      "score": 0.7777777777777778,
       "coverage": 0.56,
       "ret": 0.19518449330047893,
       "still_trading": true,
@@ -1017,7 +978,7 @@
       "cik": "0000064279",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.64,
+      "score": 0.5263157894736842,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
@@ -1033,7 +994,7 @@
       "cik": "0000064472",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6086956521739131,
+      "score": 0.6111111111111112,
       "coverage": 0.76,
       "ret": 1.5377356998151206,
       "still_trading": true,
@@ -1041,8 +1002,6 @@
         "2.1",
         "2.5",
         "2.10",
-        "2.11",
-        "5.10",
         "7.1"
       ]
     },
@@ -1058,8 +1017,7 @@
       "still_trading": false,
       "blocked_by": [
         "2.1",
-        "2.5",
-        "2.13"
+        "2.5"
       ]
     },
     {
@@ -1080,13 +1038,12 @@
       "cik": "0000065270",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.7631578947368421,
+      "score": 0.7666666666666667,
       "coverage": 0.68,
       "ret": -0.24710857975315392,
       "still_trading": true,
       "blocked_by": [
         "2.10",
-        "2.11",
         "7.1"
       ]
     },
@@ -1094,15 +1051,14 @@
       "ticker": "EVI",
       "name": "EVI INDUSTRIES, INC.",
       "cik": "0000065312",
-      "band": "borderline",
-      "flagged": false,
-      "score": 0.7307692307692307,
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.75,
       "coverage": 0.52,
       "ret": 8.23825217978398,
       "still_trading": true,
       "blocked_by": [
-        "2.10",
-        "2.11"
+        "2.10"
       ]
     },
     {
@@ -1123,15 +1079,14 @@
       "cik": "0000066570",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6756756756756757,
+      "score": 0.6296296296296297,
       "coverage": 0.6,
       "ret": 2.9132157540423917,
       "still_trading": true,
       "blocked_by": [
         "2.5",
         "2.10",
-        "5.12",
-        "7.2"
+        "5.12"
       ]
     },
     {
@@ -1140,7 +1095,7 @@
       "cik": "0000066756",
       "band": "not yet",
       "flagged": false,
-      "score": 0.1891891891891892,
+      "score": 0.15151515151515152,
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
@@ -1152,7 +1107,6 @@
         "3.7",
         "5.1",
         "5.4",
-        "5.10",
         "5.11",
         "7.1"
       ]
@@ -1161,16 +1115,14 @@
       "ticker": "MOD",
       "name": "MODINE MANUFACTURING CO",
       "cik": "0000067347",
-      "band": "borderline",
-      "flagged": false,
-      "score": 0.71875,
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.7916666666666666,
       "coverage": 0.6,
       "ret": 5.065584808374331,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
-        "5.5",
-        "5.10"
+        "5.5"
       ]
     },
     {
@@ -1179,13 +1131,12 @@
       "cik": "0000068145",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7272727272727273,
+      "score": 0.75,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "5.1",
-        "7.2"
+        "5.1"
       ]
     },
     {
@@ -1194,7 +1145,7 @@
       "cik": "0000068270",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8928571428571429,
+      "score": 0.875,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
@@ -1208,22 +1159,21 @@
       "cik": "0000068709",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.88,
+      "score": 0.9,
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.5",
-        "7.2"
+        "2.5"
       ]
     },
     {
       "ticker": "INTG",
       "name": "INTERGROUP CORP",
       "cik": "0000069422",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.5862068965517241,
+      "score": 0.52,
       "coverage": 0.56,
       "ret": 0.2520063643599111,
       "still_trading": true,
@@ -1252,7 +1202,7 @@
       "cik": "0000070145",
       "band": "not yet",
       "flagged": false,
-      "score": 0.5116279069767442,
+      "score": 0.46153846153846156,
       "coverage": 0.68,
       "ret": -0.13821518947530953,
       "still_trading": true,
@@ -1272,14 +1222,12 @@
       "cik": "0000070487",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6206896551724138,
+      "score": 0.6956521739130435,
       "coverage": 0.56,
       "ret": 1.5572247769924732,
       "still_trading": true,
       "blocked_by": [
-        "2.3",
-        "2.13",
-        "7.2"
+        "2.3"
       ]
     },
     {
@@ -1300,14 +1248,13 @@
       "cik": "0000071691",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7115384615384616,
+      "score": 0.6904761904761905,
       "coverage": 0.8,
       "ret": 2.7646030605912686,
       "still_trading": true,
       "blocked_by": [
         "2.1",
         "2.5",
-        "2.16",
         "5.1",
         "5.11"
       ]
@@ -1318,7 +1265,7 @@
       "cik": "0000072573",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7857142857142857,
+      "score": 0.7,
       "coverage": 0.48,
       "ret": -0.09418726570184044,
       "still_trading": true,
@@ -1331,9 +1278,9 @@
       "ticker": "?",
       "name": "NORTHERN STATES POWER CO /WI/",
       "cik": "0000072909",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.5517241379310345,
+      "score": 0.43478260869565216,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
@@ -1350,7 +1297,7 @@
       "cik": "0000073020",
       "band": "not yet",
       "flagged": false,
-      "score": 0.36538461538461536,
+      "score": 0.29545454545454547,
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
@@ -1364,7 +1311,6 @@
         "5.1",
         "5.4",
         "5.5",
-        "5.10",
         "7.1"
       ]
     },
@@ -1374,7 +1320,7 @@
       "cik": "0000073088",
       "band": "not yet",
       "flagged": false,
-      "score": 0.4,
+      "score": 0.375,
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
@@ -1384,9 +1330,7 @@
         "2.10",
         "5.1",
         "5.4",
-        "5.10",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -1395,14 +1339,13 @@
       "cik": "0000073887",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6470588235294118,
+      "score": 0.6153846153846154,
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.5",
         "2.10",
-        "5.10",
         "7.1"
       ]
     },
@@ -1410,9 +1353,9 @@
       "ticker": "UDR",
       "name": "UDR, Inc.",
       "cik": "0000074208",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.5945945945945946,
+      "score": 0.5161290322580645,
       "coverage": 0.6,
       "ret": 0.9395848538881548,
       "still_trading": true,
@@ -1430,7 +1373,7 @@
       "cik": "0000075679",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8421052631578947,
+      "score": 0.8,
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
@@ -1445,13 +1388,12 @@
       "cik": "0000076321",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7272727272727273,
+      "score": 0.7777777777777778,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "5.1",
-        "5.10"
+        "5.1"
       ]
     },
     {
@@ -1460,15 +1402,13 @@
       "cik": "0000076605",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6129032258064516,
+      "score": 0.6521739130434783,
       "coverage": 0.52,
       "ret": 5.998996534421212,
       "still_trading": true,
       "blocked_by": [
         "2.3",
-        "2.11",
-        "5.1",
-        "7.2"
+        "5.1"
       ]
     },
     {
@@ -1477,7 +1417,7 @@
       "cik": "0000077159",
       "band": "not yet",
       "flagged": false,
-      "score": 0.35135135135135137,
+      "score": 0.3793103448275862,
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
@@ -1485,11 +1425,8 @@
         "2.1",
         "2.3",
         "2.5",
-        "2.16",
         "5.1",
-        "5.10",
-        "5.11",
-        "7.2"
+        "5.11"
       ]
     },
     {
@@ -1510,14 +1447,12 @@
       "cik": "0000077597",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.64,
+      "score": 0.7058823529411765,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.11",
-        "5.4",
-        "7.2"
+        "5.4"
       ]
     },
     {
@@ -1526,7 +1461,7 @@
       "cik": "0000077776",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.6842105263157895,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
@@ -1541,7 +1476,7 @@
       "cik": "0000077877",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8636363636363636,
+      "score": 0.8125,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
@@ -1555,7 +1490,7 @@
       "cik": "0000078128",
       "band": "not yet",
       "flagged": false,
-      "score": 0.4489795918367347,
+      "score": 0.3902439024390244,
       "coverage": 0.76,
       "ret": 0.7644889131920076,
       "still_trading": true,
@@ -1567,7 +1502,6 @@
         "3.7",
         "5.1",
         "5.4",
-        "5.10",
         "7.1"
       ]
     },
@@ -1577,13 +1511,12 @@
       "cik": "0000079282",
       "band": "borderline",
       "flagged": false,
-      "score": 0.675,
+      "score": 0.6764705882352942,
       "coverage": 0.68,
       "ret": 4.470571730204635,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.13",
         "2.17",
         "3.7"
       ]
@@ -1594,13 +1527,12 @@
       "cik": "0000080420",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8157894736842105,
+      "score": 0.84375,
       "coverage": 0.68,
       "ret": 2.6831814987319227,
       "still_trading": true,
       "blocked_by": [
-        "2.1",
-        "7.2"
+        "2.1"
       ]
     },
     {
@@ -1609,13 +1541,12 @@
       "cik": "0000081318",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.5909090909090909,
+      "score": 0.6111111111111112,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.10",
-        "5.10",
         "7.1"
       ]
     },
@@ -1625,7 +1556,7 @@
       "cik": "0000084246",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.88,
+      "score": 0.8421052631578947,
       "coverage": 0.44,
       "ret": 4.015358865806832,
       "still_trading": true,
@@ -1639,14 +1570,11 @@
       "cik": "0000084290",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.6818181818181818,
+      "score": 0.8333333333333334,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "blocked_by": [
-        "2.11",
-        "2.13"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "?",
@@ -1654,7 +1582,7 @@
       "cik": "0000085408",
       "band": "not yet",
       "flagged": false,
-      "score": 0.4,
+      "score": 0.4375,
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
@@ -1663,10 +1591,7 @@
         "2.3",
         "2.5",
         "2.10",
-        "2.16",
-        "5.10",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -1675,13 +1600,12 @@
       "cik": "0000085974",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.7894736842105263,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.5",
-        "2.16"
+        "2.5"
       ]
     },
     {
@@ -1690,7 +1614,7 @@
       "cik": "0000086759",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7391304347826086,
+      "score": 0.6842105263157895,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
@@ -1705,7 +1629,7 @@
       "cik": "0000091928",
       "band": "not yet",
       "flagged": false,
-      "score": 0.34782608695652173,
+      "score": 0.25,
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
@@ -1728,7 +1652,7 @@
       "cik": "0000092416",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6511627906976745,
+      "score": 0.6486486486486487,
       "coverage": 0.68,
       "ret": null,
       "still_trading": false,
@@ -1736,8 +1660,7 @@
         "2.1",
         "2.3",
         "5.1",
-        "5.11",
-        "7.2"
+        "5.11"
       ]
     },
     {
@@ -1746,7 +1669,7 @@
       "cik": "0000092521",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.3181818181818182,
+      "score": 0.2777777777777778,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
@@ -1754,7 +1677,6 @@
         "2.3",
         "2.10",
         "5.1",
-        "5.10",
         "7.1"
       ]
     },
@@ -1764,12 +1686,11 @@
       "cik": "0000093389",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8536585365853658,
+      "score": 0.8787878787878788,
       "coverage": 0.72,
       "ret": 0.09498511532747722,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
         "5.5"
       ]
     },
@@ -1777,16 +1698,14 @@
       "ticker": "SCL",
       "name": "STEPAN CO",
       "cik": "0000094049",
-      "band": "borderline",
-      "flagged": false,
-      "score": 0.7368421052631579,
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8,
       "coverage": 0.64,
       "ret": 0.5953816640209464,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
-        "5.12",
-        "7.2"
+        "5.12"
       ]
     },
     {
@@ -1795,13 +1714,11 @@
       "cik": "0000094344",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8125,
+      "score": 0.9166666666666666,
       "coverage": 0.36,
       "ret": 1.4847577115562274,
       "still_trading": true,
-      "blocked_by": [
-        "5.10"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "?",
@@ -1809,17 +1726,14 @@
       "cik": "0000095047",
       "band": "not yet",
       "flagged": false,
-      "score": 0.41935483870967744,
+      "score": 0.4782608695652174,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.10",
-        "2.11",
         "5.5",
-        "5.10",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -1828,13 +1742,11 @@
       "cik": "0000095552",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8636363636363636,
+      "score": 0.9285714285714286,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "blocked_by": [
-        "2.11"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "TRC",
@@ -1842,13 +1754,12 @@
       "cik": "0000096869",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7096774193548387,
+      "score": 0.72,
       "coverage": 0.56,
       "ret": -0.5168152701046902,
       "still_trading": true,
       "blocked_by": [
         "2.10",
-        "5.10",
         "7.1"
       ]
     },
@@ -1858,7 +1769,7 @@
       "cik": "0000097196",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.7142857142857143,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
@@ -1871,16 +1782,14 @@
       "ticker": "TER",
       "name": "TERADYNE, INC",
       "cik": "0000097210",
-      "band": "borderline",
-      "flagged": false,
-      "score": 0.7209302325581395,
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.7575757575757576,
       "coverage": 0.68,
       "ret": 4.531716494014522,
       "still_trading": true,
       "blocked_by": [
         "2.1",
-        "2.13",
-        "2.16",
         "5.11"
       ]
     },
@@ -1902,7 +1811,7 @@
       "cik": "0000098222",
       "band": "not yet",
       "flagged": false,
-      "score": 0.4230769230769231,
+      "score": 0.4090909090909091,
       "coverage": 0.8,
       "ret": -0.9516670073172762,
       "still_trading": true,
@@ -1914,9 +1823,7 @@
         "2.17",
         "3.7",
         "5.1",
-        "5.10",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -1925,15 +1832,13 @@
       "cik": "0000098338",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.4642857142857143,
+      "score": 0.45,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.3",
         "2.10",
-        "2.11",
-        "5.10",
         "7.1"
       ]
     },
@@ -1941,18 +1846,15 @@
       "ticker": "TKR",
       "name": "TIMKEN CO",
       "cik": "0000098362",
-      "band": "borderline",
-      "flagged": false,
-      "score": 0.6739130434782609,
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.75,
       "coverage": 0.76,
       "ret": 1.543209325120189,
       "still_trading": true,
       "blocked_by": [
         "2.1",
-        "2.5",
-        "2.11",
-        "2.16",
-        "7.2"
+        "2.5"
       ]
     },
     {
@@ -1961,7 +1863,7 @@
       "cik": "0000099359",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8928571428571429,
+      "score": 0.85,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
@@ -1975,13 +1877,12 @@
       "cik": "0000100716",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.5909090909090909,
+      "score": 0.6111111111111112,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.10",
-        "5.10",
         "7.1"
       ]
     },
@@ -2015,14 +1916,13 @@
       "cik": "0000102752",
       "band": "not yet",
       "flagged": false,
-      "score": 0.4864864864864865,
+      "score": 0.41379310344827586,
       "coverage": 0.64,
       "ret": 1.9234486539345852,
       "still_trading": true,
       "blocked_by": [
         "2.3",
         "2.10",
-        "2.13",
         "5.1",
         "5.5",
         "7.1"
@@ -2034,15 +1934,13 @@
       "cik": "0000104777",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6129032258064516,
+      "score": 0.6521739130434783,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.3",
-        "2.13",
-        "5.12",
-        "7.2"
+        "5.12"
       ]
     },
     {
@@ -2051,7 +1949,7 @@
       "cik": "0000104918",
       "band": "not yet",
       "flagged": false,
-      "score": 0.4782608695652174,
+      "score": 0.45,
       "coverage": 0.72,
       "ret": 0.7302868705025092,
       "still_trading": true,
@@ -2062,7 +1960,6 @@
         "2.17",
         "3.7",
         "5.1",
-        "5.10",
         "7.1"
       ]
     },
@@ -2072,7 +1969,7 @@
       "cik": "0000105319",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7115384615384616,
+      "score": 0.6904761904761905,
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
@@ -2080,8 +1977,7 @@
         "2.5",
         "2.17",
         "3.7",
-        "5.1",
-        "7.2"
+        "5.1"
       ]
     },
     {
@@ -2090,12 +1986,11 @@
       "cik": "0000106455",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.5714285714285714,
+      "score": 0.5,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.11",
         "5.1",
         "5.5",
         "5.12"
@@ -2107,12 +2002,11 @@
       "cik": "0000106618",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7096774193548387,
+      "score": 0.72,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.11",
         "5.1",
         "5.5"
       ]
@@ -2123,13 +2017,12 @@
       "cik": "0000107140",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6415094339622641,
+      "score": 0.6046511627906976,
       "coverage": 0.84,
       "ret": -0.2440282927802917,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.13",
         "2.17",
         "3.7",
         "5.5",
@@ -2140,9 +2033,9 @@
       "ticker": "?",
       "name": "WISCONSIN PUBLIC SERVICE CORP",
       "cik": "0000107833",
-      "band": "worth reading",
-      "flagged": true,
-      "score": 0.7931034482758621,
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7391304347826086,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
@@ -2157,7 +2050,7 @@
       "cik": "0000109758",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8928571428571429,
+      "score": 0.8636363636363636,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
@@ -2171,7 +2064,7 @@
       "cik": "0000110471",
       "band": "borderline",
       "flagged": false,
-      "score": 0.62,
+      "score": 0.575,
       "coverage": 0.8,
       "ret": -0.5499312795564506,
       "still_trading": true,
@@ -2180,8 +2073,7 @@
         "2.3",
         "2.5",
         "5.1",
-        "5.5",
-        "7.2"
+        "5.5"
       ]
     },
     {
@@ -2190,7 +2082,7 @@
       "cik": "0000200155",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.6956521739130435,
+      "score": 0.5882352941176471,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
@@ -2205,17 +2097,13 @@
       "cik": "0000202058",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6122448979591837,
+      "score": 0.717948717948718,
       "coverage": 0.76,
       "ret": 2.51279469675696,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.11",
-        "2.13",
-        "2.16",
-        "6.15",
-        "7.2"
+        "6.15"
       ]
     },
     {
@@ -2224,7 +2112,7 @@
       "cik": "0000225648",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6363636363636364,
+      "score": 0.5555555555555556,
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
@@ -2242,7 +2130,7 @@
       "cik": "0000230557",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8928571428571429,
+      "score": 0.8636363636363636,
       "coverage": 0.52,
       "ret": 4.267386983990615,
       "still_trading": true,
@@ -2256,7 +2144,7 @@
       "cik": "0000276209",
       "band": "not yet",
       "flagged": false,
-      "score": 0.3225806451612903,
+      "score": 0.2962962962962963,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
@@ -2265,7 +2153,6 @@
         "2.10",
         "5.1",
         "5.4",
-        "5.10",
         "5.12",
         "7.1"
       ]
@@ -2276,17 +2163,14 @@
       "cik": "0000277509",
       "band": "not yet",
       "flagged": false,
-      "score": 0.41935483870967744,
+      "score": 0.4782608695652174,
       "coverage": 0.56,
       "ret": 6.185697815196912,
       "still_trading": true,
       "blocked_by": [
         "2.3",
-        "2.11",
-        "2.13",
         "5.1",
-        "5.5",
-        "7.2"
+        "5.5"
       ]
     },
     {
@@ -2307,7 +2191,7 @@
       "cik": "0000278041",
       "band": "not yet",
       "flagged": false,
-      "score": 0.3225806451612903,
+      "score": 0.32,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
@@ -2316,9 +2200,7 @@
         "2.10",
         "5.1",
         "5.4",
-        "5.10",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -2327,7 +2209,7 @@
       "cik": "0000310142",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6129032258064516,
+      "score": 0.5769230769230769,
       "coverage": 0.96,
       "ret": 0.5635890178339773,
       "still_trading": true,
@@ -2335,7 +2217,6 @@
         "2.1",
         "2.5",
         "2.10",
-        "2.11",
         "2.17",
         "3.2",
         "3.7",
@@ -2348,7 +2229,7 @@
       "cik": "0000313143",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.7966101694915254,
+      "score": 0.7551020408163265,
       "coverage": 0.96,
       "ret": 1.0296700680823392,
       "still_trading": true,
@@ -2377,12 +2258,11 @@
       "cik": "0000315374",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.7894736842105263,
       "coverage": 0.48,
       "ret": 0.08545670611927347,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
         "5.5"
       ]
     },
@@ -2392,13 +2272,12 @@
       "cik": "0000315852",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8378378378378378,
+      "score": 0.8620689655172413,
       "coverage": 0.64,
       "ret": -0.6141241711965478,
       "still_trading": true,
       "blocked_by": [
-        "2.5",
-        "2.16"
+        "2.5"
       ]
     },
     {
@@ -2419,7 +2298,7 @@
       "cik": "0000318673",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.6842105263157895,
       "coverage": 0.48,
       "ret": 1.331766391308654,
       "still_trading": true,
@@ -2434,13 +2313,12 @@
       "cik": "0000320345",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.88,
+      "score": 0.9,
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.5",
-        "7.2"
+        "2.5"
       ]
     },
     {
@@ -2449,15 +2327,13 @@
       "cik": "0000320575",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.45454545454545453,
+      "score": 0.5,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.3",
-        "5.1",
-        "5.10",
-        "7.2"
+        "5.1"
       ]
     },
     {
@@ -2466,7 +2342,7 @@
       "cik": "0000350077",
       "band": "borderline",
       "flagged": false,
-      "score": 0.68,
+      "score": 0.6190476190476191,
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
@@ -2482,9 +2358,9 @@
       "ticker": "?",
       "name": "Mirror Merger Sub 2, LLC",
       "cik": "0000350797",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.5909090909090909,
+      "score": 0.5263157894736842,
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
@@ -2503,13 +2379,11 @@
       "cik": "0000350868",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.88,
+      "score": 0.9411764705882353,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "blocked_by": [
-        "7.2"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "SEIC",
@@ -2517,13 +2391,12 @@
       "cik": "0000350894",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8378378378378378,
+      "score": 0.8620689655172413,
       "coverage": 0.6,
       "ret": 1.2604479748955102,
       "still_trading": true,
       "blocked_by": [
-        "2.5",
-        "2.16"
+        "2.5"
       ]
     },
     {
@@ -2532,7 +2405,7 @@
       "cik": "0000351017",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6875,
+      "score": 0.5833333333333334,
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
@@ -2548,30 +2421,26 @@
       "cik": "0000351817",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.45454545454545453,
+      "score": 0.5714285714285714,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.5",
-        "2.16",
-        "5.10",
-        "7.2"
+        "2.5"
       ]
     },
     {
       "ticker": "?",
       "name": "SunOpta Inc.",
       "cik": "0000351834",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.5714285714285714,
+      "score": 0.5185185185185185,
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.10",
-        "2.11",
         "5.4",
         "5.5",
         "7.1"
@@ -2595,14 +2464,12 @@
       "cik": "0000353020",
       "band": "borderline",
       "flagged": false,
-      "score": 0.5789473684210527,
+      "score": 0.6,
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.10",
-        "2.11",
-        "2.13",
         "5.5",
         "7.1"
       ]
@@ -2613,14 +2480,13 @@
       "cik": "0000353184",
       "band": "borderline",
       "flagged": false,
-      "score": 0.59375,
+      "score": 0.5769230769230769,
       "coverage": 0.6,
       "ret": 1.1177944333504448,
       "still_trading": true,
       "blocked_by": [
         "2.3",
         "2.10",
-        "5.10",
         "7.1"
       ]
     },
@@ -2630,13 +2496,12 @@
       "cik": "0000353569",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8064516129032258,
+      "score": 0.8260869565217391,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "5.5",
-        "7.2"
+        "5.5"
       ]
     },
     {
@@ -2645,7 +2510,7 @@
       "cik": "0000355777",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.88,
+      "score": 0.8235294117647058,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
@@ -2671,16 +2536,14 @@
       "cik": "0000356213",
       "band": "borderline",
       "flagged": false,
-      "score": 0.5588235294117647,
+      "score": 0.5769230769230769,
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.1",
         "2.5",
-        "5.1",
-        "5.10",
-        "7.2"
+        "5.1"
       ]
     },
     {
@@ -2689,7 +2552,7 @@
       "cik": "0000357020",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.896551724137931,
+      "score": 0.8571428571428571,
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
@@ -2703,14 +2566,12 @@
       "cik": "0000357294",
       "band": "borderline",
       "flagged": false,
-      "score": 0.5714285714285714,
+      "score": 0.6363636363636364,
       "coverage": 0.52,
       "ret": 0.032355872567442434,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.16",
-        "5.10",
         "5.12"
       ]
     },
@@ -2720,13 +2581,11 @@
       "cik": "0000700841",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8928571428571429,
+      "score": 0.9545454545454546,
       "coverage": 0.52,
       "ret": 8.643950695408213,
       "still_trading": true,
-      "blocked_by": [
-        "7.2"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "?",
@@ -2746,13 +2605,11 @@
       "cik": "0000701374",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8636363636363636,
+      "score": 0.9285714285714286,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "blocked_by": [
-        "2.13"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "?",
@@ -2760,14 +2617,13 @@
       "cik": "0000701811",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6511627906976745,
+      "score": 0.6060606060606061,
       "coverage": 0.68,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.1",
         "2.5",
-        "2.13",
         "5.5",
         "5.11"
       ]
@@ -2778,13 +2634,12 @@
       "cik": "0000701869",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.5909090909090909,
+      "score": 0.6111111111111112,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.10",
-        "5.10",
         "7.1"
       ]
     },
@@ -2794,13 +2649,12 @@
       "cik": "0000707388",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.7647058823529411,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.3",
-        "2.11"
+        "2.3"
       ]
     },
     {
@@ -2821,7 +2675,7 @@
       "cik": "0000709283",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.918918918918919,
+      "score": 0.896551724137931,
       "coverage": 0.64,
       "ret": -0.9635416666666666,
       "still_trading": true,
@@ -2835,7 +2689,7 @@
       "cik": "0000709804",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7857142857142857,
+      "score": 0.7,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
@@ -2874,7 +2728,7 @@
       "cik": "0000712770",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8620689655172413,
+      "score": 0.84,
       "coverage": 0.56,
       "ret": 1.2605217002151141,
       "still_trading": true,
@@ -2888,14 +2742,13 @@
       "cik": "0000716634",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.6153846153846154,
+      "score": 0.6,
       "coverage": 0.48,
       "ret": -0.749326146202127,
       "still_trading": true,
       "blocked_by": [
         "2.3",
-        "5.4",
-        "7.2"
+        "5.4"
       ]
     },
     {
@@ -2904,7 +2757,7 @@
       "cik": "0000717954",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6595744680851063,
+      "score": 0.6216216216216216,
       "coverage": 0.8,
       "ret": 0.7694820283600239,
       "still_trading": true,
@@ -2912,8 +2765,7 @@
         "2.1",
         "2.5",
         "5.4",
-        "5.5",
-        "7.2"
+        "5.5"
       ]
     },
     {
@@ -2922,12 +2774,11 @@
       "cik": "0000718789",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8157894736842105,
+      "score": 0.8333333333333334,
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.13",
         "5.5"
       ]
     },
@@ -2937,17 +2788,15 @@
       "cik": "0000718924",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6326530612244898,
+      "score": 0.6410256410256411,
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.3",
         "2.5",
-        "2.11",
         "2.17",
-        "3.7",
-        "7.2"
+        "3.7"
       ]
     },
     {
@@ -2956,12 +2805,11 @@
       "cik": "0000719164",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8157894736842105,
+      "score": 0.8333333333333334,
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.13",
         "5.5"
       ]
     },
@@ -2971,7 +2819,7 @@
       "cik": "0000719413",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6129032258064516,
+      "score": 0.5555555555555556,
       "coverage": 0.52,
       "ret": 0.09536774243930823,
       "still_trading": true,
@@ -2988,7 +2836,7 @@
       "cik": "0000720672",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8928571428571429,
+      "score": 0.8636363636363636,
       "coverage": 0.48,
       "ret": 1.3579583473950403,
       "still_trading": true,
@@ -3014,13 +2862,12 @@
       "cik": "0000721683",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8409090909090909,
+      "score": 0.8529411764705882,
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.5",
-        "2.11"
+        "2.5"
       ]
     },
     {
@@ -3029,7 +2876,7 @@
       "cik": "0000724910",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.9714285714285714,
+      "score": 0.9629629629629629,
       "coverage": 0.64,
       "ret": 1.332877170414971,
       "still_trading": true,
@@ -3041,7 +2888,7 @@
       "cik": "0000729237",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.5909090909090909,
+      "score": 0.5,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
@@ -3057,46 +2904,38 @@
       "cik": "0000729580",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.9032258064516129,
+      "score": 0.9565217391304348,
       "coverage": 0.56,
       "ret": 2.662117772190974,
       "still_trading": true,
-      "blocked_by": [
-        "2.11"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "RGEN",
       "name": "REPLIGEN CORP",
       "cik": "0000730272",
-      "band": "borderline",
-      "flagged": false,
-      "score": 0.6785714285714286,
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.75,
       "coverage": 0.52,
       "ret": 12.18181807376391,
       "still_trading": true,
       "blocked_by": [
-        "5.5",
-        "5.10",
-        "7.2"
+        "5.5"
       ]
     },
     {
       "ticker": "CVSA",
       "name": "Covista Inc.",
       "cik": "0000730464",
-      "band": "borderline",
-      "flagged": false,
-      "score": 0.627906976744186,
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.7575757575757576,
       "coverage": 0.68,
       "ret": 0.7231412275664435,
       "still_trading": true,
       "blocked_by": [
-        "2.5",
-        "2.11",
-        "2.13",
-        "2.16",
-        "7.2"
+        "2.5"
       ]
     },
     {
@@ -3105,7 +2944,7 @@
       "cik": "0000737468",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8636363636363636,
+      "score": 0.8333333333333334,
       "coverage": 0.44,
       "ret": 0.11255970790028202,
       "still_trading": true,
@@ -3119,13 +2958,12 @@
       "cik": "0000740971",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.5263157894736842,
+      "score": 0.5333333333333333,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.10",
-        "5.10",
         "7.1"
       ]
     },
@@ -3135,14 +2973,11 @@
       "cik": "0000742112",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.75,
+      "score": 0.85,
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "blocked_by": [
-        "2.11",
-        "2.13"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "?",
@@ -3150,13 +2985,11 @@
       "cik": "0000742126",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8125,
+      "score": 0.9,
       "coverage": 0.32,
       "ret": null,
       "still_trading": false,
-      "blocked_by": [
-        "7.2"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "JOE",
@@ -3164,14 +2997,13 @@
       "cik": "0000745308",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7096774193548387,
+      "score": 0.72,
       "coverage": 0.56,
       "ret": 2.2222385458151677,
       "still_trading": true,
       "blocked_by": [
         "2.1",
-        "2.5",
-        "2.16"
+        "2.5"
       ]
     },
     {
@@ -3180,7 +3012,7 @@
       "cik": "0000746514",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.7142857142857143,
       "coverage": 0.48,
       "ret": 0.9509484321611934,
       "still_trading": true,
@@ -3195,7 +3027,7 @@
       "cik": "0000749037",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.9117647058823529,
+      "score": 0.8846153846153846,
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
@@ -3209,7 +3041,7 @@
       "cik": "0000749038",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8636363636363636,
+      "score": 0.7857142857142857,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
@@ -3223,16 +3055,14 @@
       "cik": "0000749251",
       "band": "borderline",
       "flagged": false,
-      "score": 0.68,
+      "score": 0.7142857142857143,
       "coverage": 0.8,
       "ret": 5.349190231884188,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.13",
         "2.17",
-        "3.7",
-        "7.2"
+        "3.7"
       ]
     },
     {
@@ -3241,7 +3071,7 @@
       "cik": "0000750199",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7692307692307693,
+      "score": 0.7272727272727273,
       "coverage": 0.28,
       "ret": null,
       "still_trading": false,
@@ -3255,12 +3085,11 @@
       "cik": "0000750813",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.631578947368421,
+      "score": 0.6153846153846154,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.13",
         "5.5"
       ]
     },
@@ -3270,7 +3099,7 @@
       "cik": "0000751364",
       "band": "not yet",
       "flagged": false,
-      "score": 0.5116279069767442,
+      "score": 0.43243243243243246,
       "coverage": 0.72,
       "ret": 1.257408121792924,
       "still_trading": true,
@@ -3290,7 +3119,7 @@
       "cik": "0000751652",
       "band": "not yet",
       "flagged": false,
-      "score": 0.4782608695652174,
+      "score": 0.42105263157894735,
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
@@ -3298,7 +3127,6 @@
         "2.1",
         "2.5",
         "2.10",
-        "2.16",
         "2.17",
         "3.7",
         "5.1",
@@ -3311,7 +3139,7 @@
       "cik": "0000752714",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8421052631578947,
+      "score": 0.8125,
       "coverage": 0.64,
       "ret": 3.4631198509782166,
       "still_trading": true,
@@ -3326,14 +3154,13 @@
       "cik": "0000753568",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.64,
+      "score": 0.5882352941176471,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.3",
-        "5.5",
-        "5.10"
+        "5.5"
       ]
     },
     {
@@ -3354,13 +3181,11 @@
       "cik": "0000761238",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8421052631578947,
+      "score": 0.9333333333333333,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "blocked_by": [
-        "2.11"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "CDR-PB",
@@ -3368,7 +3193,7 @@
       "cik": "0000761648",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.45454545454545453,
+      "score": 0.3333333333333333,
       "coverage": 0.44,
       "ret": 0.30443219263244115,
       "still_trading": true,
@@ -3385,7 +3210,7 @@
       "cik": "0000763901",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7692307692307693,
+      "score": 0.6666666666666666,
       "coverage": 0.28,
       "ret": 2.6756280957425487,
       "still_trading": true,
@@ -3399,22 +3224,19 @@
       "cik": "0000764401",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8235294117647058,
+      "score": 0.9166666666666666,
       "coverage": 0.6,
       "ret": 1.5358914294048858,
       "still_trading": true,
-      "blocked_by": [
-        "2.11",
-        "7.2"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "DOC",
       "name": "HEALTHPEAK PROPERTIES, INC.",
       "cik": "0000765880",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.55,
+      "score": 0.47058823529411764,
       "coverage": 0.64,
       "ret": -0.13439648263929416,
       "still_trading": true,
@@ -3431,9 +3253,9 @@
       "ticker": "WELL",
       "name": "WELLTOWER INC.",
       "cik": "0000766704",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.55,
+      "score": 0.47058823529411764,
       "coverage": 0.64,
       "ret": 1.4122984437386616,
       "still_trading": true,
@@ -3476,18 +3298,15 @@
       "cik": "0000772897",
       "band": "not yet",
       "flagged": false,
-      "score": 0.43243243243243246,
+      "score": 0.4444444444444444,
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.1",
         "2.5",
-        "2.11",
-        "2.16",
         "5.4",
-        "5.5",
-        "5.10"
+        "5.5"
       ]
     },
     {
@@ -3508,13 +3327,12 @@
       "cik": "0000773660",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.5263157894736842,
+      "score": 0.5333333333333333,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.10",
-        "5.10",
         "7.1"
       ]
     },
@@ -3524,13 +3342,12 @@
       "cik": "0000778438",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7272727272727273,
+      "score": 0.7142857142857143,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.5",
-        "7.2"
+        "2.5"
       ]
     },
     {
@@ -3551,13 +3368,12 @@
       "cik": "0000779152",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8387096774193549,
+      "score": 0.8461538461538461,
       "coverage": 1.0,
       "ret": 2.363372084411639,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.13",
         "3.2"
       ]
     },
@@ -3567,7 +3383,7 @@
       "cik": "0000783280",
       "band": "not yet",
       "flagged": false,
-      "score": 0.35135135135135137,
+      "score": 0.22580645161290322,
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
@@ -3600,14 +3416,13 @@
       "cik": "0000784011",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7428571428571429,
+      "score": 0.7407407407407407,
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "5.1",
-        "5.5",
-        "7.2"
+        "5.5"
       ]
     },
     {
@@ -3616,13 +3431,12 @@
       "cik": "0000784199",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8157894736842105,
+      "score": 0.8333333333333334,
       "coverage": 0.64,
       "ret": 0.6504914402360624,
       "still_trading": true,
       "blocked_by": [
-        "5.5",
-        "7.2"
+        "5.5"
       ]
     },
     {
@@ -3631,7 +3445,7 @@
       "cik": "0000785815",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.96875,
+      "score": 0.9583333333333334,
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
@@ -3643,13 +3457,12 @@
       "cik": "0000785956",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8301886792452831,
+      "score": 0.8372093023255814,
       "coverage": 0.88,
       "ret": 1.093933359563863,
       "still_trading": true,
       "blocked_by": [
         "2.5",
-        "2.11",
         "3.2"
       ]
     },
@@ -3659,7 +3472,7 @@
       "cik": "0000785968",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.4,
+      "score": 0.21052631578947367,
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
@@ -3689,12 +3502,11 @@
       "cik": "0000789933",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8064516129032258,
+      "score": 0.84,
       "coverage": 0.52,
       "ret": 2.0364361859081446,
       "still_trading": true,
       "blocked_by": [
-        "2.11",
         "5.5"
       ]
     },
@@ -3702,9 +3514,9 @@
       "ticker": "?",
       "name": "CYPRESS SEMICONDUCTOR CORP /DE/",
       "cik": "0000791915",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.625,
+      "score": 0.5,
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
@@ -3722,15 +3534,14 @@
       "cik": "0000792130",
       "band": "borderline",
       "flagged": false,
-      "score": 0.723404255319149,
+      "score": 0.717948717948718,
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
         "2.5",
         "2.17",
-        "3.7",
-        "7.2"
+        "3.7"
       ]
     },
     {
@@ -3739,15 +3550,13 @@
       "cik": "0000792161",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.45454545454545453,
+      "score": 0.42857142857142855,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "2.11",
         "5.1",
-        "5.5",
-        "7.2"
+        "5.5"
       ]
     },
     {
@@ -3756,7 +3565,7 @@
       "cik": "0000793547",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.9117647058823529,
+      "score": 0.8928571428571429,
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
@@ -3770,22 +3579,21 @@
       "cik": "0000795266",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.7894736842105263,
       "coverage": 0.48,
       "ret": 2.397878965778279,
       "still_trading": true,
       "blocked_by": [
-        "2.5",
-        "2.16"
+        "2.5"
       ]
     },
     {
       "ticker": "CLFD",
       "name": "Clearfield, Inc.",
       "cik": "0000796505",
-      "band": "worth reading",
-      "flagged": true,
-      "score": 0.7735849056603774,
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7209302325581395,
       "coverage": 0.88,
       "ret": 0.009619229009189434,
       "still_trading": true,
@@ -3802,7 +3610,7 @@
       "cik": "0000798287",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.88,
+      "score": 0.8421052631578947,
       "coverage": 0.48,
       "ret": 3.074807513065023,
       "still_trading": true,
@@ -3814,9 +3622,9 @@
       "ticker": "CSR",
       "name": "CENTERSPACE",
       "cik": "0000798359",
-      "band": "borderline",
+      "band": "not yet",
       "flagged": false,
-      "score": 0.5714285714285714,
+      "score": 0.5,
       "coverage": 0.52,
       "ret": 0.14703206935821256,
       "still_trading": true,
@@ -3833,7 +3641,7 @@
       "cik": "0000798783",
       "band": "borderline",
       "flagged": false,
-      "score": 0.7096774193548387,
+      "score": 0.6666666666666666,
       "coverage": 0.56,
       "ret": 0.437311064327883,
       "still_trading": true,
@@ -3849,13 +3657,12 @@
       "cik": "0000799088",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.6842105263157895,
+      "score": 0.6923076923076923,
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
       "blocked_by": [
-        "5.1",
-        "7.2"
+        "5.1"
       ]
     },
     {
@@ -3864,13 +3671,11 @@
       "cik": "0000799167",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.9142857142857143,
+      "score": 0.9655172413793104,
       "coverage": 0.64,
       "ret": 1.8564971097943794,
       "still_trading": true,
-      "blocked_by": [
-        "7.2"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "HTLD",
@@ -3878,14 +3683,12 @@
       "cik": "0000799233",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.7567567567567568,
+      "score": 0.8275862068965517,
       "coverage": 0.64,
       "ret": -0.3392198638906403,
       "still_trading": true,
       "blocked_by": [
-        "2.5",
-        "2.16",
-        "7.2"
+        "2.5"
       ]
     },
     {
@@ -3894,7 +3697,7 @@
       "cik": "0000799292",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8421052631578947,
+      "score": 0.8,
       "coverage": 0.4,
       "ret": 4.412180800157085,
       "still_trading": true,
@@ -3908,7 +3711,7 @@
       "cik": "0000799729",
       "band": "not yet",
       "flagged": false,
-      "score": 0.4883720930232558,
+      "score": 0.4594594594594595,
       "coverage": 0.68,
       "ret": null,
       "still_trading": false,
@@ -3918,8 +3721,7 @@
         "2.10",
         "2.17",
         "3.7",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -3928,7 +3730,7 @@
       "cik": "0000799850",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.76,
+      "score": 0.6842105263157895,
       "coverage": 0.48,
       "ret": 0.8581675833062372,
       "still_trading": true,
@@ -3955,7 +3757,7 @@
       "cik": "0000800458",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8636363636363636,
+      "score": 0.8125,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
@@ -3969,13 +3771,11 @@
       "cik": "0000802724",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8636363636363636,
+      "score": 0.9375,
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "blocked_by": [
-        "5.10"
-      ]
+      "blocked_by": []
     },
     {
       "ticker": "?",
@@ -3983,7 +3783,7 @@
       "cik": "0000804212",
       "band": "not yet",
       "flagged": false,
-      "score": 0.5102040816326531,
+      "score": 0.4634146341463415,
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
@@ -3994,8 +3794,7 @@
         "2.17",
         "3.7",
         "5.1",
-        "5.4",
-        "7.2"
+        "5.4"
       ]
     },
     {
@@ -4016,7 +3815,7 @@
       "cik": "0000807882",
       "band": "not yet",
       "flagged": false,
-      "score": 0.3275862068965517,
+      "score": 0.3541666666666667,
       "coverage": 0.88,
       "ret": 0.9316257956658476,
       "still_trading": true,
@@ -4025,15 +3824,11 @@
         "2.3",
         "2.5",
         "2.10",
-        "2.11",
-        "2.16",
         "2.17",
         "3.7",
         "5.1",
         "5.4",
-        "5.10",
-        "7.1",
-        "7.2"
+        "7.1"
       ]
     },
     {
@@ -4042,7 +3837,7 @@
       "cik": "0000807884",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6037735849056604,
+      "score": 0.5777777777777777,
       "coverage": 0.84,
       "ret": null,
       "still_trading": false,
@@ -4050,7 +3845,6 @@
         "2.1",
         "2.3",
         "2.5",
-        "2.13",
         "5.1",
         "5.5",
         "5.11"
