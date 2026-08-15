@@ -186,3 +186,80 @@ class TestSurvivorshipProse(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
+
+class TestDelistedFilerShapes(unittest.TestCase):
+    """Submissions JSON from dead companies has shapes live ones never show.
+
+    A delisted filer carries "exchanges": [] -- an empty list rather than a
+    missing key -- so dict.get(key, default) silently returns the empty list and
+    the index blows up. The live scan never meets this; the backtest, whose whole
+    purpose is to include companies that died, meets it constantly.
+    """
+
+    def test_empty_exchanges_list(self):
+        self.assertIsNone(B._first({"exchanges": []}, "exchanges"))
+
+    def test_missing_key(self):
+        self.assertIsNone(B._first({"tickers": ["AAA"]}, "exchanges"))
+
+    def test_null_value(self):
+        self.assertIsNone(B._first({"exchanges": None}, "exchanges"))
+
+    def test_no_submissions_at_all(self):
+        self.assertIsNone(B._first(None, "exchanges"))
+
+    def test_populated_list_returns_the_first(self):
+        self.assertEqual(B._first({"exchanges": ["Nasdaq", "NYSE"]}, "exchanges"), "Nasdaq")
+
+    def test_ticker_for_uses_the_same_guard(self):
+        self.assertIsNone(B.ticker_for({"tickers": []}))
+        self.assertEqual(B.ticker_for({"tickers": ["OCC"]}), "OCC")
+
+
+class TestOneBadFilerDoesNotKillTheRun(unittest.TestCase):
+    """A run over hundreds of external records must survive any one of them."""
+
+    def test_main_skips_the_broken_filer_and_finishes(self):
+        from scanner import backtest, edgar
+        from tests import fixtures as XF
+        import tempfile
+
+        good = XF.compounder(2006, 12)
+        px = [(f"{y}-12-30", 10.0 * (1.3 ** (y - 2011)), 2e6) for y in range(2008, 2023)]
+
+        orig = (edgar.frame, edgar.company_facts, edgar.submissions,
+                edgar.price_history, edgar.shares_outstanding)
+
+        edgar.frame = lambda c, p, unit="USD", ns="us-gaap": (
+            {"1": 3e8, "2": 3e8, "3": 3e8} if p == "CY2010" else {})
+        edgar.company_facts = lambda cik: good
+        # CIK "2" is the poison pill: an empty exchanges list.
+        edgar.submissions = lambda cik: {
+            "name": f"Co {cik}",
+            "tickers": [] if cik == "2" else ["AAA"],
+            "exchanges": [] if cik == "2" else ["NASDAQ"],
+            "filings": {"recent": {"form": ["10-K"], "filingDate": ["2011-03-01"]}},
+        }
+        edgar.price_history = lambda t, days=90: px
+        edgar.shares_outstanding = lambda fx: 20_000_000.0
+
+        def restore():
+            (edgar.frame, edgar.company_facts, edgar.submissions,
+             edgar.price_history, edgar.shares_outstanding) = orig
+        self.addCleanup(restore)
+
+        import contextlib, io
+        with tempfile.TemporaryDirectory() as d, contextlib.redirect_stdout(io.StringIO()):
+            rc = backtest.main(["--as-of", "2011-12-31", "--years", "10", "--out", d])
+        self.assertEqual(rc, 0, "a malformed filer must not abort the run")
+
+    def test_report_discloses_skipped_records(self):
+        d = {"as_of": "2013-12-31", "exit": "2023-12-31", "years": 10,
+             "universe": 300, "evaluated": 280, "errored": 7,
+             "passed_gates": 100, "flagged_count": 9,
+             "flagged_unpriced": 0, "flagged_delisted": 0,
+             "flagged": B.summarize([1.0] * 9), "rest": B.summarize([0.2] * 50),
+             "benchmark": 1.5, "flagged_median_with_wipeouts": None,
+             "verdict": "x", "rules": []}
+        self.assertIn("**7** skipped on malformed data", B.report(d))

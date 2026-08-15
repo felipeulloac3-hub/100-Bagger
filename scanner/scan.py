@@ -176,7 +176,11 @@ def main(argv=None) -> int:
     for i, cik in enumerate(candidates, 1):
         if i % 100 == 0:
             print(f"  {i}/{len(candidates)}")
-        ctx = build_context(cik, listed[cik], with_price=False)
+        try:
+            ctx = build_context(cik, listed[cik], with_price=False)
+        except Exception as e:
+            print(f"  skipped {cik}: {type(e).__name__}: {e}")
+            continue
         if ctx:
             first.append((cik, evaluate(ctx)))
 
@@ -187,7 +191,11 @@ def main(argv=None) -> int:
     results = []
     priced = {}
     for cik in shortlist:
-        ctx = build_context(cik, listed[cik], with_price=True)
+        try:
+            ctx = build_context(cik, listed[cik], with_price=True)
+        except Exception as e:
+            print(f"  pricing failed for {cik}: {type(e).__name__}: {e}")
+            continue
         if ctx:
             priced[cik] = evaluate(ctx)
     for cik, r in first:
