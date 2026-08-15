@@ -10,18 +10,16 @@
   --minor:#4A5A66; --minor-bg:#EBEFF2;
   --machine:#1D4E6B; --human:#5B3A6B;
 }
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --ground:#0D1317; --surface:#151D23; --surface-2:#1B242B;
-    --ink:#DDE5EB; --ink-2:#A7B6C1; --ink-3:#788895;
-    --rule:#28343D; --rule-2:#1F2A32;
-    --accent:#6DAECC; --accent-soft:#172B36;
-    --gate:#E08A7B; --gate-bg:#33201C;
-    --major:#D6A44A; --major-bg:#2E2617;
-    --minor:#93A6B3; --minor-bg:#1E272E;
-    --machine:#6DAECC; --human:#B18ECB;
-  }
-}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0D1317; --surface:#151D23; --surface-2:#1B242B;
+  --ink:#DDE5EB; --ink-2:#A7B6C1; --ink-3:#788895;
+  --rule:#28343D; --rule-2:#1F2A32;
+  --accent:#6DAECC; --accent-soft:#172B36;
+  --gate:#E08A7B; --gate-bg:#33201C;
+  --major:#D6A44A; --major-bg:#2E2617;
+  --minor:#93A6B3; --minor-bg:#1E272E;
+  --machine:#6DAECC; --human:#B18ECB;
+}}
 :root[data-theme="dark"]{
   --ground:#0D1317; --surface:#151D23; --surface-2:#1B242B;
   --ink:#DDE5EB; --ink-2:#A7B6C1; --ink-3:#788895;
@@ -33,371 +31,157 @@
   --machine:#6DAECC; --human:#B18ECB;
 }
 *{box-sizing:border-box}
-body{
-  margin:0; background:var(--ground); color:var(--ink);
+body{margin:0;background:var(--ground);color:var(--ink);
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;
-}
-.wrap{max-width:960px; margin:0 auto; padding:0 24px}
-h1,h2,h3{font-family:Georgia,"Iowan Old Style","Times New Roman",ui-serif,serif; font-weight:600; text-wrap:balance; margin:0}
-code,.mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
-
-/* masthead */
-header{border-bottom:1px solid var(--rule); background:var(--surface)}
-.mast{padding:64px 0 44px; display:flex; flex-direction:column; gap:20px}
-.eyebrow{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); font-weight:600}
-h1{font-size:clamp(34px,6vw,54px); line-height:1.08; letter-spacing:-.015em}
-.standfirst{font-size:18px; color:var(--ink-2); max-width:60ch; margin:0}
-
-.facts{display:grid; gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:3px; overflow:hidden; margin-top:8px}
-@media(min-width:720px){.facts{grid-template-columns:repeat(3,1fr)}}
-.fact{background:var(--surface-2); padding:18px 20px; display:flex; flex-direction:column; gap:6px}
-.fact b{font-family:Georgia,ui-serif,serif; font-size:15px; font-weight:600}
-.fact span{font-size:13.5px; color:var(--ink-2); line-height:1.5}
-
-.tiles{display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--rule);
-  border:1px solid var(--rule); border-radius:3px; overflow:hidden; margin-top:4px}
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:Georgia,"Iowan Old Style","Times New Roman",ui-serif,serif;
+  font-weight:600;text-wrap:balance;margin:0}
+header{border-bottom:1px solid var(--rule);background:var(--surface)}
+.mast{padding:64px 0 44px;display:flex;flex-direction:column;gap:20px}
+.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-size:clamp(34px,6vw,54px);line-height:1.08;letter-spacing:-.015em}
+.standfirst{font-size:18px;color:var(--ink-2);max-width:62ch;margin:0}
+.routes{border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin-top:8px;background:var(--surface-2)}
+.routes-h{padding:14px 20px 10px;font-family:Georgia,ui-serif,serif;font-size:16px;font-weight:600;
+  border-bottom:1px solid var(--rule)}
+.route{display:grid;grid-template-columns:auto 1fr;gap:14px;padding:11px 20px;
+  border-bottom:1px solid var(--rule-2);font-size:14px;color:var(--ink-2);align-items:baseline}
+.route:last-child{border-bottom:none}
+.route .rn{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--ink-3);white-space:nowrap}
+.route.on{background:var(--accent-soft);color:var(--ink)}
+.route.on .rn{color:var(--accent);font-weight:600}
+.route b{font-weight:600}
+.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin-top:4px}
 @media(min-width:720px){.tiles{grid-template-columns:repeat(4,1fr)}}
-.tile{background:var(--surface-2); padding:16px 18px}
-.tile .n{font-family:Georgia,ui-serif,serif; font-size:30px; line-height:1; font-variant-numeric:tabular-nums}
-.tile .l{font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3); margin-top:7px}
-
-/* filters */
-.bar{position:sticky; top:0; z-index:20; background:var(--surface); border-bottom:1px solid var(--rule)}
-.bar-in{display:flex; flex-wrap:wrap; gap:18px; padding:12px 0; align-items:center}
-.grp{display:flex; align-items:center; gap:7px; flex-wrap:wrap}
-.grp>.lab{font-size:10.5px; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-3); margin-right:2px}
-button.f{
-  font:inherit; font-size:12.5px; cursor:pointer; padding:4px 11px; border-radius:2px;
-  border:1px solid var(--rule); background:transparent; color:var(--ink-2);
-}
-button.f:hover{border-color:var(--accent); color:var(--accent)}
-button.f[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--surface)}
-button.f:focus-visible,a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
-.count{margin-left:auto; font-size:12.5px; color:var(--ink-3); font-variant-numeric:tabular-nums}
-
-/* stages */
+.tile{background:var(--surface-2);padding:16px 18px}
+.tile .n{font-family:Georgia,ui-serif,serif;font-size:30px;line-height:1;font-variant-numeric:tabular-nums}
+.tile .l{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-top:7px}
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--rule)}
+.bar-in{display:flex;flex-wrap:wrap;gap:18px;padding:12px 0;align-items:center}
+.grp{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.grp>.lab{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-right:2px}
+button.f{font:inherit;font-size:12.5px;cursor:pointer;padding:4px 11px;border-radius:2px;
+  border:1px solid var(--rule);background:transparent;color:var(--ink-2)}
+button.f:hover{border-color:var(--accent);color:var(--accent)}
+button.f[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+button.f:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.count{margin-left:auto;font-size:12.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}
 main{padding-bottom:80px}
 .stage{margin-top:52px}
-.stage-h{display:flex; gap:16px; align-items:baseline; padding-bottom:12px; border-bottom:2px solid var(--ink)}
-.stage-n{font-family:ui-monospace,Menlo,monospace; font-size:12px; color:var(--accent); font-weight:600; letter-spacing:.06em}
-.stage-h h2{font-size:25px; letter-spacing:-.01em}
-.stage-note{font-size:14.5px; color:var(--ink-2); margin:14px 0 4px; max-width:66ch}
-blockquote{margin:20px 0 0; padding:14px 18px; border-left:2px solid var(--accent);
-  background:var(--accent-soft); font-size:14px; color:var(--ink-2); border-radius:0 2px 2px 0}
+.stage-h{display:flex;gap:16px;align-items:baseline;padding-bottom:12px;border-bottom:2px solid var(--ink)}
+.stage-n{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--accent);font-weight:600;letter-spacing:.06em}
+.stage-h h2{font-size:25px;letter-spacing:-.01em}
+.stage-note{font-size:14.5px;color:var(--ink-2);margin:14px 0 4px;max-width:68ch}
+blockquote{margin:20px 0 0;padding:14px 18px;border-left:2px solid var(--accent);
+  background:var(--accent-soft);font-size:14px;color:var(--ink-2);border-radius:0 2px 2px 0}
 blockquote em{color:var(--ink)}
-
-.rows{margin-top:16px; border-top:1px solid var(--rule-2)}
-.row{display:grid; grid-template-columns:auto 1fr; gap:2px 14px; padding:14px 16px 14px 14px;
-  border-bottom:1px solid var(--rule-2); background:var(--surface); border-left:3px solid transparent}
+.rows{margin-top:16px;border-top:1px solid var(--rule-2)}
+.row{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;padding:14px 16px 14px 14px;
+  border-bottom:1px solid var(--rule-2);background:var(--surface);border-left:3px solid transparent}
 .row.gate{border-left-color:var(--gate)}
 .row.major{border-left-color:var(--major)}
 .row.minor{border-left-color:var(--rule)}
-.row .id{font-family:ui-monospace,Menlo,monospace; font-size:12px; color:var(--ink-3);
-  font-variant-numeric:tabular-nums; padding-top:3px}
-.q{font-size:15.5px; line-height:1.5}
-.q strong{font-weight:600}
-.tags{grid-column:2; display:flex; flex-wrap:wrap; gap:6px; margin-top:8px}
-.tag{font-family:ui-monospace,Menlo,monospace; font-size:10.5px; letter-spacing:.05em;
-  padding:2px 7px; border-radius:2px; text-transform:uppercase; white-space:nowrap}
-.t-gate{background:var(--gate-bg); color:var(--gate)}
-.t-major{background:var(--major-bg); color:var(--major)}
-.t-minor{background:var(--minor-bg); color:var(--minor)}
-.t-src{background:transparent; color:var(--ink-3); border:1px solid var(--rule)}
-.t-m{background:transparent; color:var(--machine); border:1px solid currentColor}
-.t-h{background:transparent; color:var(--human); border:1px solid currentColor}
-.empty{padding:28px 14px; color:var(--ink-3); font-size:14px; background:var(--surface); border-bottom:1px solid var(--rule-2)}
-
-/* tables */
-.tbl-scroll{overflow-x:auto; margin-top:18px; border:1px solid var(--rule); border-radius:3px}
-table{border-collapse:collapse; width:100%; font-size:14px; background:var(--surface); min-width:520px}
-th,td{text-align:left; padding:10px 14px; border-bottom:1px solid var(--rule-2); vertical-align:top}
-th{font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3);
-  background:var(--surface-2); font-weight:600; white-space:nowrap}
+.row .id{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--ink-3);
+  font-variant-numeric:tabular-nums;padding-top:3px}
+.q{font-size:15.5px;line-height:1.5}
+.tags{grid-column:2;display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tag{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.05em;
+  padding:2px 7px;border-radius:2px;text-transform:uppercase;white-space:nowrap}
+.t-gate{background:var(--gate-bg);color:var(--gate)}
+.t-major{background:var(--major-bg);color:var(--major)}
+.t-minor{background:var(--minor-bg);color:var(--minor)}
+.t-src{background:transparent;color:var(--ink-3);border:1px solid var(--rule)}
+.t-m{background:transparent;color:var(--machine);border:1px solid currentColor}
+.t-h{background:transparent;color:var(--human);border:1px solid currentColor}
+.empty{padding:28px 14px;color:var(--ink-3);font-size:14px;background:var(--surface);
+  border-bottom:1px solid var(--rule-2)}
+.tbl-scroll{overflow-x:auto;margin-top:18px;border:1px solid var(--rule);border-radius:3px}
+table{border-collapse:collapse;width:100%;font-size:13.5px;background:var(--surface);min-width:560px}
+th,td{text-align:left;padding:9px 14px;border-bottom:1px solid var(--rule-2);vertical-align:top}
+th{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);
+  background:var(--surface-2);font-weight:600;white-space:nowrap}
 tr:last-child td{border-bottom:none}
-td.k{font-weight:600; white-space:nowrap}
-footer{border-top:1px solid var(--rule); background:var(--surface); padding:28px 0 44px;
-  font-size:13px; color:var(--ink-3)}
-footer p{max-width:66ch}
+td.k{font-weight:600;white-space:nowrap}
+footer{border-top:1px solid var(--rule);background:var(--surface);padding:28px 0 44px;
+  font-size:13px;color:var(--ink-3)}
+footer p{max-width:68ch}
 </style>
+<header><div class="wrap mast">
+<div class="eyebrow">Assembled from the published record</div>
+<h1>The 100-Bagger Checklist</h1>
+<p class="standfirst">149 questions drawn from the investors who actually
+caught hundred-baggers and the literature written about the phenomenon — Phelps, Mayer,
+Davis, Lynch, Fisher, Akre, Russo, Sleep, Marathon, Mauboussin — each attributed, and each
+marked for whether a machine or a human has to answer it.</p>
+<div class="routes"><div class="routes-h">Phelps found four routes to 100x. This checklist screens for one.</div><div class="route"><span class="rn">Route 1</span><span><b>Commodity re-rating</b> — A supply-demand shift lifts a commodity price. Unforecastable; closer to a lottery than a process.</span></div><div class="route"><span class="rn">Route 2</span><span><b>Capital-structure leverage</b> — Equity is a thin slice of enterprise value, so a doubling of the enterprise multiplies the equity many times over.</span></div><div class="route"><span class="rn">Route 3</span><span><b>Inflation plus leverage</b> — The same mechanism, driven by a long inflationary expansion.</span></div><div class="route on"><span class="rn">Route 4</span><span><b>Reinvestment at high ROIC</b> — Earnings retained and redeployed above the cost of capital, compounding arithmetically over decades.</span></div></div>
+<div class="tiles">
+<div class="tile"><div class="n">149</div><div class="l">Questions</div></div>
+<div class="tile"><div class="n">21</div><div class="l">Disqualifying gates</div></div>
+<div class="tile"><div class="n">80</div><div class="l">Machine-answerable</div></div>
+<div class="tile"><div class="n">69</div><div class="l">Yours alone</div></div>
+</div></div></header>
 
-<header>
-  <div class="wrap mast">
-    <div class="eyebrow">Assembled from published frameworks</div>
-    <h1>The 100-Bagger Checklist</h1>
-    <p class="standfirst">113 questions drawn from Pabrai, Fisher, Mayer, Akre, Phelps, Lynch, Cassel and Munger — each one attributed to the practitioner it came from, and marked for whether a machine or a human has to answer it.</p>
-
-    <div class="facts">
-      <div class="fact"><b>A checklist is not a screener</b><span>Pabrai runs his at the end of research, immediately before committing capital — a pre-flight check on a business he already understands, not a net dragged across the market.</span></div>
-      <div class="fact"><b>Failures are weighed, not counted</b><span>Most companies fail some questions. A failed leverage question and a failed culture question are not one point each.</span></div>
-      <div class="fact"><b>Leverage and moat dominate</b><span>Pabrai names leverage as the single biggest cause of losses and moat misjudgment second. With management they are 70–80% of his ~150 questions.</span></div>
-    </div>
-
-    <div class="tiles">
-      <div class="tile"><div class="n">113</div><div class="l">Questions</div></div>
-      <div class="tile"><div class="n">18</div><div class="l">Disqualifying gates</div></div>
-      <div class="tile"><div class="n">70</div><div class="l">Machine-answerable</div></div>
-      <div class="tile"><div class="n">43</div><div class="l">Yours alone</div></div>
-    </div>
-  </div>
-</header>
-
-<div class="bar">
-  <div class="wrap bar-in">
-    <div class="grp"><span class="lab">Weight</span>
-      <button class="f" data-w="gate" aria-pressed="false">Gate</button>
-      <button class="f" data-w="major" aria-pressed="false">Major</button>
-      <button class="f" data-w="minor" aria-pressed="false">Minor</button>
-    </div>
-    <div class="grp"><span class="lab">Answered by</span>
-      <button class="f" data-t="M" aria-pressed="false">Machine</button>
-      <button class="f" data-t="H" aria-pressed="false">Human</button>
-    </div>
-    <div class="count" id="count"></div>
-  </div>
-</div>
+<div class="bar"><div class="wrap bar-in">
+<div class="grp"><span class="lab">Weight</span>
+<button class="f" data-w="gate" aria-pressed="false">Gate</button>
+<button class="f" data-w="major" aria-pressed="false">Major</button>
+<button class="f" data-w="minor" aria-pressed="false">Minor</button></div>
+<div class="grp"><span class="lab">Answered by</span>
+<button class="f" data-t="M" aria-pressed="false">Machine</button>
+<button class="f" data-t="H" aria-pressed="false">Human</button></div>
+<div class="count" id="count"></div>
+</div></div>
 
 <main class="wrap" id="main"></main>
 
-<div class="wrap">
-  <section class="stage">
-    <div class="stage-h"><span class="stage-n">DIFF</span><h2>What changed from the draft</h2></div>
-    <p class="stage-note">The research you brought had 80 questions. These are the substantive additions and corrections, each tied back to a source.</p>
-    <h3 style="font-size:16px;margin-top:26px">Added</h3>
-    <div class="tbl-scroll"><table>
-      <thead><tr><th>Addition</th><th>Source</th><th>Why it matters</th></tr></thead>
-      <tbody>
-        <tr><td class="k">Stage 0 entirely</td><td>Cassel, empirical</td><td>Fraud, dilution and delisting destroy more micro-cap capital than bad operations ever do</td></tr>
-        <tr><td class="k">Future equity financing need</td><td>Fisher #13</td><td>The forward-looking dilution test; the draft had only a backward share count</td></tr>
-        <tr><td class="k">Self-funded growth</td><td>Cassel</td><td>His stated number-one micro-cap risk</td></tr>
-        <tr><td class="k">Supplier concentration</td><td>Pabrai</td><td>The draft covered customers only; Pabrai covers dependency in both directions</td></tr>
-        <tr><td class="k">Reinvestment moat / ROIIC</td><td>Akre</td><td>Historical ROIC is not evidence of the ability to redeploy new capital at that rate</td></tr>
-        <tr><td class="k">Cash conversion</td><td>Terry Smith</td><td>Separates real compounding from reported compounding</td></tr>
-        <tr><td class="k">Management candor test</td><td>Fisher #14</td><td>Do they speak as freely about trouble as about success — testable against filings</td></tr>
-        <tr><td class="k">Key-man and team tenure</td><td>Pabrai</td><td>Two questions he has named explicitly</td></tr>
-        <tr><td class="k">Founder succession</td><td>Mayer</td><td>A 26-year hold outlives most chief executives</td></tr>
-        <tr><td class="k">Cyclical peak test</td><td>Fundsmith</td><td>Stops a cycle top being mistaken for a compounder</td></tr>
-        <tr><td class="k">Opportunity cost</td><td>Pabrai</td><td>Is this better than what you already own — on his list, absent from the draft</td></tr>
-        <tr><td class="k">Pre-mortem</td><td>Pabrai, Munger</td><td>"How do I lose money here" is his central habit</td></tr>
-        <tr><td class="k">Stage 9 entirely</td><td>Phelps, Mayer</td><td>Holding is where the 100x is actually earned</td></tr>
-        <tr><td class="k">Six more Fisher points</td><td>Fisher</td><td>Points 4, 8, 9, 10, 11 and 12 had no equivalent in the draft</td></tr>
-      </tbody>
-    </table></div>
-
-    <h3 style="font-size:16px;margin-top:32px">Removed or corrected</h3>
-    <div class="tbl-scroll"><table>
-      <thead><tr><th>Draft item</th><th>Problem</th></tr></thead>
-      <tbody>
-        <tr><td class="k">Dividend yield exactly 0%</td><td>Not a criterion in any source. Mayer's data includes dividend payers. Demoted to a minor signal.</td></tr>
-        <tr><td class="k">Cash &gt; total liabilities</td><td>A net-net criterion from a different strategy. XPEL and ACU both failed it — a test every good business fails carries no information.</td></tr>
-        <tr><td class="k">(CapEx + R&amp;D) / CFO &gt; 80%</td><td>R&amp;D already sits inside operating cash flow, so this double-counts and rewards cash-burning R&amp;D shops. Replaced with Akre's ROIIC.</td></tr>
-        <tr><td class="k">Share count flat over 3 years</td><td>Contradicts the reinvestment thesis for a young company. Replaced with a dilution-rate test plus Fisher's forward-looking version.</td></tr>
-        <tr><td class="k">PEG on revenue growth</td><td>PEG is earnings growth by construction. Using revenue makes margin compression look like cheapness. Mayer's ~1 threshold kept, denominator fixed.</td></tr>
-        <tr><td class="k">Short interest under 10%</td><td>Contradicts the document's own sentiment logic, and is noise below $300M.</td></tr>
-        <tr><td class="k">Asset turnover &gt; 1.0 as "asset-light"</td><td>Inverted. Genuinely asset-light firms often show low turnover because of large cash and intangible balances.</td></tr>
-        <tr><td class="k">Net cash as a share of price</td><td>A cigar-butt criterion — and the same document correctly notes cigar butts never become 100-baggers.</td></tr>
-        <tr><td class="k">No price-cutting in transcripts</td><td>Most sub-$300M companies hold no earnings calls, so absence auto-passes. Replaced with the margin-evidence test.</td></tr>
-        <tr><td class="k">Glassdoor scraping</td><td>Violates site terms and has no legitimate free API. Fisher #7 is the sourced version, answered by a human.</td></tr>
-        <tr><td class="k">Market cap under $1B as a gate</td><td>Mayer's median starting cap was ~$500M with 68% under $300M — a strong preference, not a wall.</td></tr>
-        <tr><td class="k">Equal weight across all 50</td><td>The sources are explicit that leverage, moat and management account for 70–80% of failures.</td></tr>
-        <tr><td class="k">"213 questions"</td><td>The figure Pabrai cites for the current list is ~150.</td></tr>
-      </tbody>
-    </table></div>
-  </section>
-</div>
-
-<footer>
-  <div class="wrap">
-    <p><strong>On Pabrai's list.</strong> He has never published it. What is documented is its method, its category weighting, and a handful of questions he has named in talks. Items credited to him here are either publicly stated or direct operationalizations of a failure mode he has described — not a leaked copy, and anything claiming to be one deserves suspicion.</p>
-    <p style="margin-top:14px"><strong>Not investment advice.</strong> A score is not a recommendation. No checklist identifies a 100-bagger — 100x is a multi-decade outcome contingent on execution nobody can forecast. This concentrates attention on the few businesses showing the signature early.</p>
-  </div>
-</footer>
+<footer><div class="wrap">
+<p><strong>On Pabrai's list.</strong> He has never published it. What is documented is its
+method, its category weighting, and questions he has named in talks. Items credited to him
+here are publicly stated or direct operationalizations of a failure mode he has described —
+not a leaked copy, and anything claiming to be one deserves suspicion.</p>
+<p style="margin-top:14px"><strong>Not investment advice.</strong> A score is not a
+recommendation. No checklist identifies a 100-bagger — 100x is a multi-decade outcome
+contingent on execution nobody can forecast. This concentrates attention on the few
+businesses showing the signature early.</p>
+</div></footer>
 
 <script>
-const STAGES=[
- {n:"STAGE 0",t:"Fatal flaws",note:"Run first. Any single failure ends the analysis. This stage was absent from the draft, and it is where most micro-cap capital is actually destroyed — not through bad business performance, but through fraud, dilution and delisting.",
-  quote:"Cassel's framing: most micro-caps never graduate from stories into real businesses. Stage 0 sorts the two before you spend any attention.",items:[
-  ["0.1","Did the company reach public markets via reverse merger into a shell?","Empirical","M","gate"],
-  ["0.2","Is there any history of paid stock promotion or newsletter campaigns?","Cassel","M+H","gate"],
-  ["0.3","Does the audit opinion contain a going-concern qualification?","Empirical","M","gate"],
-  ["0.4","Has management reported a material weakness in internal controls (Item 9A)?","Empirical","M","gate"],
-  ["0.5","Has the auditor resigned or been dismissed in the last 3 years?","Empirical","M","gate"],
-  ["0.6","Has the company filed an NT 10-K or NT 10-Q in the last 3 years?","Empirical","M","gate"],
-  ["0.7","Is the auditor a micro-firm with PCAOB deficiencies or hundreds of issuer clients?","Empirical","M","gate"],
-  ["0.8","Is there toxic financing — death-spiral convertibles, ratchets, or a large open ATM program?","Cassel","M+H","gate"],
-  ["0.9","Is there an active SEC enforcement action, trading suspension, or delinquent-filer status?","Empirical","M","gate"],
-  ["0.10","Is control held through a VIE or a domicile without enforceable minority rights?","Pabrai","M","gate"],
-  ["0.11","Is it quoted on OTC Pink or Expert Market rather than a national exchange?","Cassel","M","gate"],
-  ["0.12","Is this still a story rather than a business — pre-revenue, or funded by financing rather than operations?","Cassel","M","gate"]]},
-
- {n:"STAGE 1",t:"Buffett's four filters",note:"The frame. Everything after this elaborates one of these four. If you cannot answer all four in plain language, the detail below will not save you.",items:[
-  ["1.1","Do I understand this business — can I explain how it makes money in two minutes?","Buffett · Lynch","H","gate"],
-  ["1.2","Does it have favorable long-term economics that are durable?","Buffett","H","gate"],
-  ["1.3","Is management able <strong>and</strong> trustworthy? Both, not either.","Buffett","H","gate"],
-  ["1.4","Is the price sensible relative to what I am getting?","Buffett","M+H","major"]]},
-
- {n:"STAGE 2",t:"The compounding engine",note:"Akre's three-legged stool and Mayer's twin engines describe the same machine. This stage tests whether it exists. Mayer's 365 companies started at a median ~$500M market cap on ~$170M of revenue, and 68% were under $300M — a small base, not necessarily a nano-cap.",items:[
-  ["2.1","Is ROE/ROCE high <strong>and</strong> predictable across a full cycle, not one good year?","Akre · Smith · Mayer","M","major"],
-  ["2.2","Is there a reinvestment moat — can incremental capital be deployed at a similar rate?","Akre","M+H","major"],
-  ["2.3","Does return on <em>incremental</em> invested capital hold up over 3–5 years?","Akre","M","major"],
-  ["2.4","Is growth consistent with ROIC × reinvestment rate, or is it being bought?","Mayer","M","major"],
-  ["2.5","Is revenue small relative to a credibly large addressable market?","Mayer · Fisher #1","M+H","major"],
-  ["2.6","Will management develop new products when current lines mature?","Fisher #2","H","major"],
-  ["2.7","Is cash conversion (FCF ÷ net income) consistently near or above 1?","Terry Smith","M","major"],
-  ["2.8","Is the gross margin worthwhile in absolute terms?","Fisher #5 · Smith","M","major"],
-  ["2.9","What is the company actively doing to maintain or improve margins?","Fisher #6","H","minor"],
-  ["2.10","Is growth organic, or a roll-up dependent on continued acquisition?","Smith · Mayer","M","major"],
-  ["2.11","Is R&amp;D productive relative to the company's size?","Fisher #3","M+H","minor"],
-  ["2.12","Is there an above-average sales organization?","Fisher #4","H","minor"],
-  ["2.13","Are current earnings at a cyclical peak? Compare to prior trough and 10-year drawdowns.","Fundsmith","M+H","major"],
-  ["2.14","What is peculiar to this industry that reveals how it stands against competitors?","Fisher #11","H","minor"]]},
-
- {n:"STAGE 3",t:"Leverage and survival",note:"Pabrai's number one cause of loss. Items 3.9 through 3.12 are the micro-cap form of leverage — dilution — and are the most important single addition to the draft.",
-  quote:"Cassel: <em>“Small companies and debt don't go well together — travel light, travel far.”</em> Fisher's Point 13 is the forward-looking version of the draft's backward share-count test, and far more useful.",items:[
-  ["3.1","Is net debt / EBITDA low, and is the company net-cash or close to it?","Pabrai · Cassel","M","major"],
-  ["3.2","Is debt recourse to the parent, and cross-defaulted across subsidiaries?","Pabrai","M+H","major"],
-  ["3.3","Do covenants exist that could force a distressed equity raise or acceleration?","Pabrai","M+H","major"],
-  ["3.4","Are there maturities inside 36 months that must be refinanced?","Pabrai","M","major"],
-  ["3.5","Does interest coverage survive a 30% revenue decline? Stress test, not spot value.","Pabrai","M","major"],
-  ["3.6","Are leases, pensions or purchase commitments hiding real obligations?","Pabrai","M","minor"],
-  ["3.7","Does daily operation depend on revolvers, factoring or short-term paper?","Pabrai","M+H","major"],
-  ["3.8","Is there leverage in the customer or supplier base that transmits back to the company?","Pabrai","H","major"],
-  ["3.9","Will growth require equity financing that cancels the benefit of that growth to existing holders?","Fisher #13 · Cassel","M+H","major"],
-  ["3.10","Is growth self-funded — does operating cash cover capex plus working-capital build?","Cassel","M","major"],
-  ["3.11","What has annual dilution actually been over 5 years, including options and warrants?","Cassel","M","major"],
-  ["3.12","Is the capital structure clean — one class, no warrant overhang, no preferred stack?","Cassel","M","major"]]},
-
- {n:"STAGE 4",t:"Moat",note:"Pabrai's second cause of loss. The draft asked whether a moat exists; the more useful question, and Buffett's own, is whether it is widening.",items:[
-  ["4.1","Which specific moat source applies — network effects, switching costs, cost advantage, intangibles, efficient scale?","Greenwald","H","major"],
-  ["4.2","Is the moat widening or narrowing? What is the evidence in the numbers?","Buffett","M+H","major"],
-  ["4.3","Is there real pricing power, evidenced by margin held or expanded through inflation?","Pabrai · Fisher #6","M","major"],
-  ["4.4","Does any single customer exceed 10% of revenue?","Pabrai","M","major"],
-  ["4.5","Does any single supplier or input represent a choke point?","Pabrai","M+H","major"],
-  ["4.6","Could a well-capitalized competitor replicate the core offering within 18–24 months?","Pabrai","H","major"],
-  ["4.7","Does the company share scale economies with customers, deepening advantage as it grows?","Nick Sleep","H","minor"],
-  ["4.8","Is the product exposed to technological obsolescence over a 10-year horizon?","Pabrai","H","major"],
-  ["4.9","Is regulation a moat here, or a threat? Which way does the next rule cut?","Pabrai","H","minor"],
-  ["4.10","Is this a commodity dressed as a specialty product?","Pabrai","M+H","major"],
-  ["4.11","Does it dominate a small niche that is itself expanding?","Lynch · Cassel","H","major"],
-  ["4.12","Is the business boring, unglamorous or in a disagreeable industry? Lynch counts this as a positive.","Lynch","H","minor"],
-  ["4.13","Is market share in the specific niche rising year over year?","Mayer","M+H","minor"]]},
-
- {n:"STAGE 5",t:"Management and capital allocation",note:"Pabrai's third pillar, Akre's second leg, and Fisher's dominant theme — 8 of his 15 points concern management. In micro-caps this is the largest single determinant of outcome, because there is no institutional ballast to offset a bad operator.",items:[
-  ["5.1","Do insiders own a meaningful stake — as a percentage <strong>and</strong> as a large share of their own net worth?","Mayer · Cassel · Lynch","M+H","major"],
-  ["5.2","Did they buy shares with their own money, or were the shares granted?","Lynch","M","major"],
-  ["5.3","Has the senior team been together for a meaningful period?","Pabrai","M+H","major"],
-  ["5.4","Would the death or departure of the CEO materially impair the business?","Pabrai","H","major"],
-  ["5.5","Is there management depth, or one person and a layer of assistants?","Fisher #9","H","major"],
-  ["5.6","Does management speak as freely about problems as about successes?","Fisher #14","M+H","major"],
-  ["5.7","Is management's integrity beyond question?","Fisher #15 · Buffett","H","gate"],
-  ["5.8","Does the CEO behave like a capital allocator — per-share value rather than size?","Thorndike","H","major"],
-  ["5.9","Were buybacks executed when the stock was cheap, or when it was expensive?","Thorndike","M","major"],
-  ["5.10","What returns have past acquisitions actually produced?","Thorndike · Smith","M+H","major"],
-  ["5.11","Is compensation tied to per-share and return metrics rather than revenue or size?","Thorndike","M+H","minor"],
-  ["5.12","Is stock-based compensation modest, and is real dilution disclosed honestly?","Cassel","M","major"],
-  ["5.13","Are there related-party transactions involving insiders, family or affiliated entities?","Pabrai","M","major"],
-  ["5.14","Are labor and personnel relations outstanding?","Fisher #7","H","minor"],
-  ["5.15","Are relations <em>within</em> the executive group sound?","Fisher #8","H","minor"],
-  ["5.16","Are cost analysis and accounting controls good enough to know unit economics?","Fisher #10","H","major"],
-  ["5.17","Will management sacrifice short-term profit for long-term position?","Fisher #12","H","major"],
-  ["5.18","Over a 20-year hold, what is the founder's age and succession plan?","Mayer","M+H","major"],
-  ["5.19","Does guidance historically under-promise and over-deliver, or the reverse?","Pabrai","M","minor"],
-  ["5.20","Has this CEO previously run a business into restructuring or bankruptcy?","Pabrai","M+H","major"],
-  ["5.21","Is the board genuinely independent, or populated by friends and long-time associates?","Shearn","H","minor"],
-  ["5.22","Has there been abnormal turnover in the non-CEO C-suite?","Pabrai","M","minor"]]},
-
- {n:"STAGE 6",t:"Accounting and earnings quality",note:"Detects the difference between a business that is compounding and one that is reporting that it is compounding.",items:[
-  ["6.1","Does free cash flow track net income over multiple years, or persistently lag it?","Smith · Shearn","M","major"],
-  ["6.2","Are receivables growing faster than revenue — is DSO rising?","Shearn","M","major"],
-  ["6.3","Is inventory turnover stable or improving?","Shearn","M","minor"],
-  ["6.4","Are costs being capitalized that peers expense — software, interest, commissions?","Shearn","M+H","major"],
-  ["6.5","Is revenue recognized conservatively, or pulled forward on long-term contracts?","Shearn","M+H","major"],
-  ["6.6","How large is the non-GAAP to GAAP gap, and is it growing?","Smith","M","major"],
-  ["6.7","Have depreciation lives, reserves or other estimates been changed?","Shearn","M","major"],
-  ["6.8","How much of the balance sheet is goodwill and intangibles, and is there impairment history?","Smith","M","minor"],
-  ["6.9","Is the effective tax rate normal, or flattered by credits and one-time items?","Shearn","M","minor"],
-  ["6.10","Are segment disclosures clear enough to see where money is actually made?","Shearn","M+H","minor"],
-  ["6.11","Do Altman Z and Beneish M raise a flag worth investigating? A screen, not a verdict.","Empirical","M","minor"],
-  ["6.12","Have the risk factors changed materially from last year's filing?","Shearn","M","minor"]]},
-
- {n:"STAGE 7",t:"Valuation and the second engine",note:"Mayer's twin engines: total return = earnings growth × multiple change. This stage protects the second one. His actual discipline is a PEG near 1 on earnings growth — “if a company grows at 20%, you can pay a P/E of 20.” Not a demand for cheapness; a demand that you not pay the second engine away.",
-  quote:"Mayer treats multiple expansion as a genuine engine of the 100x outcome, not a bonus. The draft's EV/FCF &lt; 25 and net-cash-per-share tests are cigar-butt criteria from a different strategy — they would have excluded most of the 365 companies in his study.",items:[
-  ["7.1","Is PEG — P/E divided by <strong>earnings</strong> growth — not much above 1?","Mayer","M","major"],
-  ["7.2","What multiple am I paying, and what growth and duration does it already imply? Reverse DCF.","Marks","M","major"],
-  ["7.3","Where does the multiple sit against its own history and against business quality?","Mayer","M","minor"],
-  ["7.4","How much can I lose here, and through what mechanism?","Pabrai","H","gate"],
-  ["7.5","Is the market's pessimism aimed at this company, its sector, or nothing at all?","Marks","H","minor"],
-  ["7.6","Is the company under-owned by institutions and uncovered by analysts?","Lynch · Cassel","M","minor"],
-  ["7.7","Can I build and eventually exit a position given actual daily liquidity?","Cassel","M","major"],
-  ["7.8","Is this better than what I already own?","Pabrai","H","major"],
-  ["7.9","Does the thesis depend on a macro call or forecast I have no edge on?","Mayer","H","major"]]},
-
- {n:"STAGE 8",t:"Behavioral",note:"Munger's Psychology of Human Misjudgment is the source; Pabrai and Spier both cite it as the reason a checklist exists at all. These are asked about yourself, and no software can answer them.",items:[
-  ["8.1","Am I committed to this because I have researched it for weeks? Commitment and consistency.","Munger · Pabrai","H","major"],
-  ["8.2","Am I buying because a respected investor owns it? Social proof.","Munger · Pabrai","H","major"],
-  ["8.3","Have I written the bear case myself, in its strongest form?","Spier","H","major"],
-  ["8.4","Whose incentives shaped the research I have read?","Munger","H","major"],
-  ["8.5","Am I anchored to a past price rather than to value?","Munger","H","minor"],
-  ["8.6","Am I confusing a low share price with a low valuation?","Lynch","H","minor"],
-  ["8.7","Would I buy this if the market closed for ten years?","Buffett · Spier","H","major"],
-  ["8.8","Would I be willing to put a large part of my net worth into it?","Pabrai","H","major"],
-  ["8.9","Pre-mortem: it is three years out and this has lost 80%. What happened?","Pabrai · Munger","H","major"],
-  ["8.10","Am I inside my circle of competence, or at its edge telling myself otherwise?","Buffett · Pabrai","H","gate"]]},
-
- {n:"STAGE 9",t:"Holding discipline",note:"The most-omitted stage, and the one Phelps and Mayer consider decisive. The 100x outcome took an average of ~26 years, and essentially every one of those stocks endured 50%+ drawdowns along the way. A checklist that helps you buy but not hold has solved the easier half.",
-  quote:"Phelps: <em>“buy right and hold on.”</em> Mayer's coffee-can framing is the same instruction. The largest destroyer of 100-bagger returns is the investor selling after a 3x.",items:[
-  ["9.1","What are the three specific developments that would break this thesis? Write them down now.","Shearn","H","major"],
-  ["9.2","Am I prepared to sit through a 50–70% drawdown without selling?","Mayer · Phelps","H","major"],
-  ["9.3","Am I committing in advance not to sell on valuation alone?","Phelps · Mayer","H","major"],
-  ["9.4","Is the position sized so being wrong is survivable and being right is meaningful?","Pabrai","H","major"],
-  ["9.5","What is my review cadence, and what price movements will I explicitly ignore?","Phelps","H","minor"]]}
-];
-
+const STAGES=[{"n": "STAGE 0", "t": "Survive", "note": "Fatal flaws. Run first, because none of the compounding questions matter if the company is a fraud or a financing vehicle. This is where micro-cap capital is actually destroyed - not through disappointing growth, but through dilution, fraud and delisting.", "quote": "Cassel's framing: most micro-caps never graduate from stories into real businesses. Stage 0 sorts the two before you spend any attention.", "items": [["0.1", "Did the company reach public markets via reverse merger into a shell?", "EMPIRICAL", "M", "gate"], ["0.2", "Is there any history of paid stock promotion or newsletter campaigns?", "CASSEL", "M+H", "gate"], ["0.3", "Does the audit opinion contain a going-concern qualification?", "EMPIRICAL", "M", "gate"], ["0.4", "Has management reported a material weakness in internal controls (Item 9A)?", "EMPIRICAL", "M", "gate"], ["0.5", "Has the auditor resigned or been dismissed in the last 3 years?", "EMPIRICAL", "M", "gate"], ["0.6", "Has the company filed an NT 10-K or NT 10-Q in the last 3 years?", "EMPIRICAL", "M", "gate"], ["0.7", "Is the auditor a micro-firm with PCAOB deficiencies or hundreds of issuer clients?", "EMPIRICAL", "M", "gate"], ["0.8", "Is there toxic financing - death-spiral convertibles, ratchets, or a large open ATM program?", "CASSEL", "M+H", "gate"], ["0.9", "Is there an active SEC enforcement action, trading suspension, or delinquent-filer status?", "EMPIRICAL", "M", "gate"], ["0.10", "Is control held through a VIE or a domicile without enforceable minority rights?", "PABRAI", "M", "gate"], ["0.11", "Is it quoted on OTC Pink or Expert Market rather than a national exchange?", "CASSEL", "M", "gate"], ["0.12", "Is this still a story rather than a business - pre-revenue, or funded by financing rather than operations?", "CASSEL", "M", "gate"], ["0.13", "Is there a control block that could squeeze out minorities cheaply in a take-private?", "CASSEL", "M+H", "gate"]]}, {"n": "STAGE 1", "t": "Identify the machine", "note": "Before testing anything, establish what you are looking at. Phelps found that 100-baggers arrive by four different routes, and three of them obey rules opposite to the fourth. Lynch's categories and Leonard's quadrants do the same sorting from different angles. Most analytical errors happen here, by applying compounder logic to a cyclical.", "quote": "This checklist is built for Phelps' fourth route - reinvestment at high rates of return - and for Leonard's reinvestment-moat quadrant. If item 1.5 returns route 1, 2 or 3, stop. Different rules apply, and the leverage gates in Stage 5 will reject the very thing that makes those routes work.", "items": [["1.1", "Do I understand this business - can I explain how it makes money in two minutes?", "BUFFETT \u00b7 LYNCH", "H", "gate"], ["1.2", "Does it have favorable long-term economics that are durable?", "BUFFETT", "H", "gate"], ["1.3", "Is management able <strong>and</strong> trustworthy? Both, not either.", "BUFFETT", "H", "gate"], ["1.4", "Is the price sensible relative to what I am getting?", "BUFFETT", "M+H", "major"], ["1.5", "<strong>Which of Phelps' four routes is this?</strong> Commodity re-rating, capital-structure leverage, inflation leverage, or reinvestment at high ROIC?", "PHELPS", "H", "gate"], ["1.6", "<strong>Which of Lynch's six categories is this?</strong> Slow grower, stalwart, fast grower, cyclical, turnaround, or asset play?", "LYNCH", "H", "gate"], ["1.7", "<strong>Which of Leonard's quadrants?</strong> No moat, legacy moat, capital-light compounder, or reinvestment moat?", "LEONARD", "H", "major"], ["1.8", "Can I state the thesis in two sentences without using the word \"potential\"?", "PABRAI", "H", "major"], ["1.9", "Is the business simple enough that a mediocre manager could run it without destroying it?", "BUFFETT", "H", "major"]]}, {"n": "STAGE 2", "t": "Engine one \u2014 earnings growth", "note": "Mayer's twin engines: total return = earnings growth x multiple change. This stage tests the first. His sweet spot is 20-25% annual growth, which produces 100x in 20-25 years; above 30% tends to bring operational problems, below it takes too long. The 365 companies started at a median ~$500m market cap on ~$170m of revenue.", "items": [["2.1", "Is ROIC/ROCE high <strong>and</strong> predictable across a full cycle, not one good year?", "AKRE \u00b7 SMITH \u00b7 MAYER", "M", "major"], ["2.2", "Is there a reinvestment moat - can incremental capital be deployed at a similar rate?", "AKRE \u00b7 LEONARD", "M+H", "major"], ["2.3", "Does return on <em>incremental</em> invested capital hold up over 3-5 years?", "AKRE", "M", "major"], ["2.4", "Is growth consistent with ROIC x reinvestment rate, or is it being bought?", "MAYER", "M", "major"], ["2.5", "Is growth in the 20-25% band? Faster than 30% brings problems; slower takes too long.", "MAYER", "M", "major"], ["2.6", "Is revenue small relative to a credibly large addressable market?", "MAYER \u00b7 FISHER #1", "M+H", "major"], ["2.7", "Is the runway long enough to compound for 20+ years without saturating?", "MAYER \u00b7 PHELPS", "H", "major"], ["2.8", "Is this a fertile field - an industry in a long secular expansion rather than a one-cycle boom?", "PRICE", "H", "major"], ["2.9", "Will management develop new products when current lines mature?", "FISHER #2", "H", "major"], ["2.10", "Is cash conversion (FCF \u00f7 net income) consistently near or above 1?", "SMITH", "M", "major"], ["2.11", "Is the gross margin worthwhile in absolute terms?", "FISHER #5 \u00b7 SMITH", "M", "major"], ["2.12", "What is the company actively doing to maintain or improve margins?", "FISHER #6", "H", "minor"], ["2.13", "Is growth organic, or a roll-up dependent on continued acquisition?", "SMITH \u00b7 MAYER", "M", "major"], ["2.14", "Is R&amp;D productive relative to the company's size?", "FISHER #3", "M+H", "minor"], ["2.15", "Is there an above-average sales organization?", "FISHER #4", "H", "minor"], ["2.16", "Are current earnings at a cyclical peak? Compare to prior trough and 10-year drawdowns.", "SMITH \u00b7 MARATHON", "M+H", "major"], ["2.17", "Is growth measured <em>per share</em>, after all dilution?", "THORNDIKE", "M", "major"], ["2.18", "Does operating leverage exist - do incremental revenues drop through at higher margin?", "FISHER #6", "M", "minor"], ["2.19", "What is peculiar to this industry that reveals how it stands against competitors?", "FISHER #11", "H", "minor"]]}, {"n": "STAGE 3", "t": "Engine two \u2014 the multiple", "note": "Shelby Davis turned $50,000 into $900 million over 47 years by buying insurers at 3-4x earnings and holding until they traded at 15-20x on far higher earnings. He called it the Double Play: EPS growth and P/E expansion compounding together. This engine is why entry multiple matters even for a 20-year hold - and it is the engine the draft checklist protected by accident and Mayer protects on purpose.", "quote": "Mayer's discipline is a PEG near 1 on <em>earnings</em> growth: \"if a company grows at 20%, you can pay a P/E of 20.\" That is not a demand for cheapness. It is a demand that you not pay the second engine away before it fires.", "items": [["3.1", "Am I buying at a depressed multiple that can expand as the business is discovered?", "DAVIS", "M+H", "major"], ["3.2", "Is PEG - P/E divided by <strong>earnings</strong> growth - not much above 1?", "MAYER", "M", "major"], ["3.3", "What growth and duration does the current price already imply? Run the reverse DCF.", "MAUBOUSSIN", "M", "major"], ["3.4", "Is the implied competitive advantage period plausible against the fade base rate (~0.79 annual persistence)?", "MAUBOUSSIN", "M+H", "major"], ["3.5", "Is the multiple depressed for a <em>temporary</em> reason or a <em>permanent</em> one?", "DAVIS \u00b7 TEMPLETON", "H", "major"], ["3.6", "Is sentiment at or near a point of maximum pessimism for this name or its sector?", "TEMPLETON", "H", "minor"], ["3.7", "If the multiple never re-rates, does earnings growth alone still deliver an acceptable return?", "MAYER", "M", "major"], ["3.8", "Am I paying for optionality I cannot underwrite?", "PABRAI", "H", "major"], ["3.9", "How much can I lose here, and through what mechanism?", "PABRAI", "H", "gate"]]}, {"n": "STAGE 4", "t": "Durability \u2014 will it last 20 years?", "note": "Mayer's average 100-bagger took ~26 years. Mauboussin's base rates say the average firm's excess returns fade at roughly 21% a year, and that persistence has been falling. So the question is not whether a moat exists today, but what specifically stops the fade - and Marathon would add: what is happening on the supply side while you wait.", "items": [["4.1", "Which specific moat source applies - network effects, switching costs, cost advantage, intangibles, efficient scale?", "GREENWALD", "H", "major"], ["4.2", "Is the moat widening or narrowing? What is the evidence in the numbers?", "BUFFETT", "M+H", "major"], ["4.3", "What specifically prevents ROIC fade here, against a base rate that says it should fade?", "MAUBOUSSIN", "H", "major"], ["4.4", "Is capital entering or leaving this industry? Capital exiting is the bullish signal.", "MARATHON", "M+H", "major"], ["4.5", "Are competitors adding capacity, and is the industry consolidating or fragmenting?", "MARATHON", "M+H", "major"], ["4.6", "Does high ROIC plus heavy investment here advertise the opportunity to competitors?", "MAUBOUSSIN", "H", "major"], ["4.7", "Is there real pricing power, evidenced by margin held or expanded through inflation?", "PABRAI \u00b7 FISHER #6", "M", "major"], ["4.8", "Does any single customer exceed 10% of revenue?", "PABRAI", "M", "major"], ["4.9", "Does any single supplier or input represent a choke point?", "PABRAI", "M+H", "major"], ["4.10", "Could a well-capitalized competitor replicate the core offering within 18-24 months?", "PABRAI", "H", "major"], ["4.11", "Does the company share scale economies with customers, deepening advantage as it grows?", "SLEEP", "H", "major"], ["4.12", "Is the advantage a genuine 10x - proprietary technology, network effect, scale, brand - or merely incremental?", "THIEL", "H", "major"], ["4.13", "Is the product exposed to technological obsolescence over a 10-year horizon?", "PABRAI", "H", "major"], ["4.14", "Is regulation a moat here, or a threat? Which way does the next rule cut?", "PABRAI", "H", "minor"], ["4.15", "Is this a commodity dressed as a specialty product?", "PABRAI", "M+H", "major"], ["4.16", "Does it dominate a niche that is itself expanding?", "LYNCH \u00b7 CASSEL", "H", "major"], ["4.17", "Would this business still exist in recognizable form in 20 years?", "PHELPS \u00b7 KIRBY", "H", "major"]]}, {"n": "STAGE 5", "t": "Survive to compound \u2014 leverage and dilution", "note": "Pabrai names leverage as the single largest cause of investments failing. In micro-caps the same force appears as dilution, which Cassel calls his biggest risk. Note the tension with Stage 1: Phelps found that leverage <em>produced</em> two of his four routes to 100x. It also produces most permanent losses. This checklist chooses survival.", "quote": "Cassel: <em>\"Small companies and debt don't go well together - travel light, travel far.\"</em> Fisher's Point 13 is the forward-looking version of a backward share-count test, and far more useful.", "items": [["5.1", "Is net debt / EBITDA low, and is the company net-cash or close to it?", "PABRAI \u00b7 CASSEL", "M", "major"], ["5.2", "Is debt recourse to the parent, and cross-defaulted across subsidiaries?", "PABRAI", "M+H", "major"], ["5.3", "Do covenants exist that could force a distressed equity raise or acceleration?", "PABRAI", "M+H", "major"], ["5.4", "Are there maturities inside 36 months that must be refinanced?", "PABRAI", "M", "major"], ["5.5", "Does interest coverage survive a 30% revenue decline? Stress test, not spot value.", "PABRAI", "M", "major"], ["5.6", "Are leases, pensions or purchase commitments hiding real obligations?", "PABRAI", "M", "minor"], ["5.7", "Does daily operation depend on revolvers, factoring or short-term paper?", "PABRAI", "M+H", "major"], ["5.8", "Is there leverage in the customer or supplier base that transmits back to the company?", "PABRAI", "H", "major"], ["5.9", "Will growth require equity financing that cancels the benefit of that growth to existing holders?", "FISHER #13 \u00b7 CASSEL", "M+H", "major"], ["5.10", "Is growth self-funded - does operating cash cover capex plus working-capital build?", "CASSEL", "M", "major"], ["5.11", "What has annual dilution actually been over 5 years, including options and warrants?", "CASSEL", "M", "major"], ["5.12", "Is the capital structure clean - one class, no warrant overhang, no preferred stack?", "CASSEL", "M", "major"], ["5.13", "If leverage <em>is</em> the thesis, am I honest that this is a different and far riskier game?", "PHELPS", "H", "major"]]}, {"n": "STAGE 6", "t": "The jockey", "note": "Mayer names owner-operators as a common factor across the 365. Fisher devotes 8 of his 15 points to management. Russo adds the criterion most often missing: the capacity to suffer - whether management will accept depressed reported earnings today to build a franchise for twenty years, and whether the ownership structure gives them the authority to do it.", "items": [["6.1", "Do insiders own a meaningful stake - as a percentage <strong>and</strong> as a large share of their own net worth?", "MAYER \u00b7 CASSEL \u00b7 LYNCH", "M+H", "major"], ["6.2", "Did they buy shares with their own money, or were the shares granted?", "LYNCH #12", "M", "major"], ["6.3", "Does management have the <strong>capacity to suffer</strong> - will they depress reported earnings today to build the franchise?", "RUSSO", "H", "major"], ["6.4", "Does the ownership structure give them the <em>authority</em> to suffer - a family, founder or control block insulating them from quarterly pressure?", "RUSSO", "M+H", "major"], ["6.5", "Does the business have the capacity to <em>absorb</em> capital internally, so cash need not find another home?", "RUSSO \u00b7 AKRE", "M+H", "major"], ["6.6", "Has the senior team been together for a meaningful period?", "PABRAI", "M+H", "major"], ["6.7", "Would the death or departure of the CEO materially impair the business?", "PABRAI", "H", "major"], ["6.8", "Is there management depth, or one person and a layer of assistants?", "FISHER #9", "H", "major"], ["6.9", "Does management speak as freely about problems as about successes?", "FISHER #14", "M+H", "major"], ["6.10", "Is management's integrity beyond question?", "FISHER #15 \u00b7 BUFFETT", "H", "gate"], ["6.11", "Does the CEO behave like a capital allocator - per-share value rather than size?", "THORNDIKE", "H", "major"], ["6.12", "Were buybacks executed when the stock was cheap, or when it was expensive?", "THORNDIKE \u00b7 LYNCH #13", "M", "major"], ["6.13", "What returns have past acquisitions actually produced?", "THORNDIKE \u00b7 SMITH", "M+H", "major"], ["6.14", "Is compensation tied to per-share and return metrics rather than revenue or size?", "THORNDIKE", "M+H", "minor"], ["6.15", "Is stock-based compensation modest, and is real dilution disclosed honestly?", "CASSEL", "M", "major"], ["6.16", "Are there related-party transactions involving insiders, family or affiliated entities?", "PABRAI", "M", "major"], ["6.17", "Are labor and personnel relations outstanding?", "FISHER #7", "H", "minor"], ["6.18", "Are relations <em>within</em> the executive group sound?", "FISHER #8", "H", "minor"], ["6.19", "Are cost analysis and accounting controls good enough to know unit economics?", "FISHER #10", "H", "major"], ["6.20", "Will management sacrifice short-term profit for long-term position?", "FISHER #12", "H", "major"], ["6.21", "Over a 20-year hold, what is the founder's age and succession plan?", "MAYER", "M+H", "major"], ["6.22", "Does guidance historically under-promise and over-deliver, or the reverse?", "PABRAI", "M", "minor"], ["6.23", "Has this CEO previously run a business into restructuring or bankruptcy?", "PABRAI", "M+H", "major"], ["6.24", "Is the board genuinely independent, or populated by friends and long-time associates?", "SHEARN", "H", "minor"], ["6.25", "Has there been abnormal turnover in the non-CEO C-suite?", "PABRAI", "M", "minor"], ["6.26", "Would I want to be in business with these specific people for twenty years?", "MAYER \u00b7 RUSSO", "H", "major"]]}, {"n": "STAGE 7", "t": "Earnings quality", "note": "Separates a business that is compounding from one that is reporting that it is compounding. Over a 20-year hold, an accounting illusion has plenty of time to unwind.", "items": [["7.1", "Does free cash flow track net income over multiple years, or persistently lag it?", "SMITH \u00b7 SHEARN", "M", "major"], ["7.2", "Are receivables growing faster than revenue - is DSO rising?", "SHEARN", "M", "major"], ["7.3", "Is inventory turnover stable or improving?", "SHEARN", "M", "minor"], ["7.4", "Are costs being capitalized that peers expense - software, interest, commissions?", "SHEARN", "M+H", "major"], ["7.5", "Is revenue recognized conservatively, or pulled forward on long-term contracts?", "SHEARN", "M+H", "major"], ["7.6", "How large is the non-GAAP to GAAP gap, and is it growing?", "SMITH", "M", "major"], ["7.7", "Have depreciation lives, reserves or other estimates been changed?", "SHEARN", "M", "major"], ["7.8", "How much of the balance sheet is goodwill and intangibles, and is there impairment history?", "SMITH", "M", "minor"], ["7.9", "Is the effective tax rate normal, or flattered by credits and one-time items?", "SHEARN", "M", "minor"], ["7.10", "Are segment disclosures clear enough to see where money is actually made?", "SHEARN", "M+H", "minor"], ["7.11", "Do Altman Z and Beneish M raise a flag worth investigating? A screen, not a verdict.", "EMPIRICAL", "M", "minor"], ["7.12", "Have the risk factors changed materially from last year's filing?", "SHEARN", "M", "minor"]]}, {"n": "STAGE 8", "t": "Neglect \u2014 is anyone else looking?", "note": "Lynch's 13 attributes of the perfect stock are almost entirely about obscurity, dullness and institutional neglect. That is not eccentricity - it is the precondition for Davis's second engine. A stock everyone already admires has no multiple expansion left to give you.", "items": [["8.1", "Does it sound dull, or better still, ridiculous?", "LYNCH #1", "H", "minor"], ["8.2", "Does it do something dull, disagreeable, or faintly depressing?", "LYNCH #2,3,7", "H", "minor"], ["8.3", "Is it a spin-off - an orphan nobody was given a reason to hold?", "LYNCH #4 \u00b7 GREENBLATT", "M", "minor"], ["8.4", "Do institutions not own it and analysts not cover it?", "LYNCH #5 \u00b7 CASSEL", "M", "major"], ["8.5", "Is it a good company inside a no-growth industry?", "LYNCH #8", "H", "minor"], ["8.6", "Do people have to keep buying it - is the purchase recurring rather than one-off?", "LYNCH #10", "H", "major"], ["8.7", "Is it a <em>user</em> of technology rather than a maker of it?", "LYNCH #11", "H", "minor"], ["8.8", "Can I build and eventually exit a position given actual daily liquidity?", "CASSEL", "M", "major"], ["8.9", "Is this better than what I already own?", "PABRAI", "H", "major"], ["8.10", "Does the thesis depend on a macro call or forecast I have no edge on?", "MAYER", "H", "major"], ["8.11", "Am I early enough that the re-rating is still ahead of me rather than behind?", "DAVIS", "H", "major"]]}, {"n": "STAGE 9", "t": "The investor", "note": "Munger's Psychology of Human Misjudgment is the source, and the reason Pabrai and Spier keep checklists at all. Phelps reduced the whole problem to three requirements - vision to see, courage to buy, patience to hold - and observed that patience is the rarest.", "items": [["9.1", "Am I committed to this because I have researched it for weeks? Commitment and consistency.", "MUNGER \u00b7 PABRAI", "H", "major"], ["9.2", "Am I buying because a respected investor owns it? Social proof.", "MUNGER \u00b7 PABRAI", "H", "major"], ["9.3", "Have I written the bear case myself, in its strongest form?", "SPIER", "H", "major"], ["9.4", "Whose incentives shaped the research I have read?", "MUNGER", "H", "major"], ["9.5", "Am I anchored to a past price rather than to value?", "MUNGER", "H", "minor"], ["9.6", "Am I confusing a low share price with a low valuation?", "LYNCH", "H", "minor"], ["9.7", "Would I buy this if the market closed for ten years?", "BUFFETT \u00b7 SPIER", "H", "major"], ["9.8", "Would I be willing to put a large part of my net worth into it?", "PABRAI", "H", "major"], ["9.9", "Pre-mortem: it is three years out and this has lost 80%. What happened?", "PABRAI \u00b7 MUNGER", "H", "major"], ["9.10", "Am I inside my circle of competence, or at its edge telling myself otherwise?", "BUFFETT \u00b7 PABRAI", "H", "gate"], ["9.11", "Of vision, courage and patience - which am I actually short of here?", "PHELPS", "H", "major"]]}, {"n": "STAGE 10", "t": "Hold", "note": "The stage every screener omits and both Phelps and Mayer treat as decisive. The average 100-bagger took ~26 years and delivered repeated 50%+ drawdowns along the way. Phelps went further than patience: for a long-term investor, he argued, any sale should be considered a confession of error.", "quote": "Phelps: <em>\"far more money is made by good stock selection than by good market timing.\"</em> Kirby's coffee can is the mechanical version - put it away, and let the inability to trade do the work discipline cannot.", "items": [["10.1", "What are the three specific developments that would break this thesis? Write them down now.", "SHEARN", "H", "major"], ["10.2", "Am I prepared to sit through a 50-70% drawdown without selling?", "MAYER \u00b7 PHELPS", "H", "major"], ["10.3", "Am I committing in advance not to sell on valuation alone?", "PHELPS \u00b7 MAYER", "H", "major"], ["10.4", "Do I accept Phelps' standard - that a sale is a confession of an error?", "PHELPS", "H", "major"], ["10.5", "Would I be content if I could not touch this position for ten years?", "KIRBY \u00b7 MAYER", "H", "major"], ["10.6", "Is the position sized so being wrong is survivable and being right is meaningful?", "PABRAI", "H", "major"], ["10.7", "Will I reinvest dividends and hold any spin-offs rather than taking cash?", "MAYER", "H", "minor"], ["10.8", "What is my review cadence, and what price movements will I explicitly ignore?", "PHELPS", "H", "minor"], ["10.9", "What would make me <em>add</em> rather than trim?", "PABRAI", "H", "minor"]]}];
+const TOTAL=149;
 const active={w:new Set(),t:new Set()};
-const main=document.getElementById('main');
-const countEl=document.getElementById('count');
-
-function build(){
-  main.innerHTML=STAGES.map(s=>{
-    const rows=s.items.map(([id,q,src,type,w])=>{
-      const tcls=type==='H'?'t-h':'t-m';
-      return `<div class="row ${w}" data-w="${w}" data-t="${type}">
-        <div class="id">${id}</div><div class="q">${q}</div>
-        <div class="tags"><span class="tag t-${w}">${w}</span><span class="tag ${tcls}">${type}</span><span class="tag t-src">${src}</span></div>
-      </div>`;}).join('');
-    return `<section class="stage" data-stage>
-      <div class="stage-h"><span class="stage-n">${s.n}</span><h2>${s.t}</h2></div>
-      <p class="stage-note">${s.note}</p>
-      <div class="rows">${rows}<div class="empty" hidden>No questions in this stage match the current filter.</div></div>
-      ${s.quote?`<blockquote>${s.quote}</blockquote>`:''}
-    </section>`;}).join('');
-}
-
+const main=document.getElementById('main'),countEl=document.getElementById('count');
+main.innerHTML=STAGES.map(s=>{
+  const rows=s.items.map(([id,q,src,type,w])=>`<div class="row ${w}" data-w="${w}" data-t="${type}">
+    <div class="id">${id}</div><div class="q">${q}</div>
+    <div class="tags"><span class="tag t-${w}">${w}</span>
+    <span class="tag ${type==='H'?'t-h':'t-m'}">${type}</span>
+    <span class="tag t-src">${src}</span></div></div>`).join('');
+  return `<section class="stage" data-stage>
+    <div class="stage-h"><span class="stage-n">${s.n}</span><h2>${s.t}</h2></div>
+    <p class="stage-note">${s.note}</p>
+    <div class="rows">${rows}<div class="empty" hidden>No questions in this stage match the current filter.</div></div>
+    ${s.quote?`<blockquote>${s.quote}</blockquote>`:''}</section>`;}).join('');
 function apply(){
   let shown=0;
   document.querySelectorAll('[data-stage]').forEach(st=>{
     let vis=0;
     st.querySelectorAll('.row').forEach(r=>{
       const okW=!active.w.size||active.w.has(r.dataset.w);
-      const t=r.dataset.t;
-      const okT=!active.t.size||[...active.t].some(f=>t.includes(f));
-      const ok=okW&&okT;
-      r.hidden=!ok; if(ok){vis++;shown++;}
+      const okT=!active.t.size||[...active.t].some(f=>r.dataset.t.includes(f));
+      const ok=okW&&okT; r.hidden=!ok; if(ok){vis++;shown++;}
     });
     st.querySelector('.empty').hidden=vis>0;
   });
-  countEl.textContent=`${shown} of 113 shown`;
+  countEl.textContent=`${shown} of ${TOTAL} shown`;
 }
-
-build();
-document.querySelectorAll('button.f').forEach(b=>{
-  b.addEventListener('click',()=>{
-    const on=b.getAttribute('aria-pressed')==='true';
-    b.setAttribute('aria-pressed',String(!on));
-    const key=b.dataset.w?'w':'t', val=b.dataset.w||b.dataset.t;
-    on?active[key].delete(val):active[key].add(val);
-    apply();
-  });
-});
+document.querySelectorAll('button.f').forEach(b=>b.addEventListener('click',()=>{
+  const on=b.getAttribute('aria-pressed')==='true';
+  b.setAttribute('aria-pressed',String(!on));
+  const key=b.dataset.w?'w':'t',val=b.dataset.w||b.dataset.t;
+  on?active[key].delete(val):active[key].add(val);
+  apply();
+}));
 apply();
 </script>
