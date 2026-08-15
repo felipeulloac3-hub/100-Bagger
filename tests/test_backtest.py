@@ -263,3 +263,66 @@ class TestOneBadFilerDoesNotKillTheRun(unittest.TestCase):
              "benchmark": 1.5, "flagged_median_with_wipeouts": None,
              "verdict": "x", "rules": []}
         self.assertIn("**7** skipped on malformed data", B.report(d))
+
+
+class TestMissDiagnostics(unittest.TestCase):
+    """Aggregates say whether the screen worked; the misses say why."""
+
+    def _rows(self):
+        return [
+            {"ticker": "BIG", "name": "Big", "cik": "1", "band": "not yet",
+             "flagged": False, "score": 0.4, "coverage": 0.8, "ret": 11.0,
+             "still_trading": True, "blocked_by": ["2.5", "2.10"]},
+            {"ticker": "MID", "name": "Mid", "cik": "2", "band": "borderline",
+             "flagged": False, "score": 0.6, "coverage": 0.9, "ret": 2.5,
+             "still_trading": True, "blocked_by": ["2.5"]},
+            {"ticker": "GOOD", "name": "Good", "cik": "3", "band": "worth reading",
+             "flagged": True, "score": 0.9, "coverage": 0.9, "ret": 1.2,
+             "still_trading": True, "blocked_by": []},
+            {"ticker": "DUD", "name": "Dud", "cik": "4", "band": "worth reading",
+             "flagged": True, "score": 0.8, "coverage": 0.9, "ret": -0.85,
+             "still_trading": False, "blocked_by": []},
+            {"ticker": "NOPX", "name": "NoPrice", "cik": "5", "band": "worth reading",
+             "flagged": True, "score": 0.8, "coverage": 0.9, "ret": None,
+             "still_trading": False, "blocked_by": []},
+        ]
+
+    def test_names_the_biggest_winner_it_rejected(self):
+        out = "\n".join(B._misses({"rows": self._rows()}))
+        self.assertIn("Winners it rejected", out)
+        self.assertIn("BIG", out)
+        self.assertIn("+1100%", out)
+
+    def test_shows_which_rules_blocked_that_winner(self):
+        out = "\n".join(B._misses({"rows": self._rows()}))
+        self.assertIn("`2.5`", out)
+        self.assertIn("`2.10`", out)
+
+    def test_names_the_worst_thing_it_flagged(self):
+        out = "\n".join(B._misses({"rows": self._rows()}))
+        self.assertIn("Losers it flagged", out)
+        self.assertIn("DUD", out)
+
+    def test_tallies_rules_that_block_big_winners(self):
+        out = "\n".join(B._misses({"rows": self._rows()}))
+        self.assertIn("blocked a 3x or better", out)
+        self.assertIn("2 such names", out)      # BIG at 11x and MID at 2.5x -> 3.5x
+
+    def test_unpriced_names_are_excluded_from_diagnosis(self):
+        out = "\n".join(B._misses({"rows": self._rows()}))
+        self.assertNotIn("NOPX", out)
+
+    def test_empty_rows_do_not_crash(self):
+        self.assertEqual(B._misses({"rows": []}), [])
+        self.assertEqual(B._misses({}), [])
+
+    def test_report_includes_the_section(self):
+        d = {"as_of": "2013-12-31", "exit": "2023-12-31", "years": 10,
+             "universe": 300, "evaluated": 298, "errored": 0, "passed_gates": 253,
+             "flagged_count": 56, "flagged_unpriced": 19, "flagged_delisted": 0,
+             "flagged": B.summarize([1.09]), "rest": B.summarize([0.77]),
+             "benchmark": 0.99, "flagged_median_with_wipeouts": None,
+             "verdict": "x", "rules": [], "rows": self._rows()}
+        md = B.report(d)
+        self.assertIn("Where the screen was wrong", md)
+        self.assertIn("BIG", md)
