@@ -66,7 +66,7 @@ that it never acquires one.
 
 ```bash
 export SEC_USER_AGENT="Your Name you@example.com"   # SEC refuses requests without this
-python -m unittest discover -s tests -t .           # 41 tests, no network needed
+python -m unittest discover -s tests -t .           # 65 tests, no network needed
 python -m scanner.scan --tickers XPEL,ACU --out reports
 python -m scanner.scan --out reports                # full universe
 ```
@@ -87,14 +87,43 @@ request. Everything downstream of it is tested against fixtures. The first
 Actions run is the real test of `edgar.py`, and tag handling across thousands of
 real filers is where the remaining surprises are.
 
+## The backtest
+
+The criteria were reverse-engineered from companies we already know won, so the
+screen will flag garbage confidently until it is checked against a date when the
+future was still unknown.
+
+```bash
+python -m scanner.backtest --as-of 2013-12-31 --years 10 --limit 300
+```
+
+Four forms of look-ahead, three fixed and one measured:
+
+| | Handling |
+|---|---|
+| **Restatements** | `facts.prune` drops every fact filed after the as-of date, so a 2015 restatement is invisible in a 2013 run |
+| **Filing lag** | Same mechanism — a fiscal year does not exist until its 10-K lands |
+| **Price look-ahead** | Entry is the close *on or before* the as-of date; `price_on` never looks forward |
+| **Survivorship** | Not fixable, so measured. The universe is built from EDGAR frames rather than today's ticker file, so companies that later died are still in it. Delisted and unpriced names are counted and the flagged median is reported both ways |
+
+The comparison the report leads with is **flagged versus the rest of the same
+universe** — not versus an index. Beating the S&P with small caps proves you
+bought small caps; beating the small caps you *didn't* pick is the only result
+attributable to the screen.
+
+Start around 2013. SEC XBRL only becomes broadly available from roughly 2009–2011
+and the early years are thin, so an earlier date buys look-back at the cost of
+coverage. Run several start dates before believing any single one.
+
 ## Known gaps
 
-- No point-in-time backtest yet. The criteria come from hindsight, so a screen
-  built on them will happily flag garbage until it has been run against what it
-  would have returned in, say, 2011. This matters more for a beginner than an
-  expert, because an expert can reject a bad flag on sight.
+- The backtest has never been run — it needs live SEC data, which this
+  environment blocks. Its point-in-time logic is tested; its conclusions do not
+  exist yet.
 - The Scan covers ~25 of the checklist's 81 machine-answerable questions. The
   rest need filing *text*, which is the Dossier's job.
+- Delisting cannot be distinguished from acquisition, so the survivorship
+  correction is a range, not a number.
 - US exchange-listed only.
 
 ## Not investment advice

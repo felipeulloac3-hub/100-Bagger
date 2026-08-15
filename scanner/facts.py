@@ -119,6 +119,43 @@ def _entries(facts: dict, concept: str, unit: str) -> list[dict]:
     return []
 
 
+def prune(facts: dict, as_of: str) -> dict:
+    """Drop every fact filed after `as_of` (YYYY-MM-DD).
+
+    The whole backtest rests on this. Two distinct forms of look-ahead die here:
+
+    - Restatements. `series` prefers the most recently filed figure for a fiscal
+      year, which on live data is right and in a 2011 backtest would silently
+      substitute a 2015 restatement nobody could have seen.
+    - Filing lag. FY2010 results are not public until the 10-K lands in early
+      2011. Filtering on the filing date rather than the period end is what stops
+      the screen reading results before they were published.
+
+    Returns a new dict; the input is untouched. Facts with no filing date are
+    dropped rather than kept, because an undated fact cannot be proven to have
+    existed yet.
+    """
+    out = {k: v for k, v in facts.items() if k != "facts"}
+    ns_out: dict = {}
+    for ns, concepts in facts.get("facts", {}).items():
+        c_out: dict = {}
+        for concept, node in (concepts or {}).items():
+            if not isinstance(node, dict):
+                continue
+            u_out: dict = {}
+            for unit, rows in node.get("units", {}).items():
+                kept = [r for r in rows
+                        if isinstance(r, dict) and r.get("filed") and r["filed"] <= as_of]
+                if kept:
+                    u_out[unit] = kept
+            if u_out:
+                c_out[concept] = {**node, "units": u_out}
+        if c_out:
+            ns_out[ns] = c_out
+    out["facts"] = ns_out
+    return out
+
+
 def series(facts: dict, key: str, unit: str | None = None) -> list[Point]:
     """Annual series for a logical quantity, newest last, one point per fiscal year.
 
