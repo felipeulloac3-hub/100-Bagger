@@ -85,14 +85,27 @@ def build_universe(as_of: str, min_rev: float, max_rev: float) -> dict[str, floa
     return found
 
 
-def ticker_for(subs: dict | None) -> str | None:
+def _first(subs: dict | None, key: str):
+    """First element of a submissions list field, or None.
+
+    dict.get(key, default) does not help here: a delisted filer carries
+    "exchanges": [] -- an empty list, not a missing key -- so the default never
+    applies. The live scan never meets this because it reads the exchange listing,
+    which contains only companies that still exist. The backtest meets it
+    constantly, since including the dead is the entire point.
+    """
     if not subs:
         return None
-    t = subs.get("tickers") or []
-    return t[0] if t else None
+    seq = subs.get(key) or []
+    return seq[0] if seq else None
 
 
-def evaluate_at(cik: str, as_of: str) -> tuple[Context, object] | None:
+def ticker_for(subs: dict | None) -> str | None:
+    return _first(subs, "tickers")
+
+
+def evaluate_at(cik: str, as_of: str):
+    """(Context, Result, price history) as of a date, or None if unusable."""
     fx_full = edgar.company_facts(cik)
     if not fx_full:
         return None
@@ -116,7 +129,7 @@ def evaluate_at(cik: str, as_of: str) -> tuple[Context, object] | None:
         cik=cik, ticker=ticker or "?",
         name=(subs or {}).get("name", fx_full.get("entityName", "?")),
         fx=fx, forms=forms,
-        exchange=(subs or {}).get("exchanges", [None])[0] if subs else None,
+        exchange=_first(subs, "exchanges"),
         price=price,
         shares_out=edgar.shares_outstanding(fx),
         avg_dollar_volume=volume,
@@ -193,7 +206,8 @@ def report(d: dict) -> str:
         "## Coverage",
         "",
         f"- Universe at as-of date: **{d['universe']}** filers in the revenue band",
-        f"- Scored successfully: **{d['evaluated']}**",
+        f"- Scored successfully: **{d['evaluated']}**"
+        + (f" (**{d['errored']}** skipped on malformed data)" if d.get("errored") else ""),
         f"- Cleared the gates: **{d['passed_gates']}**",
         f"- Flagged (worth reading): **{d['flagged_count']}**",
         f"- Flagged but no usable price series: **{d['flagged_unpriced']}** "
@@ -265,12 +279,20 @@ def main(argv=None) -> int:
 
     flagged_rets, rest_rets = [], []
     flagged_unpriced = flagged_delisted = 0
-    evaluated = passed_gates = flagged_count = 0
+    evaluated = passed_gates = flagged_count = errored = 0
 
     for i, cik in enumerate(ciks, 1):
         if i % 100 == 0:
             print(f"  {i}/{len(ciks)}")
-        got = evaluate_at(cik, as_of)
+        try:
+            got = evaluate_at(cik, as_of)
+        except Exception as e:
+            # Thousands of filers, each with its own idea of well-formed JSON.
+            # Losing one is a data point; losing the run is a bug.
+            errored += 1
+            if errored <= 5:
+                print(f"  skipped {cik}: {type(e).__name__}: {e}")
+            continue
         if not got:
             continue
         _ctx, res, history = got
@@ -333,6 +355,7 @@ def main(argv=None) -> int:
         "universe": len(ciks), "evaluated": evaluated,
         "passed_gates": passed_gates, "flagged_count": flagged_count,
         "flagged_unpriced": flagged_unpriced, "flagged_delisted": flagged_delisted,
+        "errored": errored,
         "flagged": f, "rest": r, "benchmark": bench,
         "flagged_median_with_wipeouts": with_wipeouts,
         "verdict": verdict,
