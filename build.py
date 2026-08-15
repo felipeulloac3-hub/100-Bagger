@@ -20,6 +20,7 @@ def tally():
         machine = sum(1 for i in st["items"] if i[3] in ("M", "M+H"))
         per_stage.append((st, w, machine))
         totals.update(w)
+        totals.update(i[5] for i in st["items"])
         totals["machine"] += machine
         totals["items"] += len(st["items"])
     return per_stage, totals
@@ -56,6 +57,14 @@ def build_md(per_stage, totals):
         "| `M` | Machine-answerable from structured data or filings text |",
         "| `H` | Human judgment required |",
         "| `M+H` | Machine surfaces the evidence, human renders the verdict |",
+        "| **stated** | The named source asked this question, in these words or close to them |",
+        "| *derived* | The source described the principle; the question is my operationalization |",
+        "",
+        "## Provenance",
+        "",
+        DATA["provenance"],
+        "",
+        f"**{totals['stated']} stated, {totals['derived']} derived.**",
         "",
         "## Sources",
         "",
@@ -78,9 +87,10 @@ def build_md(per_stage, totals):
 
     for st, w, machine in per_stage:
         L += [f"## {st['n']} — {st['t']}", "", st["note"], ""]
-        L += ["| # | Question | Source | Type | Weight |", "|---|---|---|---|---|"]
-        for id_, q, src, typ, wt in st["items"]:
-            L.append(f"| {id_} | {strip_html(q)} | {src} | `{typ}` | {WEIGHT_LABEL[wt]} |")
+        L += ["| # | Question | Source | Provenance | Type | Weight |", "|---|---|---|---|---|---|"]
+        for id_, q, src, typ, wt, prov in st["items"]:
+            pv = "**stated**" if prov == "stated" else "*derived*"
+            L.append(f"| {id_} | {strip_html(q)} | {src} | {pv} | `{typ}` | {WEIGHT_LABEL[wt]} |")
         if st.get("quote"):
             L += ["", f"> {strip_html(st['quote'])}"]
         L += ["", "---", ""]
@@ -215,6 +225,8 @@ blockquote em{color:var(--ink)}
 .t-src{background:transparent;color:var(--ink-3);border:1px solid var(--rule)}
 .t-m{background:transparent;color:var(--machine);border:1px solid currentColor}
 .t-h{background:transparent;color:var(--human);border:1px solid currentColor}
+.t-stated{background:var(--accent);color:var(--surface)}
+.t-derived{background:transparent;color:var(--ink-3);border:1px dashed var(--rule)}
 .empty{padding:28px 14px;color:var(--ink-3);font-size:14px;background:var(--surface);
   border-bottom:1px solid var(--rule-2)}
 .tbl-scroll{overflow-x:auto;margin-top:18px;border:1px solid var(--rule);border-radius:3px}
@@ -258,8 +270,10 @@ marked for whether a machine or a human has to answer it.</p>
 <div class="tile"><div class="n">{totals['items']}</div><div class="l">Questions</div></div>
 <div class="tile"><div class="n">{totals['gate']}</div><div class="l">Disqualifying gates</div></div>
 <div class="tile"><div class="n">{totals['machine']}</div><div class="l">Machine-answerable</div></div>
-<div class="tile"><div class="n">{human_only}</div><div class="l">Yours alone</div></div>
-</div></div></header>
+<div class="tile"><div class="n">{totals['stated']}</div><div class="l">The source's own words</div></div>
+</div>
+<p class="standfirst" style="font-size:15px">{DATA['provenance']}</p>
+</div></header>
 
 <div class="bar"><div class="wrap bar-in">
 <div class="grp"><span class="lab">Weight</span>
@@ -269,6 +283,9 @@ marked for whether a machine or a human has to answer it.</p>
 <div class="grp"><span class="lab">Answered by</span>
 <button class="f" data-t="M" aria-pressed="false">Machine</button>
 <button class="f" data-t="H" aria-pressed="false">Human</button></div>
+<div class="grp"><span class="lab">Provenance</span>
+<button class="f" data-p="stated" aria-pressed="false">Stated</button>
+<button class="f" data-p="derived" aria-pressed="false">Derived</button></div>
 <div class="count" id="count"></div>
 </div></div>
 
@@ -288,14 +305,15 @@ businesses showing the signature early.</p>
 <script>
 const STAGES={json.dumps(DATA['stages'])};
 const TOTAL={totals['items']};
-const active={{w:new Set(),t:new Set()}};
+const active={{w:new Set(),t:new Set(),p:new Set()}};
 const main=document.getElementById('main'),countEl=document.getElementById('count');
 main.innerHTML=STAGES.map(s=>{{
-  const rows=s.items.map(([id,q,src,type,w])=>`<div class="row ${{w}}" data-w="${{w}}" data-t="${{type}}">
+  const rows=s.items.map(([id,q,src,type,w,prov])=>`<div class="row ${{w}}" data-w="${{w}}" data-t="${{type}}" data-p="${{prov}}">
     <div class="id">${{id}}</div><div class="q">${{q}}</div>
     <div class="tags"><span class="tag t-${{w}}">${{w}}</span>
     <span class="tag ${{type==='H'?'t-h':'t-m'}}">${{type}}</span>
-    <span class="tag t-src">${{src}}</span></div></div>`).join('');
+    <span class="tag t-src">${{src}}</span>
+    <span class="tag t-${{prov}}">${{prov}}</span></div></div>`).join('');
   return `<section class="stage" data-stage>
     <div class="stage-h"><span class="stage-n">${{s.n}}</span><h2>${{s.t}}</h2></div>
     <p class="stage-note">${{s.note}}</p>
@@ -308,7 +326,8 @@ function apply(){{
     st.querySelectorAll('.row').forEach(r=>{{
       const okW=!active.w.size||active.w.has(r.dataset.w);
       const okT=!active.t.size||[...active.t].some(f=>r.dataset.t.includes(f));
-      const ok=okW&&okT; r.hidden=!ok; if(ok){{vis++;shown++;}}
+      const okP=!active.p.size||active.p.has(r.dataset.p);
+      const ok=okW&&okT&&okP; r.hidden=!ok; if(ok){{vis++;shown++;}}
     }});
     st.querySelector('.empty').hidden=vis>0;
   }});
@@ -317,7 +336,8 @@ function apply(){{
 document.querySelectorAll('button.f').forEach(b=>b.addEventListener('click',()=>{{
   const on=b.getAttribute('aria-pressed')==='true';
   b.setAttribute('aria-pressed',String(!on));
-  const key=b.dataset.w?'w':'t',val=b.dataset.w||b.dataset.t;
+  const key=b.dataset.w?'w':(b.dataset.t?'t':'p');
+  const val=b.dataset.w||b.dataset.t||b.dataset.p;
   on?active[key].delete(val):active[key].add(val);
   apply();
 }}));
