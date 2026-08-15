@@ -1,0 +1,3742 @@
+{
+  "as_of": "2012-12-31",
+  "exit": "2022-12-31",
+  "years": 10,
+  "universe": 300,
+  "evaluated": 299,
+  "passed_gates": 260,
+  "flagged_count": 23,
+  "flagged_unpriced": 8,
+  "flagged_delisted": 0,
+  "errored": 0,
+  "flagged": {
+    "n": 15,
+    "median": 1.4167255628512034,
+    "mean": 1.7358657721496835,
+    "win_rate": 0.8666666666666667,
+    "p25": 0.3593134285052155,
+    "p75": 3.098450995812133,
+    "best": 5.750013169571662,
+    "worst": -0.6350595312113246,
+    "multibaggers_10x": 0
+  },
+  "rest": {
+    "n": 98,
+    "median": 1.066717504075847,
+    "mean": 1.679074966770394,
+    "win_rate": 0.7551020408163265,
+    "p25": 0.06105546339090551,
+    "p75": 2.118713654655994,
+    "best": 17.214821692355287,
+    "worst": -0.9788063801488706,
+    "multibaggers_10x": 3
+  },
+  "benchmark": 1.3619496700137659,
+  "flagged_median_with_wipeouts": 1.4167255628512034,
+  "verdict": "The flagged set beat both the rest of its own universe (142% vs 107% median) and the benchmark. One start date is one sample; repeat across several before trusting it.",
+  "rules": [
+    "0.6",
+    "0.11",
+    "0.12",
+    "2.1",
+    "2.3",
+    "2.5",
+    "2.10",
+    "2.11",
+    "2.13",
+    "2.16",
+    "2.17",
+    "2.18",
+    "3.2",
+    "3.7",
+    "5.1",
+    "5.4",
+    "5.5",
+    "5.10",
+    "5.11",
+    "5.12",
+    "6.15",
+    "7.1",
+    "7.2",
+    "7.8",
+    "8.8"
+  ],
+  "rows": [
+    {
+      "ticker": "?",
+      "name": "BALLY TECHNOLOGIES, INC.",
+      "cik": "0000002491",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7352941176470589,
+      "coverage": 0.56,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "ALCO",
+      "name": "ALICO, INC.",
+      "cik": "0000003545",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7096774193548387,
+      "coverage": 0.56,
+      "ret": -0.2840299080159241,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "AMERICAN EXPRESS CREDIT CORP",
+      "cik": "0000004969",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "AMERICAN GREETINGS CORP",
+      "cik": "0000005133",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.44,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "AXR",
+      "name": "AMREP CORP.",
+      "cik": "0000006207",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": 0.367469862790587,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ANALOGIC CORP",
+      "cik": "0000006284",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "ARTW",
+      "name": "ARTS WAY MANUFACTURING CO INC",
+      "cik": "0000007623",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5909090909090909,
+      "coverage": 0.44,
+      "ret": -0.6747346813026329,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "ASB",
+      "name": "ASSOCIATED BANC-CORP",
+      "cik": "0000007789",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.88,
+      "coverage": 0.44,
+      "ret": 1.1414780081349911,
+      "still_trading": true,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "AAME",
+      "name": "ATLANTIC AMERICAN CORP",
+      "cik": "0000008177",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7,
+      "coverage": 0.28,
+      "ret": -0.21813924442937926,
+      "still_trading": true,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "BCPC",
+      "name": "BALCHEM CORP",
+      "cik": "0000009326",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.88,
+      "coverage": 0.48,
+      "ret": 2.3898362449257693,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "Protective Insurance Corp",
+      "cik": "0000009346",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "BRN",
+      "name": "BARNWELL INDUSTRIES INC",
+      "cik": "0000010048",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7096774193548387,
+      "coverage": 0.56,
+      "ret": -0.236167490677876,
+      "still_trading": true,
+      "blocked_by": [
+        "2.10",
+        "5.4",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "BOWL AMERICA INC",
+      "cik": "0000013573",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "CATO",
+      "name": "CATO CORP",
+      "cik": "0000018255",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": -0.4562211191965764,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "CDI CORP",
+      "cik": "0000018396",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "CHAMPION INDUSTRIES INC",
+      "cik": "0000019149",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "CPK",
+      "name": "CHESAPEAKE UTILITIES CORP",
+      "cik": "0000019745",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": 3.8751214569387624,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ChyronHego Corp",
+      "cik": "0000020232",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "COMPUTER TASK GROUP INC",
+      "cik": "0000023111",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "CRK",
+      "name": "COMSTOCK RESOURCES INC",
+      "cik": "0000023194",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.4642857142857143,
+      "coverage": 0.44,
+      "ret": -0.8226844571625888,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "2.10",
+        "5.1",
+        "5.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "CAG",
+      "name": "CONAGRA BRANDS INC.",
+      "cik": "0000023217",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.6511627906976745,
+      "coverage": 0.68,
+      "ret": 0.8226223121323417,
+      "still_trading": true,
+      "blocked_by": [
+        "2.5",
+        "2.10",
+        "2.11",
+        "2.13",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "CIA",
+      "name": "CITIZENS, INC.",
+      "cik": "0000024090",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": -0.6789988920151098,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "CUZ",
+      "name": "COUSINS PROPERTIES INC",
+      "cik": "0000025232",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.36,
+      "ret": 0.21343638700052736,
+      "still_trading": true,
+      "blocked_by": [
+        "5.4"
+      ]
+    },
+    {
+      "ticker": "CRD-A",
+      "name": "CRAWFORD & CO",
+      "cik": "0000025475",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8235294117647058,
+      "coverage": 0.56,
+      "ret": 0.3593134285052155,
+      "still_trading": true,
+      "blocked_by": [
+        "2.5",
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "DEERE JOHN CAPITAL CORP",
+      "cik": "0000027673",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.76,
+      "coverage": 0.44,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1",
+        "5.4"
+      ]
+    },
+    {
+      "ticker": "DLX",
+      "name": "DELUXE CORP",
+      "cik": "0000027996",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.6486486486486487,
+      "coverage": 0.6,
+      "ret": -0.38493670176686234,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "2.13",
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "Escalera Resources Co.",
+      "cik": "0000029834",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "Dynamics Research Corp",
+      "cik": "0000030822",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.631578947368421,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "EML",
+      "name": "EASTERN CO",
+      "cik": "0000031107",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.4,
+      "ret": 0.5455889806586958,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "ECHELON CORP",
+      "cik": "0000031347",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "6.15"
+      ]
+    },
+    {
+      "ticker": "RVTY",
+      "name": "REVVITY, INC.",
+      "cik": "0000031791",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7105263157894737,
+      "coverage": 0.68,
+      "ret": 3.0699728277897087,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13",
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "EL PASO NATURAL GAS CO LLC",
+      "cik": "0000031986",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "ELECTRO RENT CORP",
+      "cik": "0000032166",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "BOB EVANS FARMS INC",
+      "cik": "0000033769",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 1.0,
+      "coverage": 0.52,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "FRT",
+      "name": "FEDERAL REALTY INVESTMENT TRUST",
+      "cik": "0000034903",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.6875,
+      "coverage": 0.6,
+      "ret": 0.46415862795173135,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "5.1",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "FHN",
+      "name": "FIRST HORIZON CORP",
+      "cik": "0000036966",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.36,
+      "ret": 2.053465032616868,
+      "still_trading": true,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "Winthrop Realty Liquidating Trust",
+      "cik": "0000037008",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "SABINE OIL & GAS CORP",
+      "cik": "0000038079",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.76,
+      "coverage": 0.44,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.5",
+        "2.16"
+      ]
+    },
+    {
+      "ticker": "FEIM",
+      "name": "FREQUENCY ELECTRONICS INC",
+      "cik": "0000039020",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8636363636363636,
+      "coverage": 0.44,
+      "ret": -0.27743818289937006,
+      "still_trading": true,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "CFR",
+      "name": "CULLEN/FROST BANKERS, INC.",
+      "cik": "0000039263",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": 1.8844189870363905,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "GATX",
+      "name": "GATX CORP",
+      "cik": "0000040211",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.52,
+      "coverage": 0.44,
+      "ret": 2.118713654655994,
+      "still_trading": true,
+      "blocked_by": [
+        "2.10",
+        "5.4",
+        "5.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "GEORESOURCES INC",
+      "cik": "0000041023",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "GOLDFIELD CORP",
+      "cik": "0000042316",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "GREAT NORTHERN IRON ORE PROPERTIES",
+      "cik": "0000043410",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "HHS",
+      "name": "HARTE HANKS INC",
+      "cik": "0000045919",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5625,
+      "coverage": 0.36,
+      "ret": -0.7646739945096852,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13",
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "HSY",
+      "name": "HERSHEY CO",
+      "cik": "0000047111",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.925,
+      "coverage": 0.64,
+      "ret": 2.5694007921322237,
+      "still_trading": true,
+      "blocked_by": [
+        "2.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "Hill-Rom Holdings, Inc.",
+      "cik": "0000047518",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.6086956521739131,
+      "coverage": 0.72,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.1",
+        "2.5",
+        "2.17",
+        "3.7",
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "EGP",
+      "name": "EASTGROUP PROPERTIES INC",
+      "cik": "0000049600",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.9615384615384616,
+      "coverage": 0.52,
+      "ret": 3.098450995812133,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "DIN",
+      "name": "Dine Brands Global, Inc.",
+      "cik": "0000049754",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.36,
+      "ret": 0.4208651518345341,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "KANSAS CITY LIFE INSURANCE CO",
+      "cik": "0000054473",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "Investors Heritage Capital Corp",
+      "cik": "0000055362",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "KEX",
+      "name": "KIRBY CORP",
+      "cik": "0000056047",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.6470588235294118,
+      "coverage": 0.56,
+      "ret": -0.045406744211756944,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "2.10",
+        "5.4",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "KFY",
+      "name": "KORN FERRY",
+      "cik": "0000056679",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.4,
+      "ret": 2.493193737304851,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "5.10"
+      ]
+    },
+    {
+      "ticker": "LEE",
+      "name": "LEE ENTERPRISES, Inc",
+      "cik": "0000058361",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8181818181818182,
+      "coverage": 0.44,
+      "ret": 0.5674999554951985,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "LUFKIN INDUSTRIES INC",
+      "cik": "0000060849",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.5945945945945946,
+      "coverage": 0.6,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "2.10",
+        "2.11",
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "LGL",
+      "name": "LGL GROUP INC",
+      "cik": "0000061004",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": 2.742986066211628,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "MCS",
+      "name": "MARCUS CORP",
+      "cik": "0000062234",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": 0.5191045430241161,
+      "still_trading": true,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "MCMORAN EXPLORATION CO /DE/",
+      "cik": "0000064279",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.625,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "GENC",
+      "name": "GENCOR INDUSTRIES INC",
+      "cik": "0000064472",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7,
+      "coverage": 0.68,
+      "ret": 1.006622795117389,
+      "still_trading": true,
+      "blocked_by": [
+        "2.10",
+        "2.11",
+        "5.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "Hawkeye Acquisition, Inc.",
+      "cik": "0000065011",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8636363636363636,
+      "coverage": 0.4,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "MSB",
+      "name": "MESABI TRUST",
+      "cik": "0000065172",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": 1.2030450397816352,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "MEI",
+      "name": "METHODE ELECTRONICS INC",
+      "cik": "0000065270",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.88,
+      "coverage": 0.48,
+      "ret": 3.9888093913849785,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "EVI",
+      "name": "EVI INDUSTRIES, INC.",
+      "cik": "0000065312",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.36,
+      "ret": 17.214821692355287,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "SIEB",
+      "name": "SIEBERT FINANCIAL CORP",
+      "cik": "0000065596",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.12,
+      "ret": 0.685425537291865,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "MSA",
+      "name": "MSA Safety Inc",
+      "cik": "0000066570",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8064516129032258,
+      "coverage": 0.52,
+      "ret": 2.5672425928312452,
+      "still_trading": true,
+      "blocked_by": [
+        "5.12",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "MOD",
+      "name": "MODINE MANUFACTURING CO",
+      "cik": "0000067347",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7272727272727273,
+      "coverage": 0.4,
+      "ret": 1.9623787045445127,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "MONMOUTH REAL ESTATE INVESTMENT CORP",
+      "cik": "0000067625",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7272727272727273,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.4",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "MORGANS FOODS INC",
+      "cik": "0000068145",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "RUBY TUESDAY INC",
+      "cik": "0000068270",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "MTS SYSTEMS CORP",
+      "cik": "0000068709",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8064516129032258,
+      "coverage": 0.52,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "INTG",
+      "name": "INTERGROUP CORP",
+      "cik": "0000069422",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.4,
+      "ret": 0.8636562611500669,
+      "still_trading": true,
+      "blocked_by": [
+        "5.1",
+        "5.4"
+      ]
+    },
+    {
+      "ticker": "NATH",
+      "name": "NATHANS FAMOUS, INC.",
+      "cik": "0000069733",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.4,
+      "ret": 2.5634648019295954,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "NFG",
+      "name": "NATIONAL FUEL GAS CO",
+      "cik": "0000070145",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.625,
+      "coverage": 0.64,
+      "ret": 0.4489602176573504,
+      "still_trading": true,
+      "blocked_by": [
+        "2.1",
+        "2.10",
+        "2.17",
+        "3.7",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "NRC",
+      "name": "NRC HEALTH",
+      "cik": "0000070487",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "NATIONAL WESTERN LIFE INSURANCE CO",
+      "cik": "0000070684",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "NYT",
+      "name": "NEW YORK TIMES CO",
+      "cik": "0000071691",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.9117647058823529,
+      "coverage": 0.56,
+      "ret": 3.2906095632003645,
+      "still_trading": true,
+      "blocked_by": [
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "MOV",
+      "name": "MOVADO GROUP INC",
+      "cik": "0000072573",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.36,
+      "ret": 0.2822179931912754,
+      "still_trading": true,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "NORTHERN STATES POWER CO /WI/",
+      "cik": "0000072909",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "NORTEL NETWORKS CORP",
+      "cik": "0000072911",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "NORTHWEST NATURAL GAS CO",
+      "cik": "0000073020",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.6129032258064516,
+      "coverage": 0.52,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.10",
+        "5.1",
+        "5.5",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "NORTHWESTERN CORP",
+      "cik": "0000073088",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.5588235294117647,
+      "coverage": 0.56,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "2.10",
+        "5.1",
+        "7.1",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "Bristow Group Inc",
+      "cik": "0000073887",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.64,
+      "coverage": 0.44,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.10",
+        "5.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "UDR",
+      "name": "UDR, Inc.",
+      "cik": "0000074208",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5909090909090909,
+      "coverage": 0.4,
+      "ret": 1.520982001367721,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "2.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "GCI, LLC",
+      "cik": "0000075679",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "PANHANDLE EASTERN PIPE LINE COMPANY, LP",
+      "cik": "0000076063",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "PARKER DRILLING CO /DE/",
+      "cik": "0000076321",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "BAYTEX ENERGY USA, INC.",
+      "cik": "0000077159",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.4642857142857143,
+      "coverage": 0.48,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "2.10",
+        "5.10",
+        "7.1",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "PENNSYLVANIA REAL ESTATE INVESTMENT TRUST",
+      "cik": "0000077281",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "SPARTECH CORP",
+      "cik": "0000077597",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.64,
+      "coverage": 0.44,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.4",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "PDC ENERGY, INC.",
+      "cik": "0000077877",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "WTRG",
+      "name": "Essential Utilities, Inc.",
+      "cik": "0000078128",
+      "band": "not yet",
+      "flagged": false,
+      "score": 0.41935483870967744,
+      "coverage": 0.52,
+      "ret": 1.326474308251433,
+      "still_trading": true,
+      "blocked_by": [
+        "2.10",
+        "5.1",
+        "5.4",
+        "5.10",
+        "7.1",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "BRO",
+      "name": "BROWN & BROWN, INC.",
+      "cik": "0000079282",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.84,
+      "coverage": 0.48,
+      "ret": 3.764182090758365,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "POWL",
+      "name": "POWELL INDUSTRIES INC",
+      "cik": "0000080420",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 1.0,
+      "coverage": 0.52,
+      "ret": 0.02687706169037596,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "RLI",
+      "name": "RLI CORP",
+      "cik": "0000084246",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": 5.046392304073314,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ROBBINS & MYERS, INC.",
+      "cik": "0000084290",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6818181818181818,
+      "coverage": 0.4,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "ROWAN COMPANIES PLC",
+      "cik": "0000085408",
+      "band": "not yet",
+      "flagged": false,
+      "score": 0.35135135135135137,
+      "coverage": 0.6,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.1",
+        "2.3",
+        "2.5",
+        "2.10",
+        "2.16",
+        "5.1",
+        "5.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "RYLAND GROUP INC",
+      "cik": "0000085974",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "SANTA FE FINANCIAL CORP",
+      "cik": "0000086759",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SIGMA ALDRICH CORP",
+      "cik": "0000090185",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.5714285714285714,
+      "coverage": 0.76,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.5",
+        "2.11",
+        "2.16",
+        "2.17",
+        "3.7",
+        "6.15",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SOUTH JERSEY INDUSTRIES INC",
+      "cik": "0000091928",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5714285714285714,
+      "coverage": 0.48,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "2.10",
+        "5.1",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SOUTHERN NATURAL GAS COMPANY, L.L.C.",
+      "cik": "0000092232",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SOUTHWEST GAS CORP",
+      "cik": "0000092416",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7857142857142857,
+      "coverage": 0.48,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SOUTHWESTERN PUBLIC SERVICE CO",
+      "cik": "0000092521",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "STANDARD MICROSYSTEMS CORP",
+      "cik": "0000093384",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7272727272727273,
+      "coverage": 0.4,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "SMP",
+      "name": "STANDARD MOTOR PRODUCTS, INC.",
+      "cik": "0000093389",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7272727272727273,
+      "coverage": 0.44,
+      "ret": 0.8774684654103828,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "OBH Inc.",
+      "cik": "0000093859",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "SCL",
+      "name": "STEPAN CO",
+      "cik": "0000094049",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7272727272727273,
+      "coverage": 0.4,
+      "ret": 1.1104787863322283,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "STC",
+      "name": "STEWART INFORMATION SERVICES CORP",
+      "cik": "0000094344",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": 1.2676707576726312,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "DEER VALLEY CORP",
+      "cik": "0000095047",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.625,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SUPERIOR INDUSTRIES INTERNATIONAL INC",
+      "cik": "0000095552",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "TECUMSEH PRODUCTS CO",
+      "cik": "0000096831",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "TRC",
+      "name": "TEJON RANCH CO",
+      "cik": "0000096869",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": -0.3037653777644651,
+      "still_trading": true,
+      "blocked_by": [
+        "6.15"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "TENNESSEE GAS PIPELINE COMPANY, L.L.C.",
+      "cik": "0000097142",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "AMIC Holdings, Inc.",
+      "cik": "0000097196",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "TER",
+      "name": "TERADYNE, INC",
+      "cik": "0000097210",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8064516129032258,
+      "coverage": 0.52,
+      "ret": 5.750013169571662,
+      "still_trading": true,
+      "blocked_by": [
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "TEXAS PACIFIC LAND TRUST",
+      "cik": "0000097517",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "TDW",
+      "name": "TIDEWATER INC",
+      "cik": "0000098222",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.6129032258064516,
+      "coverage": 0.52,
+      "ret": -0.9644604853384071,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "2.10",
+        "5.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "TSR INC",
+      "cik": "0000098338",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "TKR",
+      "name": "TIMKEN CO",
+      "cik": "0000098362",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.625,
+      "coverage": 0.64,
+      "ret": 1.6849451838870273,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "2.11",
+        "5.1",
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "BREEZE-EASTERN LLC",
+      "cik": "0000099359",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7272727272727273,
+      "coverage": 0.4,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "UNICO AMERICAN CORP",
+      "cik": "0000100716",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "UFCS",
+      "name": "UNITED FIRE GROUP INC",
+      "cik": "0000101199",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.4,
+      "ret": 0.575603214676438,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "BSIN",
+      "name": "BIG SKY INDUSTRIAL INC.",
+      "cik": "0000101594",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.36,
+      "ret": -0.9788063801488706,
+      "still_trading": true,
+      "blocked_by": [
+        "6.15"
+      ]
+    },
+    {
+      "ticker": "VSEC",
+      "name": "VSE CORP",
+      "cik": "0000102752",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.44,
+      "ret": 3.1635332980386996,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ALTEVA, INC.",
+      "cik": "0000104777",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "AVA",
+      "name": "AVISTA CORP",
+      "cik": "0000104918",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5714285714285714,
+      "coverage": 0.48,
+      "ret": 1.2522039842314743,
+      "still_trading": true,
+      "blocked_by": [
+        "2.10",
+        "5.1",
+        "5.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "WW",
+      "name": "WW INTERNATIONAL, INC.",
+      "cik": "0000105319",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8235294117647058,
+      "coverage": 0.56,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "WESTMORELAND COAL Co",
+      "cik": "0000106455",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.4375,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.5",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "HANDY & HARMAN LTD.",
+      "cik": "0000106618",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "WLY",
+      "name": "JOHN WILEY & SONS, INC.",
+      "cik": "0000107140",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8,
+      "coverage": 0.6,
+      "ret": 0.5717640253138394,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "WISCONSIN PUBLIC SERVICE CORP",
+      "cik": "0000107833",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.4,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "WRLD",
+      "name": "WORLD ACCEPTANCE CORP",
+      "cik": "0000108385",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": -0.11561152628007243,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ARBITRON INC",
+      "cik": "0000109758",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "WWW",
+      "name": "WOLVERINE WORLD WIDE INC /DE/",
+      "cik": "0000110471",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.7567567567567568,
+      "coverage": 0.6,
+      "ret": -0.09989209117024267,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "5.5",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "COLORADO INTERSTATE GAS COMPANY, L.L.C.",
+      "cik": "0000200155",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "LHX",
+      "name": "L3HARRIS TECHNOLOGIES, INC. /DE/",
+      "cik": "0000202058",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.6122448979591837,
+      "coverage": 0.76,
+      "ret": 4.406022955688259,
+      "still_trading": true,
+      "blocked_by": [
+        "2.5",
+        "2.11",
+        "2.13",
+        "2.16",
+        "6.15",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "IMAGE ENTERTAINMENT INC",
+      "cik": "0000216324",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5263157894736842,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "COVANTA HOLDING CORP",
+      "cik": "0000225648",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.88,
+      "coverage": 0.44,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "SIGI",
+      "name": "SELECTIVE INSURANCE GROUP INC",
+      "cik": "0000230557",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.44,
+      "ret": 4.349843864575474,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "CONNECTICUT WATER SERVICE INC / CT",
+      "cik": "0000276209",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5384615384615384,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "NEVADA GOLD & CASINOS INC",
+      "cik": "0000277058",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.46153846153846156,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13",
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "FSS",
+      "name": "FEDERAL SIGNAL CORP /DE/",
+      "cik": "0000277509",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5454545454545454,
+      "coverage": 0.44,
+      "ret": 6.575329996785843,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "2.13",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "INTERNATIONAL SHIPHOLDING CORP",
+      "cik": "0000278041",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "SXT",
+      "name": "SENSIENT TECHNOLOGIES CORP",
+      "cik": "0000310142",
+      "band": "not yet",
+      "flagged": false,
+      "score": 0.5135135135135135,
+      "coverage": 0.6,
+      "ret": 1.4904256429776312,
+      "still_trading": true,
+      "blocked_by": [
+        "2.10",
+        "2.11",
+        "5.1",
+        "5.5",
+        "7.1",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "HAE",
+      "name": "HAEMONETICS CORP",
+      "cik": "0000313143",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8292682926829268,
+      "coverage": 0.68,
+      "ret": 0.9258080615089108,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SADDLEBROOK RESORTS INC",
+      "cik": "0000313151",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "PHX MINERALS INC.",
+      "cik": "0000315131",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "HURC",
+      "name": "HURCO COMPANIES INC",
+      "cik": "0000315374",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7272727272727273,
+      "coverage": 0.44,
+      "ret": 0.08370612271341038,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "RRC",
+      "name": "RANGE RESOURCES CORP",
+      "cik": "0000315852",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.7567567567567568,
+      "coverage": 0.6,
+      "ret": -0.6350595312113246,
+      "still_trading": true,
+      "blocked_by": [
+        "2.5",
+        "2.16",
+        "5.11"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "EXCO RESOURCES INC",
+      "cik": "0000316300",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "INTERNATIONAL RECTIFIER CORP /DE/",
+      "cik": "0000316793",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5909090909090909,
+      "coverage": 0.4,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.5",
+        "5.10"
+      ]
+    },
+    {
+      "ticker": "SNFCA",
+      "name": "SECURITY NATIONAL FINANCIAL CORP",
+      "cik": "0000318673",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": -0.20476625821554562,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "MICROS SYSTEMS INC",
+      "cik": "0000320345",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8125,
+      "coverage": 0.56,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "PIONEER ENERGY SERVICES LLC",
+      "cik": "0000320575",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "WMS INDUSTRIES INC /DE/",
+      "cik": "0000350077",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.90625,
+      "coverage": 0.56,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "PHI Group, Inc./DE",
+      "cik": "0000350403",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "Mirror Merger Sub 2, LLC",
+      "cik": "0000350797",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.5681818181818182,
+      "coverage": 0.72,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "2.5",
+        "2.10",
+        "2.17",
+        "3.7",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "ITERIS, INC.",
+      "cik": "0000350868",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "SEIC",
+      "name": "SEI INVESTMENTS CO",
+      "cik": "0000350894",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.48,
+      "ret": 1.4021178634270823,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "SILVERBOW RESOURCES, INC.",
+      "cik": "0000351817",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.625,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.10",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SunOpta Inc.",
+      "cik": "0000351834",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5263157894736842,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "EPOCH HOLDING CORP",
+      "cik": "0000351903",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "DAIO",
+      "name": "DATA I/O CORP",
+      "cik": "0000351998",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.4,
+      "ret": 1.4060606581667794,
+      "still_trading": true,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "Aegion Corp",
+      "cik": "0000353020",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5909090909090909,
+      "coverage": 0.4,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "2.13",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "AIRT",
+      "name": "AIR T INC",
+      "cik": "0000353184",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": 3.5115450748132826,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "QUIDEL CORP /DE/",
+      "cik": "0000353569",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7894736842105263,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "ANV SECURITY GROUP INC.",
+      "cik": "0000353681",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5384615384615384,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "INTERNATIONAL GAME TECHNOLOGY",
+      "cik": "0000353944",
+      "band": "not yet",
+      "flagged": false,
+      "score": 0.509090909090909,
+      "coverage": 0.84,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.1",
+        "2.3",
+        "2.5",
+        "2.13",
+        "2.16",
+        "2.17",
+        "3.7",
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "LOJACK CORP",
+      "cik": "0000355777",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "EMC INSURANCE GROUP INC",
+      "cik": "0000356130",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "Gold Merger Sub, LLC",
+      "cik": "0000356213",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5909090909090909,
+      "coverage": 0.4,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1",
+        "5.10",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "Xcerra Corp",
+      "cik": "0000357020",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "HOV",
+      "name": "HOVNANIAN ENTERPRISES INC",
+      "cik": "0000357294",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.4,
+      "ret": -0.5342905941172542,
+      "still_trading": true,
+      "blocked_by": [
+        "5.10",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "RCMT",
+      "name": "RCM TECHNOLOGIES, INC.",
+      "cik": "0000700841",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": 5.1513832354342926,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ATRION CORP",
+      "cik": "0000701288",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "Six Flags Entertainment Corp/OLD",
+      "cik": "0000701374",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "MENTOR GRAPHICS CORP",
+      "cik": "0000701811",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5714285714285714,
+      "coverage": 0.48,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13",
+        "5.5",
+        "5.10",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "INDEPENDENCE HOLDING CO",
+      "cik": "0000701869",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "STAR OPERATING COMPANIES, INC.",
+      "cik": "0000707388",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "CASS",
+      "name": "CASS INFORMATION SYSTEMS INC",
+      "cik": "0000708781",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": 0.7449750766365677,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "QMCO",
+      "name": "QUANTUM CORP /DE/",
+      "cik": "0000709283",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8636363636363636,
+      "coverage": 0.4,
+      "ret": -0.8901209682071123,
+      "still_trading": true,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "BOEING CAPITAL CORP",
+      "cik": "0000711513",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "Gadsden Properties, Inc.",
+      "cik": "0000711665",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.4,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "OLP",
+      "name": "ONE LIBERTY PROPERTIES INC",
+      "cik": "0000712770",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": 1.2233270516712365,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "RDI",
+      "name": "READING INTERNATIONAL INC",
+      "cik": "0000716634",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": -0.36181818355213513,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "UNF",
+      "name": "UNIFIRST CORP",
+      "cik": "0000717954",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8157894736842105,
+      "coverage": 0.68,
+      "ret": 1.7100469509969014,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SHFL entertainment Inc.",
+      "cik": "0000718789",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8157894736842105,
+      "coverage": 0.64,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SPAN AMERICA MEDICAL SYSTEMS INC",
+      "cik": "0000718924",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.9032258064516129,
+      "coverage": 0.52,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SCHAWK INC",
+      "cik": "0000719164",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.631578947368421,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "HL",
+      "name": "HECLA MINING CO/DE/",
+      "cik": "0000719413",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.76,
+      "coverage": 0.44,
+      "ret": 0.16038971618210573,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "SF",
+      "name": "STIFEL FINANCIAL CORP",
+      "cik": "0000720672",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": 1.9151882361971513,
+      "still_trading": true,
+      "blocked_by": [
+        "5.10"
+      ]
+    },
+    {
+      "ticker": "ITIC",
+      "name": "INVESTORS TITLE CO",
+      "cik": "0000720858",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": 2.627601048245891,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "CCA INDUSTRIES INC",
+      "cik": "0000721447",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "TOTAL SYSTEM SERVICES INC",
+      "cik": "0000721683",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8378378378378378,
+      "coverage": 0.6,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "NVEC",
+      "name": "NVE CORP /NEW/",
+      "cik": "0000724910",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.4,
+      "ret": 0.9187635523235274,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "O",
+      "name": "REALTY INCOME CORP",
+      "cik": "0000726728",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.44,
+      "ret": 1.5500232367831939,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "INTERPHASE CORP",
+      "cik": "0000728249",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "PARKWAY PROPERTIES INC",
+      "cik": "0000729237",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "CVSA",
+      "name": "Covista Inc.",
+      "cik": "0000730464",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.8857142857142857,
+      "coverage": 0.6,
+      "ret": 0.5687177243921209,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SPIRE Corp",
+      "cik": "0000731657",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.625,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "AMPAL-AMERICAN ISRAEL CORP",
+      "cik": "0000731859",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "CONTINENTAL RESOURCES, INC",
+      "cik": "0000732834",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.76,
+      "coverage": 0.44,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "WASH",
+      "name": "WASHINGTON TRUST BANCORP INC",
+      "cik": "0000737468",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": 1.3196960146684429,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "MEDTOX SCIENTIFIC INC",
+      "cik": "0000739944",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "VTR",
+      "name": "Ventas, Inc.",
+      "cik": "0000740260",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.625,
+      "coverage": 0.64,
+      "ret": -0.02603337781146886,
+      "still_trading": true,
+      "blocked_by": [
+        "2.5",
+        "2.17",
+        "3.7",
+        "5.4",
+        "5.11"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "OLD POINT FINANCIAL CORP",
+      "cik": "0000740971",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.16,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "HOOPER HOLMES INC",
+      "cik": "0000741815",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.625,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "US Ecology Holdings, Inc.",
+      "cik": "0000742126",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "RES",
+      "name": "RPC INC",
+      "cik": "0000742278",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.4,
+      "ret": -0.3903632837510016,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "DELAWARE LIFE INSURANCE CO",
+      "cik": "0000745544",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "NEN",
+      "name": "NEW ENGLAND REALTY ASSOCIATES LIMITED PARTNERSHIP",
+      "cik": "0000746514",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": 2.016835022882878,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ORBOTECH LTD",
+      "cik": "0000749037",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "CCUR Holdings, Inc.",
+      "cik": "0000749038",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "IT",
+      "name": "GARTNER INC",
+      "cik": "0000749251",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.75,
+      "coverage": 0.48,
+      "ret": 6.304215804103278,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "EPL OIL & GAS, INC.",
+      "cik": "0000750199",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "SEITEL INC",
+      "cik": "0000750813",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.46153846153846156,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.13",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT, INC.",
+      "cik": "0000751364",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8260869565217391,
+      "coverage": 0.44,
+      "ret": 1.3095324375743642,
+      "still_trading": true,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "DOMINION QUESTAR CORP",
+      "cik": "0000751652",
+      "band": "not yet",
+      "flagged": false,
+      "score": 0.41304347826086957,
+      "coverage": 0.72,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.1",
+        "2.5",
+        "2.10",
+        "2.16",
+        "2.17",
+        "3.7",
+        "5.1",
+        "5.10",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "MGRC",
+      "name": "MCGRATH RENTCORP",
+      "cik": "0000752714",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": 3.3716575418268464,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "EXAR CORP",
+      "cik": "0000753568",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "GROW",
+      "name": "U S GLOBAL INVESTORS INC",
+      "cik": "0000754811",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.4,
+      "ret": -0.11542001245785038,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "CDR-PB",
+      "name": "CEDAR REALTY TRUST, INC.",
+      "cik": "0000761648",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.32,
+      "ret": 0.31898167333513383,
+      "still_trading": true,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "BPOP",
+      "name": "POPULAR, INC.",
+      "cik": "0000763901",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.24,
+      "ret": 2.0968146124919786,
+      "still_trading": true,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "IIIN",
+      "name": "INSTEEL INDUSTRIES INC",
+      "cik": "0000764401",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.76,
+      "coverage": 0.48,
+      "ret": 2.100411668226967,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "DOC",
+      "name": "HEALTHPEAK PROPERTIES, INC.",
+      "cik": "0000765880",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.55,
+      "coverage": 0.64,
+      "ret": 0.06105546339090551,
+      "still_trading": true,
+      "blocked_by": [
+        "2.5",
+        "2.17",
+        "3.7",
+        "5.4",
+        "5.11",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "WELL",
+      "name": "WELLTOWER INC.",
+      "cik": "0000766704",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.88,
+      "coverage": 0.44,
+      "ret": 0.8124898218014553,
+      "still_trading": true,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "CVV",
+      "name": "CVD EQUIPMENT CORP",
+      "cik": "0000766792",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8636363636363636,
+      "coverage": 0.44,
+      "ret": -0.42604166563186385,
+      "still_trading": true,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "PMC SIERRA INC",
+      "cik": "0000767920",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7058823529411765,
+      "coverage": 0.56,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "2.13",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "CYBEROPTICS CORP",
+      "cik": "0000768411",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "KOPN",
+      "name": "KOPIN CORP",
+      "cik": "0000771266",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.4,
+      "ret": -0.6276276162322818,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "HUTCHINSON TECHNOLOGY INC",
+      "cik": "0000772897",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.4642857142857143,
+      "coverage": 0.48,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.11",
+        "5.1",
+        "5.5",
+        "5.10",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "SEKISUI HOUSE U.S., INC.",
+      "cik": "0000773141",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "HealthMarkets, Inc.",
+      "cik": "0000773660",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ALLEGHANY CORP /DE",
+      "cik": "0000775368",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "Berry Petroleum Company, LLC",
+      "cik": "0000778438",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8125,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "BLUEGREEN VACATIONS CORP",
+      "cik": "0000778946",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "JKHY",
+      "name": "JACK HENRY & ASSOCIATES INC",
+      "cik": "0000779152",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.9024390243902439,
+      "coverage": 0.72,
+      "ret": 3.917968275820625,
+      "still_trading": true,
+      "blocked_by": [
+        "2.13"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "DUKE REALTY CORP",
+      "cik": "0000783280",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5263157894736842,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "2.3",
+        "5.1",
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "DJCO",
+      "name": "DAILY JOURNAL CORP",
+      "cik": "0000783412",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.88,
+      "coverage": 0.48,
+      "ret": 2.0207897778102932,
+      "still_trading": true,
+      "blocked_by": [
+        "2.3"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "AMERICAN SAFETY INSURANCE HOLDINGS LTD",
+      "cik": "0000783603",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.24,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "POPE RESOURCES LTD PARTNERSHIP",
+      "cik": "0000784011",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.6842105263157895,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "AORT",
+      "name": "ARTIVION, INC.",
+      "cik": "0000784199",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.36,
+      "ret": 1.0229562218194657,
+      "still_trading": true,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "AEP INDUSTRIES INC",
+      "cik": "0000785787",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "ROCKY MOUNTAIN CHOCOLATE FACTORY INC",
+      "cik": "0000785815",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "JJSF",
+      "name": "J&J SNACK FOODS CORP",
+      "cik": "0000785956",
+      "band": "worth reading",
+      "flagged": true,
+      "score": 0.90625,
+      "coverage": 0.6,
+      "ret": 1.4167255628512034,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "ACURA PHARMACEUTICALS, INC",
+      "cik": "0000786947",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "6.15"
+      ]
+    },
+    {
+      "ticker": "HNRG",
+      "name": "HALLADOR ENERGY CO",
+      "cik": "0000788965",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": 0.4542218426459288,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "NC",
+      "name": "NACCO INDUSTRIES INC",
+      "cik": "0000789933",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5263157894736842,
+      "coverage": 0.36,
+      "ret": 2.4217266679239837,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "5.1",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "RDNT",
+      "name": "RadNet, Inc.",
+      "cik": "0000790526",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.5263157894736842,
+      "coverage": 0.4,
+      "ret": 6.442687801044688,
+      "still_trading": true,
+      "blocked_by": [
+        "2.11",
+        "2.13",
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "XOMA Royalty Corp",
+      "cik": "0000791908",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.12"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "CYPRESS SEMICONDUCTOR CORP /DE/",
+      "cik": "0000791915",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7096774193548387,
+      "coverage": 0.52,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5",
+        "6.15",
+        "7.2"
+      ]
+    },
+    {
+      "ticker": "?",
+      "name": "HARLEYSVILLE GROUP INC",
+      "cik": "0000792013",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.2,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "NAVIGATORS GROUP INC",
+      "cik": "0000793547",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": []
+    },
+    {
+      "ticker": "KBH",
+      "name": "KB HOME",
+      "cik": "0000795266",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.4,
+      "ret": 1.2025521459658473,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "THERAGENICS CORP",
+      "cik": "0000795551",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.8421052631578947,
+      "coverage": 0.36,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.5"
+      ]
+    },
+    {
+      "ticker": "CLFD",
+      "name": "Clearfield, Inc.",
+      "cik": "0000796505",
+      "band": "borderline",
+      "flagged": false,
+      "score": 0.7428571428571429,
+      "coverage": 0.64,
+      "ret": 12.585550565586864,
+      "still_trading": true,
+      "blocked_by": [
+        "2.10",
+        "5.5",
+        "7.1"
+      ]
+    },
+    {
+      "ticker": "PAMT",
+      "name": "PAMT CORP",
+      "cik": "0000798287",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": 10.306042632773119,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "UHT",
+      "name": "UNIVERSAL HEALTH REALTY INCOME TRUST",
+      "cik": "0000798783",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.32,
+      "ret": 0.45552547980791425,
+      "still_trading": true,
+      "blocked_by": []
+    },
+    {
+      "ticker": "?",
+      "name": "CARMIKE CINEMAS INC",
+      "cik": "0000799088",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 0.7692307692307693,
+      "coverage": 0.28,
+      "ret": null,
+      "still_trading": false,
+      "blocked_by": [
+        "5.1"
+      ]
+    },
+    {
+      "ticker": "MRTN",
+      "name": "MARTEN TRANSPORT LTD",
+      "cik": "0000799167",
+      "band": "insufficient data",
+      "flagged": false,
+      "score": 1.0,
+      "coverage": 0.4,
+      "ret": 3.6921886952862524,
+      "still_trading": true,
+      "blocked_by": []
+    }
+  ]
+}
