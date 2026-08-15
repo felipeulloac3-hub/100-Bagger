@@ -1,0 +1,596 @@
+{
+  "generated": "2026-08-15 21:06 UTC",
+  "scanned": 3,
+  "rules": [
+    "0.6",
+    "0.11",
+    "0.12",
+    "2.1",
+    "2.3",
+    "2.5",
+    "2.10",
+    "2.11",
+    "2.13",
+    "2.16",
+    "2.17",
+    "2.18",
+    "3.2",
+    "3.7",
+    "5.1",
+    "5.4",
+    "5.5",
+    "5.10",
+    "5.11",
+    "5.12",
+    "6.15",
+    "7.1",
+    "7.2",
+    "7.8",
+    "8.8"
+  ],
+  "results": [
+    {
+      "ticker": "XPEL",
+      "name": "XPEL, Inc.",
+      "cik": "0001767258",
+      "band": "worth reading",
+      "score": 0.8301886792452831,
+      "coverage": 0.88,
+      "market_cap": null,
+      "gate_failures": [],
+      "verdicts": [
+        {
+          "id": "0.6",
+          "status": "PASS",
+          "weight": "gate",
+          "detail": "no NT 10-K or NT 10-Q on record",
+          "value": null
+        },
+        {
+          "id": "0.11",
+          "status": "PASS",
+          "weight": "gate",
+          "detail": "listed on Nasdaq",
+          "value": null
+        },
+        {
+          "id": "0.12",
+          "status": "PASS",
+          "weight": "gate",
+          "detail": "revenue 396,293,000; operations self-sustaining",
+          "value": null
+        },
+        {
+          "id": "2.1",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "ROIC avg 46.8%, min 26.3% over 4y (need avg \u2265 15% and min \u2265 10%) \u2014 JUDGMENT threshold",
+          "value": 0.46752760796881143
+        },
+        {
+          "id": "2.3",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "ROIIC not derivable (capital did not grow, or gaps in data)",
+          "value": null
+        },
+        {
+          "id": "2.5",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "revenue CAGR 35.6% \u2014 outside 15\u201335% (SOURCED: Mayer's 20\u201325%)",
+          "value": 0.3560497966573244
+        },
+        {
+          "id": "2.10",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "FCF \u00f7 net income (3y) = 37% (need \u2265 80%) \u2014 SOURCED: Smith",
+          "value": 0.37131405668479817
+        },
+        {
+          "id": "2.11",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "gross margin = 41% (need \u2265 35%) \u2014 JUDGMENT threshold",
+          "value": 0.40983312851854564
+        },
+        {
+          "id": "2.13",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "goodwill + intangibles = 25% of assets (need \u2264 30%) \u2014 JUDGMENT proxy for acquisitive growth",
+          "value": 0.2521751917845151
+        },
+        {
+          "id": "2.16",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "worst peak-to-trough revenue decline 0% over available history (need \u2264 25%) \u2014 JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower",
+          "value": 0.0
+        },
+        {
+          "id": "2.17",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "diluted EPS CAGR 42.4% (need \u2265 12%) \u2014 growth that survives dilution \u2014 JUDGMENT threshold",
+          "value": 0.4237268841027828
+        },
+        {
+          "id": "2.18",
+          "status": "PASS",
+          "weight": "minor",
+          "detail": "operating income growth \u00f7 revenue growth = 1.18x (need \u2265 1.00x) \u2014 JUDGMENT threshold",
+          "value": 1.1807415721466905
+        },
+        {
+          "id": "3.2",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "PEG needs price, positive earnings and positive EPS growth",
+          "value": null
+        },
+        {
+          "id": "3.7",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "EPS growth alone delivers 42.4%/yr with no multiple expansion (need \u2265 12%) \u2014 JUDGMENT threshold",
+          "value": 0.4237268841027828
+        },
+        {
+          "id": "5.1",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "net cash position of 21,628,812 \u2014 JUDGMENT: net cash passes the leverage test outright",
+          "value": 0.0
+        },
+        {
+          "id": "5.4",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "1,614,409 due within 3 years vs 115,171,000 of cash plus 3 years of current FCF \u2014 JUDGMENT coverage test",
+          "value": 1614409.0
+        },
+        {
+          "id": "5.5",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "interest coverage after a 30% revenue decline = 14.6x (need \u2265 3.0x) \u2014 JUDGMENT: both the 30% shock and the 3x floor are my choices",
+          "value": 14.621634615384615
+        },
+        {
+          "id": "5.10",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "operating cash covers capex over 3 years \u2014 JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test",
+          "value": null
+        },
+        {
+          "id": "5.11",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "diluted share count +0.0%/yr over 5 years (need \u2264 +2%) \u2014 JUDGMENT threshold on Fisher #13",
+          "value": 0.00019372301004105807
+        },
+        {
+          "id": "5.12",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "no preferred stock outstanding \u2014 JUDGMENT",
+          "value": 0.0
+        },
+        {
+          "id": "6.15",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "stock-based comp \u00f7 revenue = 0.4% (need \u2264 10.0%) \u2014 JUDGMENT threshold",
+          "value": 0.004138352178817188
+        },
+        {
+          "id": "7.1",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "FCF \u00f7 net income (5y) = 46% (need \u2265 70%) \u2014 JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash",
+          "value": 0.46055812812831026
+        },
+        {
+          "id": "7.2",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "receivables growing -5.3%/yr faster than revenue (need \u2264 +5pp) \u2014 JUDGMENT threshold",
+          "value": -0.052526818457059754
+        },
+        {
+          "id": "7.8",
+          "status": "PASS",
+          "weight": "minor",
+          "detail": "goodwill + intangibles \u00f7 assets = 25% (need \u2264 40%) \u2014 JUDGMENT threshold",
+          "value": 0.2521751917845151
+        },
+        {
+          "id": "8.8",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "no volume data",
+          "value": null
+        }
+      ]
+    },
+    {
+      "ticker": "OCC",
+      "name": "OPTICAL CABLE CORP",
+      "cik": "0001000230",
+      "band": "not yet",
+      "score": 0.35135135135135137,
+      "coverage": 0.64,
+      "market_cap": null,
+      "gate_failures": [],
+      "verdicts": [
+        {
+          "id": "0.6",
+          "status": "PASS",
+          "weight": "gate",
+          "detail": "no NT 10-K or NT 10-Q on record",
+          "value": null
+        },
+        {
+          "id": "0.11",
+          "status": "PASS",
+          "weight": "gate",
+          "detail": "listed on Nasdaq",
+          "value": null
+        },
+        {
+          "id": "0.12",
+          "status": "PASS",
+          "weight": "gate",
+          "detail": "revenue 66,674,099; operations self-sustaining",
+          "value": null
+        },
+        {
+          "id": "2.1",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "ROIC avg -9.5%, min -16.8% over 5y (need avg \u2265 15% and min \u2265 10%) \u2014 JUDGMENT threshold",
+          "value": -0.09482617119534092
+        },
+        {
+          "id": "2.3",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "ROIIC not derivable (capital did not grow, or gaps in data)",
+          "value": null
+        },
+        {
+          "id": "2.5",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "revenue CAGR 6.4% \u2014 outside 15\u201335% (SOURCED: Mayer's 20\u201325%)",
+          "value": 0.06447757318827363
+        },
+        {
+          "id": "2.10",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "FCF \u00f7 net income (3y) = -4% (need \u2265 80%) \u2014 SOURCED: Smith",
+          "value": -0.04316644365108557
+        },
+        {
+          "id": "2.11",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "gross margin = 27% (need \u2265 35%) \u2014 JUDGMENT threshold",
+          "value": 0.27304114000850616
+        },
+        {
+          "id": "2.13",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "goodwill + intangibles = 1% of assets (need \u2264 30%) \u2014 JUDGMENT proxy for acquisitive growth",
+          "value": 0.012734918973088144
+        },
+        {
+          "id": "2.16",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "worst peak-to-trough revenue decline 37% over available history (need \u2264 25%) \u2014 JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower",
+          "value": 0.37062179866487666
+        },
+        {
+          "id": "2.17",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "EPS CAGR not derivable",
+          "value": null
+        },
+        {
+          "id": "2.18",
+          "status": "UNKNOWN",
+          "weight": "minor",
+          "detail": "operating income growth \u00f7 revenue growth: not derivable from filings",
+          "value": null
+        },
+        {
+          "id": "3.2",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "PEG needs price, positive earnings and positive EPS growth",
+          "value": null
+        },
+        {
+          "id": "3.7",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "EPS growth not derivable",
+          "value": null
+        },
+        {
+          "id": "5.1",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "net debt \u00f7 EBITDA: not derivable from filings",
+          "value": null
+        },
+        {
+          "id": "5.4",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "16,517,391 due within 3 years vs 244,247 of cash plus 3 years of current FCF \u2014 JUDGMENT coverage test",
+          "value": 16517391.0
+        },
+        {
+          "id": "5.5",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "interest coverage after a 30% revenue decline = -7.6x (need \u2265 3.0x) \u2014 JUDGMENT: both the 30% shock and the 3x floor are my choices",
+          "value": -7.575425456228624
+        },
+        {
+          "id": "5.10",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "capex exceeds operating cash over 3 years \u2014 growth needs outside money, Cassel's principal micro-cap risk \u2014 JUDGMENT",
+          "value": null
+        },
+        {
+          "id": "5.11",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "share count history not derivable",
+          "value": null
+        },
+        {
+          "id": "5.12",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "no preferred stock outstanding \u2014 JUDGMENT",
+          "value": 0.0
+        },
+        {
+          "id": "6.15",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "stock-based comp \u00f7 revenue = 0.7% (need \u2264 10.0%) \u2014 JUDGMENT threshold",
+          "value": 0.0066477688734871395
+        },
+        {
+          "id": "7.1",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "FCF \u00f7 net income (5y): not derivable from filings",
+          "value": null
+        },
+        {
+          "id": "7.2",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "receivables growing +2.9%/yr faster than revenue (need \u2264 +5pp) \u2014 JUDGMENT threshold",
+          "value": 0.028830198184842448
+        },
+        {
+          "id": "7.8",
+          "status": "PASS",
+          "weight": "minor",
+          "detail": "goodwill + intangibles \u00f7 assets = 1% (need \u2264 40%) \u2014 JUDGMENT threshold",
+          "value": 0.012734918973088144
+        },
+        {
+          "id": "8.8",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "no volume data",
+          "value": null
+        }
+      ]
+    },
+    {
+      "ticker": "ACU",
+      "name": "ACME UNITED CORP",
+      "cik": "0000002098",
+      "band": "excluded",
+      "score": 0.5471698113207547,
+      "coverage": 0.88,
+      "market_cap": null,
+      "gate_failures": [
+        "0.6"
+      ],
+      "verdicts": [
+        {
+          "id": "0.6",
+          "status": "FAIL",
+          "weight": "gate",
+          "detail": "2 late-filing notice(s): NT 10-K 2022-03-17, NT 10-K 2021-03-16",
+          "value": null
+        },
+        {
+          "id": "0.11",
+          "status": "PASS",
+          "weight": "gate",
+          "detail": "listed on NYSE",
+          "value": null
+        },
+        {
+          "id": "0.12",
+          "status": "PASS",
+          "weight": "gate",
+          "detail": "revenue 194,489,991; operations self-sustaining",
+          "value": null
+        },
+        {
+          "id": "2.1",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "ROIC avg 10.0%, min 4.3% over 5y (need avg \u2265 15% and min \u2265 10%) \u2014 JUDGMENT threshold",
+          "value": 0.10011231456817098
+        },
+        {
+          "id": "2.3",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "return on incremental invested capital 9.9% (need \u2265 15%) \u2014 JUDGMENT",
+          "value": 0.09894392976737792
+        },
+        {
+          "id": "2.5",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "revenue CAGR 2.2% \u2014 outside 15\u201335% (SOURCED: Mayer's 20\u201325%)",
+          "value": 0.02220733762631477
+        },
+        {
+          "id": "2.10",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "FCF \u00f7 net income (3y) = 90% (need \u2265 80%) \u2014 SOURCED: Smith",
+          "value": 0.8959350672929128
+        },
+        {
+          "id": "2.11",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "gross margin = 39% (need \u2265 35%) \u2014 JUDGMENT threshold",
+          "value": 0.3925694253335638
+        },
+        {
+          "id": "2.13",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "goodwill + intangibles = 19% of assets (need \u2264 30%) \u2014 JUDGMENT proxy for acquisitive growth",
+          "value": 0.186412892409478
+        },
+        {
+          "id": "2.16",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "worst peak-to-trough revenue decline 1% over available history (need \u2264 25%) \u2014 JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower",
+          "value": 0.012690142757957927
+        },
+        {
+          "id": "2.17",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "diluted EPS CAGR -10.9% (need \u2265 12%) \u2014 growth that survives dilution \u2014 JUDGMENT threshold",
+          "value": -0.10861328636739698
+        },
+        {
+          "id": "2.18",
+          "status": "PASS",
+          "weight": "minor",
+          "detail": "operating income growth \u00f7 revenue growth = 1.56x (need \u2265 1.00x) \u2014 JUDGMENT threshold",
+          "value": 1.5558892569632765
+        },
+        {
+          "id": "3.2",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "PEG needs price, positive earnings and positive EPS growth",
+          "value": null
+        },
+        {
+          "id": "3.7",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "EPS growth alone delivers -10.9%/yr with no multiple expansion (need \u2265 12%) \u2014 JUDGMENT threshold",
+          "value": -0.10861328636739698
+        },
+        {
+          "id": "5.1",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "net debt \u00f7 EBITDA = 0.55x (need \u2264 1.50x) \u2014 JUDGMENT threshold",
+          "value": 0.5545503074826975
+        },
+        {
+          "id": "5.4",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "maturity schedule not tagged in XBRL",
+          "value": null
+        },
+        {
+          "id": "5.5",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "interest coverage after a 30% revenue decline = -4.2x (need \u2265 3.0x) \u2014 JUDGMENT: both the 30% shock and the 3x floor are my choices",
+          "value": -4.208019779164666
+        },
+        {
+          "id": "5.10",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "operating cash covers capex over 3 years \u2014 JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test",
+          "value": null
+        },
+        {
+          "id": "5.11",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "diluted share count +3.5%/yr over 5 years (need \u2264 +2%) \u2014 JUDGMENT threshold on Fisher #13",
+          "value": 0.03489477545478925
+        },
+        {
+          "id": "5.12",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "no preferred stock reported \u2014 JUDGMENT: absence on a tagged balance sheet is read as none outstanding",
+          "value": 0.0
+        },
+        {
+          "id": "6.15",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "stock-based comp \u00f7 revenue = 1.1% (need \u2264 10.0%) \u2014 JUDGMENT threshold",
+          "value": 0.011224233127760287
+        },
+        {
+          "id": "7.1",
+          "status": "FAIL",
+          "weight": "major",
+          "detail": "FCF \u00f7 net income (5y) = 56% (need \u2265 70%) \u2014 JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash",
+          "value": 0.561920467900201
+        },
+        {
+          "id": "7.2",
+          "status": "PASS",
+          "weight": "major",
+          "detail": "receivables growing -8.4%/yr faster than revenue (need \u2264 +5pp) \u2014 JUDGMENT threshold",
+          "value": -0.08427262223574772
+        },
+        {
+          "id": "7.8",
+          "status": "PASS",
+          "weight": "minor",
+          "detail": "goodwill + intangibles \u00f7 assets = 19% (need \u2264 40%) \u2014 JUDGMENT threshold",
+          "value": 0.186412892409478
+        },
+        {
+          "id": "8.8",
+          "status": "UNKNOWN",
+          "weight": "major",
+          "detail": "no volume data",
+          "value": null
+        }
+      ]
+    }
+  ]
+}
