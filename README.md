@@ -127,6 +127,12 @@ coverage. Run several start dates before believing any single one.
 were demoted; see `reports/rule-lift.md`. That analysis compares rules *within*
 the priced names, so it is unaffected by the problem below.
 
+It now rests on **523 priced observations** rather than 465, because the ticker
+map below put previously invisible delisted names back in the sample. Every rule
+with enough observations still sorts in the right direction, which is the more
+interesting version of that result: the names it gained are exactly the ones most
+likely to have performed badly, and adding them did not invert any rule.
+
 **Not established.** The headline "flagged beat the rest by X%" figures do not
 survive scrutiny. A forward return needs a ticker; SEC lists only a company's
 *current* ticker; so anything delisted, acquired or wound up leaves the sample at
@@ -156,21 +162,26 @@ series would credit a dead company with someone else's returns.
 
 ### What it actually bought, measured
 
-Run against 2013-12-31, the map covered **17,785 CIKs across 8 observation dates
-(2017–2024)** and had a symbol for **118 of the 133** unpriced names — 89%. Only
-**16 of those produced a price series.**
+The map covers **18,268 CIKs across 9 observation dates (2017–2025)** in a 1.2 MB
+file. At 2013-12-31 it had a symbol for **118 of the 133** unpriced names — 89%.
+Only **16 of those produced a price series.**
 
-That single number settles the question this project kept circling:
+That gap settles the question this project kept circling. Across all four start
+dates:
 
-| Cause of a missing price | Before the map | After |
-|---|---|---|
-| No symbol on record anywhere | 132 | **15** |
-| Symbol known, no free price series | 1 | **102** |
+| Start | No symbol anywhere | Symbol, no free series | Attrition gap |
+|---|---|---|---|
+| 2012 | 19 | 110 | 22 pts |
+| 2013 | 15 | 102 | 24 pts |
+| 2014 | 14 | 98 | 12 pts |
+| 2015 | 15 | 93 | 18 pts |
 
-**The identifier problem is solved and the terminal-value problem is now the
-entire constraint.** Attrition moved only from 30%/60% to 28%/52% — a 24-point
-gap against a 10-point limit — so the return comparison is still refused, and
-correctly.
+At 2013 the split before the map was **132 / 1**. It is now **15 / 102**, and the
+same flip replicates on every date.
+
+**The identifier problem is solved; the terminal-value problem is now the entire
+constraint.** No date clears the 10-point comparability bar, so the return
+comparison is still refused — correctly.
 
 This is a real result, not a failure: it converts "we should probably pay for
 data" into a measured reason. Free vendors do not carry delisted symbols, and
