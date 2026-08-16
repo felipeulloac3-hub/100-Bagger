@@ -21,6 +21,11 @@ so is measured instead:
                          declines to reach a verdict rather than printing a
                          confident number over a broken sample.
 
+                         scanner/tickermap.py narrows it: historical snapshots of
+                         SEC's ticker file name symbols SEC itself has erased. It
+                         narrows the gap; it does not close it, because a last
+                         close cannot tell an acquisition from a bankruptcy.
+
 The rule-lift analysis in scanner/analyze.py is unaffected by this, because it
 compares rules within the priced names, where every observation carries the same
 attrition. That is why it, and not the headline return figures, is what the
@@ -37,7 +42,7 @@ import pathlib
 import statistics
 import sys
 
-from . import edgar, facts, rules
+from . import edgar, facts, rules, tickermap
 from .rules import Context, evaluate
 
 BENCHMARK = "IWM"      # iShares Russell 2000 -- small-cap, the right comparison
@@ -128,8 +133,47 @@ def ticker_for(subs: dict | None) -> str | None:
     return _first(subs, "tickers")
 
 
-def evaluate_at(cik: str, as_of: str):
-    """(Context, Result, price history) as of a date, or None if unusable."""
+def ticker_candidates(subs: dict | None, tmap: "tickermap.TickerMap | None",
+                      cik: str, as_of: str) -> list[str]:
+    """Symbols worth trying for this filer, best first.
+
+    SEC's own current ticker leads, because when it exists it is certainly right.
+    Everything after it comes from historical snapshots and is a guess that has to
+    survive the price lookup.
+    """
+    out = [t.upper() for t in ((subs or {}).get("tickers") or []) if t]
+    if tmap:
+        for t in tmap.candidates(cik, as_of):
+            if t not in out:
+                out.append(t)
+    return out
+
+
+def resolve_price_history(cands: list[str], as_of: str
+                          ) -> tuple[str | None, list]:
+    """First candidate with a price series that already existed at `as_of`.
+
+    The as-of test is not decoration. Dead tickers get reassigned -- a symbol
+    freed by a 2016 delisting can belong to an unrelated company by 2019 -- and
+    accepting any series at all would quietly credit one company with another's
+    returns. Requiring a quote on or before the screening date rejects the
+    obvious cases. It does not catch a symbol recycled *before* the as-of date,
+    which is why SEC's own ticker is always tried first.
+    """
+    for t in cands:
+        h = edgar.price_history(t, days=10_000)
+        if h and price_on(h, as_of) is not None:
+            return t, h
+    return None, []
+
+
+def evaluate_at(cik: str, as_of: str, tmap: "tickermap.TickerMap | None" = None):
+    """(Context, Result, price history, meta) as of a date, or None if unusable.
+
+    `meta` carries the bookkeeping the report needs and the screen must not see:
+    which symbol the price came from, and whether SEC knew it or the historical
+    map supplied it.
+    """
     fx_full = edgar.company_facts(cik)
     if not fx_full:
         return None
@@ -137,17 +181,25 @@ def evaluate_at(cik: str, as_of: str):
     if not fx.get("facts"):
         return None
     subs = edgar.submissions(cik)
-    ticker = ticker_for(subs)
+    sec_ticker = ticker_for(subs)
+    cands = ticker_candidates(subs, tmap, cik, as_of)
 
     forms = [f for f in edgar.recent_forms(subs, 2000)
              if f.get("filingDate", "9999") <= as_of]
 
-    price = volume = None
-    history: list = []
-    if ticker:
-        history = edgar.price_history(ticker, days=10_000)
-        price = price_on(history, as_of)
-        volume = median_volume_to(history, as_of)
+    ticker, history = resolve_price_history(cands, as_of)
+    price = price_on(history, as_of) if history else None
+    volume = median_volume_to(history, as_of) if history else None
+    meta = {
+        "candidates": len(cands),
+        "sec_ticker": sec_ticker,
+        "priced_as": ticker,
+        # True when SEC has no ticker for this filer and a snapshot did.
+        "recovered": bool(ticker) and ticker != sec_ticker,
+    }
+    # Report under whatever symbol was found; fall back to SEC's so a name with
+    # no price still shows up as itself rather than as "?".
+    ticker = ticker or sec_ticker
 
     ctx = Context(
         cik=cik, ticker=ticker or "?",
@@ -160,7 +212,7 @@ def evaluate_at(cik: str, as_of: str):
         as_of=as_of,          # recency tests measure from then, not from today
     )
     res = evaluate(ctx)
-    return ctx, res, history
+    return ctx, res, history, meta
 
 
 def summarize(rets: list[float]) -> dict:
@@ -178,6 +230,35 @@ def summarize(rets: list[float]) -> dict:
         "worst": rets[0],
         "multibaggers_10x": sum(1 for r in rets if r >= 9.0),
     }
+
+
+def _ticker_recovery(d: dict) -> str:
+    """What the historical ticker map bought, and what is still missing.
+
+    Split by cause, because the two failures have different remedies. `no_ticker`
+    means no source on record ever named the symbol -- more snapshots or a hand
+    entry in data/tickers.csv fixes it. `no_series` means the symbol is known and
+    no free price vendor carries the dead stock -- only a paid database with
+    delisting returns fixes that.
+    """
+    snaps = d.get("ticker_snapshots") or []
+    rec = d.get("recovered", 0)
+    rows = d.get("rows", [])
+    no_ticker = sum(1 for r in rows if r.get("missing_reason") == "no_ticker")
+    no_series = sum(1 for r in rows if r.get("missing_reason") == "no_series")
+
+    if not snaps and not d.get("ticker_overrides"):
+        head = ("No historical ticker map was loaded, so every company SEC no longer "
+                "lists a symbol for is absent from the returns below.")
+    else:
+        head = (f"Historical ticker map: **{d.get('ticker_map_size', 0)}** CIKs from "
+                f"{len(snaps)} observation date(s)"
+                + (f" ({', '.join(snaps)})" if snaps else "")
+                + f", which supplied the symbol for **{rec}** name(s) SEC has "
+                  "since dropped.")
+    return (head + f" Still unpriced: **{no_ticker}** with no symbol on record "
+                   f"anywhere, **{no_series}** with a known symbol that no free "
+                   "price source carries.")
 
 
 def _survivorship(d: dict) -> str:
@@ -284,6 +365,8 @@ def report(d: dict) -> str:
         f"- Flagged but no usable price series: **{d['flagged_unpriced']}**; "
         f"rejected but no usable price series: **{d.get('rest_unpriced', 0)}**",
         "",
+        _ticker_recovery(d),
+        "",
         f"**Attrition — flagged {d.get('attrition_flagged', 0):.0%}, "
         f"rejected {d.get('attrition_rest', 0):.0%}"
         + ("" if d.get("comparable", True) else
@@ -354,6 +437,9 @@ def main(argv=None) -> int:
     ap.add_argument("--max-revenue", type=float, default=2e9)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--out", default="reports")
+    ap.add_argument("--ticker-data", default="",
+                    help="directory holding tickers.csv and ticker-snapshots/ "
+                         "(default: data/)")
     a = ap.parse_args(argv)
 
     as_of = a.as_of
@@ -363,20 +449,28 @@ def main(argv=None) -> int:
         print(f"exit date {exit_date} is in the future; shorten --years", file=sys.stderr)
         return 1
 
+    tmap = tickermap.load(a.ticker_data or None)
+    if len(tmap):
+        print(f"historical ticker map: {len(tmap)} CIKs from "
+              f"{len(tmap.dates)} observation date(s)")
+    else:
+        print("no historical ticker map found -- delisted names will drop out at "
+              "the price lookup. See scanner/harvest_tickers.py.")
+
     universe = build_universe(as_of, a.min_revenue, a.max_revenue)
     ciks = list(universe)[: a.limit] if a.limit else list(universe)
     print(f"universe at {as_of}: {len(ciks)} filers")
 
     flagged_rets, rest_rets = [], []
     flagged_unpriced = rest_unpriced = flagged_delisted = 0
-    evaluated = passed_gates = flagged_count = errored = 0
+    evaluated = passed_gates = flagged_count = errored = recovered = 0
     rows: list[dict] = []       # per-name detail; without it the misses are invisible
 
     for i, cik in enumerate(ciks, 1):
         if i % 100 == 0:
             print(f"  {i}/{len(ciks)}")
         try:
-            got = evaluate_at(cik, as_of)
+            got = evaluate_at(cik, as_of, tmap)
         except Exception as e:
             # Thousands of filers, each with its own idea of well-formed JSON.
             # Losing one is a data point; losing the run is a bug.
@@ -386,7 +480,7 @@ def main(argv=None) -> int:
             continue
         if not got:
             continue
-        _ctx, res, history = got
+        _ctx, res, history, meta = got
         evaluated += 1
         if res.excluded:
             continue
@@ -394,6 +488,8 @@ def main(argv=None) -> int:
         is_flagged = res.band == "worth reading"
         if is_flagged:
             flagged_count += 1
+        if meta["recovered"]:
+            recovered += 1
 
         ret, still = forward_return(history, as_of, exit_date)
         rows.append({
@@ -401,7 +497,12 @@ def main(argv=None) -> int:
             "band": res.band, "flagged": is_flagged,
             "score": res.score, "coverage": res.coverage,
             "ret": ret, "still_trading": still,
-            "no_ticker": res.ticker in ("?", "", None),
+            "no_ticker": not meta["candidates"],
+            "recovered": meta["recovered"],
+            # Distinguishes "we never knew the symbol" from "we knew it and no
+            # vendor carries the series" -- different problems, different fixes.
+            "missing_reason": None if ret is not None else (
+                "no_ticker" if not meta["candidates"] else "no_series"),
             "blocked_by": [v.id for v in res.verdicts
                            if v.status == rules.FAIL and v.weight in ("gate", "major")],
         })
@@ -446,7 +547,12 @@ def main(argv=None) -> int:
             "with the sign flipped.\n\n"
             "The cause is that a forward return needs a ticker, and SEC lists only a "
             "company's current one — delisted, acquired and wound-up companies have "
-            "none. The rule-lift analysis in `reports/rule-lift.md` is unaffected, "
+            "none. Narrow it by feeding the run more history: "
+            "`python -m scanner.harvest_tickers` pulls old copies of SEC's ticker "
+            "file out of the Wayback Machine, and `data/tickers.csv` takes symbols "
+            "by hand. See the coverage section above for which of the two failures "
+            "is binding.\n\n"
+            "The rule-lift analysis in `reports/rule-lift.md` is unaffected, "
             "because it compares rules *within* the priced names, where every "
             "observation has the same attrition."
         )
@@ -482,6 +588,9 @@ def main(argv=None) -> int:
         "flagged_delisted": flagged_delisted, "errored": errored,
         "attrition_flagged": att_f, "attrition_rest": att_r,
         "attrition_gap": gap, "comparable": comparable,
+        "recovered": recovered,
+        "ticker_map_size": len(tmap), "ticker_snapshots": tmap.dates,
+        "ticker_overrides": len(tmap.overrides),
         "flagged": f, "rest": r, "benchmark": bench,
         "flagged_median_with_wipeouts": with_wipeouts,
         "verdict": verdict,

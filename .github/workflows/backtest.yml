@@ -43,6 +43,16 @@ jobs:
           key: sec-cache-${{ github.run_id }}
           restore-keys: sec-cache-
 
+      # Incremental and cached: it skips observation dates already folded in, so
+      # after the first run this is a couple of requests. Non-fatal because the
+      # Archive rate-limits, and a backtest without the map is still a backtest --
+      # it just loses the delisted names, and says so.
+      - name: Refresh the historical ticker map
+        continue-on-error: true
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+        run: python -m scanner.harvest_tickers --from 2016 --to 2025 --per-year 2
+
       - name: Backtest
         env:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
@@ -64,7 +74,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/
+          git add reports/ data/
           if git diff --staged --quiet; then
             echo "no change"
           else

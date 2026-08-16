@@ -1,0 +1,5 @@
+# Hand-supplied CIK -> ticker, for companies SEC no longer lists a symbol for.
+# One `cik,ticker` per line. Leading zeros optional. `#` starts a comment.
+# Several rows for one CIK are tried in the order written.
+# See data/README.md for where to look these up.
+cik,ticker

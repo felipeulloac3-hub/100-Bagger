@@ -44,6 +44,7 @@ scanner/metrics.py  derived metrics — ROIC, ROIIC, cash conversion, dilution
 scanner/rules.py    ~25 checklist questions as PASS / FAIL / UNKNOWN + evidence
 scanner/edgar.py    the only module that touches the network
 scanner/scan.py     universe build, ranking, report
+scanner/tickermap.py  historical CIK -> ticker, for companies SEC has forgotten
 ```
 
 Two rules govern the design:
@@ -66,7 +67,7 @@ that it never acquires one.
 
 ```bash
 export SEC_USER_AGENT="Your Name you@example.com"   # SEC refuses requests without this
-python -m unittest discover -s tests -t .           # 65 tests, no network needed
+python -m unittest discover -s tests -t .           # 155 tests, no network needed
 python -m scanner.scan --tickers XPEL,ACU --out reports
 python -m scanner.scan --out reports                # full universe
 ```
@@ -134,15 +135,42 @@ was **36% of flagged names against 57% of rejected ones**. Comparing a
 64%-surviving group with a 43%-surviving one measures attrition, not skill, and
 marking the missing to a total loss only flips the artefact's sign.
 
-The report now states attrition for both groups and refuses a verdict when they
-differ by more than 10 points. Recovering historical tickers for delisted
-companies is not possible from the free sources this uses.
+The report states attrition for both groups and refuses a verdict when they
+differ by more than 10 points.
+
+### Narrowing it
+
+SEC forgets old tickers, but the Internet Archive did not. `scanner/tickermap.py`
+reads point-in-time copies of SEC's own `company_tickers.json` and offers them as
+fallback symbols; `data/tickers.csv` takes anything left over by hand.
+
+```bash
+python -m scanner.harvest_tickers --from 2016 --to 2025   # writes data/ticker-history.json
+python -m scanner.backtest --as-of 2013-12-31 --years 10  # picks it up automatically
+```
+
+SEC's current ticker is always tried first, and a candidate is accepted only if
+its price series already existed at the screening date — a symbol freed by one
+delisting is often reassigned to an unrelated company, and taking the recycled
+series would credit a dead company with someone else's returns.
+
+This narrows the gap; it does not close it. Two things remain broken, and the
+report counts them separately so you can see which is binding:
+
+- **No symbol on record.** Archive captures of that file begin around 2016, so a
+  company that died in 2014 is still missing. `data/tickers.csv` is the manual
+  escape hatch.
+- **Symbol known, no series.** Free price vendors drop most dead tickers, and
+  even when they do not, a last close cannot tell an acquisition at a premium
+  from a bankruptcy. Only delisting returns fix that, which means a paid
+  database — Sharadar at retail prices, CRSP at institutional ones. The map is
+  the right shape to swap either in behind. See `data/README.md`.
 
 ## Known gaps
 
 - Return comparisons are unusable while attrition differs by group (above).
-  Fixing it needs a historical ticker source, which the free data does not
-  provide.
+  Historical tickers narrow it; delisting returns would close it, and those cost
+  money.
 - The Scan covers ~25 of the checklist's 81 machine-answerable questions. The
   rest need filing *text*, which is the Dossier's job.
 - Delisting cannot be distinguished from acquisition, so the survivorship
