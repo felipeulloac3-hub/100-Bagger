@@ -49,9 +49,10 @@ jobs:
       # it just loses the delisted names, and says so.
       - name: Refresh the historical ticker map
         continue-on-error: true
+        timeout-minutes: 20
         env:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
-        run: python -m scanner.harvest_tickers --from 2016 --to 2025 --per-year 2
+        run: python -m scanner.harvest_tickers --from 2016 --to 2025 --budget-seconds 900
 
       - name: Backtest
         env:

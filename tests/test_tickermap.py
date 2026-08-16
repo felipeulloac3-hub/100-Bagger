@@ -188,7 +188,10 @@ class TestHarvest(unittest.TestCase):
     def _stub(self, responses):
         from scanner import edgar, harvest_tickers
 
-        def fake(url, cache_key=None, ttl_hours=24):
+        # Signature mirrors edgar.fetch exactly. A stub that quietly accepts
+        # **kwargs would hide the next ttl/ttl_hours-class mismatch instead of
+        # failing on it, which is the whole reason these tests exist.
+        def fake(url, cache_key=None, ttl_hours=24, attempts=3):
             for frag, body in responses.items():
                 if frag in url:
                     return body
@@ -237,6 +240,52 @@ class TestHarvest(unittest.TestCase):
         m.observe("2017-04-02", {"0000000005": ["DEAD"]})
         with contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(H.harvest(m, 2017, 2017, 1), 0)
+
+    def test_progress_is_banked_after_every_capture(self):
+        """The expensive lesson. A first run downloaded for an hour, was killed,
+        and wrote nothing, because the history file was only saved at the end."""
+        import contextlib, io
+        H = self._stub({
+            "cdx": json.dumps([["timestamp"], ["20170402120000"],
+                               ["20180402120000"]]).encode(),
+            "web.archive.org": json.dumps(
+                {"0": {"cik_str": 5, "ticker": "DEAD"}}).encode(),
+        })
+        saves = []
+        m = T.TickerMap()
+        with contextlib.redirect_stdout(io.StringIO()):
+            H.harvest(m, 2017, 2018, 1, save=lambda: saves.append(len(m.dates)))
+        self.assertEqual(saves, [1, 2], "must save after each capture, not once")
+
+    def test_the_clock_budget_stops_the_loop_and_keeps_what_landed(self):
+        """urlopen's timeout bounds socket inactivity, not total transfer time,
+        so a trickling response never times out. The loop has to stop itself."""
+        import contextlib, io
+        H = self._stub({
+            "cdx": json.dumps([["timestamp"], ["20170402120000"],
+                               ["20180402120000"], ["20190402120000"]]).encode(),
+            "web.archive.org": json.dumps(
+                {"0": {"cik_str": 5, "ticker": "DEAD"}}).encode(),
+        })
+        m = T.TickerMap()
+        with contextlib.redirect_stdout(io.StringIO()) as buf:
+            added = H.harvest(m, 2017, 2019, 1, budget=-1.0)
+        self.assertEqual(added, 0)
+        self.assertIn("budget", buf.getvalue())
+
+    def test_a_signature_mismatch_still_crashes(self):
+        """`except Exception` around the fetch would report a TypeError as 'the
+        Archive is down'. That is how the ttl/ttl_hours bug reached production."""
+        import contextlib, io
+        from scanner import edgar, harvest_tickers
+
+        def wrong_signature(url, cache_key=None, ttl=24):
+            return b"{}"
+        orig = edgar.fetch
+        edgar.fetch = wrong_signature
+        self.addCleanup(lambda: setattr(edgar, "fetch", orig))
+        with self.assertRaises(TypeError), contextlib.redirect_stdout(io.StringIO()):
+            harvest_tickers.captures("https://x/company_tickers.json", 2017, 2018)
 
     def test_a_snapshot_that_is_not_json_is_discarded(self):
         import contextlib, io

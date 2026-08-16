@@ -23,6 +23,8 @@ from __future__ import annotations
 import argparse
 import json
 import pathlib
+import time
+import urllib.error
 
 from . import edgar, tickermap
 
@@ -31,10 +33,23 @@ CDX = "https://web.archive.org/cdx/search/cdx"
 # and no toolbar injected into the payload.
 SNAP = "https://web.archive.org/web/{ts}id_/{url}"
 
+# One file, not two. company_tickers_exchange.json carries the same CIK -> ticker
+# pairs plus an exchange column this does not use, so fetching both doubled the
+# cost of the slowest step in the pipeline to learn nothing.
 TARGETS = [
     "https://www.sec.gov/files/company_tickers.json",
-    "https://www.sec.gov/files/company_tickers_exchange.json",
 ]
+
+# The Archive replays large files slowly, and urlopen's timeout bounds socket
+# inactivity rather than total transfer time -- a response that trickles never
+# times out. So the loop watches the clock itself and stops on its own terms.
+DEFAULT_BUDGET = 900.0
+
+# Deliberately not `Exception`. A bare catch here would swallow a TypeError from
+# a changed signature and report it as "the Archive is down" -- which is how the
+# ttl/ttl_hours bug survived to production once already. Programming errors must
+# still crash.
+NETWORK = (urllib.error.URLError, OSError, RuntimeError)
 
 
 def captures(url: str, year_from: int, year_to: int, per_year: int = 2) -> list[str]:
@@ -49,7 +64,7 @@ def captures(url: str, year_from: int, year_to: int, per_year: int = 2) -> list[
     try:
         b = edgar.fetch(q, f"cdx_{url.rsplit('/', 1)[-1]}_{year_from}_{year_to}",
                         ttl_hours=720)
-    except Exception as e:
+    except NETWORK as e:
         # The Archive is a free service under constant load and owes us nothing.
         # Losing it costs the delisted names, which the backtest already reports
         # as missing; letting it raise costs the entire run.
@@ -74,20 +89,33 @@ def captures(url: str, year_from: int, year_to: int, per_year: int = 2) -> list[
 
 
 def harvest(m: tickermap.TickerMap, year_from: int, year_to: int,
-            per_year: int, log=print) -> int:
-    """Fold new captures into `m`. Returns how many were added."""
+            per_year: int, log=print, budget: float = DEFAULT_BUDGET,
+            save=None) -> int:
+    """Fold new captures into `m`. Returns how many were added.
+
+    `save` is called after every capture that lands. Banking progress as it
+    arrives is the difference between a slow run and a wasted one: the first
+    attempt at this spent an hour downloading and was killed holding all of it
+    in memory, so it wrote nothing at all.
+    """
+    started = time.monotonic()
     added = 0
     for url in TARGETS:
-        stamps = [ts for ts in captures(url, year_from, year_to, per_year)]
+        stamps = captures(url, year_from, year_to, per_year)
         log(f"{url}: {len(stamps)} capture(s)")
         for ts in stamps:
+            left = budget - (time.monotonic() - started)
+            if left <= 0:
+                log(f"  budget of {budget:.0f}s spent; stopping with {added} "
+                    "capture(s) banked")
+                return added
             date = f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]}"
             if date in m.sources:
                 continue               # already folded in on an earlier run
             try:
-                b = edgar.fetch(SNAP.format(ts=ts, url=url), f"wb_{ts}_{url[-30:]}",
-                                ttl_hours=8760)
-            except Exception as e:
+                b = edgar.fetch(SNAP.format(ts=ts, url=url), f"wb_{ts}",
+                                ttl_hours=8760, attempts=1)
+            except NETWORK as e:
                 log(f"  {date}: {type(e).__name__}: {e}")
                 continue
             if not b:
@@ -99,7 +127,9 @@ def harvest(m: tickermap.TickerMap, year_from: int, year_to: int,
                 continue
             m.observe(date, pairs)
             added += 1
-            log(f"  {date}: {len(pairs)} CIKs")
+            log(f"  {date}: {len(pairs)} CIKs ({left:.0f}s left)")
+            if save:
+                save()
     return added
 
 
@@ -107,7 +137,9 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--from", dest="year_from", type=int, default=2016)
     ap.add_argument("--to", dest="year_to", type=int, default=2025)
-    ap.add_argument("--per-year", type=int, default=2)
+    ap.add_argument("--per-year", type=int, default=1)
+    ap.add_argument("--budget-seconds", type=float, default=DEFAULT_BUDGET,
+                    help="stop fetching after this long and keep what landed")
     ap.add_argument("--data", default="", help="directory to read and write "
                                                "(default: data/)")
     a = ap.parse_args(argv)
@@ -115,14 +147,19 @@ def main(argv=None) -> int:
     root = pathlib.Path(a.data) if a.data else tickermap.DATA
     m = tickermap.load(root)
     before = len(m)
-
-    added = harvest(m, a.year_from, a.year_to, a.per_year)
-
     root.mkdir(parents=True, exist_ok=True)
-    (root / tickermap.HISTORY).write_text(m.to_json())
+    out = root / tickermap.HISTORY
+
+    def save():
+        out.write_text(m.to_json())
+
+    added = harvest(m, a.year_from, a.year_to, a.per_year,
+                    budget=a.budget_seconds, save=save)
+
+    save()
     print(f"\n{added} new capture(s) folded in. {len(m)} CIKs "
           f"(+{len(m) - before}) across {len(m.dates)} observation date(s) "
-          f"-> {root / tickermap.HISTORY}")
+          f"-> {out}")
     return 0
 
 
