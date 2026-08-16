@@ -154,8 +154,34 @@ its price series already existed at the screening date — a symbol freed by one
 delisting is often reassigned to an unrelated company, and taking the recycled
 series would credit a dead company with someone else's returns.
 
-This narrows the gap; it does not close it. Two things remain broken, and the
-report counts them separately so you can see which is binding:
+### What it actually bought, measured
+
+Run against 2013-12-31, the map covered **17,785 CIKs across 8 observation dates
+(2017–2024)** and had a symbol for **118 of the 133** unpriced names — 89%. Only
+**16 of those produced a price series.**
+
+That single number settles the question this project kept circling:
+
+| Cause of a missing price | Before the map | After |
+|---|---|---|
+| No symbol on record anywhere | 132 | **15** |
+| Symbol known, no free price series | 1 | **102** |
+
+**The identifier problem is solved and the terminal-value problem is now the
+entire constraint.** Attrition moved only from 30%/60% to 28%/52% — a 24-point
+gap against a 10-point limit — so the return comparison is still refused, and
+correctly.
+
+This is a real result, not a failure: it converts "we should probably pay for
+data" into a measured reason. Free vendors do not carry delisted symbols, and
+even where they do, a last close cannot separate an acquisition at a premium
+from a bankruptcy. Nothing free fixes that. Delisting returns cost money —
+Sharadar (SEP + ACTIONS) at retail prices, CRSP at institutional ones — and
+`tickermap` is the right shape to swap either in behind, since both key on
+ticker with a stable permanent identifier.
+
+Two things remain broken, and the report counts them separately so you can see
+which is binding:
 
 - **No symbol on record.** Archive captures of that file begin around 2016, so a
   company that died in 2014 is still missing. `data/tickers.csv` is the manual
