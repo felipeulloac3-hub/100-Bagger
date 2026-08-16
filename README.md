@@ -120,11 +120,29 @@ Start around 2013. SEC XBRL only becomes broadly available from roughly 2009–2
 and the early years are thin, so an earlier date buys look-back at the cost of
 coverage. Run several start dates before believing any single one.
 
+## What the backtest established, and what it did not
+
+**Established.** Five rules measured anti-predictive across four start dates and
+were demoted; see `reports/rule-lift.md`. That analysis compares rules *within*
+the priced names, so it is unaffected by the problem below.
+
+**Not established.** The headline "flagged beat the rest by X%" figures do not
+survive scrutiny. A forward return needs a ticker; SEC lists only a company's
+*current* ticker; so anything delisted, acquired or wound up leaves the sample at
+the price lookup — after the universe correctly included it. Measured attrition
+was **36% of flagged names against 57% of rejected ones**. Comparing a
+64%-surviving group with a 43%-surviving one measures attrition, not skill, and
+marking the missing to a total loss only flips the artefact's sign.
+
+The report now states attrition for both groups and refuses a verdict when they
+differ by more than 10 points. Recovering historical tickers for delisted
+companies is not possible from the free sources this uses.
+
 ## Known gaps
 
-- The backtest has never been run — it needs live SEC data, which this
-  environment blocks. Its point-in-time logic is tested; its conclusions do not
-  exist yet.
+- Return comparisons are unusable while attrition differs by group (above).
+  Fixing it needs a historical ticker source, which the free data does not
+  provide.
 - The Scan covers ~25 of the checklist's 81 machine-answerable questions. The
   rest need filing *text*, which is the Dossier's job.
 - Delisting cannot be distinguished from acquisition, so the survivorship

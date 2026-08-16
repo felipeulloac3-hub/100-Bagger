@@ -10,11 +10,21 @@ so is measured instead:
 1. Restatements       -- facts.prune drops anything filed after the as-of date
 2. Filing lag         -- same mechanism; a fiscal year is invisible until filed
 3. Price look-ahead   -- entry price is the close on the as-of date
-4. Survivorship       -- the universe comes from EDGAR frames, not from today's
-                         ticker file, so companies that later died are still in
-                         it. Names with no forward price are counted and reported
-                         under both a drop-them and a total-loss assumption,
-                         because which you choose changes the answer.
+4. Survivorship       -- handled at the front and then reintroduced at the back.
+                         The universe comes from EDGAR frames, so companies that
+                         later died ARE included. But a forward return needs a
+                         ticker, and SEC lists only a company's current one, so the
+                         dead drop out at the price lookup instead. Measured at 36%
+                         of flagged names against 57% of rejected ones, which is
+                         not a difference the comparison can absorb: see
+                         MAX_ATTRITION_GAP. When the gap is too wide the report
+                         declines to reach a verdict rather than printing a
+                         confident number over a broken sample.
+
+The rule-lift analysis in scanner/analyze.py is unaffected by this, because it
+compares rules within the priced names, where every observation carries the same
+attrition. That is why it, and not the headline return figures, is what the
+backtest has actually established.
 
     python -m scanner.backtest --as-of 2011-12-31 --years 10
 """
@@ -31,6 +41,20 @@ from . import edgar, facts, rules
 from .rules import Context, evaluate
 
 BENCHMARK = "IWM"      # iShares Russell 2000 -- small-cap, the right comparison
+
+# Above this gap in attrition between the two groups, the return comparison stops
+# meaning anything and the report says so instead of printing a number.
+#
+# A forward return needs a ticker, and SEC's submissions endpoint lists only a
+# company's CURRENT ticker. Anything delisted, acquired or wound up has none, so it
+# silently leaves the sample. That is survivorship bias arriving through the back
+# door after being carefully excluded from the front: the universe correctly
+# includes companies that died, and then the price lookup drops them anyway.
+#
+# It is survivable only if it hits both groups equally. Measured at 36% of flagged
+# names against 57% of rejected ones, it does not, and comparing a 64%-surviving
+# group with a 43%-surviving one measures attrition rather than skill.
+MAX_ATTRITION_GAP = 0.10
 
 
 def price_on(history: list[tuple[str, float, float]], date: str) -> float | None:
@@ -257,11 +281,27 @@ def report(d: dict) -> str:
         + (f" (**{d['errored']}** skipped on malformed data)" if d.get("errored") else ""),
         f"- Cleared the gates: **{d['passed_gates']}**",
         f"- Flagged (worth reading): **{d['flagged_count']}**",
-        f"- Flagged but no usable price series: **{d['flagged_unpriced']}** "
-        "(excluded from returns below — see the survivorship note)",
+        f"- Flagged but no usable price series: **{d['flagged_unpriced']}**; "
+        f"rejected but no usable price series: **{d.get('rest_unpriced', 0)}**",
         "",
-        "## Forward returns",
+        f"**Attrition — flagged {d.get('attrition_flagged', 0):.0%}, "
+        f"rejected {d.get('attrition_rest', 0):.0%}"
+        + ("" if d.get("comparable", True) else
+           f" (gap {d.get('attrition_gap', 0) * 100:.0f} points, limit "
+           f"{MAX_ATTRITION_GAP:.0%} — the groups are NOT comparable)")
+        + ".** A forward return needs a ticker, and SEC lists only a company's current "
+        "one, so anything delisted, acquired or wound up leaves the sample. Read the "
+        "next table against these two numbers, not on its own.",
         "",
+        ("## Forward returns" if d.get("comparable", True)
+         else "## Forward returns — NOT COMPARABLE, see the verdict"),
+        "",
+    ] + ([] if d.get("comparable", True) else [
+        "> These figures are printed for completeness only. The two groups lost "
+        "members at materially different rates, so the difference between them "
+        "reflects that, not performance.",
+        "",
+    ]) + [
         "| | Flagged | Rest of universe |",
         "|---|---|---|",
     ]
@@ -328,7 +368,7 @@ def main(argv=None) -> int:
     print(f"universe at {as_of}: {len(ciks)} filers")
 
     flagged_rets, rest_rets = [], []
-    flagged_unpriced = flagged_delisted = 0
+    flagged_unpriced = rest_unpriced = flagged_delisted = 0
     evaluated = passed_gates = flagged_count = errored = 0
     rows: list[dict] = []       # per-name detail; without it the misses are invisible
 
@@ -361,12 +401,15 @@ def main(argv=None) -> int:
             "band": res.band, "flagged": is_flagged,
             "score": res.score, "coverage": res.coverage,
             "ret": ret, "still_trading": still,
+            "no_ticker": res.ticker in ("?", "", None),
             "blocked_by": [v.id for v in res.verdicts
                            if v.status == rules.FAIL and v.weight in ("gate", "major")],
         })
         if ret is None:
             if is_flagged:
                 flagged_unpriced += 1
+            else:
+                rest_unpriced += 1
             continue
         if is_flagged:
             flagged_rets.append(ret)
@@ -381,11 +424,33 @@ def main(argv=None) -> int:
     f = summarize(flagged_rets)
     r = summarize(rest_rets)
 
+    n_f, n_r = len(flagged_rets) + flagged_unpriced, len(rest_rets) + rest_unpriced
+    att_f = flagged_unpriced / n_f if n_f else 0.0
+    att_r = rest_unpriced / n_r if n_r else 0.0
+    gap = abs(att_f - att_r)
+    comparable = gap <= MAX_ATTRITION_GAP
+
     with_wipeouts = None
     if flagged_rets or flagged_delisted:
         with_wipeouts = statistics.median(flagged_rets + [-1.0] * flagged_delisted)
 
-    if f.get("n", 0) < 5:
+    if not comparable:
+        verdict = (
+            f"**No verdict.** {att_f:.0%} of flagged names and {att_r:.0%} of rejected "
+            f"ones have no price series, a gap of {gap * 100:.0f} points against a "
+            f"{MAX_ATTRITION_GAP:.0%} limit. The two groups are not comparable, so the "
+            "difference in their medians measures which group lost more members rather "
+            "than which group performed better.\n\n"
+            "Marking the missing names to a total loss does not rescue it: that hands "
+            "the win to whichever group kept more members, which is the same artefact "
+            "with the sign flipped.\n\n"
+            "The cause is that a forward return needs a ticker, and SEC lists only a "
+            "company's current one — delisted, acquired and wound-up companies have "
+            "none. The rule-lift analysis in `reports/rule-lift.md` is unaffected, "
+            "because it compares rules *within* the priced names, where every "
+            "observation has the same attrition."
+        )
+    elif f.get("n", 0) < 5:
         n = f.get("n", 0)
         verdict = (f"Only {n} flagged name{'s' if n != 1 else ''} had a usable return "
                    "series. "
@@ -413,8 +478,10 @@ def main(argv=None) -> int:
         "as_of": as_of, "exit": exit_date, "years": a.years,
         "universe": len(ciks), "evaluated": evaluated,
         "passed_gates": passed_gates, "flagged_count": flagged_count,
-        "flagged_unpriced": flagged_unpriced, "flagged_delisted": flagged_delisted,
-        "errored": errored,
+        "flagged_unpriced": flagged_unpriced, "rest_unpriced": rest_unpriced,
+        "flagged_delisted": flagged_delisted, "errored": errored,
+        "attrition_flagged": att_f, "attrition_rest": att_r,
+        "attrition_gap": gap, "comparable": comparable,
         "flagged": f, "rest": r, "benchmark": bench,
         "flagged_median_with_wipeouts": with_wipeouts,
         "verdict": verdict,
