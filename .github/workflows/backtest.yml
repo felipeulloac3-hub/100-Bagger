@@ -54,6 +54,22 @@ jobs:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
         run: python -m scanner.harvest_tickers --from 2016 --to 2025 --budget-seconds 900
 
+      # Bank the map before the backtest runs. The map is expensive to rebuild
+      # and independent of any one backtest, so it must not be hostage to the
+      # step after it -- a cancelled run once threw away a working harvest.
+      - name: Commit the ticker map
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "no new observation dates"
+          else
+            git commit -m "Historical ticker map"
+            git push
+          fi
+
       - name: Backtest
         env:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}

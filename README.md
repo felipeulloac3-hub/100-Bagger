@@ -67,7 +67,7 @@ that it never acquires one.
 
 ```bash
 export SEC_USER_AGENT="Your Name you@example.com"   # SEC refuses requests without this
-python -m unittest discover -s tests -t .           # 166 tests, no network needed
+python -m unittest discover -s tests -t .           # 169 tests, no network needed
 python -m scanner.scan --tickers XPEL,ACU --out reports
 python -m scanner.scan --out reports                # full universe
 ```

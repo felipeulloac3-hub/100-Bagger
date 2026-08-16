@@ -310,6 +310,31 @@ class TestTransientFailures(StubbedNetwork):
             edgar.fetch("https://web.archive.org/q", "cachekey")
         self.assertFalse((edgar.CACHE / "cachekey.cache").exists())
 
+    def test_price_sources_do_not_retry(self):
+        """Retry where absence corrupts a result; not where it is an answer.
+
+        Yahoo rate-limits constantly and a missing price is already recorded as
+        UNKNOWN. Retrying every 429 across a few hundred candidate symbols turned
+        a ten-second backtest step into a two-hour one.
+        """
+        self._flaky(429, fails=99)
+        self.assertEqual(edgar.price_history("XPEL"), [])
+        # One attempt at Yahoo, one at Stooq, and no retry of either.
+        self.assertEqual(len(self.requested), 2)
+
+    def test_a_rate_limited_price_source_does_not_discard_the_company(self):
+        """The exception used to escape to the backtest's per-filer guard, which
+        skips the whole name -- turning 'no price' into 'no company'."""
+        self._flaky(429, fails=99)
+        self.assertEqual(edgar.price_history("XPEL"), [])
+        self.assertEqual(edgar.quote("XPEL"), (None, None))
+
+    def test_sec_still_retries(self):
+        """The other half of the same rule: filings are essential, so they wait."""
+        self._flaky(503, fails=2)
+        self.assertIsNotNone(edgar.company_facts("0000001750"))
+        self.assertEqual(len(self.requested), 3)
+
     def test_the_harvest_survives_a_wayback_outage(self):
         """The whole point: a free service being down costs the delisted names,
         not the run."""

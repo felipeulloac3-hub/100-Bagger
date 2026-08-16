@@ -48,6 +48,12 @@ def _throttle():
 # answers 503 routinely under load, and SEC does the same at peak. Both mean
 # "ask again", so retrying is the correct reading of the response -- treating one
 # as fatal took down a whole harvest run once already.
+#
+# Retry where the data is essential and its absence would corrupt a result: SEC
+# filings, Wayback captures. NOT on the price sources, which pass attempts=1.
+# Yahoo rate-limits constantly, a missing price is an ordinary outcome the report
+# already records as UNKNOWN, and retrying every 429 across a few hundred
+# candidate symbols turned a ten-second step into a two-hour one.
 RETRY_STATUS = {429, 500, 502, 503, 504}
 RETRY_BACKOFF = 1.0      # seconds; doubles each attempt
 
@@ -190,7 +196,7 @@ def _yahoo(ticker: str, days: int) -> list[tuple[str, float, float]]:
     rng = _range_for(days)
     b = fetch(f"https://query1.finance.yahoo.com/v8/finance/chart/"
               f"{ticker.upper()}?range={rng}&interval=1d",
-              f"px_y_{ticker.upper()}_{rng}", ttl_hours=24)
+              f"px_y_{ticker.upper()}_{rng}", ttl_hours=24, attempts=1)
     if not b:
         return []
     try:
@@ -224,7 +230,7 @@ def _stooq(ticker: str, days: int) -> list[tuple[str, float, float]]:
     """Fallback. Free daily CSV, but it rate-limits cloud IPs aggressively and
     then returns a plain-text notice instead of data -- hence the header check."""
     b = fetch(f"https://stooq.com/q/d/l/?s={ticker.lower()}.us&i=d",
-              f"px_s_{ticker.upper()}", ttl_hours=24)
+              f"px_s_{ticker.upper()}", ttl_hours=24, attempts=1)
     if not b:
         return []
     lines = b.decode("utf-8", "replace").strip().splitlines()
@@ -250,7 +256,14 @@ def price_history(ticker: str, days: int = 90) -> list[tuple[str, float, float]]
     UNKNOWN, which is the correct outcome for a price we could not obtain.
     """
     for source in (_yahoo, _stooq):
-        h = source(ticker, days)
+        try:
+            h = source(ticker, days)
+        except (urllib.error.URLError, OSError, RuntimeError):
+            # A rate-limited or unreachable price source must not take the
+            # company with it. Without this the exception escapes to the
+            # backtest's per-filer guard, which discards the whole name --
+            # turning "no price" into "no company", silently.
+            continue
         if h:
             return h
     return []
