@@ -6,43 +6,52 @@
   "evaluated": 298,
   "passed_gates": 253,
   "flagged_count": 61,
-  "flagged_unpriced": 18,
-  "rest_unpriced": 115,
+  "flagged_unpriced": 17,
+  "rest_unpriced": 100,
   "flagged_delisted": 0,
   "errored": 0,
-  "attrition_flagged": 0.29508196721311475,
-  "attrition_rest": 0.5989583333333334,
-  "attrition_gap": 0.3038763661202186,
+  "attrition_flagged": 0.2786885245901639,
+  "attrition_rest": 0.5208333333333334,
+  "attrition_gap": 0.24214480874316946,
   "comparable": false,
-  "recovered": 0,
-  "ticker_map_size": 0,
-  "ticker_snapshots": [],
+  "recovered": 16,
+  "ticker_map_size": 17785,
+  "ticker_snapshots": [
+    "2017-08-28",
+    "2018-01-22",
+    "2019-01-19",
+    "2020-01-13",
+    "2021-01-03",
+    "2022-01-03",
+    "2023-01-03",
+    "2024-01-05"
+  ],
   "ticker_overrides": 0,
   "flagged": {
-    "n": 43,
-    "median": 1.2604479748955102,
-    "mean": 1.8619591814931815,
-    "win_rate": 0.7906976744186046,
-    "p25": 0.19518449330047893,
+    "n": 44,
+    "median": 1.2604848375553122,
+    "mean": 1.8511393216445595,
+    "win_rate": 0.7954545454545454,
+    "p25": 0.38040718049512456,
     "p75": 2.363372084411639,
     "best": 12.18181807376391,
     "worst": -0.9635416666666666,
     "multibaggers_10x": 1
   },
   "rest": {
-    "n": 77,
-    "median": 0.7134305924840314,
-    "mean": 1.0281287891871136,
-    "win_rate": 0.7532467532467533,
-    "p25": 0.009619229009189434,
-    "p75": 1.5572247769924732,
-    "best": 6.185697815196912,
-    "worst": -0.9955444057751868,
-    "multibaggers_10x": 0
+    "n": 92,
+    "median": 0.6494330560901642,
+    "mean": 1.02308777038515,
+    "win_rate": 0.7282608695652174,
+    "p25": 0.0,
+    "p75": 1.5268552032061837,
+    "best": 11.837874757568285,
+    "worst": -0.9999987500000316,
+    "multibaggers_10x": 1
   },
   "benchmark": 0.9895298632458138,
-  "flagged_median_with_wipeouts": 1.2604479748955102,
-  "verdict": "**No verdict.** 30% of flagged names and 60% of rejected ones have no price series, a gap of 30 points against a 10% limit. The two groups are not comparable, so the difference in their medians measures which group lost more members rather than which group performed better.\n\nMarking the missing names to a total loss does not rescue it: that hands the win to whichever group kept more members, which is the same artefact with the sign flipped.\n\nThe cause is that a forward return needs a ticker, and SEC lists only a company's current one \u2014 delisted, acquired and wound-up companies have none. Narrow it by feeding the run more history: `python -m scanner.harvest_tickers` pulls old copies of SEC's ticker file out of the Wayback Machine, and `data/tickers.csv` takes symbols by hand. See the coverage section above for which of the two failures is binding.\n\nThe rule-lift analysis in `reports/rule-lift.md` is unaffected, because it compares rules *within* the priced names, where every observation has the same attrition.",
+  "flagged_median_with_wipeouts": 1.2604848375553122,
+  "verdict": "**No verdict.** 28% of flagged names and 52% of rejected ones have no price series, a gap of 24 points against a 10% limit. The two groups are not comparable, so the difference in their medians measures which group lost more members rather than which group performed better.\n\nMarking the missing names to a total loss does not rescue it: that hands the win to whichever group kept more members, which is the same artefact with the sign flipped.\n\nThe cause is that a forward return needs a ticker, and SEC lists only a company's current one \u2014 delisted, acquired and wound-up companies have none. Narrow it by feeding the run more history: `python -m scanner.harvest_tickers` pulls old copies of SEC's ticker file out of the Wayback Machine, and `data/tickers.csv` takes symbols by hand. See the coverage section above for which of the two failures is binding.\n\nThe rule-lift analysis in `reports/rule-lift.md` is unaffected, because it compares rules *within* the priced names, where every observation has the same attrition.",
   "rules": [
     "0.6",
     "0.11",
@@ -81,9 +90,9 @@
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5",
         "2.10",
@@ -155,9 +164,9 @@
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5"
@@ -188,9 +197,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10"
       ]
@@ -291,9 +300,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -323,9 +332,9 @@
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -338,9 +347,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3"
       ]
@@ -373,9 +382,9 @@
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -409,24 +418,24 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
-      "ticker": "?",
+      "ticker": "CHMP",
       "name": "CHAMPION INDUSTRIES INC",
       "cik": "0000019149",
-      "band": "insufficient data",
+      "band": "borderline",
       "flagged": false,
-      "score": 0.55,
-      "coverage": 0.48,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.6086956521739131,
+      "coverage": 0.52,
+      "ret": -0.9999987500000316,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "5.1",
         "5.4",
@@ -461,9 +470,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
@@ -478,9 +487,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10"
       ]
@@ -623,9 +632,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -638,9 +647,9 @@
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "5.1"
@@ -673,9 +682,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "6.15"
       ]
@@ -690,9 +699,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -781,9 +790,9 @@
       "coverage": 0.28,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -813,9 +822,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
@@ -886,9 +895,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "2.10",
@@ -907,9 +916,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -954,9 +963,9 @@
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -1005,18 +1014,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "ISCB",
       "name": "INTERNATIONAL SPEEDWAY CORP",
       "cik": "0000051548",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6842105263157895,
-      "coverage": 0.68,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.7073170731707317,
+      "coverage": 0.72,
+      "ret": 0.9161927202278328,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "2.1",
         "2.5",
@@ -1025,18 +1034,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "KCLI",
       "name": "KANSAS CITY LIFE INSURANCE CO",
       "cik": "0000054473",
       "band": "insufficient data",
       "flagged": false,
       "score": 1.0,
-      "coverage": 0.36,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "coverage": 0.4,
+      "ret": 0.006767823231935699,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": []
     },
     {
@@ -1049,9 +1058,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -1108,18 +1117,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "LUFK",
       "name": "LUFKIN INDUSTRIES INC",
       "cik": "0000060849",
       "band": "not yet",
       "flagged": false,
-      "score": 0.3333333333333333,
-      "coverage": 0.72,
-      "ret": null,
+      "score": 0.38461538461538464,
+      "coverage": 0.76,
+      "ret": 0.0,
       "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "2.1",
         "2.3",
@@ -1177,9 +1186,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "5.1",
@@ -1216,9 +1225,9 @@
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5"
@@ -1318,9 +1327,9 @@
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.3",
@@ -1360,9 +1369,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1"
       ]
@@ -1377,9 +1386,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1"
       ]
@@ -1394,9 +1403,9 @@
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5"
       ]
@@ -1550,24 +1559,25 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "NWN",
       "name": "NORTHWEST NATURAL GAS CO",
       "cik": "0000073020",
       "band": "not yet",
       "flagged": false,
-      "score": 0.29545454545454547,
-      "coverage": 0.8,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.32,
+      "coverage": 0.88,
+      "ret": 0.2729975293363187,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "2.1",
         "2.3",
         "2.5",
         "2.10",
         "2.17",
+        "3.2",
         "3.7",
         "5.1",
         "5.4",
@@ -1576,18 +1586,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "NWE",
       "name": "NORTHWESTERN CORP",
       "cik": "0000073088",
       "band": "not yet",
       "flagged": false,
-      "score": 0.375,
-      "coverage": 0.64,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.42857142857142855,
+      "coverage": 0.68,
+      "ret": 0.7251237843933276,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "2.1",
         "2.5",
@@ -1607,9 +1617,9 @@
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5",
         "2.10",
@@ -1665,9 +1675,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1"
       ]
@@ -1700,9 +1710,9 @@
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.3",
@@ -1721,9 +1731,9 @@
       "coverage": 0.28,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -1736,9 +1746,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.4"
       ]
@@ -1753,9 +1763,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5",
         "5.4"
@@ -1771,9 +1781,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1"
       ]
@@ -1848,9 +1858,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10",
         "7.1"
@@ -1874,18 +1884,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "RBN",
       "name": "ROBBINS & MYERS, INC.",
       "cik": "0000084290",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.8333333333333334,
-      "coverage": 0.4,
-      "ret": null,
+      "score": 0.8571428571428571,
+      "coverage": 0.44,
+      "ret": 1.250374999546929,
       "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": []
     },
     {
@@ -1898,9 +1908,9 @@
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.3",
@@ -1919,9 +1929,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5"
       ]
@@ -1936,9 +1946,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1",
         "5.4"
@@ -1954,9 +1964,9 @@
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.3",
@@ -1971,18 +1981,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "SWX",
       "name": "SOUTHWEST GAS CORP",
       "cik": "0000092416",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6486486486486487,
-      "coverage": 0.68,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.6976744186046512,
+      "coverage": 0.76,
+      "ret": 0.47094226280257745,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "2.1",
         "2.3",
@@ -2069,9 +2079,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10",
         "5.5",
@@ -2088,9 +2098,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -2121,9 +2131,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "2.10"
@@ -2148,18 +2158,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "TPL",
       "name": "TEXAS PACIFIC LAND TRUST",
       "cik": "0000097517",
       "band": "insufficient data",
       "flagged": false,
       "score": 1.0,
-      "coverage": 0.4,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "coverage": 0.44,
+      "ret": 11.837874757568285,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": []
     },
     {
@@ -2196,9 +2206,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "2.10",
@@ -2233,9 +2243,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
@@ -2250,9 +2260,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10",
         "7.1"
@@ -2319,9 +2329,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "5.12"
@@ -2351,18 +2361,18 @@
       ]
     },
     {
-      "ticker": "WW",
+      "ticker": "WTW",
       "name": "WW INTERNATIONAL, INC.",
       "cik": "0000105319",
       "band": "borderline",
       "flagged": false,
-      "score": 0.6904761904761905,
-      "coverage": 0.8,
-      "ret": null,
-      "still_trading": false,
+      "score": 0.7111111111111111,
+      "coverage": 0.84,
+      "ret": 1.4150283101794807,
+      "still_trading": true,
       "no_ticker": false,
-      "recovered": false,
-      "missing_reason": "no_series",
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "2.5",
         "2.17",
@@ -2380,9 +2390,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1",
         "5.5",
@@ -2399,9 +2409,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1",
         "5.5"
@@ -2456,9 +2466,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10"
       ]
@@ -2530,9 +2540,9 @@
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -2568,9 +2578,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "2.10",
@@ -2624,9 +2634,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "2.10",
@@ -2688,9 +2698,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -2737,9 +2747,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -2770,9 +2780,9 @@
       "coverage": 0.8,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5"
       ]
@@ -2787,9 +2797,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "5.1"
@@ -2817,18 +2827,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "ETV",
       "name": "Mirror Merger Sub 2, LLC",
       "cik": "0000350797",
-      "band": "not yet",
+      "band": "borderline",
       "flagged": false,
-      "score": 0.5263157894736842,
-      "coverage": 0.72,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.5909090909090909,
+      "coverage": 0.8,
+      "ret": 1.1506426973233825,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "2.3",
         "2.5",
@@ -2848,9 +2858,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -2899,9 +2909,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5"
       ]
@@ -2916,9 +2926,9 @@
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10",
         "5.4",
@@ -2927,18 +2937,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "EPHC",
       "name": "EPOCH HOLDING CORP",
       "cik": "0000351903",
       "band": "insufficient data",
       "flagged": false,
       "score": 1.0,
-      "coverage": 0.28,
-      "ret": null,
+      "coverage": 0.32,
+      "ret": 0.0,
       "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": []
     },
     {
@@ -2951,9 +2961,9 @@
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10",
         "5.5",
@@ -2980,18 +2990,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "QDEL",
       "name": "QUIDEL CORP /DE/",
       "cik": "0000353569",
       "band": "worth reading",
       "flagged": true,
-      "score": 0.8260869565217391,
-      "coverage": 0.52,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.8461538461538461,
+      "coverage": 0.56,
+      "ret": 1.385885348153805,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "5.5"
       ]
@@ -3006,9 +3016,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
@@ -3023,9 +3033,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3038,9 +3048,9 @@
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -3057,9 +3067,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
@@ -3107,9 +3117,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3122,9 +3132,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3137,9 +3147,9 @@
       "coverage": 0.68,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -3157,27 +3167,27 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10",
         "7.1"
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "STRR",
       "name": "STAR OPERATING COMPANIES, INC.",
       "cik": "0000707388",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7647058823529411,
-      "coverage": 0.44,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.8,
+      "coverage": 0.48,
+      "ret": -0.5985206722363713,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "2.3"
       ]
@@ -3224,9 +3234,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5",
         "6.15"
@@ -3257,9 +3267,9 @@
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3327,9 +3337,9 @@
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
@@ -3344,9 +3354,9 @@
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "2.5",
@@ -3364,9 +3374,9 @@
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
@@ -3433,9 +3443,9 @@
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5"
       ]
@@ -3465,9 +3475,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "5.1",
@@ -3550,9 +3560,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10",
         "7.1"
@@ -3568,9 +3578,9 @@
       "coverage": 0.48,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3583,9 +3593,9 @@
       "coverage": 0.32,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3634,26 +3644,26 @@
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "CCUR",
       "name": "CCUR Holdings, Inc.",
       "cik": "0000749038",
       "band": "insufficient data",
       "flagged": false,
-      "score": 0.7857142857142857,
-      "coverage": 0.4,
-      "ret": null,
-      "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "score": 0.8235294117647058,
+      "coverage": 0.44,
+      "ret": -0.844822911374905,
+      "still_trading": true,
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": [
         "5.5"
       ]
@@ -3687,9 +3697,9 @@
       "coverage": 0.28,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1"
       ]
@@ -3704,9 +3714,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.5"
       ]
@@ -3744,9 +3754,9 @@
       "coverage": 0.72,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -3785,9 +3795,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "5.5"
@@ -3818,9 +3828,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3944,9 +3954,9 @@
       "coverage": 0.52,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3959,9 +3969,9 @@
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -3979,9 +3989,9 @@
       "coverage": 0.28,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -3994,9 +4004,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.10",
         "7.1"
@@ -4029,9 +4039,9 @@
       "coverage": 0.32,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -4062,9 +4072,9 @@
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.3",
@@ -4086,9 +4096,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -4101,9 +4111,9 @@
       "coverage": 0.6,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1",
         "5.5"
@@ -4169,9 +4179,9 @@
       "coverage": 0.44,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3",
         "2.10",
@@ -4222,9 +4232,9 @@
       "coverage": 0.64,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -4243,9 +4253,9 @@
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5",
         "2.17",
@@ -4262,9 +4272,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1",
         "5.5"
@@ -4280,9 +4290,9 @@
       "coverage": 0.56,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.5"
       ]
@@ -4390,9 +4400,9 @@
       "coverage": 0.36,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "5.1"
       ]
@@ -4456,9 +4466,9 @@
       "coverage": 0.68,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.5",
@@ -4511,9 +4521,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.3"
       ]
@@ -4528,9 +4538,9 @@
       "coverage": 0.4,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": []
     },
     {
@@ -4543,9 +4553,9 @@
       "coverage": 0.76,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.3",
@@ -4557,18 +4567,18 @@
       ]
     },
     {
-      "ticker": "?",
+      "ticker": "ACF",
       "name": "General Motors Financial Company, Inc.",
       "cik": "0000804269",
       "band": "insufficient data",
       "flagged": false,
       "score": 1.0,
-      "coverage": 0.24,
-      "ret": null,
+      "coverage": 0.28,
+      "ret": -0.6444444429727247,
       "still_trading": false,
-      "no_ticker": true,
-      "recovered": false,
-      "missing_reason": "no_ticker",
+      "no_ticker": false,
+      "recovered": true,
+      "missing_reason": null,
       "blocked_by": []
     },
     {
@@ -4606,9 +4616,9 @@
       "coverage": 0.84,
       "ret": null,
       "still_trading": false,
-      "no_ticker": true,
+      "no_ticker": false,
       "recovered": false,
-      "missing_reason": "no_ticker",
+      "missing_reason": "no_series",
       "blocked_by": [
         "2.1",
         "2.3",
