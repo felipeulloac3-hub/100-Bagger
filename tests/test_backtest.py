@@ -405,3 +405,57 @@ class TestAnalyze(unittest.TestCase):
         self.assertIn("Overlapping start dates", md)
         self.assertIn("UNKNOWN is counted as passing", md)
         self.assertIn("Demote on this evidence; do not delete", md)
+
+
+class TestComparabilityGate(unittest.TestCase):
+    """The report must refuse a verdict when the groups lost members unequally.
+
+    Printing a confident comparison over a broken sample is the exact failure of
+    the research this project started from. The tool must not repeat it.
+    """
+
+    def _d(self, att_f, att_r, **kw):
+        gap = abs(att_f - att_r)
+        d = {"as_of": "2013-12-31", "exit": "2023-12-31", "years": 10,
+             "universe": 300, "evaluated": 298, "errored": 0, "passed_gates": 253,
+             "flagged_count": 56, "flagged_unpriced": 19, "rest_unpriced": 60,
+             "flagged_delisted": 0,
+             "flagged": B.summarize([1.26] * 40), "rest": B.summarize([0.71] * 80),
+             "benchmark": 0.99, "flagged_median_with_wipeouts": None,
+             "attrition_flagged": att_f, "attrition_rest": att_r,
+             "attrition_gap": gap, "comparable": gap <= B.MAX_ATTRITION_GAP,
+             "verdict": "placeholder", "rules": [], "rows": []}
+        d.update(kw)
+        return d
+
+    def test_wide_gap_marks_the_table_not_comparable(self):
+        md = B.report(self._d(0.36, 0.57))
+        self.assertIn("NOT COMPARABLE", md)
+        self.assertIn("printed for completeness only", md)
+
+    def test_narrow_gap_leaves_the_table_alone(self):
+        md = B.report(self._d(0.36, 0.40))
+        self.assertNotIn("NOT COMPARABLE", md)
+        self.assertNotIn("printed for completeness only", md)
+
+    def test_attrition_is_always_shown_for_both_groups(self):
+        for pair in ((0.36, 0.57), (0.10, 0.12)):
+            md = B.report(self._d(*pair))
+            self.assertIn("Attrition — flagged", md)
+            self.assertIn("rejected", md)
+
+    def test_the_limit_is_ten_points(self):
+        self.assertAlmostEqual(B.MAX_ATTRITION_GAP, 0.10)
+
+    def test_rule_lift_is_named_as_the_surviving_output(self):
+        """When returns are unusable, the report must say what still is."""
+        d = self._d(0.36, 0.57, verdict=(
+            "**No verdict.** groups not comparable. The rule-lift analysis in "
+            "`reports/rule-lift.md` is unaffected, because it compares rules "
+            "*within* the priced names."))
+        md = B.report(d)
+        self.assertIn("rule-lift.md", md)
+
+    def test_gap_is_stated_in_percentage_points(self):
+        md = B.report(self._d(0.36, 0.57))
+        self.assertIn("21 points", md)      # not "0 points" from a raw fraction
