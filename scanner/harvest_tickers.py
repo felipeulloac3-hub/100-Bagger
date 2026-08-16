@@ -26,7 +26,7 @@ import pathlib
 
 from . import edgar, tickermap
 
-CDX = "http://web.archive.org/cdx/search/cdx"
+CDX = "https://web.archive.org/cdx/search/cdx"
 # `id_` asks the Archive for the bytes as originally served, with no rewriting
 # and no toolbar injected into the payload.
 SNAP = "https://web.archive.org/web/{ts}id_/{url}"
@@ -45,9 +45,16 @@ def captures(url: str, year_from: int, year_to: int, per_year: int = 2) -> list[
     while a given company was still alive.
     """
     q = (f"{CDX}?url={url}&output=json&fl=timestamp&filter=statuscode:200"
-         f"&from={year_from}&to={year_to}&collapse=timestamp:6")
-    b = edgar.fetch(q, f"cdx_{url.rsplit('/', 1)[-1]}_{year_from}_{year_to}",
-                    ttl_hours=720)
+         f"&from={year_from}&to={year_to}&collapse=timestamp:6&limit=500")
+    try:
+        b = edgar.fetch(q, f"cdx_{url.rsplit('/', 1)[-1]}_{year_from}_{year_to}",
+                        ttl_hours=720)
+    except Exception as e:
+        # The Archive is a free service under constant load and owes us nothing.
+        # Losing it costs the delisted names, which the backtest already reports
+        # as missing; letting it raise costs the entire run.
+        print(f"  wayback unavailable ({type(e).__name__}: {e})")
+        return []
     if not b:
         return []
     try:
@@ -77,8 +84,12 @@ def harvest(m: tickermap.TickerMap, year_from: int, year_to: int,
             date = f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]}"
             if date in m.sources:
                 continue               # already folded in on an earlier run
-            b = edgar.fetch(SNAP.format(ts=ts, url=url), f"wb_{ts}_{url[-30:]}",
-                            ttl_hours=8760)
+            try:
+                b = edgar.fetch(SNAP.format(ts=ts, url=url), f"wb_{ts}_{url[-30:]}",
+                                ttl_hours=8760)
+            except Exception as e:
+                log(f"  {date}: {type(e).__name__}: {e}")
+                continue
             if not b:
                 log(f"  {date}: no content")
                 continue

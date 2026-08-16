@@ -237,6 +237,91 @@ class TestFetchBehaviour(StubbedNetwork):
             edgar.user_agent()
 
 
+class TestTransientFailures(StubbedNetwork):
+    """A 503 killed a whole harvest run once. It means 'ask again', not 'give up'.
+
+    The Internet Archive answers 503 routinely under load and SEC does the same
+    at peak, so a single-shot fetch turns a normal server hiccup into a failed
+    job.
+    """
+
+    def setUp(self):
+        super().setUp()
+        self._orig_backoff = edgar.RETRY_BACKOFF
+        edgar.RETRY_BACKOFF = 0.0        # do not actually sleep in tests
+        self.addCleanup(lambda: setattr(edgar, "RETRY_BACKOFF", self._orig_backoff))
+
+    def _flaky(self, code, fails):
+        state = {"n": 0}
+
+        def go(req, timeout=None):
+            self.requested.append(req.full_url)
+            state["n"] += 1
+            if state["n"] <= fails:
+                raise urllib.error.HTTPError(req.full_url, code, "nope", {}, None)
+            return FakeResponse(b'{"ok": true}')
+        urllib.request.urlopen = go
+        return state
+
+    def test_503_is_retried_and_then_succeeds(self):
+        self._flaky(503, fails=2)
+        self.assertEqual(json.loads(edgar.fetch("https://web.archive.org/x", "a")),
+                         {"ok": True})
+        self.assertEqual(len(self.requested), 3)
+
+    def test_429_is_retried(self):
+        self._flaky(429, fails=1)
+        self.assertIsNotNone(edgar.fetch("https://web.archive.org/y", "b"))
+
+    def test_gives_up_after_the_attempt_budget(self):
+        self._flaky(503, fails=99)
+        with self.assertRaises(urllib.error.HTTPError):
+            edgar.fetch("https://web.archive.org/z", "c")
+        self.assertEqual(len(self.requested), 3, "must not retry forever")
+
+    def test_a_404_is_not_retried(self):
+        """An absent filer is an answer, not a hiccup."""
+        self._flaky(404, fails=99)
+        self.assertIsNone(edgar.fetch("https://data.sec.gov/gone", "d"))
+        self.assertEqual(len(self.requested), 1)
+
+    def test_a_403_is_not_retried(self):
+        self._flaky(403, fails=99)
+        with self.assertRaises(RuntimeError):
+            edgar.fetch("https://data.sec.gov/forbidden", "e")
+        self.assertEqual(len(self.requested), 1)
+
+    def test_a_dropped_connection_is_retried(self):
+        state = {"n": 0}
+
+        def go(req, timeout=None):
+            self.requested.append(req.full_url)
+            state["n"] += 1
+            if state["n"] == 1:
+                raise urllib.error.URLError("connection reset")
+            return FakeResponse(b'{"ok": true}')
+        urllib.request.urlopen = go
+        self.assertIsNotNone(edgar.fetch("https://web.archive.org/w", "f"))
+
+    def test_a_failed_fetch_is_not_written_to_the_cache(self):
+        """Caching a failure would make the next run reuse the outage."""
+        self._flaky(503, fails=99)
+        with self.assertRaises(urllib.error.HTTPError):
+            edgar.fetch("https://web.archive.org/q", "cachekey")
+        self.assertFalse((edgar.CACHE / "cachekey.cache").exists())
+
+    def test_the_harvest_survives_a_wayback_outage(self):
+        """The whole point: a free service being down costs the delisted names,
+        not the run."""
+        import contextlib, io
+        from scanner import harvest_tickers
+        self._flaky(503, fails=99)
+        with contextlib.redirect_stdout(io.StringIO()):
+            got = harvest_tickers.captures(
+                "https://www.sec.gov/files/company_tickers.json", 2016, 2025)
+        self.assertEqual(got, [])
+
+
 class TestCallSignatures(unittest.TestCase):
     """A direct guard on the failure mode: keyword names that don't line up."""
 

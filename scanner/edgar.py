@@ -44,7 +44,16 @@ def _throttle():
     _last = time.time()
 
 
-def fetch(url: str, cache_key: str | None = None, ttl_hours: int = 24) -> bytes | None:
+# Server-side congestion, not a verdict on the request. The Internet Archive
+# answers 503 routinely under load, and SEC does the same at peak. Both mean
+# "ask again", so retrying is the correct reading of the response -- treating one
+# as fatal took down a whole harvest run once already.
+RETRY_STATUS = {429, 500, 502, 503, 504}
+RETRY_BACKOFF = 1.0      # seconds; doubles each attempt
+
+
+def fetch(url: str, cache_key: str | None = None, ttl_hours: int = 24,
+          attempts: int = 3) -> bytes | None:
     """GET with disk cache and rate limiting. None on 404 -- a missing filer is
     an ordinary outcome, not an error."""
     path = None
@@ -53,29 +62,41 @@ def fetch(url: str, cache_key: str | None = None, ttl_hours: int = 24) -> bytes 
         if path.exists() and (time.time() - path.stat().st_mtime) < ttl_hours * 3600:
             return path.read_bytes()
 
-    _throttle()
     req = urllib.request.Request(url, headers={
         "User-Agent": user_agent(),
         "Accept-Encoding": "gzip, deflate",
         "Accept": "application/json, text/csv, */*",
     })
-    try:
-        with urllib.request.urlopen(req, timeout=45) as r:
-            body = r.read()
-            if r.headers.get("Content-Encoding") == "gzip":
-                import gzip
-                body = gzip.decompress(body)
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            return None
-        if e.code == 403:
-            raise RuntimeError(
-                f"SEC returned 403 for {url}. Check SEC_USER_AGENT identifies you "
-                "with a real contact address."
-            ) from e
-        raise
 
-    if path:
+    body = None
+    for attempt in range(attempts):
+        _throttle()
+        try:
+            with urllib.request.urlopen(req, timeout=45) as r:
+                body = r.read()
+                if r.headers.get("Content-Encoding") == "gzip":
+                    import gzip
+                    body = gzip.decompress(body)
+            break
+        except urllib.error.HTTPError as e:      # a subclass of URLError; first
+            if e.code == 404:
+                return None
+            if e.code == 403:
+                raise RuntimeError(
+                    f"SEC returned 403 for {url}. Check SEC_USER_AGENT identifies "
+                    "you with a real contact address."
+                ) from e
+            if e.code in RETRY_STATUS and attempt < attempts - 1:
+                time.sleep(RETRY_BACKOFF * (2 ** attempt))
+                continue
+            raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt < attempts - 1:
+                time.sleep(RETRY_BACKOFF * (2 ** attempt))
+                continue
+            raise
+
+    if path and body is not None:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(body)
     return body
