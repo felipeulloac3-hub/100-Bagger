@@ -1,6 +1,6 @@
 # 100-Bagger Scan
 
-_2026-09-13 11:21 UTC — 2117 filers examined, 1366 cleared the gates._
+_2026-09-20 10:55 UTC — 2117 filers examined, 1367 cleared the gates._
 
 **This is a reading list, not a recommendation.** The scan answers only the 
 questions SEC XBRL can answer. It cannot tell you whether you understand the 
@@ -13,7 +13,7 @@ it wanted to.
 
 ### NVMI — NOVA LTD.
 
-`score 100%` · `coverage 88%` · $10,886m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001109345&type=10-K)
+`score 100%` · `coverage 88%` · $10,426m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001109345&type=10-K)
 
 **Passed (19)**
 - `2.1` ROIC avg 121.6%, min 44.4% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24,7 +24,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 10% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 1269.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.38x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.06 (P/E 79.9 ÷ EPS growth 1269%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.06 (P/E 76.5 ÷ EPS growth 1269%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 1269.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 34.5x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -34,7 +34,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 90% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +2.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 209,571,790 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 209,973,457 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -43,7 +43,7 @@ it wanted to.
 
 ### IGIC — International General Insurance Holdings Ltd.
 
-`score 100%` · `coverage 72%` · $1,113m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001794338&type=10-K)
+`score 100%` · `coverage 72%` · $1,074m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001794338&type=10-K)
 
 **Passed (15)**
 - `2.5` revenue CAGR 19.4% — near Mayer's band (SOURCED: Mayer)
@@ -51,7 +51,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 62.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.15 (P/E 9.4 ÷ EPS growth 63%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.15 (P/E 9.1 ÷ EPS growth 63%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 62.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -73,14 +73,14 @@ it wanted to.
 
 ### UVSP — UNIVEST FINANCIAL Corp
 
-`score 100%` · `coverage 68%` · $1,177m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000102212&type=10-K)
+`score 100%` · `coverage 68%` · $1,172m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000102212&type=10-K)
 
 **Passed (14)**
 - `2.10` FCF ÷ net income (3y) = 118% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 2% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 14.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.14 (P/E 16.6 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.13 (P/E 16.5 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 14.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 375,000 due within 3 years vs 401,850,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -89,7 +89,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 113% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,096,400 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,238,159 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -103,13 +103,13 @@ it wanted to.
 
 ### HAFC — HANMI FINANCIAL CORP
 
-`score 100%` · `coverage 60%` · $943m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001109242&type=10-K)
+`score 100%` · `coverage 60%` · $958m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001109242&type=10-K)
 
 **Passed (12)**
 - `2.10` FCF ÷ net income (3y) = 123% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 23.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.50 (P/E 11.8 ÷ EPS growth 24%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.50 (P/E 12.0 ÷ EPS growth 24%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 23.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -1.1%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -133,7 +133,7 @@ it wanted to.
 
 ### BOW — Bowhead Specialty Holdings Inc.
 
-`score 100%` · `coverage 56%` · $1,109m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002002473&type=10-K)
+`score 100%` · `coverage 56%` · $1,111m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002002473&type=10-K)
 
 **Passed (11)**
 - `2.10` FCF ÷ net income (3y) = 1130% (need ≥ 80%) — SOURCED: Smith
@@ -146,7 +146,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 1130% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,814,576 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,831,454 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -176,7 +176,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 140% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 67,733,329 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 66,484,234 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -193,7 +193,7 @@ it wanted to.
 
 ### EP — EMPIRE PETROLEUM CORP
 
-`score 100%` · `coverage 52%` · $104m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887396&type=10-K)
+`score 100%` · `coverage 52%` · $101m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887396&type=10-K)
 
 **Passed (10)**
 - `2.5` revenue CAGR 16.6% — near Mayer's band (SOURCED: Mayer)
@@ -235,7 +235,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 80% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -28.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 85,012 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 78,752 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -253,7 +253,7 @@ it wanted to.
 
 ### CURB — Curbline Properties Corp.
 
-`score 100%` · `coverage 52%` · $3,094m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002027317&type=10-K)
+`score 100%` · `coverage 52%` · $2,990m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002027317&type=10-K)
 
 **Passed (10)**
 - `2.10` FCF ÷ net income (3y) = 192% (need ≥ 80%) — SOURCED: Smith
@@ -265,7 +265,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 192% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 31,228,367 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 31,642,202 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -283,7 +283,7 @@ it wanted to.
 
 ### PAYC — Paycom Software, Inc.
 
-`score 98%` · `coverage 100%` · $9,867m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590955&type=10-K)
+`score 98%` · `coverage 100%` · $10,199m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590955&type=10-K)
 
 **Failed (1)**
 - `7.2` receivables growing +34.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
@@ -298,7 +298,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 33.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.31x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.86 (P/E 29.0 ÷ EPS growth 34%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.89 (P/E 29.9 ÷ EPS growth 34%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 33.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 263,225,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 5,325,000 due within 3 years vs 1,171,200,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -309,11 +309,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 86% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 140,156,979 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 141,904,252 (need ≥ 50,000) — JUDGMENT threshold
 
 ### PSIG — PS International Group Ltd.
 
-`score 97%` · `coverage 68%` · $41m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997201&type=10-K)
+`score 97%` · `coverage 68%` · $64m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997201&type=10-K)
 
 **Failed (1)**
 - `2.11` gross margin = 9% (need ≥ 35%) — JUDGMENT threshold
@@ -331,7 +331,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -80.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,274,750 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,323,960 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -361,7 +361,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 134% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -84.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,629,093 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,478,022 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -377,10 +377,10 @@ it wanted to.
 
 ### CAMT — CAMTEK LTD
 
-`score 94%` · `coverage 96%` · $6,781m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001109138&type=10-K)
+`score 94%` · `coverage 96%` · $6,834m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001109138&type=10-K)
 
 **Failed (1)**
-- `3.2` PEG 1.96 (P/E 86.2 ÷ EPS growth 44%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.98 (P/E 86.9 ÷ EPS growth 44%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 
 **Passed (20)**
 - `2.1` ROIC avg 48.0%, min 25.8% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -409,7 +409,7 @@ it wanted to.
 
 ### ITRN — Ituran Location & Control Ltd.
 
-`score 94%` · `coverage 96%` · $1,043m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001337117&type=10-K)
+`score 94%` · `coverage 96%` · $1,023m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001337117&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 9.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -423,7 +423,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 12% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 45.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.62x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.47 (P/E 21.7 ÷ EPS growth 46%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.46 (P/E 21.3 ÷ EPS growth 46%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 45.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 76,661,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 731,000 due within 3 years vs 266,292,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -434,14 +434,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 149% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -6.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 16% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,588,259 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,353,204 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `6.15` stock-based comp ÷ revenue: not derivable from filings
 
 ### UTMD — UTAH MEDICAL PRODUCTS INC
 
-`score 94%` · `coverage 96%` · $222m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000706698&type=10-K)
+`score 94%` · `coverage 96%` · $235m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000706698&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 6.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -454,7 +454,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 10% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 15.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.16x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.84 (P/E 13.3 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.89 (P/E 14.2 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 15.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 82,976,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 9,117 due within 3 years vs 147,902,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -466,14 +466,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 134% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -13.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,018,992 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,174,965 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### ACLS — AXCELIS TECHNOLOGIES INC
 
-`score 93%` · `coverage 92%` · $3,503m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001113232&type=10-K)
+`score 93%` · `coverage 92%` · $3,376m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001113232&type=10-K)
 
 **Failed (1)**
 - `2.1` ROIC avg 261.0%, min 9.6% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -486,7 +486,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 23% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 71.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.97x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.20 (P/E 14.2 ÷ EPS growth 72%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.19 (P/E 13.7 ÷ EPS growth 72%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 71.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 542,284,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.5` interest coverage after a 30% revenue decline = 22.1x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -497,7 +497,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 87% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 65,015,290 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 57,760,071 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -505,7 +505,7 @@ it wanted to.
 
 ### INMD — InMode Ltd.
 
-`score 93%` · `coverage 92%` · $944m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001742692&type=10-K)
+`score 93%` · `coverage 92%` · $909m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001742692&type=10-K)
 
 **Failed (1)**
 - `5.11` diluted share count +19.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -520,7 +520,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 37.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.16x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.13 (P/E 4.8 ÷ EPS growth 37%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.12 (P/E 4.6 ÷ EPS growth 37%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 37.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -529,7 +529,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 101% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,265,832 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,113,014 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `5.1` net debt ÷ EBITDA: not derivable from filings
@@ -537,7 +537,7 @@ it wanted to.
 
 ### BKE — BUCKLE INC
 
-`score 93%` · `coverage 88%` · $2,097m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000885245&type=10-K)
+`score 93%` · `coverage 88%` · $2,075m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000885245&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 11.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -550,7 +550,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 23% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 18.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.46x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.52 (P/E 9.5 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.51 (P/E 9.4 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 18.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -560,7 +560,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 111% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -29.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 19,849,047 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,384,674 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -569,7 +569,7 @@ it wanted to.
 
 ### CRAI — CRA INTERNATIONAL, INC.
 
-`score 93%` · `coverage 84%` · $1,016m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001053706&type=10-K)
+`score 93%` · `coverage 84%` · $1,038m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001053706&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 7.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -582,7 +582,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 20.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.58x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.28 (P/E 26.4 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.31 (P/E 27.0 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 20.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -3.6%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -591,7 +591,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 119% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -0.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 21,935,068 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 21,511,680 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.11` gross margin: not derivable from filings
@@ -601,10 +601,10 @@ it wanted to.
 
 ### MANH — MANHATTAN ASSOCIATES INC
 
-`score 92%` · `coverage 84%` · $11,767m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001056696&type=10-K)
+`score 92%` · `coverage 84%` · $12,329m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001056696&type=10-K)
 
 **Failed (1)**
-- `3.2` PEG 2.41 (P/E 66.6 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.53 (P/E 69.8 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 
 **Passed (17)**
 - `2.5` revenue CAGR 16.6% — near Mayer's band (SOURCED: Mayer)
@@ -623,7 +623,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 147% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 8% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 99,084,021 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 117,604,917 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -633,7 +633,7 @@ it wanted to.
 
 ### ALX — ALEXANDERS INC
 
-`score 92%` · `coverage 76%` · $1,273m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000003499&type=10-K)
+`score 92%` · `coverage 76%` · $1,262m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000003499&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 4.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -643,7 +643,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 14% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 34.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.36 (P/E 12.4 ÷ EPS growth 35%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.36 (P/E 12.3 ÷ EPS growth 35%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 34.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 494,000,000 due within 3 years vs 789,229,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
@@ -653,7 +653,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 135% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,125,071 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,433,112 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -665,7 +665,7 @@ it wanted to.
 
 ### UVE — UNIVERSAL INSURANCE HOLDINGS, INC.
 
-`score 92%` · `coverage 76%` · $1,234m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000891166&type=10-K)
+`score 92%` · `coverage 76%` · $1,229m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000891166&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 9.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -675,7 +675,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 54.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.34 (P/E 18.5 ÷ EPS growth 55%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.34 (P/E 18.4 ÷ EPS growth 55%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 54.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 301,065,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 101,103,000 due within 3 years vs 603,164,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -685,7 +685,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 535% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,630,578 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,324,138 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -697,7 +697,7 @@ it wanted to.
 
 ### WING — Wingstop Inc.
 
-`score 92%` · `coverage 100%` · $3,190m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636222&type=10-K)
+`score 92%` · `coverage 100%` · $2,835m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636222&type=10-K)
 
 **Failed (2)**
 - `5.1` net debt ÷ EBITDA = 7.08x (need ≤ 1.50x) — JUDGMENT threshold
@@ -713,7 +713,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 44.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.11x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.03 (P/E 45.5 ÷ EPS growth 44%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.91 (P/E 40.4 ÷ EPS growth 44%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 44.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 472,800,000 due within 3 years vs 558,214,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
@@ -723,11 +723,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 110% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 161,936,119 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 159,710,552 (need ≥ 50,000) — JUDGMENT threshold
 
 ### LSCC — LATTICE SEMICONDUCTOR CORP
 
-`score 92%` · `coverage 100%` · $17,010m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000855658&type=10-K)
+`score 92%` · `coverage 100%` · $15,760m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000855658&type=10-K)
 
 **Failed (2)**
 - `2.13` goodwill + intangibles = 38% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -742,7 +742,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 10% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 76.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.73x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.86 (P/E 65.7 ÷ EPS growth 77%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.79 (P/E 60.8 ÷ EPS growth 77%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 76.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.01x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 158,750,000 due within 3 years vs 892,215,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -753,7 +753,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 130% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -21.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 38% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 238,176,193 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 227,324,198 (need ≥ 50,000) — JUDGMENT threshold
 
 ### YALA — Yalla Group Ltd
 
@@ -778,7 +778,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 161% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,735,428 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,738,080 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -789,7 +789,7 @@ it wanted to.
 
 ### CPF — CENTRAL PACIFIC FINANCIAL CORP
 
-`score 92%` · `coverage 72%` · $974m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000701347&type=10-K)
+`score 92%` · `coverage 72%` · $969m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000701347&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 11.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -799,7 +799,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 9% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 17.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.93 (P/E 16.6 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.92 (P/E 16.5 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 17.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 25,000,000 due within 3 years vs 389,430,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -808,7 +808,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 127% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,883,832 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,008,048 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -821,7 +821,7 @@ it wanted to.
 
 ### HCI — HCI Group, Inc.
 
-`score 92%` · `coverage 72%` · $2,310m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001400810&type=10-K)
+`score 92%` · `coverage 72%` · $2,334m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001400810&type=10-K)
 
 **Failed (1)**
 - `5.11` diluted share count +6.9%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -832,7 +832,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 19% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 36.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.81 (P/E 29.2 ÷ EPS growth 36%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.82 (P/E 29.5 ÷ EPS growth 36%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 36.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 460,087,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -840,7 +840,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 566% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 27,001,396 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,002,573 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -853,7 +853,7 @@ it wanted to.
 
 ### KNSL — Kinsale Capital Group, Inc.
 
-`score 92%` · `coverage 72%` · $8,200m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001669162&type=10-K)
+`score 92%` · `coverage 72%` · $8,128m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001669162&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 38.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -863,7 +863,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 50.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.53 (P/E 26.6 ÷ EPS growth 51%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.52 (P/E 26.4 ÷ EPS growth 51%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 50.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 51,000,000 due within 3 years vs 2,715,958,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -872,7 +872,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 287% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 91,810,282 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 90,857,021 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -885,7 +885,7 @@ it wanted to.
 
 ### NSSC — NAPCO SECURITY TECHNOLOGIES, INC
 
-`score 92%` · `coverage 96%` · $1,297m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000069633&type=10-K)
+`score 92%` · `coverage 96%` · $1,292m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000069633&type=10-K)
 
 **Failed (2)**
 - `2.10` FCF ÷ net income (3y) = 75% (need ≥ 80%) — SOURCED: Smith
@@ -899,7 +899,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 2% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 47.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.42x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.55 (P/E 26.0 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.55 (P/E 25.9 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 47.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 95,272,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.5` interest coverage after a 30% revenue decline = 287.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -910,14 +910,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 86% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -17.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,629,690 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,591,157 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### PCTY — Paylocity Holding Corp
 
-`score 92%` · `coverage 96%` · $7,516m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591698&type=10-K)
+`score 92%` · `coverage 96%` · $7,626m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591698&type=10-K)
 
 **Failed (2)**
 - `6.15` stock-based comp ÷ revenue = 11.4% (need ≤ 10.0%) — JUDGMENT threshold
@@ -933,7 +933,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 18% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 42.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.44x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.86 (P/E 36.4 ÷ EPS growth 42%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.87 (P/E 36.9 ÷ EPS growth 42%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 42.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 238,686,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
@@ -949,7 +949,7 @@ it wanted to.
 
 ### IOSP — INNOSPEC INC.
 
-`score 92%` · `coverage 96%` · $2,296m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001054905&type=10-K)
+`score 92%` · `coverage 96%` · $2,294m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001054905&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 10.9%, min 2.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -981,11 +981,11 @@ it wanted to.
 
 ### FIX — COMFORT SYSTEMS USA INC
 
-`score 92%` · `coverage 92%` · $59,507m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035983&type=10-K)
+`score 92%` · `coverage 92%` · $58,119m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035983&type=10-K)
 
 **Failed (2)**
 - `2.11` gross margin = 19% (need ≥ 35%) — JUDGMENT threshold
-- `3.2` PEG 6.10 (P/E 184.0 ÷ EPS growth 30%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 5.96 (P/E 179.7 ÷ EPS growth 30%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 
 **Passed (18)**
 - `2.1` ROIC avg 29.7%, min 15.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -1005,7 +1005,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 136% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 24% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 746,214,098 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 736,768,489 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -1013,7 +1013,7 @@ it wanted to.
 
 ### CMRE — Costamare Inc.
 
-`score 92%` · `coverage 76%` · $1,867m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001503584&type=10-K)
+`score 92%` · `coverage 76%` · $1,889m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001503584&type=10-K)
 
 **Failed (1)**
 - `2.1` ROIC avg 8.2%, min 1.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -1033,7 +1033,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 141% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -0.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,038,656 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,819,325 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.11` gross margin: not derivable from filings
@@ -1064,7 +1064,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 130% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,890,255 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,837,296 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1092,7 +1092,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 3.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 214,176 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 228,124 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1109,7 +1109,7 @@ it wanted to.
 
 ### MTG — MGIC INVESTMENT CORP
 
-`score 91%` · `coverage 68%` · $6,306m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000876437&type=10-K)
+`score 91%` · `coverage 68%` · $6,090m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000876437&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR -1.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -1119,7 +1119,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 5% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 26.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.34 (P/E 8.8 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.33 (P/E 8.5 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 26.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -5.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -1141,7 +1141,7 @@ it wanted to.
 
 ### ESNT — Essent Group Ltd.
 
-`score 91%` · `coverage 68%` · $6,128m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001448893&type=10-K)
+`score 91%` · `coverage 68%` · $6,039m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001448893&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 5.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -1151,7 +1151,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 3% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 18.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.47 (P/E 8.8 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.46 (P/E 8.7 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 18.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count +1.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -1159,7 +1159,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 106% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 39,537,582 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,444,447 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1173,7 +1173,7 @@ it wanted to.
 
 ### PLMR — Palomar Holdings, Inc.
 
-`score 91%` · `coverage 68%` · $3,518m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001761312&type=10-K)
+`score 91%` · `coverage 68%` · $3,579m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001761312&type=10-K)
 
 **Failed (1)**
 - `5.11` diluted share count +8.3%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -1184,14 +1184,14 @@ it wanted to.
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 133.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.33 (P/E 44.4 ÷ EPS growth 134%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.34 (P/E 45.2 ÷ EPS growth 134%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 133.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 4.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 245% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,873,196 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 29,683,127 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1205,7 +1205,7 @@ it wanted to.
 
 ### LPG — DORIAN LPG LTD.
 
-`score 91%` · `coverage 88%` · $2,361m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596993&type=10-K)
+`score 91%` · `coverage 88%` · $2,488m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596993&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 10.8%, min 5.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -1217,7 +1217,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 59.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.97x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.13 (P/E 7.7 ÷ EPS growth 60%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.14 (P/E 8.1 ÷ EPS growth 60%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 59.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.64x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 247,212,805 due within 3 years vs 1,434,288,920 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -1228,7 +1228,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 138% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 26,731,430 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 28,322,239 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -1237,7 +1237,7 @@ it wanted to.
 
 ### HWKN — HAWKINS INC
 
-`score 90%` · `coverage 100%` · $2,590m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046250&type=10-K)
+`score 90%` · `coverage 100%` · $2,551m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046250&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 13.5%, min 9.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -1251,7 +1251,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 9% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 23.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.49x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.49 (P/E 34.4 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.47 (P/E 33.8 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 23.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.13x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 18,125,000 due within 3 years vs 363,147,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -1263,7 +1263,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 86% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -13.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 33% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 19,983,904 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,416,518 (need ≥ 50,000) — JUDGMENT threshold
 
 ### TIGR — UP Fintech Holding Ltd
 
@@ -1284,7 +1284,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 2435% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,270,960 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,132,428 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1319,7 +1319,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 241% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,751,029 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,672,967 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -1331,7 +1331,7 @@ it wanted to.
 
 ### INOD — INNODATA INC
 
-`score 90%` · `coverage 68%` · $1,830m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000903651&type=10-K)
+`score 90%` · `coverage 68%` · $1,965m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000903651&type=10-K)
 
 **Failed (1)**
 - `5.11` diluted share count +4.5%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -1349,7 +1349,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 168% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +0.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 87,263,903 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 82,621,674 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1381,7 +1381,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -36.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 237,738 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 231,270 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1395,7 +1395,7 @@ it wanted to.
 
 ### CLBT — Cellebrite DI Ltd.
 
-`score 90%` · `coverage 68%` · $2,801m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001854587&type=10-K)
+`score 90%` · `coverage 68%` · $2,898m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001854587&type=10-K)
 
 **Failed (1)**
 - `5.11` diluted share count +11.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -1413,7 +1413,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 139% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,697,148 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 25,685,653 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1441,7 +1441,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,997,620 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,920,043 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1459,7 +1459,7 @@ it wanted to.
 
 ### CON — Concentra Group Holdings Parent, Inc.
 
-`score 90%` · `coverage 52%` · $4,457m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002014596&type=10-K)
+`score 90%` · `coverage 52%` · $4,523m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002014596&type=10-K)
 
 **Failed (2)**
 - `2.13` goodwill + intangibles = 61% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -1473,7 +1473,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 115% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,529,121 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,886,977 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1491,7 +1491,7 @@ it wanted to.
 
 ### CSW — CSW INDUSTRIALS, INC.
 
-`score 90%` · `coverage 96%` · $4,900m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001624794&type=10-K)
+`score 90%` · `coverage 96%` · $4,687m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001624794&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 17.3%, min 9.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -1505,7 +1505,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 35.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.65x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.38 (P/E 48.2 ÷ EPS growth 35%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.32 (P/E 46.1 ÷ EPS growth 35%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 35.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 225,845,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 90,000,000 due within 3 years vs 669,116,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -1516,14 +1516,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 121% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -18.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 38,574,999 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,174,862 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### DIN — Dine Brands Global, Inc.
 
-`score 90%` · `coverage 64%` · $358m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000049754&type=10-K)
+`score 90%` · `coverage 64%` · $353m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000049754&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 6.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -1540,7 +1540,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 198% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 16% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,530,939 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,336,478 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1571,7 +1571,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 138% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 498,720 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 493,968 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1587,7 +1587,7 @@ it wanted to.
 
 ### CPSS — CONSUMER PORTFOLIO SERVICES, INC.
 
-`score 89%` · `coverage 72%` · $203m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000889609&type=10-K)
+`score 89%` · `coverage 72%` · $201m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000889609&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 9.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -1597,7 +1597,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 362% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 25.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.17 (P/E 4.5 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.17 (P/E 4.4 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 21,843,000 due within 3 years vs 723,976,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -1619,7 +1619,7 @@ it wanted to.
 
 ### CNA — CNA FINANCIAL CORP
 
-`score 89%` · `coverage 72%` · $12,900m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000021175&type=10-K)
+`score 89%` · `coverage 72%` · $12,994m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000021175&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 9.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -1629,7 +1629,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 215% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 20.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.52 (P/E 10.7 ÷ EPS growth 20%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.53 (P/E 10.8 ÷ EPS growth 20%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 20.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 500,000,000 due within 3 years vs 8,346,000,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -1638,7 +1638,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 199% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,245,774 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,485,957 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1651,7 +1651,7 @@ it wanted to.
 
 ### JACK — JACK IN THE BOX INC
 
-`score 89%` · `coverage 92%` · $283m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000807882&type=10-K)
+`score 89%` · `coverage 92%` · $250m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000807882&type=10-K)
 
 **Failed (3)**
 - `2.16` worst peak-to-trough revenue decline 44% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -1664,7 +1664,7 @@ it wanted to.
 - `2.11` gross margin = 68% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 12% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 17.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.12 (P/E 2.2 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.11 (P/E 1.9 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 17.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 67,994,000 due within 3 years vs 473,505,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
@@ -1675,7 +1675,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 113% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -14.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,188,451 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,907,125 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1683,7 +1683,7 @@ it wanted to.
 
 ### NATH — NATHANS FAMOUS, INC.
 
-`score 89%` · `coverage 88%` · $401m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000069733&type=10-K)
+`score 89%` · `coverage 88%` · $406m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000069733&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 8.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -1695,7 +1695,7 @@ it wanted to.
 - `2.11` gross margin = 39% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 21.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.79 (P/E 16.7 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.80 (P/E 16.9 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 21.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.61x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 7,200,000 due within 3 years vs 102,847,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -1706,7 +1706,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 103% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,140,565 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,289,924 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1715,7 +1715,7 @@ it wanted to.
 
 ### IDCC — InterDigital, Inc.
 
-`score 89%` · `coverage 88%` · $9,035m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001405495&type=10-K)
+`score 89%` · `coverage 88%` · $8,337m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001405495&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 36.2%, min 3.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -1728,7 +1728,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 21% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 74.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.87x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.57 (P/E 42.2 ÷ EPS growth 74%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.53 (P/E 38.9 ÷ EPS growth 74%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 74.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 486,436,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 459,986,000 due within 3 years vs 1,586,603,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -1738,7 +1738,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 200% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 21% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 75,013,949 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 74,398,545 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -1770,7 +1770,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 77% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 305,802 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 300,058 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -1779,7 +1779,7 @@ it wanted to.
 
 ### GPOR — GULFPORT ENERGY CORP
 
-`score 89%` · `coverage 76%` · $3,064m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874499&type=10-K)
+`score 89%` · `coverage 76%` · $2,824m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874499&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 19.1%, min -49.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -1799,7 +1799,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -39.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 48,535,082 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 48,169,499 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -1831,7 +1831,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 135% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,494,529 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,466,411 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.11` gross margin: not derivable from filings
@@ -1843,7 +1843,7 @@ it wanted to.
 
 ### PSIX — POWER SOLUTIONS INTERNATIONAL, INC.
 
-`score 89%` · `coverage 76%` · $971m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001137091&type=10-K)
+`score 89%` · `coverage 76%` · $1,058m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001137091&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 1.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -1863,7 +1863,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 155% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +0.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 10% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,121,222 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,734,912 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -1875,7 +1875,7 @@ it wanted to.
 
 ### ELMD — Electromed, Inc.
 
-`score 88%` · `coverage 100%` · $228m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001488917&type=10-K)
+`score 88%` · `coverage 100%` · $222m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001488917&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 16.1%, min 9.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -1890,7 +1890,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 47.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.13x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.64 (P/E 30.2 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.62 (P/E 29.4 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 47.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 14,117,875 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 1,101,000 due within 3 years vs 48,680,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -1901,11 +1901,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 99% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -10.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,727,752 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,742,004 (need ≥ 50,000) — JUDGMENT threshold
 
 ### LFVN — Lifevantage Corp
 
-`score 88%` · `coverage 100%` · $77m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000849146&type=10-K)
+`score 88%` · `coverage 100%` · $80m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000849146&type=10-K)
 
 **Failed (2)**
 - `2.3` return on incremental invested capital -47.5% (need ≥ 15%) — JUDGMENT
@@ -1919,7 +1919,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 14% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 46.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.98x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.17 (P/E 7.9 ÷ EPS growth 47%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.17 (P/E 8.1 ÷ EPS growth 47%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 46.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 12,020,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 5,500,000 due within 3 years vs 48,407,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -1931,11 +1931,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 155% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -3.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 671,406 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 528,312 (need ≥ 50,000) — JUDGMENT threshold
 
 ### BOOT — Boot Barn Holdings, Inc.
 
-`score 88%` · `coverage 100%` · $4,373m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001610250&type=10-K)
+`score 88%` · `coverage 100%` · $3,723m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001610250&type=10-K)
 
 **Failed (2)**
 - `2.10` FCF ÷ net income (3y) = 22% (need ≥ 80%) — SOURCED: Smith
@@ -1950,7 +1950,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 33.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.38x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.89 (P/E 29.7 ÷ EPS growth 34%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.75 (P/E 25.3 ÷ EPS growth 34%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 33.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.90x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 6,000,000 due within 3 years vs 421,664,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -1961,7 +1961,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -21.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 106,520,233 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 106,630,625 (need ≥ 50,000) — JUDGMENT threshold
 
 ### TNK — TEEKAY TANKERS LTD.
 
@@ -1988,7 +1988,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 178% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 28,249,212 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 29,380,449 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -1997,7 +1997,7 @@ it wanted to.
 
 ### HRI — HERC HOLDINGS INC
 
-`score 88%` · `coverage 84%` · $4,712m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364479&type=10-K)
+`score 88%` · `coverage 84%` · $4,522m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364479&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR -30.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2009,7 +2009,7 @@ it wanted to.
 - `2.11` gross margin = 88% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 10% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 69.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.20 (P/E 13.6 ÷ EPS growth 69%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.19 (P/E 13.0 ÷ EPS growth 69%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 69.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 70,800,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 544,000,000 due within 3 years vs 2,873,000,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2019,7 +2019,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 351% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 10% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 65,844,977 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 68,530,377 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2029,7 +2029,7 @@ it wanted to.
 
 ### UFCS — UNITED FIRE GROUP INC
 
-`score 88%` · `coverage 56%` · $1,424m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101199&type=10-K)
+`score 88%` · `coverage 56%` · $1,398m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101199&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 0.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2076,7 +2076,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 236% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 119,067 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 117,552 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2093,7 +2093,7 @@ it wanted to.
 
 ### CARE — Carter Bankshares, Inc.
 
-`score 88%` · `coverage 56%` · $692m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001829576&type=10-K)
+`score 88%` · `coverage 56%` · $682m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001829576&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR -1.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2125,7 +2125,7 @@ it wanted to.
 
 ### UAN — CVR PARTNERS, LP
 
-`score 88%` · `coverage 72%` · $1,436m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001425292&type=10-K)
+`score 88%` · `coverage 72%` · $1,415m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001425292&type=10-K)
 
 **Failed (2)**
 - `2.11` gross margin = 34% (need ≥ 35%) — JUDGMENT threshold
@@ -2144,7 +2144,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 165% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -34.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,116,089 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,798,832 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2157,7 +2157,7 @@ it wanted to.
 
 ### CTS — CTS CORP
 
-`score 88%` · `coverage 96%` · $1,654m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000026058&type=10-K)
+`score 88%` · `coverage 96%` · $1,667m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000026058&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 9.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2172,7 +2172,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 10% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 21.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.03x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.26 (P/E 27.3 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.27 (P/E 27.5 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 21.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.57x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 5.3x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -2182,14 +2182,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 239% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -10.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,188,032 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 14,406,130 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### PLAB — PHOTRONICS INC
 
-`score 88%` · `coverage 96%` · $1,710m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000810136&type=10-K)
+`score 88%` · `coverage 96%` · $1,717m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000810136&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 16.8%, min 6.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -2202,7 +2202,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 14% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 57.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.30x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.24 (P/E 13.6 ÷ EPS growth 58%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.24 (P/E 13.7 ÷ EPS growth 58%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 57.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 429,782,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 35,693,000 due within 3 years vs 1,054,119,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2214,14 +2214,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 93% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 34,879,587 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 34,451,541 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### TGLS — Tecnoglass Holdings Inc.
 
-`score 88%` · `coverage 96%` · $1,700m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534675&type=10-K)
+`score 88%` · `coverage 96%` · $1,587m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534675&type=10-K)
 
 **Failed (2)**
 - `2.10` FCF ÷ net income (3y) = 48% (need ≥ 80%) — SOURCED: Smith
@@ -2235,7 +2235,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 13% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 95.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.92x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.10 (P/E 9.3 ÷ EPS growth 96%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.09 (P/E 8.7 ÷ EPS growth 96%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 95.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 28,220,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 261,682,000 due within 3 years vs 320,128,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2246,14 +2246,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -7.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,263,774 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,811,592 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### ASC — Ardmore Shipping Corp
 
-`score 88%` · `coverage 68%` · $760m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001577437&type=10-K)
+`score 88%` · `coverage 68%` · $776m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001577437&type=10-K)
 
 **Failed (2)**
 - `5.11` diluted share count +6.0%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -2271,7 +2271,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 183% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,788,924 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,766,769 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2302,7 +2302,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 503% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 32,232,609 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 32,818,001 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2317,7 +2317,7 @@ it wanted to.
 
 ### CELH — Celsius Holdings, Inc.
 
-`score 87%` · `coverage 92%` · $6,888m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341766&type=10-K)
+`score 87%` · `coverage 92%` · $7,090m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341766&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 116.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2330,7 +2330,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 102.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.92x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.29 (P/E 30.4 ÷ EPS growth 103%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.30 (P/E 31.3 ÷ EPS growth 103%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 102.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 883,190,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 21,000,000 due within 3 years vs 1,261,545,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2341,7 +2341,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 214% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -24.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 264,908,074 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 257,736,230 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2349,7 +2349,7 @@ it wanted to.
 
 ### MNTK — Montauk Renewables, Inc.
 
-`score 87%` · `coverage 88%` · $376m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826600&type=10-K)
+`score 87%` · `coverage 88%` · $320m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826600&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 8.4%, min 1.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -2362,7 +2362,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 18% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 47.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.29x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.53 (P/E 25.1 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.45 (P/E 21.4 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 47.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 18,195,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -2372,7 +2372,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 112% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -9.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 252,672 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 254,644 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -2381,7 +2381,7 @@ it wanted to.
 
 ### SXC — SunCoke Energy, Inc.
 
-`score 87%` · `coverage 88%` · $850m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514705&type=10-K)
+`score 87%` · `coverage 88%` · $805m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514705&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 5.1%, min -9.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -2394,7 +2394,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 19% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 147.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.37x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.10 (P/E 14.8 ÷ EPS growth 148%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.09 (P/E 14.0 ÷ EPS growth 148%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 147.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.14x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 0 due within 3 years vs 609,000,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2404,7 +2404,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 1063% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,509,105 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,406,980 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -2413,7 +2413,7 @@ it wanted to.
 
 ### APOG — APOGEE ENTERPRISES, INC.
 
-`score 87%` · `coverage 100%` · $790m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006845&type=10-K)
+`score 87%` · `coverage 100%` · $768m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006845&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 12.0%, min 2.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -2427,7 +2427,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 12% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 97.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 15.34x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.08 (P/E 7.9 ÷ EPS growth 97%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.08 (P/E 7.7 ÷ EPS growth 97%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 97.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.37x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 0 due within 3 years vs 529,168,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2439,11 +2439,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 165% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 27% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,693,101 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,972,839 (need ≥ 50,000) — JUDGMENT threshold
 
 ### LWAY — Lifeway Foods, Inc.
 
-`score 87%` · `coverage 100%` · $372m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000814586&type=10-K)
+`score 87%` · `coverage 100%` · $361m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000814586&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 14.7%, min 2.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -2458,7 +2458,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 24% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 41.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.04x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.99 (P/E 41.2 ÷ EPS growth 42%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.96 (P/E 40.0 ÷ EPS growth 42%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 41.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 15,069,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 2,750,000 due within 3 years vs 37,614,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2469,11 +2469,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 99% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,874,480 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,960,400 (need ≥ 50,000) — JUDGMENT threshold
 
 ### ENPH — Enphase Energy, Inc.
 
-`score 87%` · `coverage 100%` · $4,791m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001463101&type=10-K)
+`score 87%` · `coverage 100%` · $4,565m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001463101&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 43.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2488,7 +2488,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 7% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 20% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 48.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.23 (P/E 10.9 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.22 (P/E 10.4 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 48.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 239,848,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 19,521,000 due within 3 years vs 3,301,365,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2499,7 +2499,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 149% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -56.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 226,127,303 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 218,340,324 (need ≥ 50,000) — JUDGMENT threshold
 
 ### DGICA — DONEGAL GROUP INC
 
@@ -2517,7 +2517,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 274% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,041,803 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,070,503 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2535,7 +2535,7 @@ it wanted to.
 
 ### KRP — Kimbell Royalty Partners, LP
 
-`score 86%` · `coverage 52%` · $400m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001657788&type=10-K)
+`score 86%` · `coverage 52%` · $392m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001657788&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 48.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2549,7 +2549,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 4.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,911,066 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,064,838 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2567,7 +2567,7 @@ it wanted to.
 
 ### ACT — Enact Holdings, Inc.
 
-`score 86%` · `coverage 52%` · $6,796m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001823529&type=10-K)
+`score 86%` · `coverage 52%` · $6,661m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001823529&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 1.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2581,7 +2581,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 84% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,623,407 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,959,559 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2599,7 +2599,7 @@ it wanted to.
 
 ### NLOP — Net Lease Office Properties
 
-`score 86%` · `coverage 52%` · $161m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001952976&type=10-K)
+`score 86%` · `coverage 52%` · $155m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001952976&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 8.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2613,7 +2613,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,414,560 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,384,548 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2631,7 +2631,7 @@ it wanted to.
 
 ### IBCP — INDEPENDENT BANK CORP /MI/
 
-`score 86%` · `coverage 52%` · $823m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039311&type=10-K)
+`score 86%` · `coverage 52%` · $804m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039311&type=10-K)
 
 **Failed (1)**
 - `2.5` revenue CAGR 11.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2645,7 +2645,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 120% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,172,768 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,163,609 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2663,7 +2663,7 @@ it wanted to.
 
 ### CNX — CNX Resources Corp
 
-`score 86%` · `coverage 64%` · $5,313m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070412&type=10-K)
+`score 86%` · `coverage 64%` · $4,866m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070412&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 39.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2680,7 +2680,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 264% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -58.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 54,999,566 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 55,767,209 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2695,7 +2695,7 @@ it wanted to.
 
 ### NRP — NATURAL RESOURCE PARTNERS LP
 
-`score 86%` · `coverage 64%` · $1,472m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001171486&type=10-K)
+`score 86%` · `coverage 64%` · $1,448m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001171486&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 13.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2712,7 +2712,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 169% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -30.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 8% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,787,601 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,678,862 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2727,7 +2727,7 @@ it wanted to.
 
 ### AGYS — AGILYSYS INC
 
-`score 86%` · `coverage 76%` · $2,947m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000078749&type=10-K)
+`score 86%` · `coverage 76%` · $2,824m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000078749&type=10-K)
 
 **Failed (3)**
 - `2.13` goodwill + intangibles = 44% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -2747,7 +2747,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 247% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 27,174,295 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,627,910 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2759,7 +2759,7 @@ it wanted to.
 
 ### INVX — Innovex International, Inc.
 
-`score 86%` · `coverage 76%` · $2,107m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001042893&type=10-K)
+`score 86%` · `coverage 76%` · $2,014m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001042893&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 11.8%, min -13.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -2779,7 +2779,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,060,360 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,774,255 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -2791,10 +2791,10 @@ it wanted to.
 
 ### QLYS — QUALYS, INC.
 
-`score 86%` · `coverage 88%` · $5,199m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001107843&type=10-K)
+`score 86%` · `coverage 88%` · $6,053m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001107843&type=10-K)
 
 **Failed (2)**
-- `3.2` PEG 1.60 (P/E 34.3 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.86 (P/E 39.9 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `6.15` stock-based comp ÷ revenue = 12.5% (need ≤ 10.0%) — JUDGMENT threshold
 
 **Passed (17)**
@@ -2814,7 +2814,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 179% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -0.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 97,293,604 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 100,171,264 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -2848,14 +2848,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 78% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -0.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 90,138 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 86,718 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### CIX — COMPX INTERNATIONAL INC
 
-`score 86%` · `coverage 96%` · $440m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001049606&type=10-K)
+`score 86%` · `coverage 96%` · $461m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001049606&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 12.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2869,7 +2869,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 8% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 30.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.41x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.64 (P/E 19.5 ÷ EPS growth 30%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.67 (P/E 20.4 ÷ EPS growth 30%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 30.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 77,656,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 18,480,000 due within 3 years vs 170,179,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2880,14 +2880,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 85% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 16% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 140,182 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 155,797 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `6.15` stock-based comp ÷ revenue: not derivable from filings
 
 ### MPTI — M-tron Industries, Inc.
 
-`score 86%` · `coverage 84%` · $346m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001902314&type=10-K)
+`score 86%` · `coverage 84%` · $319m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001902314&type=10-K)
 
 **Failed (2)**
 - `2.10` FCF ÷ net income (3y) = 76% (need ≥ 80%) — SOURCED: Smith
@@ -2900,7 +2900,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 64.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.87x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.70 (P/E 45.2 ÷ EPS growth 65%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.64 (P/E 41.8 ÷ EPS growth 65%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 64.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -2919,7 +2919,7 @@ it wanted to.
 
 ### NODK — NI Holdings, Inc.
 
-`score 86%` · `coverage 60%` · $307m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001681206&type=10-K)
+`score 86%` · `coverage 60%` · $305m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001681206&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 452.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2935,7 +2935,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 826% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 260,262 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 272,792 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -2951,7 +2951,7 @@ it wanted to.
 
 ### DAC — Danaos Corp
 
-`score 85%` · `coverage 92%` · $2,910m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001369241&type=10-K)
+`score 85%` · `coverage 92%` · $2,944m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001369241&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 19.8%, min 9.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -2966,7 +2966,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 21% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 65.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.51x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.08 (P/E 5.0 ÷ EPS growth 65%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.08 (P/E 5.1 ÷ EPS growth 65%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 65.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.31x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 740,624,000 due within 3 years vs 2,243,110,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -2975,7 +2975,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 98% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,903,136 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,973,632 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -2983,7 +2983,7 @@ it wanted to.
 
 ### ARI — Apollo Commercial Real Estate Finance, Inc.
 
-`score 85%` · `coverage 76%` · $850m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467760&type=10-K)
+`score 85%` · `coverage 76%` · $823m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467760&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 7.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -2994,7 +2994,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 17% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 49.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.30 (P/E 14.6 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.29 (P/E 14.2 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 49.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 92,238,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 179,071,000 due within 3 years vs 1,138,982,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3003,7 +3003,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 148% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,353,056 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,919,703 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3015,7 +3015,7 @@ it wanted to.
 
 ### UE — Urban Edge Properties
 
-`score 85%` · `coverage 76%` · $2,592m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001611547&type=10-K)
+`score 85%` · `coverage 76%` · $2,522m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001611547&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 8.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -3026,7 +3026,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 3% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 20% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 38.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.27 (P/E 10.4 ÷ EPS growth 39%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.26 (P/E 10.1 ÷ EPS growth 39%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 38.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 534,523,000 due within 3 years vs 574,563,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -3035,7 +3035,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 16,887,299 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,904,457 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3047,7 +3047,7 @@ it wanted to.
 
 ### AX — Axos Financial, Inc.
 
-`score 85%` · `coverage 76%` · $5,291m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001299709&type=10-K)
+`score 85%` · `coverage 76%` · $5,151m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001299709&type=10-K)
 
 **Failed (2)**
 - `2.10` FCF ÷ net income (3y) = 63% (need ≥ 80%) — SOURCED: Smith
@@ -3058,7 +3058,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 3% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 29.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.40 (P/E 11.8 ÷ EPS growth 29%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.39 (P/E 11.4 ÷ EPS growth 29%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 29.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 1,621,174,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 0 due within 3 years vs 2,742,393,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3067,7 +3067,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 93% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,709,506 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,095,857 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3079,7 +3079,7 @@ it wanted to.
 
 ### TXO — TXO Partners, L.P.
 
-`score 85%` · `coverage 52%` · $856m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001559432&type=10-K)
+`score 85%` · `coverage 52%` · $808m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001559432&type=10-K)
 
 **Failed (1)**
 - `5.11` diluted share count +10.0%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -3093,7 +3093,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -40.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,178,367 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,022,999 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3111,7 +3111,7 @@ it wanted to.
 
 ### PAYS — Paysign, Inc.
 
-`score 85%` · `coverage 72%` · $735m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001496443&type=10-K)
+`score 85%` · `coverage 72%` · $697m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001496443&type=10-K)
 
 **Failed (3)**
 - `2.16` worst peak-to-trough revenue decline 30% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -3130,7 +3130,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 4.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,123,488 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,399,225 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3143,7 +3143,7 @@ it wanted to.
 
 ### MTUS — Metallus Inc.
 
-`score 85%` · `coverage 72%` · $797m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001598428&type=10-K)
+`score 85%` · `coverage 72%` · $792m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001598428&type=10-K)
 
 **Failed (3)**
 - `2.11` gross margin = 14% (need ≥ 35%) — JUDGMENT threshold
@@ -3162,7 +3162,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 524% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -21.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,536,881 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,499,197 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3175,7 +3175,7 @@ it wanted to.
 
 ### LNN — LINDSAY CORP
 
-`score 85%` · `coverage 100%` · $1,183m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000836157&type=10-K)
+`score 85%` · `coverage 100%` · $1,171m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000836157&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 13.6%, min 1.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -3189,7 +3189,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 12% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 219.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 12.32x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.07 (P/E 16.3 ÷ EPS growth 219%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.07 (P/E 16.2 ÷ EPS growth 219%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 219.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 81,213,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 294,000 due within 3 years vs 499,231,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3201,11 +3201,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 83% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,643,424 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,580,801 (need ≥ 50,000) — JUDGMENT threshold
 
 ### PERI — Perion Network Ltd.
 
-`score 85%` · `coverage 100%` · $359m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001338940&type=10-K)
+`score 85%` · `coverage 100%` · $338m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001338940&type=10-K)
 
 **Failed (4)**
 - `2.13` goodwill + intangibles = 37% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -3221,7 +3221,7 @@ it wanted to.
 - `2.11` gross margin = 97% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 86.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.53x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.04 (P/E 3.1 ÷ EPS growth 86%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.03 (P/E 2.9 ÷ EPS growth 86%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 86.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 310,276,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 6,150,000 due within 3 years vs 790,898,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3231,11 +3231,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 150% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -18.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 37% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,203,013 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,326,912 (need ≥ 50,000) — JUDGMENT threshold
 
 ### NX — Quanex Building Products CORP
 
-`score 85%` · `coverage 100%` · $988m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001423221&type=10-K)
+`score 85%` · `coverage 100%` · $921m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001423221&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 15.7%, min -6.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -3249,7 +3249,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 8% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 28.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.63x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.42 (P/E 12.0 ÷ EPS growth 29%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.39 (P/E 11.2 ÷ EPS growth 29%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 28.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.29x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 75,000,000 due within 3 years vs 426,730,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3261,17 +3261,17 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 171% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -13.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 34% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,214,006 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,588,652 (need ≥ 50,000) — JUDGMENT threshold
 
 ### FSS — FEDERAL SIGNAL CORP /DE/
 
-`score 85%` · `coverage 100%` · $6,958m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000277509&type=10-K)
+`score 85%` · `coverage 100%` · $6,948m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000277509&type=10-K)
 
 **Failed (4)**
 - `2.10` FCF ÷ net income (3y) = 65% (need ≥ 80%) — SOURCED: Smith
 - `2.11` gross margin = 26% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 35% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 2.46 (P/E 44.2 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.46 (P/E 44.1 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 
 **Passed (18)**
 - `2.1` ROIC avg 19.9%, min 16.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -3291,11 +3291,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 72% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 35% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 49,840,326 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 49,540,946 (need ≥ 50,000) — JUDGMENT threshold
 
 ### XNET — Xunlei Ltd
 
-`score 85%` · `coverage 80%` · $1,540m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001510593&type=10-K)
+`score 85%` · `coverage 80%` · $1,556m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001510593&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg -28.8%, min -86.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -3316,7 +3316,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -17.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,238,577 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,218,672 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -3348,7 +3348,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 278% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 177,048,135 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 160,088,897 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -3359,7 +3359,7 @@ it wanted to.
 
 ### ATAT — Atour Lifestyle Holdings Ltd
 
-`score 85%` · `coverage 80%` · $13,365m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001853717&type=10-K)
+`score 85%` · `coverage 80%` · $13,258m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001853717&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 62.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -3371,7 +3371,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 88.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.25x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.65 (P/E 57.7 ÷ EPS growth 89%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.64 (P/E 57.2 ÷ EPS growth 89%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 88.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 802,890,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -3380,7 +3380,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 155% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -25.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 30,853,779 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,435,712 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3391,7 +3391,7 @@ it wanted to.
 
 ### GOTU — Gaotu Techedu Inc.
 
-`score 85%` · `coverage 60%` · $334m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001768259&type=10-K)
+`score 85%` · `coverage 60%` · $344m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001768259&type=10-K)
 
 **Failed (2)**
 - `2.16` worst peak-to-trough revenue decline 67% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -3407,7 +3407,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 617,783 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 628,975 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3423,7 +3423,7 @@ it wanted to.
 
 ### MGRC — MCGRATH RENTCORP
 
-`score 84%` · `coverage 96%` · $2,697m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000752714&type=10-K)
+`score 84%` · `coverage 96%` · $2,709m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000752714&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 86.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -3438,7 +3438,7 @@ it wanted to.
 - `2.11` gross margin = 83% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 17% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 19.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.79 (P/E 15.4 ÷ EPS growth 20%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.79 (P/E 15.5 ÷ EPS growth 20%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 19.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.01x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 60,000,000 due within 3 years vs 154,869,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3448,14 +3448,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 132% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 16,558,046 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,376,772 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `7.2` receivables or revenue history incomplete
 
 ### HRTG — Heritage Insurance Holdings, Inc.
 
-`score 84%` · `coverage 76%` · $1,028m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001598665&type=10-K)
+`score 84%` · `coverage 76%` · $1,023m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001598665&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 4.5%, min -23.0% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -3466,7 +3466,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 7% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 73.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 11.29x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.31 (P/E 22.7 ÷ EPS growth 73%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.31 (P/E 22.6 ÷ EPS growth 73%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 73.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 336,347,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 12,175,000 due within 3 years vs 634,241,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3475,7 +3475,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 8% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,815,248 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,615,664 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -3487,7 +3487,7 @@ it wanted to.
 
 ### ACR — ACRES Commercial Realty Corp.
 
-`score 84%` · `coverage 56%` · $97m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001332551&type=10-K)
+`score 84%` · `coverage 56%` · $95m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001332551&type=10-K)
 
 **Failed (2)**
 - `2.16` worst peak-to-trough revenue decline 98% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -3502,7 +3502,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 3.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 415,776 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 408,900 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3534,7 +3534,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 3.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,193,220 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,862,451 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3566,7 +3566,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 2.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 84,530,602 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 85,228,407 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3604,7 +3604,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 138% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -41.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 14,155,722 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 14,235,836 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -3615,10 +3615,10 @@ it wanted to.
 
 ### EGP — EASTGROUP PROPERTIES INC
 
-`score 84%` · `coverage 72%` · $10,654m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000049600&type=10-K)
+`score 84%` · `coverage 72%` · $10,882m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000049600&type=10-K)
 
 **Failed (2)**
-- `3.2` PEG 3.11 (P/E 53.1 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.18 (P/E 54.3 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.11` diluted share count +5.0%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 
 **Passed (13)**
@@ -3634,7 +3634,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 168% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 71,860,934 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 73,070,761 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3647,7 +3647,7 @@ it wanted to.
 
 ### ZION — ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/
 
-`score 84%` · `coverage 72%` · $10,034m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000109380&type=10-K)
+`score 84%` · `coverage 72%` · $9,521m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000109380&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 7.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -3658,7 +3658,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 3% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 12.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.21 (P/E 14.8 ÷ EPS growth 12%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.14 (P/E 14.0 ÷ EPS growth 12%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 12.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 0 due within 3 years vs 2,973,000,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -3666,7 +3666,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 89% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 95,058,726 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 95,410,242 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3679,7 +3679,7 @@ it wanted to.
 
 ### PGC — PEAPACK GLADSTONE FINANCIAL CORP
 
-`score 84%` · `coverage 72%` · $812m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001050743&type=10-K)
+`score 84%` · `coverage 72%` · $803m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001050743&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 6.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -3690,7 +3690,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 5% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 25.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.65 (P/E 16.6 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.65 (P/E 16.4 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 116,808,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -3698,7 +3698,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 147% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,252,054 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,438,886 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3711,7 +3711,7 @@ it wanted to.
 
 ### NMIH — NMI Holdings, Inc.
 
-`score 84%` · `coverage 72%` · $3,301m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001547903&type=10-K)
+`score 84%` · `coverage 72%` · $3,227m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001547903&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 10.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -3722,7 +3722,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 21.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.49 (P/E 10.2 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.48 (P/E 10.0 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 21.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 4,500,000 due within 3 years vs 1,049,223,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -3743,7 +3743,7 @@ it wanted to.
 
 ### HBAN — HUNTINGTON BANCSHARES INC /MD/
 
-`score 84%` · `coverage 72%` · $34,177m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000049196&type=10-K)
+`score 84%` · `coverage 72%` · $32,191m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000049196&type=10-K)
 
 **Failed (2)**
 - `5.11` diluted share count +5.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -3755,14 +3755,14 @@ it wanted to.
 - `2.13` goodwill + intangibles = 3% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 6% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 18.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.93 (P/E 17.5 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.87 (P/E 16.5 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 18.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 8,197,000,000 due within 3 years vs 14,255,000,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `6.15` stock-based comp ÷ revenue = 6.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 140% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 377,086,115 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 379,352,540 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3800,14 +3800,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 139% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 37% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,761,502 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,742,152 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### DAKT — DAKTRONICS INC /SD/
 
-`score 84%` · `coverage 96%` · $860m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000915779&type=10-K)
+`score 84%` · `coverage 96%` · $837m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000915779&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 12.3%, min -0.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -3821,7 +3821,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 22% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 45.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.74x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.55 (P/E 24.9 ÷ EPS growth 45%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.53 (P/E 24.2 ÷ EPS growth 45%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 45.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 69,312,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 10,925,000 due within 3 years vs 220,082,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3832,14 +3832,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 74% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -22.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,179,549 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,497,872 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### VVV — VALVOLINE INC
 
-`score 84%` · `coverage 96%` · $3,898m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674910&type=10-K)
+`score 84%` · `coverage 96%` · $3,414m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674910&type=10-K)
 
 **Failed (4)**
 - `2.10` FCF ÷ net income (3y) = 10% (need ≥ 80%) — SOURCED: Smith
@@ -3853,7 +3853,7 @@ it wanted to.
 - `2.11` gross margin = 38% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 27% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 72.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.04 (P/E 2.7 ÷ EPS growth 73%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.03 (P/E 2.4 ÷ EPS growth 73%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 72.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.36x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 545,600,000 due within 3 years vs 756,600,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3864,14 +3864,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -15.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 27% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 70,100,468 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 69,674,010 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### CHH — CHOICE HOTELS INTERNATIONAL INC /DE
 
-`score 83%` · `coverage 92%` · $4,355m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046311&type=10-K)
+`score 83%` · `coverage 92%` · $4,359m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046311&type=10-K)
 
 **Failed (4)**
 - `2.3` return on incremental invested capital 2.0% (need ≥ 15%) — JUDGMENT
@@ -3885,7 +3885,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 119% (need ≥ 80%) — SOURCED: Smith
 - `2.17` diluted EPS CAGR 55.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.75x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.30 (P/E 16.8 ÷ EPS growth 55%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.30 (P/E 16.9 ÷ EPS growth 55%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 55.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 0 due within 3 years vs 859,528,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -3895,7 +3895,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 121% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -21.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 34% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 60,715,965 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 61,410,957 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -3903,7 +3903,7 @@ it wanted to.
 
 ### HCKT — HACKETT GROUP, INC.
 
-`score 83%` · `coverage 92%` · $273m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001057379&type=10-K)
+`score 83%` · `coverage 92%` · $258m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001057379&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 30.6%, min 3.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -3917,7 +3917,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 15% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 94.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 10.64x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.08 (P/E 8.0 ÷ EPS growth 94%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.08 (P/E 7.6 ÷ EPS growth 94%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 94.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 737,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 14,376,000 due within 3 years vs 116,266,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -3927,7 +3927,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 3.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 145% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 3,463,122 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,276,520 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -3935,7 +3935,7 @@ it wanted to.
 
 ### YELP — YELP INC
 
-`score 83%` · `coverage 76%` · $1,155m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001345016&type=10-K)
+`score 83%` · `coverage 76%` · $1,065m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001345016&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 6.6%, min -7.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -3955,7 +3955,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 476% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 26,523,563 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 25,884,318 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -3967,7 +3967,7 @@ it wanted to.
 
 ### MSB — MESABI TRUST
 
-`score 83%` · `coverage 60%` · $298m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065172&type=10-K)
+`score 83%` · `coverage 60%` · $266m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065172&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR -10.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -3983,7 +3983,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 95% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -43.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 812,821 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 826,210 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -3999,7 +3999,7 @@ it wanted to.
 
 ### GTE — GRAN TIERRA ENERGY INC.
 
-`score 83%` · `coverage 60%` · $382m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001273441&type=10-K)
+`score 83%` · `coverage 60%` · $364m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001273441&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 38.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4031,7 +4031,7 @@ it wanted to.
 
 ### IDR — Idaho Strategic Resources, Inc.
 
-`score 83%` · `coverage 80%` · $489m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001030192&type=10-K)
+`score 83%` · `coverage 80%` · $453m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001030192&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg -3.0%, min -19.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4052,7 +4052,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 125% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,328,300 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,240,904 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -4063,7 +4063,7 @@ it wanted to.
 
 ### MCRI — MONARCH CASINO & RESORT INC
 
-`score 83%` · `coverage 80%` · $2,163m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000907242&type=10-K)
+`score 83%` · `coverage 80%` · $2,156m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000907242&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 39.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4084,7 +4084,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -34.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,345,016 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,580,909 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4114,7 +4114,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 160% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,017,851 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,495,477 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -4146,7 +4146,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 27% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 617,113 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 581,648 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -4159,7 +4159,7 @@ it wanted to.
 
 ### IPGP — IPG PHOTONICS CORP
 
-`score 83%` · `coverage 100%` · $3,402m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001111928&type=10-K)
+`score 83%` · `coverage 100%` · $3,256m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001111928&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 13.9%, min 8.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4173,7 +4173,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 18% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 16.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.26x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.97 (P/E 15.5 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.93 (P/E 14.9 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 16.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 898,130,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 48,093,000 due within 3 years vs 1,486,701,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -4185,11 +4185,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 99% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 40,817,139 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,674,412 (need ≥ 50,000) — JUDGMENT threshold
 
 ### SMPL — Simply Good Foods Co
 
-`score 83%` · `coverage 100%` · $870m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001702744&type=10-K)
+`score 83%` · `coverage 100%` · $896m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001702744&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 7.4%, min 5.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4205,7 +4205,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 25.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.52x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.25 (P/E 6.5 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.26 (P/E 6.7 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.18x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 250,000,000 due within 3 years vs 611,126,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -4215,11 +4215,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 161% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 27% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 23,939,925 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 23,907,501 (need ≥ 50,000) — JUDGMENT threshold
 
 ### EPAC — ENERPAC TOOL GROUP CORP
 
-`score 83%` · `coverage 92%` · $1,801m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006955&type=10-K)
+`score 83%` · `coverage 92%` · $1,808m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006955&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 8.7%, min 3.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4232,7 +4232,7 @@ it wanted to.
 - `2.11` gross margin = 49% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 308.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 7.74x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.13 (P/E 38.7 ÷ EPS growth 308%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.13 (P/E 38.8 ÷ EPS growth 308%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 308.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.27x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 325,059,000 due within 3 years vs 371,703,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -4243,7 +4243,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -6.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 39% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,502,373 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,873,977 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -4251,13 +4251,13 @@ it wanted to.
 
 ### WINA — WINMARK CORP
 
-`score 83%` · `coverage 92%` · $1,108m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000908315&type=10-K)
+`score 83%` · `coverage 92%` · $1,025m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000908315&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 300.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 98% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.18` operating income growth ÷ revenue growth = 0.03x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 2.18 (P/E 27.6 ÷ EPS growth 13%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.02 (P/E 25.5 ÷ EPS growth 13%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 
 **Passed (16)**
 - `2.10` FCF ÷ net income (3y) = 113% (need ≥ 80%) — SOURCED: Smith
@@ -4275,7 +4275,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 126% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -289.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,484,131 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,078,639 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4283,7 +4283,7 @@ it wanted to.
 
 ### BRBR — BELLRING BRANDS, INC.
 
-`score 83%` · `coverage 92%` · $1,063m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001772016&type=10-K)
+`score 83%` · `coverage 92%` · $1,044m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001772016&type=10-K)
 
 **Failed (4)**
 - `2.11` gross margin = 32% (need ≥ 35%) — JUDGMENT threshold
@@ -4299,7 +4299,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 27.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.08x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.23 (P/E 6.4 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.23 (P/E 6.3 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 27.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 0 due within 3 years vs 712,200,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -4307,7 +4307,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 217% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 43,019,728 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 40,724,227 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -4315,7 +4315,7 @@ it wanted to.
 
 ### CHE — CHEMED CORP
 
-`score 83%` · `coverage 92%` · $6,744m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019584&type=10-K)
+`score 83%` · `coverage 92%` · $6,588m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019584&type=10-K)
 
 **Failed (4)**
 - `2.13` goodwill + intangibles = 36% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -4339,7 +4339,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 109% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 81,834,020 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 81,497,357 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -4362,7 +4362,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 3.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,695,050 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,752,975 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4379,7 +4379,7 @@ it wanted to.
 
 ### TCBK — TRICO BANCSHARES /
 
-`score 82%` · `coverage 68%` · $1,711m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000356171&type=10-K)
+`score 82%` · `coverage 68%` · $1,714m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000356171&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 9.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4397,7 +4397,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 8.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 122% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,215,114 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,048,352 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4411,7 +4411,7 @@ it wanted to.
 
 ### TAYD — TAYLOR DEVICES, INC.
 
-`score 82%` · `coverage 80%` · $193m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000096536&type=10-K)
+`score 82%` · `coverage 80%` · $194m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000096536&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 19.9%, min -7.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4432,7 +4432,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 102% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,498,109 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,532,421 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -4443,7 +4443,7 @@ it wanted to.
 
 ### IIIN — INSTEEL INDUSTRIES INC
 
-`score 82%` · `coverage 80%` · $593m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764401&type=10-K)
+`score 82%` · `coverage 80%` · $574m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764401&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 11.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4454,7 +4454,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 4% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 21% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 19.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.96 (P/E 18.3 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.93 (P/E 17.7 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 19.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 100,063,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -4475,7 +4475,7 @@ it wanted to.
 
 ### CMT — CORE MOLDING TECHNOLOGIES INC
 
-`score 82%` · `coverage 80%` · $210m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001026655&type=10-K)
+`score 82%` · `coverage 80%` · $214m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001026655&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 9.6%, min -1.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4496,7 +4496,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 104% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 10% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 590,209 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 599,863 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -4507,7 +4507,7 @@ it wanted to.
 
 ### ALKS — Alkermes plc.
 
-`score 82%` · `coverage 72%` · $7,712m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001520262&type=10-K)
+`score 82%` · `coverage 72%` · $7,279m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001520262&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 6.6%, min -21.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4539,7 +4539,7 @@ it wanted to.
 
 ### CMCT — Creative Media & Community Trust Corp
 
-`score 82%` · `coverage 52%` · $8m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000908311&type=10-K)
+`score 82%` · `coverage 52%` · $7m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000908311&type=10-K)
 
 **Failed (2)**
 - `2.16` worst peak-to-trough revenue decline 96% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -4553,7 +4553,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 105,896 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 84,075 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4571,7 +4571,7 @@ it wanted to.
 
 ### SEZL — Sezzle Inc.
 
-`score 82%` · `coverage 52%` · $4,003m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662991&type=10-K)
+`score 82%` · `coverage 52%` · $3,925m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662991&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 6.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4585,7 +4585,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 3.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 73,265,622 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 71,590,973 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4603,7 +4603,7 @@ it wanted to.
 
 ### BRSP — BrightSpire Capital, Inc.
 
-`score 82%` · `coverage 52%` · $563m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001717547&type=10-K)
+`score 82%` · `coverage 52%` · $525m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001717547&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 12.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4617,7 +4617,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 3.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,854,728 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,170,054 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4635,7 +4635,7 @@ it wanted to.
 
 ### HIPO — Hippo Holdings Inc.
 
-`score 82%` · `coverage 52%` · $844m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001828105&type=10-K)
+`score 82%` · `coverage 52%` · $824m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001828105&type=10-K)
 
 **Failed (2)**
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
@@ -4649,7 +4649,7 @@ it wanted to.
 - `5.11` diluted share count -27.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,110,176 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,281,726 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4667,7 +4667,7 @@ it wanted to.
 
 ### USO — United States Oil Fund, LP
 
-`score 82%` · `coverage 52%` · $2,296m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327068&type=10-K)
+`score 82%` · `coverage 52%` · $2,280m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327068&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 8.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4681,7 +4681,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 80% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 738,045,439 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 687,905,107 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4699,7 +4699,7 @@ it wanted to.
 
 ### BMI — BADGER METER INC
 
-`score 82%` · `coverage 96%` · $3,627m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000009092&type=10-K)
+`score 82%` · `coverage 96%` · $3,848m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000009092&type=10-K)
 
 **Failed (3)**
 - `2.17` diluted EPS CAGR -87.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
@@ -4724,14 +4724,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 129% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -9.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 51,186,743 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 50,738,239 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### XPEL — XPEL, Inc.
 
-`score 82%` · `coverage 96%` · $1,301m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001767258&type=10-K)
+`score 82%` · `coverage 96%` · $1,234m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001767258&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 35.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4745,7 +4745,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 42.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.18x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.58 (P/E 24.6 ÷ EPS growth 42%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.55 (P/E 23.4 ÷ EPS growth 42%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 42.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 21,628,812 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 1,614,409 due within 3 years vs 115,171,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -4756,14 +4756,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -5.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,434,058 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,270,100 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### NGVT — Ingevity Corp
 
-`score 82%` · `coverage 76%` · $2,386m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001653477&type=10-K)
+`score 82%` · `coverage 76%` · $2,345m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001653477&type=10-K)
 
 **Failed (3)**
 - `2.3` return on incremental invested capital 6.9% (need ≥ 15%) — JUDGMENT
@@ -4783,7 +4783,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 129% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 22% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 16,721,575 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,648,344 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.17` EPS CAGR not derivable
@@ -4795,7 +4795,7 @@ it wanted to.
 
 ### FLNG — Flex LNG Ltd.
 
-`score 81%` · `coverage 92%` · $1,715m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001772253&type=10-K)
+`score 81%` · `coverage 92%` · $1,754m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001772253&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 6.6%, min 2.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4810,7 +4810,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 146.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.35x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.10 (P/E 14.3 ÷ EPS growth 146%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.10 (P/E 14.6 ÷ EPS growth 146%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 146.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 341,511,000 due within 3 years vs 962,256,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -4819,7 +4819,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 152% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -66.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,077,034 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,881,120 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -4831,7 +4831,7 @@ it wanted to.
 
 **Failed (2)**
 - `2.5` revenue CAGR 6.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
-- `8.8` median daily dollar volume 21,930 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,806 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (12)**
 - `2.10` FCF ÷ net income (3y) = 192% (need ≥ 80%) — SOURCED: Smith
@@ -4859,7 +4859,7 @@ it wanted to.
 
 ### PAYO — Payoneer Global Inc.
 
-`score 81%` · `coverage 68%` · $2,413m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845815&type=10-K)
+`score 81%` · `coverage 68%` · $2,416m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845815&type=10-K)
 
 **Failed (2)**
 - `5.11` diluted share count +81.6%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -4877,7 +4877,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 951% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -25.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,160,718 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,161,303 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -4909,7 +4909,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 7.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 18,138,706 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,845,047 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -4923,7 +4923,7 @@ it wanted to.
 
 ### TK — TEEKAY CORP LTD
 
-`score 81%` · `coverage 80%` · $1,237m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000911971&type=10-K)
+`score 81%` · `coverage 80%` · $1,266m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000911971&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 10.3%, min -8.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -4944,7 +4944,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +3.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,370,380 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,426,160 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -4976,7 +4976,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 195% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -17.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 41,233,548 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 42,147,478 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -4987,7 +4987,7 @@ it wanted to.
 
 ### HIG — HARTFORD INSURANCE GROUP, INC.
 
-`score 81%` · `coverage 72%` · $36,936m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874766&type=10-K)
+`score 81%` · `coverage 72%` · $35,725m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874766&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 0.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -4998,7 +4998,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 176% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 3% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 18.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.79 (P/E 14.8 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.77 (P/E 14.3 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 18.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 0 due within 3 years vs 14,202,000,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -5006,7 +5006,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 9.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 180% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 204,902,858 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 205,980,970 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5019,7 +5019,7 @@ it wanted to.
 
 ### REX — REX AMERICAN RESOURCES Corp
 
-`score 81%` · `coverage 84%` · $1,381m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000744187&type=10-K)
+`score 81%` · `coverage 84%` · $1,434m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000744187&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 11.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -5031,7 +5031,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 109% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 65.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.28 (P/E 18.2 ÷ EPS growth 66%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.29 (P/E 18.9 ÷ EPS growth 66%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 65.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 295,575,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 60,726,000 due within 3 years vs 629,996,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -5051,7 +5051,7 @@ it wanted to.
 
 ### AMPH — Amphastar Pharmaceuticals, Inc.
 
-`score 81%` · `coverage 100%` · $1,012m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001297184&type=10-K)
+`score 81%` · `coverage 100%` · $1,005m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001297184&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 7.3%, min -0.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5067,7 +5067,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 6% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 349.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 7.17x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.02 (P/E 7.4 ÷ EPS growth 350%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.02 (P/E 7.3 ÷ EPS growth 350%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 349.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 262,863,000 due within 3 years vs 657,656,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` interest coverage after a 30% revenue decline = 3.4x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -5077,11 +5077,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 89% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,515,655 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,771,202 (need ≥ 50,000) — JUDGMENT threshold
 
 ### REPX — Riley Exploration Permian, Inc.
 
-`score 81%` · `coverage 76%` · $888m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001614&type=10-K)
+`score 81%` · `coverage 76%` · $890m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001614&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 35.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -5113,7 +5113,7 @@ it wanted to.
 
 ### EGAN — EGAIN Corp
 
-`score 81%` · `coverage 76%` · $138m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001066194&type=10-K)
+`score 81%` · `coverage 76%` · $140m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001066194&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR -1.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -5133,7 +5133,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 91% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,422,785 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,351,532 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5145,7 +5145,7 @@ it wanted to.
 
 ### CLFD — Clearfield, Inc.
 
-`score 80%` · `coverage 92%` · $408m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000796505&type=10-K)
+`score 80%` · `coverage 92%` · $410m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000796505&type=10-K)
 
 **Failed (3)**
 - `2.10` FCF ÷ net income (3y) = 14% (need ≥ 80%) — SOURCED: Smith
@@ -5160,7 +5160,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 17% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 59.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.89x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.21 (P/E 12.5 ÷ EPS growth 59%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.21 (P/E 12.6 ÷ EPS growth 59%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 59.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 126,861,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.5` interest coverage after a 30% revenue decline = 15.5x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -5169,7 +5169,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -45.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,079,988 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,581,487 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -5209,7 +5209,7 @@ it wanted to.
 
 ### NJR — NEW JERSEY RESOURCES CORP
 
-`score 80%` · `coverage 96%` · $5,394m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000356309&type=10-K)
+`score 80%` · `coverage 96%` · $5,410m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000356309&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 12.7%, min 9.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5224,7 +5224,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 7% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 16.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.10x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.23 (P/E 20.4 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.24 (P/E 20.4 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 16.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.33x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 60,000,000 due within 3 years vs 1,005,615,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -5241,7 +5241,7 @@ it wanted to.
 
 ### MGY — Magnolia Oil & Gas Corp
 
-`score 80%` · `coverage 72%` · $6,576m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001698990&type=10-K)
+`score 80%` · `coverage 72%` · $5,967m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001698990&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 33.9%, min -67.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5260,7 +5260,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 720% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -37.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 75,743,022 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 80,448,067 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -5273,7 +5273,7 @@ it wanted to.
 
 ### APLE — Apple Hospitality REIT, Inc.
 
-`score 80%` · `coverage 72%` · $3,671m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418121&type=10-K)
+`score 80%` · `coverage 72%` · $3,678m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418121&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 3.0%, min -1.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5292,7 +5292,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 365% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 42,153,316 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 41,873,538 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -5305,7 +5305,7 @@ it wanted to.
 
 ### NMM — Navios Maritime Partners L.P.
 
-`score 80%` · `coverage 68%` · $2,647m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415921&type=10-K)
+`score 80%` · `coverage 68%` · $2,665m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415921&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 79.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -5323,7 +5323,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 86% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -67.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,960,914 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,307,417 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5355,7 +5355,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -33.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 494,326 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 471,848 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -5401,7 +5401,7 @@ it wanted to.
 
 ### INDV — Indivior Pharmaceuticals, Inc.
 
-`score 80%` · `coverage 52%` · $4,070m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625297&type=10-K)
+`score 80%` · `coverage 52%` · $4,116m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625297&type=10-K)
 
 **Failed (2)**
 - `5.5` interest coverage after a 30% revenue decline = -15.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -5415,7 +5415,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -21.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 66,774,537 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 66,600,145 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5433,7 +5433,7 @@ it wanted to.
 
 ### WEYS — WEYCO GROUP INC
 
-`score 80%` · `coverage 96%` · $426m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000106532&type=10-K)
+`score 80%` · `coverage 96%` · $427m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000106532&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 10.2%, min -3.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5448,7 +5448,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 4% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 14.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.56x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.99 (P/E 14.0 ÷ EPS growth 14%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.99 (P/E 14.1 ÷ EPS growth 14%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 14.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 39,827,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -5458,14 +5458,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 138% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -13.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 707,726 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 729,820 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### ALG — ALAMO GROUP INC
 
-`score 80%` · `coverage 96%` · $2,058m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000897077&type=10-K)
+`score 80%` · `coverage 96%` · $2,028m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000897077&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 13.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -5480,7 +5480,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 4% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 32.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.10x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.46 (P/E 15.1 ÷ EPS growth 33%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.46 (P/E 14.9 ÷ EPS growth 33%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 32.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 396,200,000 due within 3 years vs 477,501,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -5490,14 +5490,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 74% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 24% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,722,288 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,212,056 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.1` net debt ÷ EBITDA: not derivable from filings
 
 ### ROCK — GIBRALTAR INDUSTRIES, INC.
 
-`score 80%` · `coverage 96%` · $1,370m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912562&type=10-K)
+`score 80%` · `coverage 96%` · $1,232m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912562&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 12.0%, min 8.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5511,7 +5511,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 25% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 22.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 8.63x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.56 (P/E 12.4 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.50 (P/E 11.1 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 22.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 60,675,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 211,200,000 due within 3 years vs 883,256,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -5522,14 +5522,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 123% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -21.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,656,747 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,608,000 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### DEA — Easterly Government Properties, Inc.
 
-`score 80%` · `coverage 84%` · $1,131m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001622194&type=10-K)
+`score 80%` · `coverage 84%` · $1,107m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001622194&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 5.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -5542,7 +5542,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 6% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 2% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 48.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.24 (P/E 60.1 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.21 (P/E 58.9 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 48.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -5551,7 +5551,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 649% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,611,451 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,497,735 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5561,7 +5561,7 @@ it wanted to.
 
 ### RDVT — Red Violet, Inc.
 
-`score 80%` · `coverage 84%` · $1,204m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720116&type=10-K)
+`score 80%` · `coverage 84%` · $1,219m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720116&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -3.0%, min -21.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5576,14 +5576,14 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 240% (need ≥ 80%) — SOURCED: Smith
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 116.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.48 (P/E 171.9 ÷ EPS growth 116%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.49 (P/E 174.0 ÷ EPS growth 116%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 116.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 34,352,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 7.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 439% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 11,791,494 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,406,038 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.11` gross margin: not derivable from filings
@@ -5593,7 +5593,7 @@ it wanted to.
 
 ### WNC — WABASH NATIONAL Corp
 
-`score 79%` · `coverage 80%` · $510m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000879526&type=10-K)
+`score 79%` · `coverage 80%` · $482m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000879526&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 14.1%, min -8.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5614,7 +5614,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 132% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -26.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,565,922 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,767,504 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -5625,7 +5625,7 @@ it wanted to.
 
 ### ZUMZ — Zumiez Inc
 
-`score 79%` · `coverage 80%` · $223m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318008&type=10-K)
+`score 79%` · `coverage 80%` · $202m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318008&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 10.5%, min -16.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5646,7 +5646,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 138% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,600,975 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,739,267 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -5657,7 +5657,7 @@ it wanted to.
 
 ### BMBL — Bumble Inc.
 
-`score 79%` · `coverage 80%` · $358m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001830043&type=10-K)
+`score 79%` · `coverage 80%` · $334m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001830043&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -1.2%, min -5.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5678,7 +5678,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 9.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 316% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +3.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,294,902 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,261,048 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -5689,7 +5689,7 @@ it wanted to.
 
 ### YRD — Yiren Digital Ltd.
 
-`score 79%` · `coverage 68%` · $176m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001631761&type=10-K)
+`score 79%` · `coverage 68%` · $172m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001631761&type=10-K)
 
 **Failed (3)**
 - `2.16` worst peak-to-trough revenue decline 60% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -5707,7 +5707,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 104% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 85,880 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 79,914 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5739,7 +5739,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 125% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 47,198,722 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 47,872,834 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5753,7 +5753,7 @@ it wanted to.
 
 ### VTS — Vitesse Energy, Inc.
 
-`score 79%` · `coverage 64%` · $790m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944558&type=10-K)
+`score 79%` · `coverage 64%` · $737m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944558&type=10-K)
 
 **Failed (2)**
 - `2.1` ROIC avg 15.8%, min 5.0% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5770,7 +5770,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 417% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -26.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,016,000 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,960,833 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -5785,7 +5785,7 @@ it wanted to.
 
 ### CGTL — Creative Global Technology Holdings Ltd
 
-`score 79%` · `coverage 60%` · $83m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001967822&type=10-K)
+`score 79%` · `coverage 60%` · $80m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001967822&type=10-K)
 
 **Failed (3)**
 - `2.11` gross margin = 10% (need ≥ 35%) — JUDGMENT threshold
@@ -5801,7 +5801,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 84% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -80.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 201,325 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 207,887 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5817,12 +5817,12 @@ it wanted to.
 
 ### FCFS — FirstCash Holdings, Inc.
 
-`score 79%` · `coverage 76%` · $9,905m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000840489&type=10-K)
+`score 79%` · `coverage 76%` · $9,498m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000840489&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 8.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.13` goodwill + intangibles = 44% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 1.94 (P/E 45.2 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.86 (P/E 43.3 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `7.8` goodwill + intangibles ÷ assets = 44% (need ≤ 40%) — JUDGMENT threshold
 
 **Passed (12)**
@@ -5837,7 +5837,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 155% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 86,446,209 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 85,186,217 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5849,7 +5849,7 @@ it wanted to.
 
 ### LMB — Limbach Holdings, Inc.
 
-`score 79%` · `coverage 100%` · $602m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001606163&type=10-K)
+`score 79%` · `coverage 100%` · $617m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001606163&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 1.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -5866,7 +5866,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 14% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 38.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 16.07x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.75 (P/E 29.0 ÷ EPS growth 39%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.77 (P/E 29.7 ÷ EPS growth 39%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 38.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 5,103,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 46,967,000 due within 3 years vs 210,230,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -5875,11 +5875,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 293% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 20,270,251 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,216,331 (need ≥ 50,000) — JUDGMENT threshold
 
 ### KAI — KADANT INC
 
-`score 79%` · `coverage 100%` · $3,145m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000886346&type=10-K)
+`score 79%` · `coverage 100%` · $3,136m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000886346&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 11.0%, min 8.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5894,7 +5894,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 10% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 27.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.83x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.98 (P/E 27.1 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.98 (P/E 27.0 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 27.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.37x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 5,957,000 due within 3 years vs 504,917,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -5905,11 +5905,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 124% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 41,424,582 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 41,273,427 (need ≥ 50,000) — JUDGMENT threshold
 
 ### VTSI — VirTra, Inc
 
-`score 79%` · `coverage 100%` · $34m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001085243&type=10-K)
+`score 79%` · `coverage 100%` · $33m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001085243&type=10-K)
 
 **Failed (5)**
 - `2.10` FCF ÷ net income (3y) = -5% (need ≥ 80%) — SOURCED: Smith
@@ -5935,7 +5935,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 2.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 121,055 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 117,585 (need ≥ 50,000) — JUDGMENT threshold
 
 ### CRD-A — CRAWFORD & CO
 
@@ -5958,7 +5958,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 370% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 591,396 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 622,640 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -5971,7 +5971,7 @@ it wanted to.
 
 ### MMSI — MERIT MEDICAL SYSTEMS INC
 
-`score 79%` · `coverage 84%` · $5,157m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000856982&type=10-K)
+`score 79%` · `coverage 84%` · $5,097m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000856982&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 3.7%, min -0.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -5993,7 +5993,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 196% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 55,505,413 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 55,460,425 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -6003,7 +6003,7 @@ it wanted to.
 
 ### SSTK — Shutterstock, Inc.
 
-`score 78%` · `coverage 92%` · $186m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001549346&type=10-K)
+`score 78%` · `coverage 92%` · $168m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001549346&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 9.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6019,7 +6019,7 @@ it wanted to.
 - `2.11` gross margin = 60% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 15.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.11 (P/E 1.7 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.10 (P/E 1.5 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 15.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.12x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -6027,7 +6027,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 5.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 166% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 6,275,607 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,321,967 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -6035,7 +6035,7 @@ it wanted to.
 
 ### CAVA — CAVA GROUP, INC.
 
-`score 78%` · `coverage 56%` · $6,527m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001639438&type=10-K)
+`score 78%` · `coverage 56%` · $6,032m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001639438&type=10-K)
 
 **Failed (3)**
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
@@ -6050,7 +6050,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 218,379,235 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 222,690,475 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6067,7 +6067,7 @@ it wanted to.
 
 ### WAY — Waystar Holding Corp.
 
-`score 78%` · `coverage 56%` · $4,500m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001990354&type=10-K)
+`score 78%` · `coverage 56%` · $4,920m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001990354&type=10-K)
 
 **Failed (3)**
 - `2.13` goodwill + intangibles = 88% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -6082,7 +6082,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +3.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 49,573,062 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 51,774,583 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6099,7 +6099,7 @@ it wanted to.
 
 ### OPLN — OPENLANE, Inc.
 
-`score 78%` · `coverage 68%` · $4,332m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001395942&type=10-K)
+`score 78%` · `coverage 68%` · $4,208m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001395942&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 2.6%, min -6.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6117,7 +6117,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 185% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -21.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 29% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 36,441,051 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 34,553,979 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -6131,7 +6131,7 @@ it wanted to.
 
 ### DOUG — Douglas Elliman Inc.
 
-`score 78%` · `coverage 68%` · $157m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878897&type=10-K)
+`score 78%` · `coverage 68%` · $154m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878897&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 14.7%, min -73.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6163,7 +6163,7 @@ it wanted to.
 
 ### RDN — RADIAN GROUP INC
 
-`score 78%` · `coverage 80%` · $4,713m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000890926&type=10-K)
+`score 78%` · `coverage 80%` · $4,632m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000890926&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR -6.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6175,7 +6175,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 23% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 23.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.33 (P/E 7.8 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.33 (P/E 7.7 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 23.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 211,386,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -6184,7 +6184,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 93% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 39,159,692 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 37,957,585 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6195,7 +6195,7 @@ it wanted to.
 
 ### CUBE — CubeSmart
 
-`score 78%` · `coverage 80%` · $8,952m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001298675&type=10-K)
+`score 78%` · `coverage 80%` · $8,955m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001298675&type=10-K)
 
 **Failed (3)**
 - `5.5` interest coverage after a 30% revenue decline = -2.4x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -6216,7 +6216,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 183% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 78,297,777 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 79,997,057 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6250,7 +6250,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -0.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,990,135 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,913,916 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -6259,7 +6259,7 @@ it wanted to.
 
 ### HTCO — High-Trend International Group
 
-`score 78%` · `coverage 76%` · $16m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001928948&type=10-K)
+`score 78%` · `coverage 76%` · $14m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001928948&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 6.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6279,7 +6279,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 339% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 561,680 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 454,545 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6291,7 +6291,7 @@ it wanted to.
 
 ### ACNB — ACNB CORP
 
-`score 78%` · `coverage 56%` · $663m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000715579&type=10-K)
+`score 78%` · `coverage 56%` · $657m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000715579&type=10-K)
 
 **Failed (2)**
 - `2.17` diluted EPS CAGR -5.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
@@ -6306,7 +6306,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 120% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,427,387 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,530,981 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6323,7 +6323,7 @@ it wanted to.
 
 ### CBU — COMMUNITY FINANCIAL SYSTEM, INC.
 
-`score 78%` · `coverage 56%` · $3,291m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000723188&type=10-K)
+`score 78%` · `coverage 56%` · $3,262m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000723188&type=10-K)
 
 **Failed (2)**
 - `2.17` diluted EPS CAGR -7.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
@@ -6338,7 +6338,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 114% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,205,489 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 15,761,689 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6355,7 +6355,7 @@ it wanted to.
 
 ### JBSS — SANFILIPPO JOHN B & SON INC
 
-`score 78%` · `coverage 96%` · $571m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000880117&type=10-K)
+`score 78%` · `coverage 96%` · $547m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000880117&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 7.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6380,20 +6380,20 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 103% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,045,399 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,172,338 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### GHM — GRAHAM CORP
 
-`score 78%` · `coverage 96%` · $1,032m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000716314&type=10-K)
+`score 78%` · `coverage 96%` · $986m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000716314&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 0.4%, min -9.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.11` gross margin = 22% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 43% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 10.89 (P/E 226.4 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 10.41 (P/E 216.5 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = -21.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 
 **Passed (16)**
@@ -6412,14 +6412,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 4914% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 21,078,657 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 21,036,700 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
 
 ### CSV — CARRIAGE SERVICES INC
 
-`score 78%` · `coverage 96%` · $516m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001016281&type=10-K)
+`score 78%` · `coverage 96%` · $484m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001016281&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 5.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6434,7 +6434,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 2% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 34.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.40x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.45 (P/E 15.5 ÷ EPS growth 34%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.42 (P/E 14.5 ÷ EPS growth 34%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 34.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.04x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 2,835,000 due within 3 years vs 173,818,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -6451,7 +6451,7 @@ it wanted to.
 
 ### CBZ — CBIZ, Inc.
 
-`score 78%` · `coverage 96%` · $2,960m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000944148&type=10-K)
+`score 78%` · `coverage 96%` · $2,964m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000944148&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 8.3%, min 5.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6476,14 +6476,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 132% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 30,689,338 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 31,847,733 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### FC — FRANKLIN COVEY CO
 
-`score 78%` · `coverage 84%` · $203m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000886206&type=10-K)
+`score 78%` · `coverage 84%` · $195m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000886206&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 28.3%, min 4.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6505,7 +6505,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 443% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,607,984 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,550,691 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -6515,13 +6515,13 @@ it wanted to.
 
 ### AGX — ARGAN INC
 
-`score 78%` · `coverage 84%` · $5,805m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000100591&type=10-K)
+`score 78%` · `coverage 84%` · $5,470m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000100591&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 13.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 14% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 73% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 10.82 (P/E 179.4 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 10.19 (P/E 169.0 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `7.2` receivables growing +73.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 
 **Passed (13)**
@@ -6537,7 +6537,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 387% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 191,086,477 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 189,373,046 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6579,7 +6579,7 @@ it wanted to.
 
 ### DEI — Douglas Emmett Inc
 
-`score 77%` · `coverage 64%` · $1,797m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364250&type=10-K)
+`score 77%` · `coverage 64%` · $1,717m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364250&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 137.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6596,7 +6596,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 423% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,345,064 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 21,960,324 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6611,7 +6611,7 @@ it wanted to.
 
 ### SHO — Sunstone Hotel Investors, Inc.
 
-`score 77%` · `coverage 64%` · $2,042m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001295810&type=10-K)
+`score 77%` · `coverage 64%` · $2,053m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001295810&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 54.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6628,7 +6628,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 972% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 25,744,135 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 25,946,800 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6643,7 +6643,7 @@ it wanted to.
 
 ### TIPT — TIPTREE INC.
 
-`score 77%` · `coverage 64%` · $669m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393726&type=10-K)
+`score 77%` · `coverage 64%` · $658m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393726&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR -76.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6660,7 +6660,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 2635% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,877,647 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,770,256 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6675,7 +6675,7 @@ it wanted to.
 
 ### GASS — StealthGas Inc.
 
-`score 77%` · `coverage 84%` · $350m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001328919&type=10-K)
+`score 77%` · `coverage 84%` · $352m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001328919&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 2.2%, min -3.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6688,7 +6688,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 13% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 64.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.10 (P/E 6.7 ÷ EPS growth 65%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.10 (P/E 6.8 ÷ EPS growth 65%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 64.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 18,813,174 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 32,287,305 due within 3 years vs 335,767,885 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -6697,7 +6697,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 257% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,115,796 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,124,770 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -6707,7 +6707,7 @@ it wanted to.
 
 ### ANDE — Andersons, Inc.
 
-`score 77%` · `coverage 72%` · $2,411m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821026&type=10-K)
+`score 77%` · `coverage 72%` · $2,364m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821026&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 3.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6719,14 +6719,14 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 252% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 5% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 133.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.18 (P/E 23.8 ÷ EPS growth 133%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.18 (P/E 23.4 ÷ EPS growth 133%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 133.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 243% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 21,591,873 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 21,341,288 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6739,7 +6739,7 @@ it wanted to.
 
 ### DIOD — DIODES INC /DEL/
 
-`score 77%` · `coverage 100%` · $4,375m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000029002&type=10-K)
+`score 77%` · `coverage 100%` · $4,254m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000029002&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 15.7%, min 9.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6753,7 +6753,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 17% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 37.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.18x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.51 (P/E 19.3 ÷ EPS growth 38%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.50 (P/E 18.7 ÷ EPS growth 38%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 37.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 294,380,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 24,279,000 due within 3 years vs 706,570,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -6765,11 +6765,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 72% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -13.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 53,213,800 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 52,287,494 (need ≥ 50,000) — JUDGMENT threshold
 
 ### PLPC — PREFORMED LINE PRODUCTS CO
 
-`score 77%` · `coverage 100%` · $2,071m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080035&type=10-K)
+`score 77%` · `coverage 100%` · $2,016m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080035&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 10.9%, min 8.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6784,7 +6784,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 13% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 28.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.18x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.15 (P/E 32.7 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.12 (P/E 31.8 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 28.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 16,452,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 25,300,000 due within 3 years vs 254,169,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -6795,11 +6795,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -8.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 8% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 33,916,804 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 33,601,575 (need ≥ 50,000) — JUDGMENT threshold
 
 ### TNC — TENNANT CO
 
-`score 77%` · `coverage 100%` · $1,172m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000097134&type=10-K)
+`score 77%` · `coverage 100%` · $1,149m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000097134&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 12.1%, min 7.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6814,7 +6814,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 12% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 47.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.94x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.22 (P/E 10.7 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.22 (P/E 10.5 ÷ EPS growth 48%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 47.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.42x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 1,000,000 due within 3 years vs 574,200,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -6825,11 +6825,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 95% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -0.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,725,177 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,652,139 (need ≥ 50,000) — JUDGMENT threshold
 
 ### HALO — HALOZYME THERAPEUTICS, INC.
 
-`score 77%` · `coverage 100%` · $12,167m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001159036&type=10-K)
+`score 77%` · `coverage 100%` · $12,763m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001159036&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 10.1%, min -5.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6844,7 +6844,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 102% (need ≥ 80%) — SOURCED: Smith
 - `2.11` gross margin = 77% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 32.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.35 (P/E 43.2 ÷ EPS growth 32%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.42 (P/E 45.3 ÷ EPS growth 32%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 32.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 714,201,000 due within 3 years vs 1,238,201,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` interest coverage after a 30% revenue decline = 7.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -6855,16 +6855,16 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 92% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 37% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 138,718,087 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 139,604,682 (need ≥ 50,000) — JUDGMENT threshold
 
 ### FTDR — Frontdoor, Inc.
 
-`score 77%` · `coverage 80%` · $5,581m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001727263&type=10-K)
+`score 77%` · `coverage 80%` · $5,394m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001727263&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 6.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.13` goodwill + intangibles = 112% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 1.89 (P/E 32.6 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.82 (P/E 31.5 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `7.2` receivables growing +6.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 112% (need ≤ 40%) — JUDGMENT threshold
 
@@ -6880,7 +6880,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 123% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 36,534,125 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 37,120,989 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6891,7 +6891,7 @@ it wanted to.
 
 ### LNTH — Lantheus Holdings, Inc.
 
-`score 77%` · `coverage 80%` · $6,544m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001521036&type=10-K)
+`score 77%` · `coverage 80%` · $6,563m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001521036&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 15.7%, min -13.9% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -6912,7 +6912,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 237% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -3.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 105,164,296 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 103,355,348 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -6955,7 +6955,7 @@ it wanted to.
 
 ### SEAT — Vivid Seats Inc.
 
-`score 77%` · `coverage 60%` · $56m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001856031&type=10-K)
+`score 77%` · `coverage 60%` · $44m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001856031&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 195.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -6971,7 +6971,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 245% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -184.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 543,348 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 527,154 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -6987,13 +6987,13 @@ it wanted to.
 
 ### DSWL — DESWELL INDUSTRIES INC
 
-`score 77%` · `coverage 88%` · $48m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000946936&type=10-K)
+`score 77%` · `coverage 88%` · $51m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000946936&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 6.1%, min 2.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 2.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 20% (need ≥ 35%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 23,937 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 23,947 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (15)**
 - `2.10` FCF ÷ net income (3y) = 130% (need ≥ 80%) — SOURCED: Smith
@@ -7001,7 +7001,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 19% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 879.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.26x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.01 (P/E 6.2 ÷ EPS growth 879%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.01 (P/E 6.6 ÷ EPS growth 879%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 879.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -7019,7 +7019,7 @@ it wanted to.
 
 ### OLED — UNIVERSAL DISPLAY CORP \PA\
 
-`score 77%` · `coverage 88%` · $3,841m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001005284&type=10-K)
+`score 77%` · `coverage 88%` · $3,599m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001005284&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 10.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -7033,7 +7033,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 5% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 14.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.09x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.29 (P/E 18.9 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.20 (P/E 17.7 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 14.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 1805.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -7042,7 +7042,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 70% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 61,610,283 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 59,940,172 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7057,7 +7057,7 @@ it wanted to.
 - `2.5` revenue CAGR 3.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `5.5` interest coverage after a 30% revenue decline = -9.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `7.2` receivables growing +9.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,762 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,904 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (15)**
 - `2.10` FCF ÷ net income (3y) = 139% (need ≥ 80%) — SOURCED: Smith
@@ -7083,7 +7083,7 @@ it wanted to.
 
 ### CGNT — Cognyte Software Ltd.
 
-`score 77%` · `coverage 68%` · $586m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001824814&type=10-K)
+`score 77%` · `coverage 68%` · $615m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001824814&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 16.5%, min -12.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7101,7 +7101,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 1365% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,453,885 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,317,448 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7115,7 +7115,7 @@ it wanted to.
 
 ### HOS — HORNBECK OFFSHORE SERVICES, INC.
 
-`score 76%` · `coverage 76%` · $1,309m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866829&type=10-K)
+`score 76%` · `coverage 76%` · $1,239m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866829&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 0.6%, min -2.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7135,7 +7135,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +0.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,941,866 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,948,704 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7147,7 +7147,7 @@ it wanted to.
 
 ### DFIN — Donnelley Financial Solutions, Inc.
 
-`score 76%` · `coverage 76%` · $1,179m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001669811&type=10-K)
+`score 76%` · `coverage 76%` · $1,175m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001669811&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 20.5%, min 0.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7167,7 +7167,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 125% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,848,265 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,700,175 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.11` gross margin: not derivable from filings
@@ -7179,7 +7179,7 @@ it wanted to.
 
 ### IBEX — IBEX Ltd
 
-`score 76%` · `coverage 84%` · $528m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720420&type=10-K)
+`score 76%` · `coverage 84%` · $534m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720420&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 4.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -7193,7 +7193,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 3% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 37.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 6.89x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.42 (P/E 15.7 ÷ EPS growth 37%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.43 (P/E 15.9 ÷ EPS growth 37%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 37.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 14,527,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -7201,7 +7201,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,443,713 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,448,580 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7233,7 +7233,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 265% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 57,179,495 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 61,221,136 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -7243,7 +7243,7 @@ it wanted to.
 
 ### BRLT — Brilliant Earth Group, Inc.
 
-`score 76%` · `coverage 84%` · $14m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001866757&type=10-K)
+`score 76%` · `coverage 84%` · $13m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001866757&type=10-K)
 
 **Failed (4)**
 - `2.17` diluted EPS CAGR -29.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
@@ -7265,7 +7265,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 924% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 62,745 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 62,712 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -7275,7 +7275,7 @@ it wanted to.
 
 ### GILT — GILAT SATELLITE NETWORKS LTD
 
-`score 76%` · `coverage 92%` · $730m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000897322&type=10-K)
+`score 76%` · `coverage 92%` · $725m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000897322&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 10.9%, min 1.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7299,7 +7299,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 109% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,791,927 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,246,080 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7307,7 +7307,7 @@ it wanted to.
 
 ### SRTS — Sensus Healthcare, Inc.
 
-`score 76%` · `coverage 92%` · $52m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001494891&type=10-K)
+`score 76%` · `coverage 92%` · $50m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001494891&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 526.1%, min -32.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7323,7 +7323,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 17.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.61x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.44 (P/E 7.8 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.43 (P/E 7.6 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 17.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.11` diluted share count -0.1%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -7331,7 +7331,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +2.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 96,368 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 86,720 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `5.1` net debt ÷ EBITDA: not derivable from filings
@@ -7339,7 +7339,7 @@ it wanted to.
 
 ### HGBL — Heritage Global Inc.
 
-`score 76%` · `coverage 92%` · $49m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000849145&type=10-K)
+`score 76%` · `coverage 92%` · $46m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000849145&type=10-K)
 
 **Failed (5)**
 - `2.11` gross margin = 18% (need ≥ 35%) — JUDGMENT threshold
@@ -7355,7 +7355,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 10% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 19.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.14x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.50 (P/E 9.4 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.47 (P/E 9.0 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 19.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 11,011,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.5` interest coverage after a 30% revenue decline = 18.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -7363,7 +7363,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -37.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 10% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 123,228 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 129,750 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7371,7 +7371,7 @@ it wanted to.
 
 ### WLKP — Westlake Chemical Partners LP
 
-`score 76%` · `coverage 64%` · $758m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604665&type=10-K)
+`score 76%` · `coverage 64%` · $748m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604665&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 147.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -7388,7 +7388,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 575% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -121.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 584,266 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 576,532 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -7403,7 +7403,7 @@ it wanted to.
 
 ### PJT — PJT Partners Inc.
 
-`score 76%` · `coverage 56%` · $4,048m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001626115&type=10-K)
+`score 76%` · `coverage 56%` · $3,757m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001626115&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 3.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -7418,7 +7418,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 342% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 61,725,034 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 61,751,135 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -7435,7 +7435,7 @@ it wanted to.
 
 ### NTB — Bank of N.T. Butterfield & Son Ltd
 
-`score 76%` · `coverage 56%` · $2,406m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001653242&type=10-K)
+`score 76%` · `coverage 56%` · $2,373m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001653242&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 5.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -7467,7 +7467,7 @@ it wanted to.
 
 ### SDRL — SEADRILL Ltd
 
-`score 76%` · `coverage 64%` · $2,996m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737706&type=10-K)
+`score 76%` · `coverage 64%` · $2,970m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737706&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg -86.9%, min -441.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7484,7 +7484,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -17.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,725,725 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,521,260 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7499,7 +7499,7 @@ it wanted to.
 
 ### INNV — InnovAge Holding Corp.
 
-`score 76%` · `coverage 64%` · $1,467m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001834376&type=10-K)
+`score 76%` · `coverage 64%` · $1,490m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001834376&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg -7.0%, min -12.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7516,7 +7516,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -6.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 27% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,516,631 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,512,244 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7531,7 +7531,7 @@ it wanted to.
 
 ### SBC — SBC Medical Group Holdings Inc
 
-`score 76%` · `coverage 64%` · $459m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001930313&type=10-K)
+`score 76%` · `coverage 64%` · $489m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001930313&type=10-K)
 
 **Failed (3)**
 - `2.10` FCF ÷ net income (3y) = 67% (need ≥ 80%) — SOURCED: Smith
@@ -7548,7 +7548,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 6.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 302,418 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 348,939 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -7563,7 +7563,7 @@ it wanted to.
 
 ### PED — PEDEVCO CORP
 
-`score 76%` · `coverage 72%` · $197m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141197&type=10-K)
+`score 76%` · `coverage 72%` · $172m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141197&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -4.3%, min -27.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7595,7 +7595,7 @@ it wanted to.
 
 ### AIRT — AIR T INC
 
-`score 76%` · `coverage 72%` · $82m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000353184&type=10-K)
+`score 76%` · `coverage 72%` · $83m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000353184&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -0.5%, min -7.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7614,7 +7614,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -11.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 79,520 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 97,488 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -7646,7 +7646,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -5.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 138,627 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 149,884 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7659,7 +7659,7 @@ it wanted to.
 
 ### BYRN — Byrna Technologies Inc.
 
-`score 76%` · `coverage 72%` · $82m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001354866&type=10-K)
+`score 76%` · `coverage 72%` · $84m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001354866&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -1.9%, min -24.1% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7678,7 +7678,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 4.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,173,440 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,083,880 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7691,7 +7691,7 @@ it wanted to.
 
 ### HRMY — Harmony Biosciences Holdings, Inc.
 
-`score 76%` · `coverage 80%` · $2,418m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001802665&type=10-K)
+`score 76%` · `coverage 80%` · $2,447m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001802665&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 53.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -7712,7 +7712,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 246% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -20.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 25,645,567 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,948,375 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -7723,10 +7723,10 @@ it wanted to.
 
 ### TRNO — Terreno Realty Corp
 
-`score 76%` · `coverage 72%` · $7,112m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001476150&type=10-K)
+`score 76%` · `coverage 72%` · $7,165m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001476150&type=10-K)
 
 **Failed (3)**
-- `3.2` PEG 2.98 (P/E 47.0 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.00 (P/E 47.3 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.11` diluted share count +7.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` preferred stock of 46,000,000 ranks ahead of common
 
@@ -7742,7 +7742,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 114% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 49,422,381 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 49,983,688 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -7755,7 +7755,7 @@ it wanted to.
 
 ### WTFC — WINTRUST FINANCIAL CORP
 
-`score 76%` · `coverage 72%` · $10,266m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001015328&type=10-K)
+`score 76%` · `coverage 72%` · $9,953m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001015328&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 9.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -7767,14 +7767,14 @@ it wanted to.
 - `2.13` goodwill + intangibles = 2% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 25.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.64 (P/E 16.5 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.62 (P/E 16.0 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 477,536,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count +1.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.1` FCF ÷ net income (5y) = 120% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 75,727,171 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 75,861,272 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -7787,7 +7787,7 @@ it wanted to.
 
 ### OPXS — Optex Systems Holdings Inc
 
-`score 76%` · `coverage 88%` · $71m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001397016&type=10-K)
+`score 76%` · `coverage 88%` · $73m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001397016&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 16.5%, min -3.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7801,7 +7801,7 @@ it wanted to.
 - `2.5` revenue CAGR 23.1% — in Mayer's band (SOURCED: Mayer)
 - `2.13` goodwill + intangibles = 4% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 29.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.65 (P/E 18.9 ÷ EPS growth 29%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.67 (P/E 19.4 ÷ EPS growth 29%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 29.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 41.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -7810,7 +7810,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -17.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 341,014 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 333,300 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -7819,14 +7819,14 @@ it wanted to.
 
 ### POWL — POWELL INDUSTRIES INC
 
-`score 76%` · `coverage 96%` · $6,649m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080420&type=10-K)
+`score 76%` · `coverage 96%` · $6,702m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080420&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 10.7%, min 0.3% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 10.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 21% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 40% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 2.61 (P/E 121.9 ÷ EPS growth 47%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.63 (P/E 122.9 ÷ EPS growth 47%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `7.2` receivables growing +29.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 
 **Passed (15)**
@@ -7844,14 +7844,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 280% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 145,225,611 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 142,243,260 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### ARRY — Array Technologies, Inc.
 
-`score 76%` · `coverage 96%` · $712m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001820721&type=10-K)
+`score 76%` · `coverage 96%` · $625m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001820721&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 9.9%, min -3.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7867,7 +7867,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 4% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 22.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.42x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.23 (P/E 5.2 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.20 (P/E 4.6 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 22.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.24x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 337,802,000 due within 3 years vs 1,007,890,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -7876,14 +7876,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 179% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -9.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 37,980,696 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 36,917,971 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### PDEX — PRO DEX INC
 
-`score 75%` · `coverage 100%` · $201m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000788920&type=10-K)
+`score 75%` · `coverage 100%` · $232m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000788920&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 14.8%, min 12.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7899,7 +7899,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 19.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.62x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.15 (P/E 22.4 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.33 (P/E 25.9 ÷ EPS growth 19%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 19.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.87x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 5.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -7909,11 +7909,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -18.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,864,825 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,973,100 (need ≥ 50,000) — JUDGMENT threshold
 
 ### TEN — TSAKOS ENERGY NAVIGATION LTD
 
-`score 75%` · `coverage 92%` · $1,443m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001166663&type=10-K)
+`score 75%` · `coverage 92%` · $1,569m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001166663&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 4.0%, min -3.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7928,7 +7928,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 18% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 99.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 5.23x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.05 (P/E 4.8 ÷ EPS growth 100%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.05 (P/E 5.2 ÷ EPS growth 100%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 99.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 925,140,000 due within 3 years vs 1,557,869,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -7937,7 +7937,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 287% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -16.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,073,133 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,154,453 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -7945,7 +7945,7 @@ it wanted to.
 
 ### EML — EASTERN CO
 
-`score 75%` · `coverage 84%` · $147m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000031107&type=10-K)
+`score 75%` · `coverage 84%` · $154m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000031107&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 8.1%, min 6.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7967,7 +7967,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 114% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 29% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 384,577 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 403,217 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -7977,7 +7977,7 @@ it wanted to.
 
 ### MAMA — Mama's Creations, Inc.
 
-`score 75%` · `coverage 84%` · $694m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001520358&type=10-K)
+`score 75%` · `coverage 84%` · $623m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001520358&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 41.6%, min 0.9% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -7999,7 +7999,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 96% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -27.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 26% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,269,932 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,491,345 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8009,7 +8009,7 @@ it wanted to.
 
 ### ESP — ESPEY MFG & ELECTRONICS CORP
 
-`score 75%` · `coverage 76%` · $191m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000033533&type=10-K)
+`score 75%` · `coverage 76%` · $194m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000033533&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 7.3%, min -0.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8029,7 +8029,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 145% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,961,609 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,929,483 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.17` EPS CAGR not derivable
@@ -8041,12 +8041,12 @@ it wanted to.
 
 ### PIPR — PIPER SANDLER COMPANIES
 
-`score 75%` · `coverage 76%` · $5,401m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001230245&type=10-K)
+`score 75%` · `coverage 76%` · $5,114m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001230245&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 1.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 36% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 2.84 (P/E 63.2 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.69 (P/E 59.8 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.11` diluted share count +5.1%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 
 **Passed (12)**
@@ -8061,7 +8061,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 256% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 41,137,884 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 42,065,372 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8073,7 +8073,7 @@ it wanted to.
 
 ### PECO — Phillips Edison & Company, Inc.
 
-`score 75%` · `coverage 76%` · $4,943m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001476204&type=10-K)
+`score 75%` · `coverage 76%` · $4,782m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001476204&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -73.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -8085,7 +8085,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 702% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 115.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.76 (P/E 87.0 ÷ EPS growth 115%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.73 (P/E 84.1 ÷ EPS growth 115%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 115.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 704,616,000 due within 3 years vs 877,776,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -8093,7 +8093,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 2084% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 35,528,296 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 36,376,822 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8105,7 +8105,7 @@ it wanted to.
 
 ### MTB — M&T BANK CORP
 
-`score 75%` · `coverage 76%` · $34,635m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036270&type=10-K)
+`score 75%` · `coverage 76%` · $32,827m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036270&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -37.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -8117,7 +8117,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 168% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 4% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 16.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.79 (P/E 12.6 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.75 (P/E 12.0 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 16.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 12,814,000,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 3,560,000,000 due within 3 years vs 37,747,000,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -8125,7 +8125,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 8.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 140% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 230,511,487 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 242,370,985 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8137,7 +8137,7 @@ it wanted to.
 
 ### HNNA — HENNESSY ADVISORS INC
 
-`score 75%` · `coverage 76%` · $81m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001145255&type=10-K)
+`score 75%` · `coverage 76%` · $82m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001145255&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -3.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -8157,7 +8157,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 133% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 53,351 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 54,556 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8169,7 +8169,7 @@ it wanted to.
 
 ### SPOK — Spok Holdings, Inc
 
-`score 75%` · `coverage 76%` · $223m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001289945&type=10-K)
+`score 75%` · `coverage 76%` · $217m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001289945&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -3.8%, min -13.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8189,7 +8189,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 2.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -4.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,597,472 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,596,487 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8201,7 +8201,7 @@ it wanted to.
 
 ### CARS — Cars.com Inc.
 
-`score 75%` · `coverage 76%` · $622m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001683606&type=10-K)
+`score 75%` · `coverage 76%` · $596m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001683606&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg -10.2%, min -47.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8221,7 +8221,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +2.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 26% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,617,720 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,255,017 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8233,7 +8233,7 @@ it wanted to.
 
 ### JL — J-Long Group Ltd
 
-`score 75%` · `coverage 68%` · $18m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001948436&type=10-K)
+`score 75%` · `coverage 68%` · $17m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001948436&type=10-K)
 
 **Failed (4)**
 - `2.10` FCF ÷ net income (3y) = 67% (need ≥ 80%) — SOURCED: Smith
@@ -8251,7 +8251,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 94,978 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 88,150 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8265,7 +8265,7 @@ it wanted to.
 
 ### VNO — VORNADO REALTY TRUST
 
-`score 75%` · `coverage 60%` · $6,617m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000899689&type=10-K)
+`score 75%` · `coverage 60%` · $6,517m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000899689&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 5.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -8281,7 +8281,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 55,091,764 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 53,046,656 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8313,7 +8313,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -1.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 10% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,592,140 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 15,207,192 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8345,7 +8345,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -0.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 109,030,656 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 107,618,838 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8377,7 +8377,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -7.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 762,153,328 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 787,815,483 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8393,7 +8393,7 @@ it wanted to.
 
 ### CRTO — Criteo S.A.  _(borderline)_
 
-`score 75%` · `coverage 96%` · $855m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001576427&type=10-K)
+`score 75%` · `coverage 96%` · $818m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001576427&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 11.8%, min 2.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8408,7 +8408,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 30% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 15% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 25.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.24 (P/E 6.2 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.23 (P/E 5.9 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 309,457,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 2,033,000 due within 3 years vs 641,328,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -8418,14 +8418,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 209% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 30% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,722,990 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,545,644 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
 
 ### OTTR — Otter Tail Corp  _(borderline)_
 
-`score 74%` · `coverage 88%` · $3,697m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001466593&type=10-K)
+`score 74%` · `coverage 88%` · $3,670m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001466593&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 12.4%, min 7.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8439,7 +8439,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 8% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 44.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.47x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.29 (P/E 12.6 ÷ EPS growth 44%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.28 (P/E 12.5 ÷ EPS growth 44%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 44.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.36x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 122,000,000 due within 3 years vs 647,499,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -8457,12 +8457,12 @@ it wanted to.
 
 ### IRMD — IRADIMED CORP  _(borderline)_
 
-`score 74%` · `coverage 88%` · $1,051m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001325618&type=10-K)
+`score 74%` · `coverage 88%` · $1,050m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001325618&type=10-K)
 
 **Failed (5)**
 - `2.10` FCF ÷ net income (3y) = 67% (need ≥ 80%) — SOURCED: Smith
 - `2.16` worst peak-to-trough revenue decline 29% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 2.05 (P/E 54.7 ÷ EPS growth 27%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.05 (P/E 54.6 ÷ EPS growth 27%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.12` preferred stock of 140 ranks ahead of common
 - `7.2` receivables growing +6.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 
@@ -8480,7 +8480,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 78% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,449,343 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,485,874 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8489,7 +8489,7 @@ it wanted to.
 
 ### JAKK — JAKKS PACIFIC INC  _(borderline)_
 
-`score 74%` · `coverage 88%` · $277m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001009829&type=10-K)
+`score 74%` · `coverage 88%` · $276m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001009829&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 26.6%, min -20.9% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8512,7 +8512,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 309% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 8% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,342,399 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,372,381 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.17` EPS CAGR not derivable
@@ -8521,7 +8521,7 @@ it wanted to.
 
 ### FEIM — FREQUENCY ELECTRONICS INC  _(borderline)_
 
-`score 74%` · `coverage 80%` · $872m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039020&type=10-K)
+`score 74%` · `coverage 80%` · $964m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039020&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 4.4%, min -18.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8542,7 +8542,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 110% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 14,224,770 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 14,610,609 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -8553,7 +8553,7 @@ it wanted to.
 
 ### SSRM — SSR MINING INC.  _(borderline)_
 
-`score 74%` · `coverage 80%` · $7,390m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921638&type=10-K)
+`score 74%` · `coverage 80%` · $7,408m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921638&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 4.3%, min -4.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8574,7 +8574,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 117% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -19.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 83,785,735 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 83,049,970 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8606,7 +8606,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 1531% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 190,454 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 200,252 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -8617,7 +8617,7 @@ it wanted to.
 
 ### NL — NLI HOLDINGS, INC.  _(borderline)_
 
-`score 74%` · `coverage 80%` · $343m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000072162&type=10-K)
+`score 74%` · `coverage 80%` · $335m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000072162&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 3.0%, min -0.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8649,7 +8649,7 @@ it wanted to.
 
 ### TILE — INTERFACE INC  _(borderline)_
 
-`score 74%` · `coverage 80%` · $1,973m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000715787&type=10-K)
+`score 74%` · `coverage 80%` · $1,980m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000715787&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 7.4%, min -4.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8681,7 +8681,7 @@ it wanted to.
 
 ### TZOO — TRAVELZOO  _(borderline)_
 
-`score 74%` · `coverage 80%` · $60m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001133311&type=10-K)
+`score 74%` · `coverage 80%` · $58m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001133311&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 10.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -8693,7 +8693,7 @@ it wanted to.
 - `2.11` gross margin = 88% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 23% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 146.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.03 (P/E 4.4 ÷ EPS growth 147%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.03 (P/E 4.2 ÷ EPS growth 147%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 146.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count +1.3%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -8702,7 +8702,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 231% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 724,710 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 688,479 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -8713,7 +8713,7 @@ it wanted to.
 
 ### MNR — MACH NATURAL RESOURCES LP  _(borderline)_
 
-`score 74%` · `coverage 72%` · $2,099m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001980088&type=10-K)
+`score 74%` · `coverage 72%` · $1,858m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001980088&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 39.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -8745,7 +8745,7 @@ it wanted to.
 
 ### USLM — UNITED STATES LIME & MINERALS INC  _(borderline)_
 
-`score 74%` · `coverage 92%` · $3,380m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000082020&type=10-K)
+`score 74%` · `coverage 92%` · $3,256m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000082020&type=10-K)
 
 **Failed (4)**
 - `2.10` FCF ÷ net income (3y) = 77% (need ≥ 80%) — SOURCED: Smith
@@ -8769,7 +8769,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 86% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,294,232 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,547,151 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8777,7 +8777,7 @@ it wanted to.
 
 ### CRUS — CIRRUS LOGIC, INC.  _(borderline)_
 
-`score 74%` · `coverage 92%` · $5,953m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000772406&type=10-K)
+`score 74%` · `coverage 92%` · $5,955m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000772406&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 9.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -8801,7 +8801,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 121% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 95,479,270 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 94,957,833 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `5.1` net debt ÷ EBITDA: not derivable from filings
@@ -8841,7 +8841,7 @@ it wanted to.
 
 ### HURN — Huron Consulting Group Inc.  _(borderline)_
 
-`score 74%` · `coverage 84%` · $2,431m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001289848&type=10-K)
+`score 74%` · `coverage 84%` · $2,567m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001289848&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 5.6%, min -2.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8886,7 +8886,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 3% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 15% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 21.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.07 (P/E 1.5 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.07 (P/E 1.6 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 21.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 21,954,285 — JUDGMENT: net cash passes the leverage test outright
 - `5.5` interest coverage after a 30% revenue decline = 69.3x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -8895,7 +8895,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 152% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 58,464 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 58,320 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8905,7 +8905,7 @@ it wanted to.
 
 ### HPK — HighPeak Energy, Inc.  _(borderline)_
 
-`score 74%` · `coverage 84%` · $1,071m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001792849&type=10-K)
+`score 74%` · `coverage 84%` · $1,053m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001792849&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 181.4%, min 6.8% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8919,7 +8919,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 44.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.11 (P/E 5.0 ÷ EPS growth 44%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.11 (P/E 4.9 ÷ EPS growth 44%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 44.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.13x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -8927,7 +8927,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 275% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,605,616 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,540,456 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -8937,13 +8937,13 @@ it wanted to.
 
 ### DXLG — DESTINATION XL GROUP, INC.  _(borderline)_
 
-`score 74%` · `coverage 76%` · $35m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000813298&type=10-K)
+`score 74%` · `coverage 76%` · $34m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000813298&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -27.8%, min -111.4% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 33% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `5.11` diluted share count +5.5%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
-- `8.8` median daily dollar volume 30,318 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,096 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (12)**
 - `2.3` return on incremental invested capital 98.8% (need ≥ 15%) — JUDGMENT
@@ -8969,7 +8969,7 @@ it wanted to.
 
 ### WEX — WEX Inc.  _(borderline)_
 
-`score 74%` · `coverage 76%` · $6,527m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001309108&type=10-K)
+`score 74%` · `coverage 76%` · $6,597m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001309108&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 33.7%, min -2.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -8989,7 +8989,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 548% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 32% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 88,415,824 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 89,899,937 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -9001,7 +9001,7 @@ it wanted to.
 
 ### WRLD — WORLD ACCEPTANCE CORP  _(borderline)_
 
-`score 74%` · `coverage 68%` · $890m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000108385&type=10-K)
+`score 74%` · `coverage 68%` · $849m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000108385&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 2.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -9019,7 +9019,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 483% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 20,816,595 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 19,377,625 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9033,7 +9033,7 @@ it wanted to.
 
 ### FBP — FIRST BANCORP /PR/  _(borderline)_
 
-`score 74%` · `coverage 68%` · $4,227m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001057706&type=10-K)
+`score 74%` · `coverage 68%` · $4,211m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001057706&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 9.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -9045,13 +9045,13 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 13% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 53.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.26 (P/E 14.0 ÷ EPS growth 54%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.26 (P/E 13.9 ÷ EPS growth 54%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 53.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 147% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 33,889,292 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 34,582,161 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9065,7 +9065,7 @@ it wanted to.
 
 ### RM — Regional Management Corp.  _(borderline)_
 
-`score 74%` · `coverage 68%` · $304m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001519401&type=10-K)
+`score 74%` · `coverage 68%` · $290m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001519401&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 13.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -9083,7 +9083,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 423% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,292,436 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,339,575 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9097,11 +9097,11 @@ it wanted to.
 
 ### NTST — NETSTREIT Corp.  _(borderline)_
 
-`score 74%` · `coverage 68%` · $1,994m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001798100&type=10-K)
+`score 74%` · `coverage 68%` · $1,845m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001798100&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 57.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
-- `3.2` PEG 2.41 (P/E 289.4 ÷ EPS growth 120%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.23 (P/E 267.7 ÷ EPS growth 120%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.11` diluted share count +25.0%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 
 **Passed (11)**
@@ -9115,7 +9115,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 1923% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 25,212,471 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 25,664,061 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9147,7 +9147,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 414,920 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 430,236 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9161,7 +9161,7 @@ it wanted to.
 
 ### WAFD — WAFD INC  _(borderline)_
 
-`score 74%` · `coverage 68%` · $2,507m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000936528&type=10-K)
+`score 74%` · `coverage 68%` · $2,397m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000936528&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 3.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -9173,13 +9173,13 @@ it wanted to.
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 9% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 20.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.48 (P/E 9.7 ÷ EPS growth 20%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.46 (P/E 9.3 ÷ EPS growth 20%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 20.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -5.2%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.1` FCF ÷ net income (5y) = 101% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 18,470,561 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 18,725,387 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9193,7 +9193,7 @@ it wanted to.
 
 ### SHBI — SHORE BANCSHARES INC  _(borderline)_
 
-`score 74%` · `coverage 68%` · $782m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035092&type=10-K)
+`score 74%` · `coverage 68%` · $775m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035092&type=10-K)
 
 **Failed (3)**
 - `2.17` diluted EPS CAGR -48.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
@@ -9211,7 +9211,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 105% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,148,847 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,239,062 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9225,7 +9225,7 @@ it wanted to.
 
 ### GRNT — Granite Ridge Resources, Inc.  _(borderline)_
 
-`score 74%` · `coverage 68%` · $674m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001928446&type=10-K)
+`score 74%` · `coverage 68%` · $646m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001928446&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 22.7%, min -7.5% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9243,7 +9243,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 210% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,460,829 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,590,688 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.11` gross margin: not derivable from filings
@@ -9257,7 +9257,7 @@ it wanted to.
 
 ### PCYO — PURE CYCLE CORP  _(borderline)_
 
-`score 73%` · `coverage 96%` · $268m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000276720&type=10-K)
+`score 73%` · `coverage 96%` · $266m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000276720&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 6.1%, min 1.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9282,14 +9282,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 79% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -20.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 629,142 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 647,860 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### ALGM — ALLEGRO MICROSYSTEMS, INC.  _(borderline)_
 
-`score 73%` · `coverage 96%` · $6,768m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866291&type=10-K)
+`score 73%` · `coverage 96%` · $6,356m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866291&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 11.3%, min 1.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9305,7 +9305,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 9% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 97.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 7.25x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.45 (P/E 44.3 ÷ EPS growth 98%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.43 (P/E 41.6 ÷ EPS growth 98%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 97.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 5,450,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -9314,14 +9314,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 72% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -22.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 31% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 99,777,392 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 96,766,853 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### ACAD — ACADIA PHARMACEUTICALS INC  _(borderline)_
 
-`score 73%` · `coverage 68%` · $4,795m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070494&type=10-K)
+`score 73%` · `coverage 68%` · $4,702m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070494&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -45.0%, min -67.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9353,7 +9353,7 @@ it wanted to.
 
 ### KN — Knowles Corp  _(borderline)_
 
-`score 73%` · `coverage 80%` · $3,159m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001587523&type=10-K)
+`score 73%` · `coverage 80%` · $3,042m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001587523&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 4.2%, min 1.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9366,7 +9366,7 @@ it wanted to.
 - `2.11` gross margin = 45% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 26% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 123.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.35 (P/E 43.6 ÷ EPS growth 123%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.34 (P/E 42.0 ÷ EPS growth 123%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 123.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.81x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 72,700,000 due within 3 years vs 130,100,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -9374,7 +9374,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 6.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 26% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 32,654,309 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 32,111,234 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -9385,12 +9385,12 @@ it wanted to.
 
 ### DGII — DIGI INTERNATIONAL INC  _(borderline)_
 
-`score 73%` · `coverage 100%` · $2,620m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000854775&type=10-K)
+`score 73%` · `coverage 100%` · $2,737m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000854775&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 4.2%, min 1.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 73% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 3.19 (P/E 105.8 ÷ EPS growth 33%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.33 (P/E 110.5 ÷ EPS growth 33%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = -1.0x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +5.9%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.8` goodwill + intangibles ÷ assets = 73% (need ≤ 40%) — JUDGMENT threshold
@@ -9411,11 +9411,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 243% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -0.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,227,793 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 25,314,689 (need ≥ 50,000) — JUDGMENT threshold
 
 ### TSEM — TOWER SEMICONDUCTOR LTD  _(borderline)_
 
-`score 73%` · `coverage 100%` · $23,803m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000928876&type=10-K)
+`score 73%` · `coverage 100%` · $25,163m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000928876&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 14.7%, min 6.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9431,7 +9431,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 15% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 83.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 20.59x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.55 (P/E 45.9 ÷ EPS growth 83%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.58 (P/E 48.5 ÷ EPS growth 83%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 83.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 1,037,432,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 220,247,000 due within 3 years vs 1,914,422,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -9441,11 +9441,11 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 2.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 386,619,997 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 384,053,103 (need ≥ 50,000) — JUDGMENT threshold
 
 ### SIGA — SIGA TECHNOLOGIES INC  _(borderline)_
 
-`score 73%` · `coverage 100%` · $218m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001010086&type=10-K)
+`score 73%` · `coverage 100%` · $226m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001010086&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 184.9%, min -73.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9460,7 +9460,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 86% (need ≥ 80%) — SOURCED: Smith
 - `2.11` gross margin = 87% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 0.31 (P/E 3.2 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.32 (P/E 3.3 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net cash position of 73,365,448 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 6,000,000 due within 3 years vs 439,497,883 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` interest coverage after a 30% revenue decline = 15.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -9471,11 +9471,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 91% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -40.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,003,140 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,998,877 (need ≥ 50,000) — JUDGMENT threshold
 
 ### KOS — Kosmos Energy Ltd.  _(borderline)_
 
-`score 73%` · `coverage 60%` · $1,798m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509991&type=10-K)
+`score 73%` · `coverage 60%` · $1,626m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509991&type=10-K)
 
 **Failed (3)**
 - `2.16` worst peak-to-trough revenue decline 65% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -9507,7 +9507,7 @@ it wanted to.
 
 ### FBRT — Franklin BSP Realty Trust, Inc.  _(borderline)_
 
-`score 73%` · `coverage 72%` · $646m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001562528&type=10-K)
+`score 73%` · `coverage 72%` · $620m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001562528&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 58.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -9519,14 +9519,14 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 268% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 4% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 12.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.35 (P/E 4.4 ÷ EPS growth 13%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.34 (P/E 4.3 ÷ EPS growth 13%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 12.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 172,009,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 203% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,579,152 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,998,538 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9539,7 +9539,7 @@ it wanted to.
 
 ### SBLK — Star Bulk Carriers Corp.  _(borderline)_
 
-`score 73%` · `coverage 92%` · $3,535m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001386716&type=10-K)
+`score 73%` · `coverage 92%` · $3,684m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001386716&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 19.8%, min 4.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9554,7 +9554,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 159.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.77x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.13 (P/E 20.4 ÷ EPS growth 160%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.13 (P/E 21.2 ÷ EPS growth 160%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 159.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 385,585,000 due within 3 years vs 1,180,539,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -9563,7 +9563,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 109% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 35,478,125 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 36,375,183 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -9571,7 +9571,7 @@ it wanted to.
 
 ### NNN — NNN REIT, INC.  _(borderline)_
 
-`score 73%` · `coverage 84%` · $8,420m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000751364&type=10-K)
+`score 73%` · `coverage 84%` · $7,975m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000751364&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 8.7%, min 7.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9586,14 +9586,14 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 1% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 17.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.79x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.22 (P/E 21.5 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.16 (P/E 20.3 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 17.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.24x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `6.15` stock-based comp ÷ revenue = 1.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 175% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 68,903,566 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 68,875,649 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.11` gross margin: not derivable from filings
@@ -9603,7 +9603,7 @@ it wanted to.
 
 ### PRPO — Precipio, Inc.  _(borderline)_
 
-`score 73%` · `coverage 72%` · $49m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001043961&type=10-K)
+`score 73%` · `coverage 72%` · $47m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001043961&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -66.3%, min -96.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9622,7 +9622,7 @@ it wanted to.
 - `5.11` diluted share count -45.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `6.15` stock-based comp ÷ revenue = 8.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -24.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,374,525 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,479,184 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -9635,7 +9635,7 @@ it wanted to.
 
 ### NAGE — Niagen Bioscience, Inc.  _(borderline)_
 
-`score 73%` · `coverage 72%` · $241m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001386570&type=10-K)
+`score 73%` · `coverage 72%` · $237m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001386570&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg -28.0%, min -418.5% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9654,7 +9654,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +0.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,162,404 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,960,588 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -9667,7 +9667,7 @@ it wanted to.
 
 ### HESM — Hess Midstream LP  _(borderline)_
 
-`score 73%` · `coverage 72%` · $5,130m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001789832&type=10-K)
+`score 73%` · `coverage 72%` · $5,155m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001789832&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 7.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -9686,7 +9686,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 701% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -0.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 46,197,378 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 45,321,310 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9718,7 +9718,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 108% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 40% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 137,696 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 102,934 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9731,7 +9731,7 @@ it wanted to.
 
 ### SGC — SUPERIOR GROUP OF COMPANIES, INC.  _(borderline)_
 
-`score 73%` · `coverage 72%` · $200m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000095574&type=10-K)
+`score 73%` · `coverage 72%` · $198m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000095574&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 1.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -9763,7 +9763,7 @@ it wanted to.
 
 ### CVV — CVD EQUIPMENT CORP  _(borderline)_
 
-`score 73%` · `coverage 72%` · $33m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000766792&type=10-K)
+`score 73%` · `coverage 72%` · $32m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000766792&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -24.4%, min -50.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -9782,7 +9782,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -3.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 674,145 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 638,394 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -9814,7 +9814,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -12.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 82,988,103 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 81,892,361 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -9827,7 +9827,7 @@ it wanted to.
 
 ### AHR — American Healthcare REIT, Inc.  _(borderline)_
 
-`score 73%` · `coverage 72%` · $11,680m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001632970&type=10-K)
+`score 73%` · `coverage 72%` · $11,369m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001632970&type=10-K)
 
 **Failed (5)**
 - `2.3` return on incremental invested capital 4.9% (need ≥ 15%) — JUDGMENT
@@ -9846,7 +9846,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 128,663,314 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 128,909,951 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -9859,11 +9859,11 @@ it wanted to.
 
 ### PRK — PARK NATIONAL CORP /OH/  _(borderline)_
 
-`score 73%` · `coverage 64%` · $3,386m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000805676&type=10-K)
+`score 73%` · `coverage 64%` · $3,312m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000805676&type=10-K)
 
 **Failed (3)**
 - `2.17` diluted EPS CAGR 0.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 2615.14 (P/E 26.7 ÷ EPS growth 0%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2558.35 (P/E 26.1 ÷ EPS growth 0%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 0.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (10)**
@@ -9876,7 +9876,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 90% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 16,022,538 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,094,414 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9891,7 +9891,7 @@ it wanted to.
 
 ### KINS — KINGSTONE COMPANIES, INC.  _(borderline)_
 
-`score 73%` · `coverage 52%` · $278m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000033992&type=10-K)
+`score 73%` · `coverage 52%` · $277m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000033992&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR -1.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -9905,7 +9905,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,868,832 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,752,341 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -9923,7 +9923,7 @@ it wanted to.
 
 ### JBGS — JBG SMITH Properties  _(borderline)_
 
-`score 73%` · `coverage 52%` · $673m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689796&type=10-K)
+`score 73%` · `coverage 52%` · $665m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689796&type=10-K)
 
 **Failed (2)**
 - `2.5` revenue CAGR 0.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -10004,7 +10004,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 366,321 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 372,836 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -10019,7 +10019,7 @@ it wanted to.
 
 ### LMNR — Limoneira CO  _(borderline)_
 
-`score 72%` · `coverage 76%` · $237m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001342423&type=10-K)
+`score 72%` · `coverage 76%` · $231m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001342423&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -0.6%, min -3.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10039,7 +10039,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -8.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 963,423 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 970,543 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -10051,7 +10051,7 @@ it wanted to.
 
 ### INSW — International Seaways, Inc.  _(borderline)_
 
-`score 72%` · `coverage 76%` · $5,134m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679049&type=10-K)
+`score 72%` · `coverage 76%` · $5,505m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679049&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 9.1%, min -5.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10083,7 +10083,7 @@ it wanted to.
 
 ### EXTR — EXTREME NETWORKS INC  _(borderline)_
 
-`score 72%` · `coverage 76%` · $2,897m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001078271&type=10-K)
+`score 72%` · `coverage 76%` · $2,911m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001078271&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 26.0%, min -81.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10103,7 +10103,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -15.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 35% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 51,063,101 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 48,567,248 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -10135,7 +10135,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 1400% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -25.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 18,905,862 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,366,932 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -10179,12 +10179,12 @@ it wanted to.
 
 ### VRSN — VERISIGN INC/CA  _(borderline)_
 
-`score 72%` · `coverage 88%` · $26,432m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001014473&type=10-K)
+`score 72%` · `coverage 88%` · $27,372m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001014473&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 5.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 3.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 8.56 (P/E 32.3 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 8.86 (P/E 33.5 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 3.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (15)**
@@ -10202,7 +10202,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 102% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -3.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 212,413,338 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 207,340,240 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -10211,7 +10211,7 @@ it wanted to.
 
 ### AWI — ARMSTRONG WORLD INDUSTRIES INC  _(borderline)_
 
-`score 72%` · `coverage 88%` · $6,926m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000007431&type=10-K)
+`score 72%` · `coverage 88%` · $6,746m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000007431&type=10-K)
 
 **Failed (6)**
 - `2.3` return on incremental invested capital -8.0% (need ≥ 15%) — JUDGMENT
@@ -10243,7 +10243,7 @@ it wanted to.
 
 ### SPH — SUBURBAN PROPANE PARTNERS LP  _(borderline)_
 
-`score 72%` · `coverage 88%` · $1,139m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001005210&type=10-K)
+`score 72%` · `coverage 88%` · $1,117m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001005210&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 8.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -10258,7 +10258,7 @@ it wanted to.
 - `2.11` gross margin = 59% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 25.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.56x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.36 (P/E 9.2 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.35 (P/E 9.0 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 499,200,000 due within 3 years vs 544,384,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -10275,7 +10275,7 @@ it wanted to.
 
 ### GHI — Greystone Housing Impact Investors LP  _(borderline)_
 
-`score 72%` · `coverage 56%` · $148m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001059142&type=10-K)
+`score 72%` · `coverage 56%` · $141m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001059142&type=10-K)
 
 **Failed (3)**
 - `2.10` FCF ÷ net income (3y) = 36% (need ≥ 80%) — SOURCED: Smith
@@ -10290,7 +10290,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 286,704 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 284,676 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -10307,7 +10307,7 @@ it wanted to.
 
 ### TRDA — Entrada Therapeutics, Inc.  _(borderline)_
 
-`score 72%` · `coverage 56%` · $265m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689375&type=10-K)
+`score 72%` · `coverage 56%` · $263m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689375&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg -1.9%, min -30.3% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10322,7 +10322,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 8.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,311,785 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,136,830 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -10339,7 +10339,7 @@ it wanted to.
 
 ### SMA — SmartStop Self Storage REIT, Inc.  _(borderline)_
 
-`score 72%` · `coverage 68%` · $1,778m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001585389&type=10-K)
+`score 72%` · `coverage 68%` · $1,803m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001585389&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg 7.9%, min -5.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10371,7 +10371,7 @@ it wanted to.
 
 ### MHH — Mastech Digital, Inc.  _(borderline)_
 
-`score 72%` · `coverage 80%` · $90m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437226&type=10-K)
+`score 72%` · `coverage 80%` · $87m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437226&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 14.4%, min -12.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10392,7 +10392,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 192% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 88,125 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 82,946 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -10403,7 +10403,7 @@ it wanted to.
 
 ### VRRM — VERRA MOBILITY Corp  _(borderline)_
 
-`score 72%` · `coverage 80%` · $540m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682745&type=10-K)
+`score 72%` · `coverage 80%` · $529m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682745&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 6.6%, min 2.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10424,7 +10424,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 302% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -18.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,837,231 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,991,007 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.11` gross margin: not derivable from filings
@@ -10435,7 +10435,7 @@ it wanted to.
 
 ### OXM — OXFORD INDUSTRIES INC  _(borderline)_
 
-`score 72%` · `coverage 80%` · $472m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000075288&type=10-K)
+`score 72%` · `coverage 80%` · $426m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000075288&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 12.8%, min -21.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10456,7 +10456,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 168% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,130,795 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,484,250 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -10467,7 +10467,7 @@ it wanted to.
 
 ### HXL — HEXCEL CORP /DE/  _(borderline)_
 
-`score 71%` · `coverage 96%` · $7,013m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000717605&type=10-K)
+`score 71%` · `coverage 96%` · $6,666m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000717605&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 6.6%, min 0.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10482,7 +10482,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 8% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 48.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 24.71x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.37 (P/E 66.4 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.30 (P/E 63.1 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 48.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 254,800,000 due within 3 years vs 572,100,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -10492,7 +10492,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 148% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +3.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 8% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 82,577,019 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 81,688,665 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -10524,14 +10524,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 112% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +2.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 19,679,321 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,437,179 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### WFCF — Where Food Comes From, Inc.  _(borderline)_
 
-`score 71%` · `coverage 96%` · $66m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001360565&type=10-K)
+`score 71%` · `coverage 96%` · $55m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001360565&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 5.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -10556,7 +10556,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 119% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 31% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 63,750 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 52,478 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -10585,7 +10585,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 102% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -22.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 187,533 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 189,997 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -10617,7 +10617,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 96% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -10.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,104,785 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,092,240 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -10649,7 +10649,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 185% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -17.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,542,001 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,401,472 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -10659,7 +10659,7 @@ it wanted to.
 
 ### DXPE — DXP ENTERPRISES INC  _(borderline)_
 
-`score 71%` · `coverage 84%` · $2,903m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001020710&type=10-K)
+`score 71%` · `coverage 84%` · $2,875m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001020710&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 6.7%, min -2.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10681,7 +10681,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 176% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 30% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,477,303 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,228,230 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -10691,7 +10691,7 @@ it wanted to.
 
 ### EPR — EPR PROPERTIES  _(borderline)_
 
-`score 71%` · `coverage 72%` · $4,534m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045450&type=10-K)
+`score 71%` · `coverage 72%` · $4,345m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045450&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 4.7%, min 0.8% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10710,7 +10710,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 83% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 39,183,869 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,320,141 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -10723,7 +10723,7 @@ it wanted to.
 
 ### TPL — Texas Pacific Land Corp  _(borderline)_
 
-`score 71%` · `coverage 72%` · $25,459m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001811074&type=10-K)
+`score 71%` · `coverage 72%` · $24,325m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001811074&type=10-K)
 
 **Failed (4)**
 - `2.16` worst peak-to-trough revenue decline 38% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -10742,7 +10742,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 102% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 134,736,495 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 133,011,720 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -10773,7 +10773,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -13.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 33% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,634,602 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,553,100 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -10787,7 +10787,7 @@ it wanted to.
 
 ### TBLA — Taboola.com Ltd.  _(borderline)_
 
-`score 71%` · `coverage 56%` · $1,278m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001840502&type=10-K)
+`score 71%` · `coverage 56%` · $1,210m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001840502&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 6.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -10802,7 +10802,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 4.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,762,520 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,397,785 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -10819,7 +10819,7 @@ it wanted to.
 
 ### VPG — Vishay Precision Group, Inc.  _(borderline)_
 
-`score 71%` · `coverage 100%` · $801m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001487952&type=10-K)
+`score 71%` · `coverage 100%` · $768m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001487952&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 9.7%, min 5.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10834,7 +10834,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 10% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 33.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.38x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.93 (P/E 31.2 ÷ EPS growth 33%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.89 (P/E 29.9 ÷ EPS growth 33%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 33.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 47,813,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 0 due within 3 years vs 171,489,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -10849,12 +10849,12 @@ it wanted to.
 
 ### FICO — FAIR ISAAC CORP  _(borderline)_
 
-`score 71%` · `coverage 100%` · $21,282m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000814547&type=10-K)
+`score 71%` · `coverage 100%` · $20,511m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000814547&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 5.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.13` goodwill + intangibles = 45% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 1.71 (P/E 49.6 ÷ EPS growth 29%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.65 (P/E 47.8 ÷ EPS growth 29%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 3.13x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 3.0x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `7.2` receivables growing +5.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
@@ -10875,11 +10875,11 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 8.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 121% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 348,082,284 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 343,826,857 (need ≥ 50,000) — JUDGMENT threshold
 
 ### UFPT — UFP TECHNOLOGIES INC  _(borderline)_
 
-`score 71%` · `coverage 100%` · $2,152m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000914156&type=10-K)
+`score 71%` · `coverage 100%` · $2,143m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000914156&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 12.5%, min 6.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10895,7 +10895,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 10% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 48.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.67x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.98 (P/E 47.9 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.98 (P/E 47.7 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 48.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 37,500,000 due within 3 years vs 96,112,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` interest coverage after a 30% revenue decline = 6.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -10905,11 +10905,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 74% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 45,502,055 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 43,569,001 (need ≥ 50,000) — JUDGMENT threshold
 
 ### CMCO — COLUMBUS MCKINNON CORP  _(borderline)_
 
-`score 71%` · `coverage 100%` · $512m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001005229&type=10-K)
+`score 71%` · `coverage 100%` · $455m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001005229&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 7.5%, min 4.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -10926,7 +10926,7 @@ it wanted to.
 - `2.11` gross margin = 37% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 62.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.28x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.18 (P/E 11.0 ÷ EPS growth 62%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.16 (P/E 9.8 ÷ EPS growth 62%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 62.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 15,780,000 due within 3 years vs 180,838,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
@@ -10935,11 +10935,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 172% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,155,184 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,297,480 (need ≥ 50,000) — JUDGMENT threshold
 
 ### LINC — LINCOLN EDUCATIONAL SERVICES CORP  _(borderline)_
 
-`score 71%` · `coverage 100%` · $794m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001286613&type=10-K)
+`score 71%` · `coverage 100%` · $805m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001286613&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 4.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -10957,7 +10957,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 2% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 14% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 750.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.04 (P/E 30.5 ÷ EPS growth 750%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.04 (P/E 31.0 ÷ EPS growth 750%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 750.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 56,819,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 6,000,000 due within 3 years vs 74,031,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -10965,11 +10965,11 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 26,526,839 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,961,544 (need ≥ 50,000) — JUDGMENT threshold
 
 ### FA — FIRST ADVANTAGE CORP  _(borderline)_
 
-`score 71%` · `coverage 76%` · $3,645m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001210677&type=10-K)
+`score 71%` · `coverage 76%` · $3,559m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001210677&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 3.2%, min -0.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -11001,7 +11001,7 @@ it wanted to.
 
 ### LQDT — LIQUIDITY SERVICES INC  _(borderline)_
 
-`score 71%` · `coverage 76%` · $1,331m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001235468&type=10-K)
+`score 71%` · `coverage 76%` · $1,343m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001235468&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 52.9%, min -21.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -11021,7 +11021,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 123% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 30% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,844,252 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,896,016 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -11053,7 +11053,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 4.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 228% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 140,293,358 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 140,424,765 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.11` gross margin: not derivable from filings
@@ -11065,7 +11065,7 @@ it wanted to.
 
 ### BZUN — Baozun Inc.  _(borderline)_
 
-`score 71%` · `coverage 72%` · $471m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625414&type=10-K)
+`score 71%` · `coverage 72%` · $492m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625414&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg -1.4%, min -7.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -11084,7 +11084,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -7.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 585,855 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 578,070 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -11097,7 +11097,7 @@ it wanted to.
 
 ### RLI — RLI CORP  _(borderline)_
 
-`score 71%` · `coverage 64%` · $5,550m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000084246&type=10-K)
+`score 71%` · `coverage 64%` · $5,450m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000084246&type=10-K)
 
 **Failed (3)**
 - `2.17` diluted EPS CAGR -1.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
@@ -11114,7 +11114,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 106% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 45,461,148 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 45,948,114 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11129,7 +11129,7 @@ it wanted to.
 
 ### HMN — HORACE MANN EDUCATORS CORP /DE/  _(borderline)_
 
-`score 71%` · `coverage 64%` · $1,975m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000850141&type=10-K)
+`score 71%` · `coverage 64%` · $1,959m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000850141&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 4.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11146,7 +11146,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 193% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,369,128 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,695,689 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11178,7 +11178,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 115% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,336,147 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,344,981 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11193,7 +11193,7 @@ it wanted to.
 
 ### PDM — Piedmont Realty Trust, Inc.  _(borderline)_
 
-`score 71%` · `coverage 64%` · $1,196m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001042776&type=10-K)
+`score 71%` · `coverage 64%` · $1,141m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001042776&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 2.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11210,7 +11210,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 191% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,699,796 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,908,017 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11225,7 +11225,7 @@ it wanted to.
 
 ### SAFT — SAFETY INSURANCE GROUP INC  _(borderline)_
 
-`score 71%` · `coverage 64%` · $1,518m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001172052&type=10-K)
+`score 71%` · `coverage 64%` · $1,520m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001172052&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 3.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11242,7 +11242,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 99% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,897,294 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,065,097 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11257,7 +11257,7 @@ it wanted to.
 
 ### ACRE — Ares Commercial Real Estate Corp  _(borderline)_
 
-`score 71%` · `coverage 64%` · $240m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001529377&type=10-K)
+`score 71%` · `coverage 64%` · $243m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001529377&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 4.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11274,7 +11274,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 196% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,737,120 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,708,039 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11289,7 +11289,7 @@ it wanted to.
 
 ### CAC — CAMDEN NATIONAL CORP  _(borderline)_
 
-`score 71%` · `coverage 64%` · $979m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000750686&type=10-K)
+`score 71%` · `coverage 64%` · $972m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000750686&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 6.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11306,7 +11306,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 8.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 121% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,877,300 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,922,733 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11321,7 +11321,7 @@ it wanted to.
 
 ### TMP — TOMPKINS FINANCIAL CORP  _(borderline)_
 
-`score 71%` · `coverage 64%` · $1,421m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001005817&type=10-K)
+`score 71%` · `coverage 64%` · $1,429m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001005817&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 4.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11338,7 +11338,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 142% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,101,628 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,523,875 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11353,7 +11353,7 @@ it wanted to.
 
 ### CHCI — Comstock Holding Companies, Inc.  _(borderline)_
 
-`score 71%` · `coverage 92%` · $167m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001299969&type=10-K)
+`score 71%` · `coverage 92%` · $175m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001299969&type=10-K)
 
 **Failed (6)**
 - `2.11` gross margin = 25% (need ≥ 35%) — JUDGMENT threshold
@@ -11377,7 +11377,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 89% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 398,151 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 420,641 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -11385,7 +11385,7 @@ it wanted to.
 
 ### PBI — PITNEY BOWES INC /DE/  _(borderline)_
 
-`score 71%` · `coverage 60%` · $2,339m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000078814&type=10-K)
+`score 71%` · `coverage 60%` · $2,310m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000078814&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR -16.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11401,7 +11401,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -5.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 35,486,709 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 33,551,339 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11417,7 +11417,7 @@ it wanted to.
 
 ### GLBE — Global-E Online Ltd.  _(borderline)_
 
-`score 71%` · `coverage 60%` · $6,285m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835963&type=10-K)
+`score 71%` · `coverage 60%` · $6,431m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835963&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 61.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11433,7 +11433,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +3.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 34% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 47,857,575 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 48,015,176 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11449,7 +11449,7 @@ it wanted to.
 
 ### BH-A — Biglari Holdings Inc.  _(borderline)_
 
-`score 71%` · `coverage 60%` · $382m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001726173&type=10-K)
+`score 71%` · `coverage 60%` · $353m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001726173&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR -5.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11465,7 +11465,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 737% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 36,693,569 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 37,231,216 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11502,7 +11502,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 102% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 106,920 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 106,038 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -11513,7 +11513,7 @@ it wanted to.
 
 ### UCB — UNITED COMMUNITY BANKS INC  _(borderline)_
 
-`score 71%` · `coverage 68%` · $4,255m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000857855&type=10-K)
+`score 71%` · `coverage 68%` · $4,183m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000857855&type=10-K)
 
 **Failed (4)**
 - `2.16` worst peak-to-trough revenue decline 87% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -11531,7 +11531,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 128% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 28,088,674 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 29,728,224 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11545,7 +11545,7 @@ it wanted to.
 
 ### NHI — NATIONAL HEALTH INVESTORS INC  _(borderline)_
 
-`score 71%` · `coverage 68%` · $3,453m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000877860&type=10-K)
+`score 71%` · `coverage 68%` · $3,330m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000877860&type=10-K)
 
 **Failed (4)**
 - `2.16` worst peak-to-trough revenue decline 100% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -11563,7 +11563,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 9.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 89% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,571,421 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 28,743,291 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11577,7 +11577,7 @@ it wanted to.
 
 ### CFR — CULLEN/FROST BANKERS, INC.  _(borderline)_
 
-`score 71%` · `coverage 68%` · $10,125m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039263&type=10-K)
+`score 71%` · `coverage 68%` · $9,931m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039263&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 5.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11589,13 +11589,13 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 94% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 20.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.81 (P/E 16.9 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.80 (P/E 16.6 ÷ EPS growth 21%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 20.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -0.1%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.1` FCF ÷ net income (5y) = 99% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 82,656,164 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 82,785,419 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11609,7 +11609,7 @@ it wanted to.
 
 ### FNF — Fidelity National Financial, Inc.  _(borderline)_
 
-`score 71%` · `coverage 68%` · $11,835m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001331875&type=10-K)
+`score 71%` · `coverage 68%` · $11,398m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001331875&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -8.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11627,7 +11627,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 248% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 72,049,431 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 71,966,556 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11641,7 +11641,7 @@ it wanted to.
 
 ### IIPR — INNOVATIVE INDUSTRIAL PROPERTIES INC  _(borderline)_
 
-`score 70%` · `coverage 84%` · $1,551m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001677576&type=10-K)
+`score 70%` · `coverage 84%` · $1,534m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001677576&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 15.7%, min 6.3% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -11655,7 +11655,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 20.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.46 (P/E 9.4 ÷ EPS growth 20%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.45 (P/E 9.3 ÷ EPS growth 20%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 20.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.00x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 393,715,000 due within 3 years vs 900,141,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -11663,7 +11663,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 159% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,235,154 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,571,536 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -11673,7 +11673,7 @@ it wanted to.
 
 ### MKTX — MARKETAXESS HOLDINGS INC  _(borderline)_
 
-`score 70%` · `coverage 84%` · $5,736m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001278021&type=10-K)
+`score 70%` · `coverage 84%` · $5,751m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001278021&type=10-K)
 
 **Failed (5)**
 - `2.3` return on incremental invested capital 11.5% (need ≥ 15%) — JUDGMENT
@@ -11695,7 +11695,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 119% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 99,171,663 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 103,219,479 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.11` gross margin: not derivable from filings
@@ -11727,7 +11727,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 196% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -23.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,895,797 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,884,111 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.11` gross margin: not derivable from filings
@@ -11754,7 +11754,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 96,860 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 98,551 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11769,7 +11769,7 @@ it wanted to.
 
 ### PRSU — Pursuit Attractions & Hospitality, Inc.  _(borderline)_
 
-`score 70%` · `coverage 64%` · $1,324m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884219&type=10-K)
+`score 70%` · `coverage 64%` · $1,332m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884219&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -5.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11786,7 +11786,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -47.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,223,048 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,347,588 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11801,7 +11801,7 @@ it wanted to.
 
 ### OSPN — OneSpan Inc.  _(borderline)_
 
-`score 70%` · `coverage 64%` · $621m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001044777&type=10-K)
+`score 70%` · `coverage 64%` · $645m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001044777&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -8.3%, min -19.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -11833,7 +11833,7 @@ it wanted to.
 
 ### NTGR — NETGEAR, INC.  _(borderline)_
 
-`score 70%` · `coverage 64%` · $604m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001122904&type=10-K)
+`score 70%` · `coverage 64%` · $590m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001122904&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 1.7%, min -16.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -11850,7 +11850,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -1.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,693,686 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,664,750 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -11882,7 +11882,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -16.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 66,600 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 52,110 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11897,7 +11897,7 @@ it wanted to.
 
 ### AOUT — American Outdoor Brands, Inc.  _(borderline)_
 
-`score 70%` · `coverage 64%` · $198m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001808997&type=10-K)
+`score 70%` · `coverage 64%` · $207m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001808997&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -12.3%, min -38.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -11914,7 +11914,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 2.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 588,588 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 632,832 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -11950,7 +11950,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 8.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 153% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 34,304,874 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 32,552,290 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11961,7 +11961,7 @@ it wanted to.
 
 ### GLRE — GREENLIGHT CAPITAL RE, LTD.  _(borderline)_
 
-`score 70%` · `coverage 72%` · $489m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001385613&type=10-K)
+`score 70%` · `coverage 72%` · $491m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001385613&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 11.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -11973,14 +11973,14 @@ it wanted to.
 **Passed (10)**
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 186.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.03 (P/E 5.6 ÷ EPS growth 186%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.03 (P/E 5.7 ÷ EPS growth 186%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 186.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 3,936,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.11` diluted share count -0.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,445,927 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,357,280 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -11993,13 +11993,13 @@ it wanted to.
 
 ### RGLD — ROYAL GOLD INC  _(borderline)_
 
-`score 70%` · `coverage 92%` · $21,375m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000085535&type=10-K)
+`score 70%` · `coverage 92%` · $21,152m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000085535&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 7.4%, min 5.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 6.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 6.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 14.29 (P/E 89.3 ÷ EPS growth 6%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 14.14 (P/E 88.3 ÷ EPS growth 6%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 6.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (15)**
@@ -12017,7 +12017,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 171% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 153,935,384 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 153,153,465 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -12025,7 +12025,7 @@ it wanted to.
 
 ### TWIN — TWIN DISC INC  _(borderline)_
 
-`score 70%` · `coverage 84%` · $357m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000100378&type=10-K)
+`score 70%` · `coverage 84%` · $362m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000100378&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 3.1%, min -6.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12047,7 +12047,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 2666% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,988,395 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,988,123 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -12057,7 +12057,7 @@ it wanted to.
 
 ### BELFA — BEL FUSE INC /NJ  _(borderline)_
 
-`score 70%` · `coverage 84%` · $454m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000729580&type=10-K)
+`score 70%` · `coverage 84%` · $432m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000729580&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 15.3%, min 7.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12121,7 +12121,7 @@ it wanted to.
 
 ### BNL — Broadstone Net Lease, Inc.  _(borderline)_
 
-`score 70%` · `coverage 76%` · $3,918m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001424182&type=10-K)
+`score 70%` · `coverage 76%` · $3,684m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001424182&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 11.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -12134,14 +12134,14 @@ it wanted to.
 - `2.13` goodwill + intangibles = 12% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 25.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.98 (P/E 25.2 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.92 (P/E 23.7 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 196% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 36,177,499 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 36,408,616 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -12153,7 +12153,7 @@ it wanted to.
 
 ### INVA — Innoviva, Inc.  _(borderline)_
 
-`score 70%` · `coverage 76%` · $1,493m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001080014&type=10-K)
+`score 70%` · `coverage 76%` · $1,527m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001080014&type=10-K)
 
 **Failed (4)**
 - `2.3` return on incremental invested capital -62.1% (need ≥ 15%) — JUDGMENT
@@ -12173,7 +12173,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 102% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 14,961,315 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 15,166,481 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -12185,7 +12185,7 @@ it wanted to.
 
 ### GCMG — GCM Grosvenor Inc.  _(borderline)_
 
-`score 70%` · `coverage 76%` · $543m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819796&type=10-K)
+`score 70%` · `coverage 76%` · $555m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819796&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 23.8%, min -12.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12198,7 +12198,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 5% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 16% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 45.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.93 (P/E 42.5 ÷ EPS growth 46%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.95 (P/E 43.5 ÷ EPS growth 46%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 45.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 13,140,000 due within 3 years vs 354,360,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -12217,7 +12217,7 @@ it wanted to.
 
 ### CVLT — COMMVAULT SYSTEMS INC  _(borderline)_
 
-`score 70%` · `coverage 68%` · $5,391m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001169561&type=10-K)
+`score 70%` · `coverage 68%` · $5,990m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001169561&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 5.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -12235,7 +12235,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 569% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +4.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 80,396,315 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 82,771,634 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -12249,7 +12249,7 @@ it wanted to.
 
 ### FMNB — FARMERS NATIONAL BANC CORP /OH/  _(borderline)_
 
-`score 70%` · `coverage 60%` · $933m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000709337&type=10-K)
+`score 70%` · `coverage 60%` · $922m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000709337&type=10-K)
 
 **Failed (3)**
 - `2.17` diluted EPS CAGR -3.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
@@ -12265,7 +12265,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 114% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,582,829 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,620,919 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -12281,7 +12281,7 @@ it wanted to.
 
 ### BKV — BKV Corp  _(borderline)_
 
-`score 70%` · `coverage 60%` · $2,652m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001838406&type=10-K)
+`score 70%` · `coverage 60%` · $2,514m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001838406&type=10-K)
 
 **Failed (3)**
 - `2.3` return on incremental invested capital -6.5% (need ≥ 15%) — JUDGMENT
@@ -12297,7 +12297,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 76% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 20,139,168 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,067,850 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -12311,41 +12311,9 @@ it wanted to.
 - `5.11` share count history not derivable
 - `7.2` receivables or revenue history incomplete
 
-### KNDI — Kandi Technologies Group, Inc.  _(borderline)_
-
-`score 70%` · `coverage 52%` · $50m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720250&type=10-K)
-
-**Failed (4)**
-- `2.11` gross margin = 33% (need ≥ 35%) — JUDGMENT threshold
-- `5.5` interest coverage after a 30% revenue decline = -19.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
-- `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
-- `7.2` receivables growing +34.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-
-**Passed (6)**
-- `2.3` return on incremental invested capital 122.4% (need ≥ 15%) — JUDGMENT
-- `2.13` goodwill + intangibles = 7% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
-- `6.15` stock-based comp ÷ revenue = 8.9% (need ≤ 10.0%) — JUDGMENT threshold
-- `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 51,250 (need ≥ 50,000) — JUDGMENT threshold
-
-**Unanswered (12)**
-- `2.1` fewer than 3 years of derivable ROIC
-- `2.5` 3-year revenue CAGR not derivable
-- `2.10` FCF ÷ net income (3y): not derivable from filings
-- `2.16` insufficient revenue history to test cyclicality
-- `2.17` EPS CAGR not derivable
-- `2.18` operating income growth ÷ revenue growth: not derivable from filings
-- `3.2` PEG needs price, positive earnings and positive EPS growth
-- `3.7` EPS growth not derivable
-- `5.1` net debt ÷ EBITDA: not derivable from filings
-- `5.4` maturity schedule not tagged in XBRL
-- `5.11` share count history not derivable
-- `7.1` FCF ÷ net income (5y): not derivable from filings
-
 ### CSTE — Caesarstone Ltd.  _(borderline)_
 
-`score 70%` · `coverage 72%` · $110m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001504379&type=10-K)
+`score 70%` · `coverage 72%` · $99m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001504379&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -5.8%, min -32.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12396,7 +12364,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 211% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,248,980 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,520,052 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -12409,7 +12377,7 @@ it wanted to.
 
 ### VERX — Vertex, Inc.  _(borderline)_
 
-`score 70%` · `coverage 72%` · $323m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001806837&type=10-K)
+`score 70%` · `coverage 72%` · $315m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001806837&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 2.7%, min -3.1% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12428,7 +12396,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 5.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 22% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 19,851,260 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 19,645,515 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -12441,7 +12409,7 @@ it wanted to.
 
 ### UI — Ubiquiti Inc.  _(borderline)_
 
-`score 70%` · `coverage 92%` · $34,147m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001511737&type=10-K)
+`score 70%` · `coverage 92%` · $35,680m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001511737&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 0.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -12465,7 +12433,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 82% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 70,467,495 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 70,377,985 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -12473,7 +12441,7 @@ it wanted to.
 
 ### GDOT — GREEN DOT CORP  _(borderline)_
 
-`score 69%` · `coverage 76%` · $756m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001386278&type=10-K)
+`score 69%` · `coverage 76%` · $750m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001386278&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 5.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -12493,7 +12461,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 243% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,859,790 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,007,030 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -12505,7 +12473,7 @@ it wanted to.
 
 ### CVSA — Covista Inc.  _(borderline)_
 
-`score 69%` · `coverage 96%` · $4,258m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000730464&type=10-K)
+`score 69%` · `coverage 96%` · $4,313m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000730464&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 6.2%, min 3.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12521,7 +12489,7 @@ it wanted to.
 - `2.11` gross margin = 56% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 35.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.22x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.87 (P/E 31.1 ÷ EPS growth 36%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.88 (P/E 31.5 ÷ EPS growth 36%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 35.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 15,300,000 due within 3 years vs 948,927,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -12530,14 +12498,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 117% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 40,822,049 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,868,062 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### CWCO — Consolidated Water Co. Ltd.  _(borderline)_
 
-`score 69%` · `coverage 96%` · $451m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000928340&type=10-K)
+`score 69%` · `coverage 96%` · $452m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000928340&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 10.1%, min 1.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12551,7 +12519,7 @@ it wanted to.
 **Passed (14)**
 - `2.13` goodwill + intangibles = 6% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 219.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.07 (P/E 15.2 ÷ EPS growth 219%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.07 (P/E 15.3 ÷ EPS growth 219%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 219.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 107,740,958 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 5,327,581 due within 3 years vs 116,706,230 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -12569,14 +12537,14 @@ it wanted to.
 
 ### CLMB — Climb Global Solutions, Inc.  _(borderline)_
 
-`score 69%` · `coverage 96%` · $513m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000945983&type=10-K)
+`score 69%` · `coverage 96%` · $521m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000945983&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 7.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 29% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 57% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 9.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 4.55 (P/E 41.6 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.62 (P/E 42.2 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 9.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.2` receivables growing +33.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 
@@ -12594,14 +12562,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 259% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,351,992 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,336,885 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### EXLS — ExlService Holdings, Inc.  _(borderline)_
 
-`score 69%` · `coverage 96%` · $5,387m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001297989&type=10-K)
+`score 69%` · `coverage 96%` · $5,370m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001297989&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 16.3%, min 9.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12626,14 +12594,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 119% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -3.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 28% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 70,773,647 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 69,296,475 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### ELF — e.l.f. Beauty, Inc.  _(borderline)_
 
-`score 69%` · `coverage 100%` · $5,718m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001600033&type=10-K)
+`score 69%` · `coverage 100%` · $5,691m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001600033&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 15.8%, min 3.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12649,7 +12617,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 1% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 164.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.18x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.27 (P/E 44.8 ÷ EPS growth 164%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.27 (P/E 44.6 ÷ EPS growth 164%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 164.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 97,500,000 due within 3 years vs 336,177,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
@@ -12659,17 +12627,17 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 100% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 39% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 190,597,013 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 188,585,699 (need ≥ 50,000) — JUDGMENT threshold
 
 ### YETI — YETI Holdings, Inc.  _(borderline)_
 
-`score 69%` · `coverage 100%` · $2,939m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001670592&type=10-K)
+`score 69%` · `coverage 100%` · $3,081m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001670592&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 15.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 3.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.11x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 5.58 (P/E 17.3 ÷ EPS growth 3%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 5.85 (P/E 18.1 ÷ EPS growth 3%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 3.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -17.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 
@@ -12689,7 +12657,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 116% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 66,352,106 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 66,869,006 (need ≥ 50,000) — JUDGMENT threshold
 
 ### EZPW — EZCORP INC  _(borderline)_
 
@@ -12725,7 +12693,7 @@ it wanted to.
 
 ### OSUR — ORASURE TECHNOLOGIES INC  _(borderline)_
 
-`score 69%` · `coverage 80%` · $224m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116463&type=10-K)
+`score 69%` · `coverage 80%` · $246m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116463&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 5.4%, min -19.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12757,7 +12725,7 @@ it wanted to.
 
 ### SD — SANDRIDGE ENERGY INC  _(borderline)_
 
-`score 69%` · `coverage 80%` · $542m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001349436&type=10-K)
+`score 69%` · `coverage 80%` · $525m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001349436&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -93.6%, min -354.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12778,7 +12746,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -5.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,290,291 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,369,484 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -12789,13 +12757,13 @@ it wanted to.
 
 ### EXPO — EXPONENT INC  _(borderline)_
 
-`score 69%` · `coverage 84%` · $3,196m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000851520&type=10-K)
+`score 69%` · `coverage 84%` · $3,247m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000851520&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 10.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 7.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.99x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 4.05 (P/E 31.8 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.11 (P/E 32.4 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 7.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (13)**
@@ -12811,7 +12779,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 105% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,278,941 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,305,822 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -12821,14 +12789,14 @@ it wanted to.
 
 ### STRR — Star Equity Holdings, Inc.  _(borderline)_
 
-`score 69%` · `coverage 84%` · $38m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001210708&type=10-K)
+`score 69%` · `coverage 84%` · $36m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001210708&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 11.8%, min -20.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital -4.3% (need ≥ 15%) — JUDGMENT
 - `2.5` revenue CAGR -6.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 92% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `8.8` median daily dollar volume 31,960 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 38,480 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (13)**
 - `2.10` FCF ÷ net income (3y) = 139% (need ≥ 80%) — SOURCED: Smith
@@ -12853,7 +12821,7 @@ it wanted to.
 
 ### ATHM — Autohome Inc.  _(borderline)_
 
-`score 69%` · `coverage 84%` · $10,039m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001527636&type=10-K)
+`score 69%` · `coverage 84%` · $9,715m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001527636&type=10-K)
 
 **Failed (5)**
 - `2.3` return on incremental invested capital -77.4% (need ≥ 15%) — JUDGMENT
@@ -12875,7 +12843,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 112% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 14,320,736 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 14,321,158 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -12885,7 +12853,7 @@ it wanted to.
 
 ### SCHL — SCHOLASTIC CORP  _(borderline)_
 
-`score 69%` · `coverage 84%` · $1,084m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866729&type=10-K)
+`score 69%` · `coverage 84%` · $1,076m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866729&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 2.2%, min -5.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12907,7 +12875,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 484% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -9.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,018,524 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,045,348 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -12917,7 +12885,7 @@ it wanted to.
 
 ### WTI — W&T OFFSHORE INC  _(borderline)_
 
-`score 69%` · `coverage 84%` · $620m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001288403&type=10-K)
+`score 69%` · `coverage 84%` · $580m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001288403&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 25.6%, min 0.1% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12939,7 +12907,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 293% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -10.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,655,509 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 15,558,444 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -12949,7 +12917,7 @@ it wanted to.
 
 ### WH — WYNDHAM HOTELS & RESORTS, INC.  _(borderline)_
 
-`score 69%` · `coverage 64%` · $5,144m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001722684&type=10-K)
+`score 69%` · `coverage 64%` · $5,051m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001722684&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 29.0%, min -3.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -12966,7 +12934,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 128% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -10.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 98,452,379 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 97,840,611 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -12981,7 +12949,7 @@ it wanted to.
 
 ### FVRR — Fiverr International Ltd.  _(borderline)_
 
-`score 69%` · `coverage 64%` · $326m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001762301&type=10-K)
+`score 69%` · `coverage 64%` · $307m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001762301&type=10-K)
 
 **Failed (3)**
 - `5.5` interest coverage after a 30% revenue decline = -41.3x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -12998,7 +12966,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,422,152 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,130,880 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13030,7 +12998,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -168.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,246,036 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,426,287 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -13045,7 +13013,7 @@ it wanted to.
 
 ### SND — Smart Sand, Inc.  _(borderline)_
 
-`score 69%` · `coverage 88%` · $221m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001529628&type=10-K)
+`score 69%` · `coverage 88%` · $228m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001529628&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -1.7%, min -18.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13068,7 +13036,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 253% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,344,796 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,346,845 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -13077,7 +13045,7 @@ it wanted to.
 
 ### MED — MEDIFAST INC  _(borderline)_
 
-`score 69%` · `coverage 88%` · $135m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000910329&type=10-K)
+`score 69%` · `coverage 88%` · $132m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000910329&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 4.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13091,7 +13059,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 93% (need ≥ 80%) — SOURCED: Smith
 - `2.11` gross margin = 72% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 0.85 (P/E 1.4 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.83 (P/E 1.3 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net cash position of 159,006,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 675,000 due within 3 years vs 585,866,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -13100,7 +13068,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 101% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,773,110 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,693,926 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13109,7 +13077,7 @@ it wanted to.
 
 ### LOPE — Grand Canyon Education, Inc.  _(borderline)_
 
-`score 69%` · `coverage 88%` · $3,941m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001434588&type=10-K)
+`score 69%` · `coverage 88%` · $3,943m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001434588&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 4.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13132,7 +13100,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 106% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 31% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 45,315,489 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 45,494,669 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -13141,7 +13109,7 @@ it wanted to.
 
 ### FWRG — First Watch Restaurant Group, Inc.  _(borderline)_
 
-`score 69%` · `coverage 68%` · $700m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001789940&type=10-K)
+`score 69%` · `coverage 68%` · $628m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001789940&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -1.3%, min -12.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13159,7 +13127,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -20.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 35% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,799,232 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,505,661 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.11` gross margin: not derivable from filings
@@ -13173,7 +13141,7 @@ it wanted to.
 
 ### WLFC — WILLIS LEASE FINANCE CORP  _(borderline)_
 
-`score 69%` · `coverage 96%` · $1,188m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018164&type=10-K)
+`score 69%` · `coverage 96%` · $1,149m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018164&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 1.3%, min 0.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13190,7 +13158,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 211.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 5.76x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.05 (P/E 10.9 ÷ EPS growth 211%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.05 (P/E 10.6 ÷ EPS growth 211%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 211.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 584,805,000 due within 3 years vs 815,435,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -13198,14 +13166,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 474% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,069,574 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,310,790 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `7.2` receivables or revenue history incomplete
 
 ### DQ — DAQO NEW ENERGY CORP.  _(borderline)_
 
-`score 69%` · `coverage 96%` · $3,904m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477641&type=10-K)
+`score 69%` · `coverage 96%` · $4,084m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477641&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 55.4%, min 4.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13221,7 +13189,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 49.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.20x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.18 (P/E 9.1 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.19 (P/E 9.5 ÷ EPS growth 49%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 49.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 2,874,418,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 172,975 due within 3 years vs 4,568,666,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -13230,14 +13198,14 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 6.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,429,717 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,258,560 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `7.2` receivables or revenue history incomplete
 
 ### NGS — NATURAL GAS SERVICES GROUP INC  _(borderline)_
 
-`score 69%` · `coverage 72%` · $488m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001084991&type=10-K)
+`score 69%` · `coverage 72%` · $456m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001084991&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -0.4%, min -4.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13256,7 +13224,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -125.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,328,064 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,558,347 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.11` gross margin: not derivable from filings
@@ -13269,7 +13237,7 @@ it wanted to.
 
 ### PXS — Pyxis Tankers Inc.  _(borderline)_
 
-`score 68%` · `coverage 76%` · $72m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640043&type=10-K)
+`score 68%` · `coverage 76%` · $77m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640043&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 4.0%, min -6.7% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13289,7 +13257,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 202,617 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 204,930 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.11` gross margin: not derivable from filings
@@ -13301,7 +13269,7 @@ it wanted to.
 
 ### VRTS — VIRTUS INVESTMENT PARTNERS, INC.  _(borderline)_
 
-`score 68%` · `coverage 84%` · $976m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000883237&type=10-K)
+`score 68%` · `coverage 84%` · $828m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000883237&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 11.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13315,7 +13283,7 @@ it wanted to.
 - `2.1` ROIC avg 21.3%, min 13.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.10` FCF ÷ net income (3y) = 199% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 20% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 0.82 (P/E 6.9 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.69 (P/E 5.9 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net cash position of 357,049,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 12,000,000 due within 3 years vs 1,274,187,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -13323,7 +13291,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 102% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,106,838 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,544,929 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -13333,7 +13301,7 @@ it wanted to.
 
 ### CCLD — CareCloud, Inc.  _(borderline)_
 
-`score 68%` · `coverage 84%` · $87m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001582982&type=10-K)
+`score 68%` · `coverage 84%` · $92m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001582982&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -8.8%, min -46.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13347,7 +13315,7 @@ it wanted to.
 - `2.3` return on incremental invested capital 78.1% (need ≥ 15%) — JUDGMENT
 - `2.16` worst peak-to-trough revenue decline 21% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 16.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.68 (P/E 11.1 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.72 (P/E 11.7 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 16.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 2,639,665 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 1,169,000 due within 3 years vs 66,175,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -13355,7 +13323,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `6.15` stock-based comp ÷ revenue = 0.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -3.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 660,968 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 648,795 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -13365,7 +13333,7 @@ it wanted to.
 
 ### GSG — iShares S&P GSCI Commodity-Indexed Trust  _(borderline)_
 
-`score 68%` · `coverage 52%` · $1,056m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001332174&type=10-K)
+`score 68%` · `coverage 52%` · $1,051m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001332174&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 141.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13397,7 +13365,7 @@ it wanted to.
 
 ### USAC — USA Compression Partners, LP  _(borderline)_
 
-`score 68%` · `coverage 52%` · $4,006m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001522727&type=10-K)
+`score 68%` · `coverage 52%` · $3,895m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001522727&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 8.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13411,7 +13379,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 2.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 30% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,896,374 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,009,562 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13429,7 +13397,7 @@ it wanted to.
 
 ### EPRT — ESSENTIAL PROPERTIES REALTY TRUST, INC.  _(borderline)_
 
-`score 68%` · `coverage 88%` · $6,226m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001728951&type=10-K)
+`score 68%` · `coverage 88%` · $5,785m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001728951&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 3.1%, min 2.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13445,14 +13413,14 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 41.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.65x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.79 (P/E 32.6 ÷ EPS growth 41%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.73 (P/E 30.3 ÷ EPS growth 41%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 41.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 2.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 163% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 44,507,101 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 46,745,744 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.11` gross margin: not derivable from filings
@@ -13461,7 +13429,7 @@ it wanted to.
 
 ### PEBO — PEOPLES BANCORP INC  _(borderline)_
 
-`score 68%` · `coverage 88%` · $1,431m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000318300&type=10-K)
+`score 68%` · `coverage 88%` · $1,416m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000318300&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 7.8%, min 5.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13476,7 +13444,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 4% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 25.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 5.60x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.50 (P/E 12.6 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.49 (P/E 12.5 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 148,407,000 due within 3 years vs 608,219,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -13484,7 +13452,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 154% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,409,937 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,570,987 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.11` gross margin: not derivable from filings
@@ -13525,7 +13493,7 @@ it wanted to.
 
 ### STHO — Star Holdings  _(borderline)_
 
-`score 68%` · `coverage 56%` · $112m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001953366&type=10-K)
+`score 68%` · `coverage 56%` · $110m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001953366&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -32.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13540,7 +13508,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 111,264 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 109,976 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13557,7 +13525,7 @@ it wanted to.
 
 ### TLN — Talen Energy Corp  _(borderline)_
 
-`score 68%` · `coverage 56%` · $14,985m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001622536&type=10-K)
+`score 68%` · `coverage 56%` · $14,005m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001622536&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 1.6%, min -4.1% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13589,7 +13557,7 @@ it wanted to.
 
 ### WASH — WASHINGTON TRUST BANCORP INC  _(borderline)_
 
-`score 68%` · `coverage 64%` · $763m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000737468&type=10-K)
+`score 68%` · `coverage 64%` · $750m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000737468&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -0.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13606,7 +13574,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 100% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,258,632 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,245,100 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13621,7 +13589,7 @@ it wanted to.
 
 ### XRN — Chiron Real Estate Inc.  _(borderline)_
 
-`score 68%` · `coverage 64%` · $476m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001533615&type=10-K)
+`score 68%` · `coverage 64%` · $475m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001533615&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -18.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13638,7 +13606,7 @@ it wanted to.
 - `5.11` diluted share count -21.1%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.1` FCF ÷ net income (5y) = 424% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,596,134 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,571,952 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13653,7 +13621,7 @@ it wanted to.
 
 ### TDW — TIDEWATER INC  _(borderline)_
 
-`score 68%` · `coverage 64%` · $4,626m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000098222&type=10-K)
+`score 68%` · `coverage 64%` · $4,313m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000098222&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -6.4%, min -25.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -13670,7 +13638,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 48,962,428 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 48,082,189 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -13685,7 +13653,7 @@ it wanted to.
 
 ### GBCI — GLACIER BANCORP, INC.  _(borderline)_
 
-`score 68%` · `coverage 64%` · $5,968m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000868671&type=10-K)
+`score 68%` · `coverage 64%` · $5,817m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000868671&type=10-K)
 
 **Failed (4)**
 - `2.16` worst peak-to-trough revenue decline 29% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -13702,7 +13670,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 146% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 46,489,583 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 46,760,838 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13735,7 +13703,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 716% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 39% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 291,873 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 299,460 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.11` gross margin: not derivable from filings
@@ -13770,7 +13738,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 120% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 72,595,818 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 70,103,365 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13781,7 +13749,7 @@ it wanted to.
 
 ### NRIM — NORTHRIM BANCORP INC  _(borderline)_
 
-`score 68%` · `coverage 72%` · $582m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001163370&type=10-K)
+`score 68%` · `coverage 72%` · $566m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001163370&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 58.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13800,7 +13768,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,340,638 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,380,193 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13813,7 +13781,7 @@ it wanted to.
 
 ### MYFW — First Western Financial Inc  _(borderline)_
 
-`score 68%` · `coverage 72%` · $303m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327607&type=10-K)
+`score 68%` · `coverage 72%` · $299m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327607&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -1.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13832,7 +13800,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 162% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,483,944 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,500,048 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13867,7 +13835,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +4.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 10% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,064,602 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,127,995 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -13877,7 +13845,7 @@ it wanted to.
 
 ### ALRM — Alarm.com Holdings, Inc.  _(borderline)_
 
-`score 68%` · `coverage 84%` · $2,718m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001459200&type=10-K)
+`score 68%` · `coverage 84%` · $2,649m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001459200&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 12.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13899,7 +13867,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 114% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -6.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,056,679 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,172,565 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13909,7 +13877,7 @@ it wanted to.
 
 ### ARHS — Arhaus, Inc.  _(borderline)_
 
-`score 68%` · `coverage 84%` · $1,109m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001875444&type=10-K)
+`score 68%` · `coverage 84%` · $1,067m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001875444&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 36.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13924,14 +13892,14 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 154.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.05x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.06 (P/E 8.9 ÷ EPS growth 154%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.06 (P/E 8.5 ÷ EPS growth 154%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 154.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 114% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,841,168 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,767,017 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13941,7 +13909,7 @@ it wanted to.
 
 ### SITC — SITE Centers Corp.  _(borderline)_
 
-`score 68%` · `coverage 76%` · $148m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000894315&type=10-K)
+`score 68%` · `coverage 76%` · $155m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000894315&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -46.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -13961,7 +13929,7 @@ it wanted to.
 - `5.11` diluted share count -22.3%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.1` FCF ÷ net income (5y) = 178% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,474,755 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,482,669 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -13973,13 +13941,13 @@ it wanted to.
 
 ### SPSC — SPS COMMERCE INC  _(borderline)_
 
-`score 67%` · `coverage 92%` · $2,976m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001092699&type=10-K)
+`score 67%` · `coverage 92%` · $2,871m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001092699&type=10-K)
 
 **Failed (7)**
 - `2.13` goodwill + intangibles = 56% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 11.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.78x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 3.83 (P/E 45.2 ÷ EPS growth 12%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.69 (P/E 43.6 ÷ EPS growth 12%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 11.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -1081.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `7.8` goodwill + intangibles ÷ assets = 56% (need ≤ 40%) — JUDGMENT threshold
@@ -14005,7 +13973,7 @@ it wanted to.
 
 ### EVI — EVI INDUSTRIES, INC.  _(borderline)_
 
-`score 67%` · `coverage 96%` · $205m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065312&type=10-K)
+`score 67%` · `coverage 96%` · $233m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065312&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 4.9%, min 2.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14021,7 +13989,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 1107.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.18x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.02 (P/E 27.3 ÷ EPS growth 1107%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.03 (P/E 31.1 ÷ EPS growth 1107%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 1107.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -74.5%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -14030,14 +13998,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 156% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 29% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 825,824 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 846,732 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### LOVE — Lovesac Co  _(borderline)_
 
-`score 67%` · `coverage 96%` · $201m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001701758&type=10-K)
+`score 67%` · `coverage 96%` · $195m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001701758&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 17.7%, min -42.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14054,7 +14022,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 14.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.57 (P/E 8.4 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.55 (P/E 8.2 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 14.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.20x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -14062,14 +14030,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -4.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,949,751 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,307,464 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### HDSN — HUDSON TECHNOLOGIES INC /NY  _(borderline)_
 
-`score 67%` · `coverage 96%` · $228m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000925528&type=10-K)
+`score 67%` · `coverage 96%` · $218m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000925528&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 69.4%, min 4.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14085,7 +14053,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 11% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 16.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.57x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.26 (P/E 4.4 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.25 (P/E 4.2 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 16.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 26,899,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 4,546,000 due within 3 years vs 235,035,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -14094,14 +14062,14 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,837,688 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,719,654 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### NATR — NATURES SUNSHINE PRODUCTS INC  _(borderline)_
 
-`score 67%` · `coverage 96%` · $238m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000275053&type=10-K)
+`score 67%` · `coverage 96%` · $229m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000275053&type=10-K)
 
 **Failed (6)**
 - `2.3` return on incremental invested capital -24.8% (need ≥ 15%) — JUDGMENT
@@ -14126,14 +14094,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 131% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,548,584 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,535,036 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### CNMD — CONMED Corp  _(borderline)_
 
-`score 67%` · `coverage 100%` · $1,387m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000816956&type=10-K)
+`score 67%` · `coverage 100%` · $1,360m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000816956&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 10.2%, min 5.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14151,7 +14119,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 10% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 84.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.91x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.25 (P/E 21.5 ÷ EPS growth 85%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.25 (P/E 21.1 ÷ EPS growth 85%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 84.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count +1.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -14159,11 +14127,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 404% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,920,265 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 18,319,884 (need ≥ 50,000) — JUDGMENT threshold
 
 ### MZTI — MARZETTI CO  _(borderline)_
 
-`score 67%` · `coverage 100%` · $2,840m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000057515&type=10-K)
+`score 67%` · `coverage 100%` · $2,727m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000057515&type=10-K)
 
 **Failed (7)**
 - `2.3` return on incremental invested capital 11.9% (need ≥ 15%) — JUDGMENT
@@ -14171,7 +14139,7 @@ it wanted to.
 - `2.11` gross margin = 23% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 3.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.28x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 4.78 (P/E 17.9 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.59 (P/E 17.2 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 3.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (15)**
@@ -14189,18 +14157,18 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 73% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -19.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 37,439,120 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 37,504,766 (need ≥ 50,000) — JUDGMENT threshold
 
 ### PMTS — CPI Card Group Inc.  _(borderline)_
 
-`score 67%` · `coverage 100%` · $259m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001641614&type=10-K)
+`score 67%` · `coverage 100%` · $278m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001641614&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 8.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 32% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 6.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.21x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 2.00 (P/E 13.3 ÷ EPS growth 7%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.15 (P/E 14.3 ÷ EPS growth 7%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 6.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 3.22x (need ≤ 1.50x) — JUDGMENT threshold
 
@@ -14219,11 +14187,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 89% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +3.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 16% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 887,436 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 964,932 (need ≥ 50,000) — JUDGMENT threshold
 
 ### CDRE — Cadre Holdings, Inc.  _(borderline)_
 
-`score 67%` · `coverage 100%` · $1,224m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001860543&type=10-K)
+`score 67%` · `coverage 100%` · $1,126m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001860543&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 17.1%, min 5.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14240,7 +14208,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 26% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 32.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.99 (P/E 31.7 ÷ EPS growth 32%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.91 (P/E 29.1 ÷ EPS growth 32%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 32.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.36x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 48,657,000 due within 3 years vs 324,379,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -14249,18 +14217,18 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 207% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 26% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,920,315 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,466,755 (need ≥ 50,000) — JUDGMENT threshold
 
 ### JOE — ST JOE Co  _(borderline)_
 
-`score 67%` · `coverage 96%` · $3,749m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000745308&type=10-K)
+`score 67%` · `coverage 96%` · $3,634m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000745308&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 5.7%, min 4.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital 6.7% (need ≥ 15%) — JUDGMENT
 - `2.16` worst peak-to-trough revenue decline 86% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.18` operating income growth ÷ revenue growth = 0.72x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 3.25 (P/E 48.2 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.15 (P/E 46.8 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 2.72x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -0.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 
@@ -14285,7 +14253,7 @@ it wanted to.
 
 ### ESCA — ESCALADE INC  _(borderline)_
 
-`score 67%` · `coverage 92%` · $269m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000033488&type=10-K)
+`score 67%` · `coverage 92%` · $267m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000033488&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 9.0%, min 4.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14309,7 +14277,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 103% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -6.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 27% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 621,372 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 586,447 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -14317,7 +14285,7 @@ it wanted to.
 
 ### MITK — MITEK SYSTEMS INC  _(borderline)_
 
-`score 67%` · `coverage 88%` · $777m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000807863&type=10-K)
+`score 67%` · `coverage 88%` · $755m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000807863&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 15.2%, min -10.3% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14340,7 +14308,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 6.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 459% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 13,611,312 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,035,905 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.11` gross margin: not derivable from filings
@@ -14349,7 +14317,7 @@ it wanted to.
 
 ### SWBI — SMITH & WESSON BRANDS, INC.  _(borderline)_
 
-`score 67%` · `coverage 88%` · $590m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001092796&type=10-K)
+`score 67%` · `coverage 88%` · $612m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001092796&type=10-K)
 
 **Failed (7)**
 - `2.3` return on incremental invested capital 7.7% (need ≥ 15%) — JUDGMENT
@@ -14364,7 +14332,7 @@ it wanted to.
 - `2.1` ROIC avg 43.3%, min 10.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 4% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 481.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.03 (P/E 14.3 ÷ EPS growth 481%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.03 (P/E 14.8 ÷ EPS growth 481%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 481.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -75.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -14372,7 +14340,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 93% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,944,091 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,024,375 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -14381,7 +14349,7 @@ it wanted to.
 
 ### MRNA — Moderna, Inc.  _(borderline)_
 
-`score 67%` · `coverage 84%` · $57,478m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-K)
+`score 67%` · `coverage 84%` · $61,498m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 4.1%, min -42.1% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14403,7 +14371,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 107% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -156.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 383,635,034 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 397,115,089 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -14413,7 +14381,7 @@ it wanted to.
 
 ### BBW — BUILD-A-BEAR WORKSHOP INC  _(borderline)_
 
-`score 67%` · `coverage 80%` · $340m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001113809&type=10-K)
+`score 67%` · `coverage 80%` · $301m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001113809&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 4.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -14425,7 +14393,7 @@ it wanted to.
 **Passed (12)**
 - `2.11` gross margin = 54% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 1.14 (P/E 6.4 ÷ EPS growth 6%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.01 (P/E 5.7 ÷ EPS growth 6%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -0.3%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -14434,7 +14402,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 82% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +4.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,116,425 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,350,470 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -14445,7 +14413,7 @@ it wanted to.
 
 ### REI — RING ENERGY, INC.  _(borderline)_
 
-`score 67%` · `coverage 80%` · $399m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001384195&type=10-K)
+`score 67%` · `coverage 80%` · $380m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001384195&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 14.6%, min -50.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14477,7 +14445,7 @@ it wanted to.
 
 ### VYGR — Voyager Therapeutics, Inc.  _(borderline)_
 
-`score 67%` · `coverage 80%` · $197m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640266&type=10-K)
+`score 67%` · `coverage 80%` · $190m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640266&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 13.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -14490,7 +14458,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 44.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.79x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.03 (P/E 1.5 ÷ EPS growth 45%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.03 (P/E 1.4 ÷ EPS growth 45%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 44.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -14498,7 +14466,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -244.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,783,434 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,773,580 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -14509,7 +14477,7 @@ it wanted to.
 
 ### TCMD — TACTILE SYSTEMS TECHNOLOGY INC  _(borderline)_
 
-`score 67%` · `coverage 76%` · $507m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001027838&type=10-K)
+`score 67%` · `coverage 76%` · $503m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001027838&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 11.6%, min -15.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14529,7 +14497,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 384% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -16.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 22% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,732,850 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,664,706 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -14541,7 +14509,7 @@ it wanted to.
 
 ### APEI — AMERICAN PUBLIC EDUCATION INC  _(borderline)_
 
-`score 67%` · `coverage 76%` · $822m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001201792&type=10-K)
+`score 67%` · `coverage 76%` · $803m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001201792&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -3.0%, min -27.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14561,7 +14529,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -3.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,457,041 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,279,128 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -14573,7 +14541,7 @@ it wanted to.
 
 ### SONO — Sonos Inc  _(borderline)_
 
-`score 67%` · `coverage 76%` · $1,789m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001314727&type=10-K)
+`score 67%` · `coverage 76%` · $1,837m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001314727&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 184.5%, min -4.2% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14593,7 +14561,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 215% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -31.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,667,470 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,853,597 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -14624,7 +14592,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 2822% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -31.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 173,304 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 200,754 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -14637,7 +14605,7 @@ it wanted to.
 
 ### NPK — NATIONAL PRESTO INDUSTRIES INC  _(borderline)_
 
-`score 67%` · `coverage 72%` · $1,101m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080172&type=10-K)
+`score 67%` · `coverage 72%` · $1,060m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080172&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 12.2%, min 7.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14656,7 +14624,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 75% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,506,870 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,942,500 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.17` EPS CAGR not derivable
@@ -14669,7 +14637,7 @@ it wanted to.
 
 ### ATNI — ATN International, Inc.  _(borderline)_
 
-`score 67%` · `coverage 72%` · $467m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000879585&type=10-K)
+`score 67%` · `coverage 72%` · $443m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000879585&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 0.6%, min -1.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14688,7 +14656,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -11.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,943,352 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,982,554 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -14701,7 +14669,7 @@ it wanted to.
 
 ### CXDO — Crexendo, Inc.  _(borderline)_
 
-`score 67%` · `coverage 72%` · $190m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001075736&type=10-K)
+`score 67%` · `coverage 72%` · $187m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001075736&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -17.9%, min -61.5% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14720,7 +14688,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 4.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -3.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,270,054 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,054,464 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -14733,7 +14701,7 @@ it wanted to.
 
 ### TUSK — MAMMOTH ENERGY SERVICES, INC.  _(borderline)_
 
-`score 67%` · `coverage 72%` · $149m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679268&type=10-K)
+`score 67%` · `coverage 72%` · $153m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679268&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -15.7%, min -28.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14752,7 +14720,39 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -6.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 693,000 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 692,550 (need ≥ 50,000) — JUDGMENT threshold
+
+**Unanswered (7)**
+- `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
+- `2.10` FCF ÷ net income (3y): not derivable from filings
+- `2.17` EPS CAGR not derivable
+- `2.18` operating income growth ÷ revenue growth: not derivable from filings
+- `3.2` PEG needs price, positive earnings and positive EPS growth
+- `3.7` EPS growth not derivable
+- `7.1` FCF ÷ net income (5y): not derivable from filings
+
+### ZSTK — ZeroStack Corp.  _(borderline)_
+
+`score 67%` · `coverage 72%` · $82m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001790169&type=10-K)
+
+**Failed (7)**
+- `2.1` ROIC avg -469.5%, min -1221.0% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
+- `2.5` revenue CAGR 58.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
+- `2.11` gross margin = 6% (need ≥ 35%) — JUDGMENT threshold
+- `2.13` goodwill + intangibles = 93% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
+- `2.16` worst peak-to-trough revenue decline 53% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
+- `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
+- `7.8` goodwill + intangibles ÷ assets = 93% (need ≤ 40%) — JUDGMENT threshold
+
+**Passed (8)**
+- `5.1` net cash position of 3,143,000 — JUDGMENT: net cash passes the leverage test outright
+- `5.4` 2,759,000 due within 3 years vs 5,223,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
+- `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
+- `5.11` diluted share count -71.2%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
+- `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
+- `6.15` stock-based comp ÷ revenue = 7.7% (need ≤ 10.0%) — JUDGMENT threshold
+- `7.2` receivables growing -92.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
+- `8.8` median daily dollar volume 51,925 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -14797,7 +14797,7 @@ it wanted to.
 
 ### UEIC — UNIVERSAL ELECTRONICS INC  _(borderline)_
 
-`score 67%` · `coverage 72%` · $62m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101984&type=10-K)
+`score 67%` · `coverage 72%` · $67m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101984&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 2.2%, min -27.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14816,7 +14816,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +3.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 153,508 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 169,005 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -14829,7 +14829,7 @@ it wanted to.
 
 ### SLNG — Stabilis Solutions, Inc.  _(borderline)_
 
-`score 67%` · `coverage 72%` · $97m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001043186&type=10-K)
+`score 67%` · `coverage 72%` · $104m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001043186&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 1.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -14861,7 +14861,7 @@ it wanted to.
 
 ### OIS — OIL STATES INTERNATIONAL, INC  _(borderline)_
 
-`score 67%` · `coverage 72%` · $524m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001121484&type=10-K)
+`score 67%` · `coverage 72%` · $507m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001121484&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -10.5%, min -34.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14880,7 +14880,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -5.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,364,918 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,195,850 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -14893,7 +14893,7 @@ it wanted to.
 
 ### TRIP — TripAdvisor, Inc.  _(borderline)_
 
-`score 67%` · `coverage 72%` · $1,065m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001526520&type=10-K)
+`score 67%` · `coverage 72%` · $1,036m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001526520&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 0.5%, min -20.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14912,7 +14912,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -18.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 33% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 38,761,250 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,141,141 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -14932,7 +14932,7 @@ it wanted to.
 - `2.5` revenue CAGR 8.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 87% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `7.2` receivables growing +8.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 32,704 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 31,968 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (10)**
 - `2.11` gross margin = 72% (need ≥ 35%) — JUDGMENT threshold
@@ -14957,7 +14957,7 @@ it wanted to.
 
 ### RDWR — RADWARE LTD  _(borderline)_
 
-`score 67%` · `coverage 68%` · $1,204m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001094366&type=10-K)
+`score 67%` · `coverage 68%` · $1,257m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001094366&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -0.3%, min -11.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -14975,7 +14975,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 988% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,291,104 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,321,151 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -15007,7 +15007,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -0.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 29% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 348,372 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 352,796 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -15021,7 +15021,7 @@ it wanted to.
 
 ### INSP — Inspire Medical Systems, Inc.  _(borderline)_
 
-`score 67%` · `coverage 68%` · $2,110m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001609550&type=10-K)
+`score 67%` · `coverage 68%` · $2,220m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001609550&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 75.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -15053,7 +15053,7 @@ it wanted to.
 
 ### YEXT — Yext, Inc.  _(borderline)_
 
-`score 67%` · `coverage 68%` · $633m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001614178&type=10-K)
+`score 67%` · `coverage 68%` · $608m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001614178&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 4.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -15071,7 +15071,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -0.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 31% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,973,248 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,629,962 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -15085,7 +15085,7 @@ it wanted to.
 
 ### JILL — J.Jill, Inc.  _(borderline)_
 
-`score 67%` · `coverage 68%` · $358m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001687932&type=10-K)
+`score 67%` · `coverage 68%` · $356m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001687932&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 148.1%, min -57.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15103,7 +15103,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -7.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 29% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,036,241 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,149,353 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -15135,7 +15135,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 167,897,457 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 168,802,890 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -15149,14 +15149,14 @@ it wanted to.
 
 ### HTLM — HomesToLife Ltd  _(borderline)_
 
-`score 67%` · `coverage 64%` · $161m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023153&type=10-K)
+`score 67%` · `coverage 64%` · $177m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023153&type=10-K)
 
 **Failed (5)**
 - `2.11` gross margin = 26% (need ≥ 35%) — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.41x (need ≥ 1.00x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -9.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `7.2` receivables growing +53565.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,524 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,543 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (8)**
 - `2.10` FCF ÷ net income (3y) = 182% (need ≥ 80%) — SOURCED: Smith
@@ -15213,7 +15213,7 @@ it wanted to.
 
 ### ESTC — Elastic N.V.  _(borderline)_
 
-`score 67%` · `coverage 64%` · $8,755m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=10-K)
+`score 67%` · `coverage 64%` · $9,130m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=10-K)
 
 **Failed (3)**
 - `5.5` interest coverage after a 30% revenue decline = -15.7x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -15230,7 +15230,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -7.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 118,197,675 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 123,961,009 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -15245,7 +15245,7 @@ it wanted to.
 
 ### FROG — JFrog Ltd  _(borderline)_
 
-`score 67%` · `coverage 64%` · $10,749m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800667&type=10-K)
+`score 67%` · `coverage 64%` · $11,444m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800667&type=10-K)
 
 **Failed (3)**
 - `2.1` ROIC avg -71.7%, min -87.9% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15262,7 +15262,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -10.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 27% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 185,459,729 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 181,136,100 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -15293,7 +15293,7 @@ it wanted to.
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 16,992,429 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,163,288 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -15309,7 +15309,7 @@ it wanted to.
 
 ### WRBY — Warby Parker Inc.  _(borderline)_
 
-`score 67%` · `coverage 60%` · $2,797m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001504776&type=10-K)
+`score 67%` · `coverage 60%` · $2,547m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001504776&type=10-K)
 
 **Failed (4)**
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
@@ -15325,7 +15325,7 @@ it wanted to.
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 69,761,191 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 69,977,500 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -15362,7 +15362,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 2.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 150,154 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 139,102 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -15373,7 +15373,7 @@ it wanted to.
 
 ### BRT — BRT Apartments Corp.  _(borderline)_
 
-`score 66%` · `coverage 76%` · $267m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000014846&type=10-K)
+`score 66%` · `coverage 76%` · $260m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000014846&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -5.5%, min -6.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15393,7 +15393,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 107% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 456,330 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 469,572 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.17` EPS CAGR not derivable
@@ -15405,7 +15405,7 @@ it wanted to.
 
 ### TRUP — TRUPANION, INC.  _(borderline)_
 
-`score 66%` · `coverage 68%` · $1,092m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001371285&type=10-K)
+`score 66%` · `coverage 68%` · $1,100m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001371285&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -21.7%, min -31.8% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15423,7 +15423,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 3.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,620,385 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,796,020 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -15437,7 +15437,7 @@ it wanted to.
 
 ### MCS — MARCUS CORP  _(borderline)_
 
-`score 66%` · `coverage 64%` · $516m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000062234&type=10-K)
+`score 66%` · `coverage 64%` · $527m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000062234&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -2.0%, min -17.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15454,7 +15454,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -53.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 8% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,004,386 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,384,714 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -15469,7 +15469,7 @@ it wanted to.
 
 ### REG — REGENCY CENTERS CORP  _(borderline)_
 
-`score 66%` · `coverage 64%` · $13,663m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000910606&type=10-K)
+`score 66%` · `coverage 64%` · $13,357m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000910606&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 9.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -15501,7 +15501,7 @@ it wanted to.
 
 ### ADCT — ADC Therapeutics SA  _(borderline)_
 
-`score 66%` · `coverage 64%` · $137m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001771910&type=10-K)
+`score 66%` · `coverage 64%` · $134m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001771910&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -2.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -15518,7 +15518,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 9.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,943,655 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,711,264 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -15550,7 +15550,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -14.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 108,035,811 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 103,935,152 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -15565,7 +15565,7 @@ it wanted to.
 
 ### ELTK — ELTEK LTD  _(borderline)_
 
-`score 65%` · `coverage 100%` · $55m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024672&type=10-K)
+`score 65%` · `coverage 100%` · $54m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024672&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 13.4%, min 8.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15582,7 +15582,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 22.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.07x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.38 (P/E 8.6 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.38 (P/E 8.5 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 22.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 4,105,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.4` 1,770,000 due within 3 years vs 26,865,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -15595,7 +15595,7 @@ it wanted to.
 
 ### BCPC — BALCHEM CORP  _(borderline)_
 
-`score 65%` · `coverage 100%` · $5,240m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000009326&type=10-K)
+`score 65%` · `coverage 100%` · $5,325m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000009326&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 13.7%, min 13.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15603,7 +15603,7 @@ it wanted to.
 - `2.11` gross margin = 33% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 58% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 8.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 5.54 (P/E 48.3 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 5.63 (P/E 49.1 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 8.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 58% (need ≤ 40%) — JUDGMENT threshold
 
@@ -15621,11 +15621,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 148% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,210,386 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,620,400 (need ≥ 50,000) — JUDGMENT threshold
 
 ### MGPI — MGP INGREDIENTS INC  _(borderline)_
 
-`score 65%` · `coverage 100%` · $315m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000835011&type=10-K)
+`score 65%` · `coverage 100%` · $302m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000835011&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 10.1%, min 6.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15642,7 +15642,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 4% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 26.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.41x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.11 (P/E 2.9 ÷ EPS growth 27%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.11 (P/E 2.8 ÷ EPS growth 27%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 26.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.38x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 15,200,000 due within 3 years vs 110,821,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -15651,11 +15651,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -11.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 27% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,125,201 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,145,895 (need ≥ 50,000) — JUDGMENT threshold
 
 ### SBAC — SBA COMMUNICATIONS CORP  _(borderline)_
 
-`score 65%` · `coverage 100%` · $19,676m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001034054&type=10-K)
+`score 65%` · `coverage 100%` · $18,946m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001034054&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 8.8%, min 6.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15672,7 +15672,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 286% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 21% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 178.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.22 (P/E 39.2 ÷ EPS growth 179%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.21 (P/E 37.8 ÷ EPS growth 179%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 178.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 6.1x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -15717,7 +15717,7 @@ it wanted to.
 
 ### KMT — KENNAMETAL INC  _(borderline)_
 
-`score 65%` · `coverage 96%` · $2,244m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000055242&type=10-K)
+`score 65%` · `coverage 96%` · $2,269m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000055242&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 10.9%, min 1.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15732,7 +15732,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 14% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 28.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 5.17x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.72 (P/E 20.5 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.73 (P/E 20.8 ÷ EPS growth 28%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 28.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.85x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 42,900,000 due within 3 years vs 649,181,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -15742,21 +15742,21 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -3.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 43,329,083 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,436,007 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### VMD — VIEMED HEALTHCARE, INC.  _(borderline)_
 
-`score 65%` · `coverage 96%` · $335m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001729149&type=10-K)
+`score 65%` · `coverage 96%` · $339m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001729149&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 27.9%, min 5.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital -11.2% (need ≥ 15%) — JUDGMENT
 - `2.17` diluted EPS CAGR 4.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.46x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 7.81 (P/E 32.7 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 7.92 (P/E 33.1 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 4.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.2` receivables growing +8.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 
@@ -15774,14 +15774,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 85% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,017,820 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,013,920 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### KWR — QUAKER CHEMICAL CORP  _(borderline)_
 
-`score 65%` · `coverage 96%` · $2,688m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000081362&type=10-K)
+`score 65%` · `coverage 96%` · $2,657m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000081362&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 4.2%, min 1.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15798,7 +15798,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 4% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 41.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.74x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.58 (P/E 23.8 ÷ EPS growth 41%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.57 (P/E 23.6 ÷ EPS growth 41%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 41.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 869,796,000 due within 3 years vs 909,540,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -15806,14 +15806,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 176% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -13.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,198,123 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,333,741 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### THRM — Gentherm Inc  _(borderline)_
 
-`score 65%` · `coverage 96%` · $1,193m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000903129&type=10-K)
+`score 65%` · `coverage 96%` · $1,116m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000903129&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 12.6%, min 4.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15838,14 +15838,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 131% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,419,042 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,837,467 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### PBH — Prestige Consumer Healthcare Inc.  _(borderline)_
 
-`score 65%` · `coverage 96%` · $2,224m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001295947&type=10-K)
+`score 65%` · `coverage 96%` · $2,130m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001295947&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 7.6%, min -0.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15861,7 +15861,7 @@ it wanted to.
 - `2.11` gross margin = 55% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 20% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 9% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 1.23 (P/E 10.6 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.18 (P/E 10.2 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.4` 400,000,000 due within 3 years vs 816,012,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` interest coverage after a 30% revenue decline = 29.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -15870,14 +15870,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 176% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 28,197,753 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,700,479 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### ICFI — ICF International, Inc.  _(borderline)_
 
-`score 65%` · `coverage 96%` · $1,541m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001362004&type=10-K)
+`score 65%` · `coverage 96%` · $1,528m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001362004&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 7.2%, min 5.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15894,7 +15894,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 14.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.53x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.26 (P/E 18.7 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.25 (P/E 18.5 ÷ EPS growth 15%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 14.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -0.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -15902,7 +15902,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 169% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -6.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,690,147 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,611,746 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
@@ -15934,14 +15934,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 187% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -49.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 36,315,327 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 35,760,913 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### DV — DoubleVerify Holdings, Inc.  _(borderline)_
 
-`score 65%` · `coverage 96%` · $2,078m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819928&type=10-K)
+`score 65%` · `coverage 96%` · $2,086m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819928&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 9.0%, min 5.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15960,20 +15960,20 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 43.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.79x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.67 (P/E 29.1 ÷ EPS growth 43%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.68 (P/E 29.2 ÷ EPS growth 43%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 43.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 305,936,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `7.1` FCF ÷ net income (5y) = 142% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -10.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 27,568,240 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 28,745,287 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### BON — Bon Natural Life Ltd  _(borderline)_
 
-`score 65%` · `coverage 96%` · $4m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001816815&type=10-K)
+`score 65%` · `coverage 96%` · $5m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001816815&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 14.6%, min 10.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -15982,7 +15982,7 @@ it wanted to.
 - `2.11` gross margin = 30% (need ≥ 35%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 60% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +6.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,462 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,627 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (14)**
 - `2.5` revenue CAGR 17.5% — near Mayer's band (SOURCED: Mayer)
@@ -16029,7 +16029,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 121% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 64,347,036 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 65,235,759 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -16037,7 +16037,7 @@ it wanted to.
 
 ### VITL — Vital Farms, Inc.  _(borderline)_
 
-`score 65%` · `coverage 92%` · $418m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579733&type=10-K)
+`score 65%` · `coverage 92%` · $515m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579733&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 70.6%, min 0.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16053,7 +16053,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 30.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.32x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.54 (P/E 16.4 ÷ EPS growth 30%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.67 (P/E 20.1 ÷ EPS growth 30%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 30.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net cash position of 145,545,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -16061,7 +16061,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -3.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 20,615,388 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,130,950 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16069,7 +16069,7 @@ it wanted to.
 
 ### GPGI — GPGI, Inc.  _(borderline)_
 
-`score 65%` · `coverage 92%` · $3,856m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001823144&type=10-K)
+`score 65%` · `coverage 92%` · $3,473m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001823144&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 14.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16093,7 +16093,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 200% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,254,955 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 21,977,473 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16101,7 +16101,7 @@ it wanted to.
 
 ### CTMX — CytomX Therapeutics, Inc.  _(borderline)_
 
-`score 65%` · `coverage 56%` · $717m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501989&type=10-K)
+`score 65%` · `coverage 56%` · $601m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501989&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 54.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16116,7 +16116,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +3.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,258,200 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,304,472 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16141,7 +16141,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 98% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 1.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = -0.19x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 26.04 (P/E 32.3 ÷ EPS growth 1%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 26.06 (P/E 32.3 ÷ EPS growth 1%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 1.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (12)**
@@ -16156,7 +16156,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 92% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 18,702,583 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 18,481,547 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16165,7 +16165,7 @@ it wanted to.
 
 ### RDNT — RadNet, Inc.  _(borderline)_
 
-`score 65%` · `coverage 88%` · $5,941m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000790526&type=10-K)
+`score 65%` · `coverage 88%` · $5,981m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000790526&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 5.3%, min 3.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16197,7 +16197,7 @@ it wanted to.
 
 ### STAA — STAAR SURGICAL CO  _(borderline)_
 
-`score 65%` · `coverage 84%` · $1,136m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000718937&type=10-K)
+`score 65%` · `coverage 84%` · $1,044m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000718937&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 13.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16212,14 +16212,14 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 51.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.47x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.03 (P/E 53.2 ÷ EPS growth 52%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.94 (P/E 48.9 ÷ EPS growth 52%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 51.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count +1.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 9.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 20,221,601 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,120,024 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16229,7 +16229,7 @@ it wanted to.
 
 ### JRSH — Jerash Holdings (US), Inc.  _(borderline)_
 
-`score 65%` · `coverage 84%` · $67m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001696558&type=10-K)
+`score 65%` · `coverage 84%` · $72m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001696558&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 8.7%, min -1.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16251,7 +16251,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 132% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -35.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 382,725 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 394,951 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -16261,7 +16261,7 @@ it wanted to.
 
 ### EYE — National Vision Holdings, Inc.  _(borderline)_
 
-`score 65%` · `coverage 84%` · $1,367m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001710155&type=10-K)
+`score 65%` · `coverage 84%` · $1,334m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001710155&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 6.2%, min 1.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16283,7 +16283,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 259% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 35% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 37,172,120 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 37,817,082 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16293,7 +16293,7 @@ it wanted to.
 
 ### MTSI — MACOM Technology Solutions Holdings, Inc.  _(borderline)_
 
-`score 65%` · `coverage 80%` · $20,994m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001493594&type=10-K)
+`score 65%` · `coverage 80%` · $21,068m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001493594&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 5.8%, min -34.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16314,7 +16314,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 401% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +0.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 490,241,512 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 485,235,074 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16325,7 +16325,7 @@ it wanted to.
 
 ### CSBR — CHAMPIONS ONCOLOGY, INC.  _(borderline)_
 
-`score 65%` · `coverage 80%` · $71m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000771856&type=10-K)
+`score 65%` · `coverage 80%` · $74m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000771856&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -1444.3%, min -4665.4% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16340,7 +16340,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 7% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 104.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 18.93x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.14 (P/E 15.1 ÷ EPS growth 104%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.15 (P/E 15.7 ÷ EPS growth 104%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 104.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -16357,13 +16357,13 @@ it wanted to.
 
 ### CASS — CASS INFORMATION SYSTEMS INC  _(borderline)_
 
-`score 65%` · `coverage 72%` · $707m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000708781&type=10-K)
+`score 65%` · `coverage 72%` · $701m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000708781&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 2.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 33% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 8.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 2.95 (P/E 23.5 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.92 (P/E 23.3 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 8.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (10)**
@@ -16376,7 +16376,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 125% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,770,888 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,812,044 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16389,7 +16389,7 @@ it wanted to.
 
 ### IVT — InvenTrust Properties Corp.  _(borderline)_
 
-`score 65%` · `coverage 72%` · $2,484m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001307748&type=10-K)
+`score 65%` · `coverage 72%` · $2,403m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001307748&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -0.0%, min -1.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16408,7 +16408,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 679% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 20,370,624 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 21,235,429 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.11` gross margin: not derivable from filings
@@ -16421,11 +16421,11 @@ it wanted to.
 
 ### REXR — Rexford Industrial Realty, Inc.  _(borderline)_
 
-`score 65%` · `coverage 72%` · $8,482m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571283&type=10-K)
+`score 65%` · `coverage 72%` · $8,561m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571283&type=10-K)
 
 **Failed (5)**
 - `2.16` worst peak-to-trough revenue decline 100% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 1.55 (P/E 35.6 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.57 (P/E 36.0 ÷ EPS growth 23%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.4` 1,400,883,000 due within 3 years vs 1,338,615,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.11` diluted share count +18.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `6.15` stock-based comp ÷ revenue = 4932.3% (need ≤ 10.0%) — JUDGMENT threshold
@@ -16440,7 +16440,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 195% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 77,840,219 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 82,051,682 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16453,7 +16453,7 @@ it wanted to.
 
 ### KEY — KEYCORP /NEW/  _(borderline)_
 
-`score 65%` · `coverage 72%` · $23,306m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000091576&type=10-K)
+`score 65%` · `coverage 72%` · $22,207m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000091576&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -7.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16472,7 +16472,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 8.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 148% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 234,868,639 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 242,015,292 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16485,14 +16485,14 @@ it wanted to.
 
 ### FORM — FORMFACTOR INC  _(borderline)_
 
-`score 65%` · `coverage 96%` · $8,980m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039399&type=10-K)
+`score 65%` · `coverage 96%` · $9,248m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039399&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 11.3%, min 6.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR -1.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.10` FCF ÷ net income (3y) = 68% (need ≥ 80%) — SOURCED: Smith
 - `2.17` diluted EPS CAGR 2.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 55.11 (P/E 109.0 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 56.76 (P/E 112.2 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 2.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (15)**
@@ -16510,14 +16510,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 108% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 171,134,418 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 160,981,502 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
 
 ### SEAL-PA — Seapeak LLC  _(borderline)_
 
-`score 65%` · `coverage 76%` · $2,048m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001308106&type=10-K)
+`score 65%` · `coverage 76%` · $2,044m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001308106&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 7.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16549,7 +16549,7 @@ it wanted to.
 
 ### CFFI — C & F FINANCIAL CORP  _(borderline)_
 
-`score 65%` · `coverage 68%` · $309m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000913341&type=10-K)
+`score 65%` · `coverage 68%` · $304m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000913341&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -2.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16567,7 +16567,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 138% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 492,591 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 552,181 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16581,7 +16581,7 @@ it wanted to.
 
 ### SKWD — Skyward Specialty Insurance Group, Inc.  _(borderline)_
 
-`score 65%` · `coverage 68%` · $2,519m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001519449&type=10-K)
+`score 65%` · `coverage 68%` · $2,500m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001519449&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 35.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16594,12 +16594,12 @@ it wanted to.
 - `2.13` goodwill + intangibles = 2% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 23.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.23 (P/E 29.3 ÷ EPS growth 24%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.22 (P/E 29.1 ÷ EPS growth 24%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 23.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `7.1` FCF ÷ net income (5y) = 454% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,403,705 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,379,406 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16613,7 +16613,7 @@ it wanted to.
 
 ### AM — Antero Midstream Corp  _(borderline)_
 
-`score 65%` · `coverage 68%` · $10,471m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001623925&type=10-K)
+`score 65%` · `coverage 68%` · $10,058m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001623925&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 3.4%, min -5.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16631,7 +16631,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 528% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 30% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 48,520,536 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 47,545,461 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16645,12 +16645,12 @@ it wanted to.
 
 ### NBTB — NBT BANCORP INC  _(borderline)_
 
-`score 65%` · `coverage 68%` · $2,688m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000790359&type=10-K)
+`score 65%` · `coverage 68%` · $2,676m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000790359&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 0.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 3.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 5.97 (P/E 22.6 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 5.95 (P/E 22.5 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 3.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (10)**
@@ -16663,7 +16663,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 117% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,345,168 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 15,472,875 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16677,7 +16677,7 @@ it wanted to.
 
 ### COLB — COLUMBIA BANKING SYSTEM, INC.  _(borderline)_
 
-`score 65%` · `coverage 68%` · $8,518m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887343&type=10-K)
+`score 65%` · `coverage 68%` · $8,467m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887343&type=10-K)
 
 **Failed (4)**
 - `2.17` diluted EPS CAGR -6.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
@@ -16695,7 +16695,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 190% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 82,141,359 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 82,190,462 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16727,7 +16727,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,004,920 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,066,592 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16741,13 +16741,13 @@ it wanted to.
 
 ### BWMN — Bowman Consulting Group Ltd.  _(borderline)_
 
-`score 65%` · `coverage 92%` · $735m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001847590&type=10-K)
+`score 65%` · `coverage 92%` · $736m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001847590&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 0.9%, min -0.7% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 41.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.13` goodwill + intangibles = 42% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 3.53 (P/E 242.4 ÷ EPS growth 69%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.53 (P/E 242.6 ÷ EPS growth 69%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 4.08x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.11` diluted share count +31.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.8` goodwill + intangibles ÷ assets = 42% (need ≤ 40%) — JUDGMENT threshold
@@ -16765,7 +16765,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 2043% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,600,900 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,836,741 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16773,7 +16773,7 @@ it wanted to.
 
 ### TDC — TERADATA CORP /DE/  _(borderline)_
 
-`score 64%` · `coverage 88%` · $2,589m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000816761&type=10-K)
+`score 64%` · `coverage 88%` · $2,687m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000816761&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 24.5%, min 1.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16796,7 +16796,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 431% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 26% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 79,223,401 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 74,481,307 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16805,7 +16805,7 @@ it wanted to.
 
 ### NOAH — NOAH HOLDINGS LTD  _(borderline)_
 
-`score 64%` · `coverage 88%` · $2,729m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001499543&type=10-K)
+`score 64%` · `coverage 88%` · $2,716m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001499543&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR -6.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16828,7 +16828,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +0.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 796,320 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 803,313 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -16837,13 +16837,13 @@ it wanted to.
 
 ### NGVC — Natural Grocers by Vitamin Cottage, Inc.  _(borderline)_
 
-`score 64%` · `coverage 88%` · $658m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001547459&type=10-K)
+`score 64%` · `coverage 88%` · $714m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001547459&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 14.6%, min 11.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 3.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 4.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 5.99 (P/E 28.3 ÷ EPS growth 5%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 6.50 (P/E 30.7 ÷ EPS growth 5%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 4.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.2` receivables growing +10.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 
@@ -16860,7 +16860,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 121% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,695,359 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,730,988 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.11` gross margin: not derivable from filings
@@ -16869,7 +16869,7 @@ it wanted to.
 
 ### TRTN-PA — Triton International Ltd  _(borderline)_
 
-`score 64%` · `coverage 84%` · $2,610m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660734&type=10-K)
+`score 64%` · `coverage 84%` · $2,590m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660734&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 6.8%, min 4.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16891,7 +16891,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 112% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 53,216 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 57,577 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -16901,7 +16901,7 @@ it wanted to.
 
 ### ALEC — Alector, Inc.  _(borderline)_
 
-`score 64%` · `coverage 60%` · $239m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001653087&type=10-K)
+`score 64%` · `coverage 60%` · $213m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001653087&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 68.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16917,7 +16917,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,171,307 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,221,636 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16933,7 +16933,7 @@ it wanted to.
 
 ### DRH — DiamondRock Hospitality Co  _(borderline)_
 
-`score 64%` · `coverage 60%` · $2,496m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001298946&type=10-K)
+`score 64%` · `coverage 60%` · $2,504m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001298946&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 53.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -16949,7 +16949,7 @@ it wanted to.
 - `5.11` diluted share count +0.6%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 26,266,928 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 26,900,182 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -16965,7 +16965,7 @@ it wanted to.
 
 ### ASYS — AMTECH SYSTEMS INC  _(borderline)_
 
-`score 64%` · `coverage 80%` · $261m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720500&type=10-K)
+`score 64%` · `coverage 80%` · $249m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720500&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 4.4%, min -7.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -16986,7 +16986,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 21% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,754,594 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,536,512 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -17018,7 +17018,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 144% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 42,171,120 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 42,099,252 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.11` gross margin: not derivable from filings
@@ -17050,7 +17050,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 25,784,985 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 25,697,025 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -17061,7 +17061,7 @@ it wanted to.
 
 ### ESE — ESCO TECHNOLOGIES INC  _(borderline)_
 
-`score 64%` · `coverage 80%` · $7,003m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866706&type=10-K)
+`score 64%` · `coverage 80%` · $6,889m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866706&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 5.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -17082,7 +17082,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 93% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +3.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 66,580,975 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 66,294,556 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17114,7 +17114,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 99% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -19.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,908,251 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,844,540 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -17125,7 +17125,7 @@ it wanted to.
 
 ### HPP — Hudson Pacific Properties, Inc.  _(borderline)_
 
-`score 64%` · `coverage 56%` · $663m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001482512&type=10-K)
+`score 64%` · `coverage 56%` · $624m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001482512&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 5.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -17140,7 +17140,7 @@ it wanted to.
 - `5.11` diluted share count -33.6%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `6.15` stock-based comp ÷ revenue = 2.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,315,990 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,898,953 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17162,7 +17162,7 @@ it wanted to.
 **Failed (3)**
 - `2.10` FCF ÷ net income (3y) = 31% (need ≥ 80%) — SOURCED: Smith
 - `7.1` FCF ÷ net income (5y) = 31% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 6,660 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,043 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (8)**
 - `2.5` revenue CAGR 22.3% — in Mayer's band (SOURCED: Mayer)
@@ -17189,7 +17189,7 @@ it wanted to.
 
 ### WWW — WOLVERINE WORLD WIDE INC /DE/  _(borderline)_
 
-`score 64%` · `coverage 76%` · $1,636m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000110471&type=10-K)
+`score 64%` · `coverage 76%` · $1,554m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000110471&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 7.8%, min -8.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17221,7 +17221,7 @@ it wanted to.
 
 ### SILC — SILICOM LTD.  _(borderline)_
 
-`score 64%` · `coverage 76%` · $241m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916793&type=10-K)
+`score 64%` · `coverage 76%` · $262m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916793&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 2.4%, min -25.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17253,7 +17253,7 @@ it wanted to.
 
 ### ANIK — Anika Therapeutics, Inc.  _(borderline)_
 
-`score 64%` · `coverage 76%` · $279m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898437&type=10-K)
+`score 64%` · `coverage 76%` · $278m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898437&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 0.8%, min -14.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17273,7 +17273,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -5.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,317,760 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,267,893 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -17305,7 +17305,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 554% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 435,372 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 424,860 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17339,7 +17339,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 137% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 27,629,335 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,755,493 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.11` gross margin: not derivable from filings
@@ -17357,7 +17357,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = -42% (need ≥ 80%) — SOURCED: Smith
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = -42% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 12,512 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 14,796 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (12)**
 - `2.1` ROIC avg 41.8%, min 15.8% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17381,14 +17381,14 @@ it wanted to.
 
 ### PRDO — PERDOCEO EDUCATION Corp  _(borderline)_
 
-`score 64%` · `coverage 84%` · $2,066m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046568&type=10-K)
+`score 64%` · `coverage 84%` · $2,037m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046568&type=10-K)
 
 **Failed (6)**
 - `2.3` return on incremental invested capital 13.8% (need ≥ 15%) — JUDGMENT
 - `2.5` revenue CAGR 1.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 36% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 7.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.82 (P/E 14.0 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.80 (P/E 13.8 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 7.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 
 **Passed (12)**
@@ -17413,7 +17413,7 @@ it wanted to.
 
 ### AIFU — AIFU Inc.  _(borderline)_
 
-`score 64%` · `coverage 72%` · $12,182m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001413855&type=10-K)
+`score 64%` · `coverage 72%` · $12,715m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001413855&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 11.2%, min -18.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17432,7 +17432,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 3.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 28% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 176,250 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 211,698 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -17445,7 +17445,7 @@ it wanted to.
 
 ### NPKI — NPK International Inc.  _(borderline)_
 
-`score 64%` · `coverage 72%` · $1,126m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000071829&type=10-K)
+`score 64%` · `coverage 72%` · $1,081m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000071829&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -1.2%, min -10.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17464,7 +17464,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -11.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,322,480 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,962,450 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -17477,7 +17477,7 @@ it wanted to.
 
 ### PBYI — PUMA BIOTECHNOLOGY, INC.  _(borderline)_
 
-`score 64%` · `coverage 72%` · $471m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401667&type=10-K)
+`score 64%` · `coverage 72%` · $496m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401667&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 332.7%, min -78.6% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17496,7 +17496,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -2.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,291,601 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,212,819 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -17509,7 +17509,7 @@ it wanted to.
 
 ### GWRE — Guidewire Software, Inc.  _(borderline)_
 
-`score 64%` · `coverage 72%` · $11,554m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001528396&type=10-K)
+`score 64%` · `coverage 72%` · $11,831m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001528396&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -26.7%, min -83.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17528,7 +17528,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -10.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 207,854,546 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 211,849,662 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -17541,7 +17541,7 @@ it wanted to.
 
 ### DKL — Delek Logistics Partners, LP  _(borderline)_
 
-`score 64%` · `coverage 72%` · $3,027m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001552797&type=10-K)
+`score 64%` · `coverage 72%` · $3,070m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001552797&type=10-K)
 
 **Failed (6)**
 - `2.11` gross margin = 28% (need ≥ 35%) — JUDGMENT threshold
@@ -17560,7 +17560,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 104% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,566,356 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,133,824 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17573,7 +17573,7 @@ it wanted to.
 
 ### PD — PagerDuty, Inc.  _(borderline)_
 
-`score 64%` · `coverage 72%` · $1,108m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001568100&type=10-K)
+`score 64%` · `coverage 72%` · $1,101m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001568100&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -76.6%, min -129.7% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17592,7 +17592,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -13.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 16,144,287 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,209,925 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -17605,7 +17605,7 @@ it wanted to.
 
 ### EOLS — Evolus, Inc.  _(borderline)_
 
-`score 64%` · `coverage 72%` · $518m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001570562&type=10-K)
+`score 64%` · `coverage 72%` · $519m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001570562&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -99.0%, min -251.3% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17624,7 +17624,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 8.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 30% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,190,490 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,124,384 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -17637,7 +17637,7 @@ it wanted to.
 
 ### GRND — Grindr Inc.  _(borderline)_
 
-`score 64%` · `coverage 72%` · $2,656m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001820144&type=10-K)
+`score 64%` · `coverage 72%` · $2,677m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001820144&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 9.2%, min 1.7% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17656,7 +17656,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 6.1% (need ≤ 10.0%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,345,157 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,192,297 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -17669,11 +17669,11 @@ it wanted to.
 
 ### BUSE — FIRST BUSEY CORP /NV/  _(borderline)_
 
-`score 64%` · `coverage 64%` · $2,514m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000314489&type=10-K)
+`score 64%` · `coverage 64%` · $2,504m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000314489&type=10-K)
 
 **Failed (4)**
 - `2.17` diluted EPS CAGR 6.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 3.43 (P/E 20.5 ÷ EPS growth 6%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.41 (P/E 20.4 ÷ EPS growth 6%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 6.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.11` diluted share count +2.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 
@@ -17686,7 +17686,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 124% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 20,708,782 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,842,887 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17701,11 +17701,11 @@ it wanted to.
 
 ### GABC — GERMAN AMERICAN BANCORP, INC.  _(borderline)_
 
-`score 64%` · `coverage 64%` · $1,870m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000714395&type=10-K)
+`score 64%` · `coverage 64%` · $1,846m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000714395&type=10-K)
 
 **Failed (4)**
 - `2.17` diluted EPS CAGR 7.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 2.93 (P/E 21.8 ÷ EPS growth 7%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.90 (P/E 21.5 ÷ EPS growth 7%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 7.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.11` diluted share count +4.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 
@@ -17718,7 +17718,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,092,680 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,389,781 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17733,7 +17733,7 @@ it wanted to.
 
 ### JRVR — James River Group Holdings, Inc.  _(borderline)_
 
-`score 64%` · `coverage 52%` · $183m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=10-K)
+`score 64%` · `coverage 52%` · $171m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 6.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -17747,7 +17747,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,239,741 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,194,330 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17765,7 +17765,7 @@ it wanted to.
 
 ### EXOD — Exodus Movement, Inc.  _(borderline)_
 
-`score 64%` · `coverage 52%` · $56m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001821534&type=10-K)
+`score 64%` · `coverage 52%` · $64m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001821534&type=10-K)
 
 **Failed (4)**
 - `2.10` FCF ÷ net income (3y) = -9% (need ≥ 80%) — SOURCED: Smith
@@ -17779,7 +17779,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 5.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 376,119 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 379,772 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17797,7 +17797,7 @@ it wanted to.
 
 ### MTRN — MATERION Corp  _(borderline)_
 
-`score 63%` · `coverage 100%` · $5,365m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001104657&type=10-K)
+`score 63%` · `coverage 100%` · $5,240m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001104657&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 7.3%, min 0.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17813,7 +17813,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 14% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 82.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 12.63x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.68 (P/E 56.1 ÷ EPS growth 83%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.66 (P/E 54.8 ÷ EPS growth 83%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 82.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 42,585,000 due within 3 years vs 217,131,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -17823,11 +17823,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 86% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 67,738,958 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 68,705,746 (need ≥ 50,000) — JUDGMENT threshold
 
 ### USNA — USANA HEALTH SCIENCES INC  _(borderline)_
 
-`score 63%` · `coverage 80%` · $278m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896264&type=10-K)
+`score 63%` · `coverage 80%` · $261m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896264&type=10-K)
 
 **Failed (5)**
 - `2.3` return on incremental invested capital -180.5% (need ≥ 15%) — JUDGMENT
@@ -17848,7 +17848,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 122% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,300,760 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,455,932 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -17891,7 +17891,7 @@ it wanted to.
 
 ### XOS — Xos, Inc.  _(borderline)_
 
-`score 63%` · `coverage 68%` · $39m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819493&type=10-K)
+`score 63%` · `coverage 68%` · $37m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819493&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -71.7%, min -102.1% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17909,7 +17909,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -22.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 513,825 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 541,296 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -17923,7 +17923,7 @@ it wanted to.
 
 ### MLAB — MESA LABORATORIES INC /CO/  _(borderline)_
 
-`score 63%` · `coverage 68%` · $676m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000724004&type=10-K)
+`score 63%` · `coverage 68%` · $708m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000724004&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -12.7%, min -57.9% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -17941,7 +17941,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 5.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -16.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,051,280 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,074,261 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -17955,7 +17955,7 @@ it wanted to.
 
 ### INSG — INSEEGO CORP.  _(borderline)_
 
-`score 63%` · `coverage 68%` · $73m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001022652&type=10-K)
+`score 63%` · `coverage 68%` · $68m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001022652&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -15.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -17973,7 +17973,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +3.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 22% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,422,402 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,154,495 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -17987,7 +17987,7 @@ it wanted to.
 
 ### CPIX — CUMBERLAND PHARMACEUTICALS INC  _(borderline)_
 
-`score 63%` · `coverage 68%` · $96m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001087294&type=10-K)
+`score 63%` · `coverage 68%` · $110m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001087294&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -45.0%, min -66.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18005,7 +18005,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 416,335 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 400,950 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18051,7 +18051,7 @@ it wanted to.
 
 ### RBBN — Ribbon Communications Inc.  _(borderline)_
 
-`score 63%` · `coverage 68%` · $356m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001708055&type=10-K)
+`score 63%` · `coverage 68%` · $308m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001708055&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -7.3%, min -17.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18069,7 +18069,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -2.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 38% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,591,473 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,602,447 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18101,7 +18101,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -15.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 593,920 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 606,369 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18115,14 +18115,14 @@ it wanted to.
 
 ### LYTS — LSI INDUSTRIES INC  _(borderline)_
 
-`score 63%` · `coverage 96%` · $746m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000763532&type=10-K)
+`score 63%` · `coverage 96%` · $758m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000763532&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 10.1%, min 3.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 1.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 28% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 32% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 1.91 (P/E 29.9 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.94 (P/E 30.4 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = -2.1x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +2.6%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.2` receivables growing +9.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
@@ -18140,20 +18140,20 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 147% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 32% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,064,119 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,005,445 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### ACIW — ACI WORLDWIDE, INC.  _(borderline)_
 
-`score 63%` · `coverage 96%` · $5,259m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000935036&type=10-K)
+`score 63%` · `coverage 96%` · $5,075m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000935036&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 6.7%, min 5.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 3.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.13` goodwill + intangibles = 46% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 1.97 (P/E 43.3 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.90 (P/E 41.8 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 2.22x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 0.0x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `7.2` receivables growing +5.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
@@ -18172,14 +18172,14 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 169% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 42,177,659 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 42,779,583 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
 
 ### EAF — GRAFTECH INTERNATIONAL LTD  _(borderline)_
 
-`score 63%` · `coverage 76%` · $172m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000931148&type=10-K)
+`score 63%` · `coverage 76%` · $214m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000931148&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 147.4%, min -15.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18199,7 +18199,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 114% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,876,075 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,888,413 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.17` EPS CAGR not derivable
@@ -18211,7 +18211,7 @@ it wanted to.
 
 ### QGEN — QIAGEN N.V.  _(borderline)_
 
-`score 63%` · `coverage 92%` · $9,219m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001015820&type=10-K)
+`score 63%` · `coverage 92%` · $9,399m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001015820&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 9.2%, min -0.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18235,7 +18235,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 94,376,411 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 92,123,304 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18243,13 +18243,13 @@ it wanted to.
 
 ### DT — Dynatrace, Inc.  _(borderline)_
 
-`score 63%` · `coverage 92%` · $14,759m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001773383&type=10-K)
+`score 63%` · `coverage 92%` · $15,936m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001773383&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 14.9%, min 10.7% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 33% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.18` operating income growth ÷ revenue growth = 0.44x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 3.81 (P/E 95.4 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.12 (P/E 103.1 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = -157.7x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +3.1%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `6.15` stock-based comp ÷ revenue = 14.6% (need ≤ 10.0%) — JUDGMENT threshold
@@ -18267,7 +18267,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -5.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 33% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 233,564,666 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 248,325,444 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18275,7 +18275,7 @@ it wanted to.
 
 ### KNOP — KNOT Offshore Partners LP  _(borderline)_
 
-`score 63%` · `coverage 64%` · $382m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001564180&type=10-K)
+`score 63%` · `coverage 64%` · $385m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001564180&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 1.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -18292,7 +18292,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 363% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 586,300 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 570,382 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -18324,7 +18324,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +2.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 963,996 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 901,032 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18339,7 +18339,7 @@ it wanted to.
 
 ### TGEN — TECOGEN INC.  _(borderline)_
 
-`score 63%` · `coverage 64%` · $92m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001537435&type=10-K)
+`score 63%` · `coverage 64%` · $94m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001537435&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -29.5%, min -74.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18356,7 +18356,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -8.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,144,660 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 987,972 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18388,7 +18388,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing +0.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 49,405,555 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 50,069,530 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18403,7 +18403,7 @@ it wanted to.
 
 ### TENB — Tenable Holdings, Inc.  _(borderline)_
 
-`score 63%` · `coverage 64%` · $3,316m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660280&type=10-K)
+`score 63%` · `coverage 64%` · $3,902m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660280&type=10-K)
 
 **Failed (4)**
 - `2.13` goodwill + intangibles = 36% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -18420,7 +18420,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing +1.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 104,405,468 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 113,498,754 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -18435,7 +18435,7 @@ it wanted to.
 
 ### LVLU — Lulu's Fashion Lounge Holdings, Inc.  _(borderline)_
 
-`score 63%` · `coverage 64%` · $31m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001780201&type=10-K)
+`score 63%` · `coverage 64%` · $29m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001780201&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 12.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -18452,7 +18452,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -40.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 137,250 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 216,920 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -18467,7 +18467,7 @@ it wanted to.
 
 ### SNFCA — SECURITY NATIONAL FINANCIAL CORP  _(borderline)_
 
-`score 63%` · `coverage 72%` · $155m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000318673&type=10-K)
+`score 63%` · `coverage 72%` · $153m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000318673&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -10.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -18486,7 +18486,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 149% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 232,317 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 236,799 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -18499,7 +18499,7 @@ it wanted to.
 
 ### EGY — VAALCO ENERGY INC /DE/  _(borderline)_
 
-`score 63%` · `coverage 72%` · $665m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000894627&type=10-K)
+`score 63%` · `coverage 72%` · $637m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000894627&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 115.1%, min -35.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18550,7 +18550,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 234% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 163,479,556 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 165,514,626 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.11` gross margin: not derivable from filings
@@ -18563,7 +18563,7 @@ it wanted to.
 
 ### LITE — Lumentum Holdings Inc.  _(borderline)_
 
-`score 63%` · `coverage 72%` · $83,155m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001633978&type=10-K)
+`score 63%` · `coverage 72%` · $83,503m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001633978&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -1.9%, min -11.2% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18582,7 +18582,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 9.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 2618% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,988,173,350 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,938,914,404 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -18618,7 +18618,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 91% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 10% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 47,747,325 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 45,525,199 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -18627,7 +18627,7 @@ it wanted to.
 
 ### AUDC — AUDIOCODES LTD  _(borderline)_
 
-`score 63%` · `coverage 88%` · $260m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086434&type=10-K)
+`score 63%` · `coverage 88%` · $274m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086434&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 52.8%, min -14.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18650,7 +18650,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 117% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 951,257 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 944,472 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -18659,7 +18659,7 @@ it wanted to.
 
 ### CGNX — COGNEX CORP  _(borderline)_
 
-`score 63%` · `coverage 88%` · $10,803m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000851205&type=10-K)
+`score 63%` · `coverage 88%` · $10,356m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000851205&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 15.7%, min 8.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18682,7 +18682,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 109% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +2.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 24% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 127,634,520 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 119,260,939 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -18691,13 +18691,13 @@ it wanted to.
 
 ### AVAV — AeroVironment Inc  _(borderline)_
 
-`score 63%` · `coverage 88%` · $7,456m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001368622&type=10-K)
+`score 63%` · `coverage 88%` · $8,129m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001368622&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 1.3%, min -29.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 88% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.18` operating income growth ÷ revenue growth = 0.84x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 3.96 (P/E 125.0 ÷ EPS growth 32%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.31 (P/E 136.2 ÷ EPS growth 32%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = -0.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
 - `5.11` diluted share count +2.1%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -18714,7 +18714,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 2.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -2.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 201,504,254 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 202,420,409 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18723,7 +18723,7 @@ it wanted to.
 
 ### CLW — Clearwater Paper Corp  _(borderline)_
 
-`score 62%` · `coverage 92%` · $326m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001441236&type=10-K)
+`score 62%` · `coverage 92%` · $337m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001441236&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 6.5%, min 0.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18738,7 +18738,7 @@ it wanted to.
 **Passed (12)**
 - `2.10` FCF ÷ net income (3y) = 232% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 2% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 0.28 (P/E 3.0 ÷ EPS growth 11%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.28 (P/E 3.1 ÷ EPS growth 11%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 1.15x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 4,600,000 due within 3 years vs 430,850,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
@@ -18747,7 +18747,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 210% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,900,634 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,972,346 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18755,7 +18755,7 @@ it wanted to.
 
 ### AESI — Atlas Energy Solutions Inc.  _(borderline)_
 
-`score 62%` · `coverage 92%` · $1,770m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001984060&type=10-K)
+`score 62%` · `coverage 92%` · $1,694m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001984060&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 14.4%, min 6.0% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18771,7 +18771,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 397.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.55x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.04 (P/E 16.8 ÷ EPS growth 398%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.04 (P/E 16.1 ÷ EPS growth 398%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 397.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count +0.0%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -18779,7 +18779,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -38.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 44,444,026 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 42,815,741 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -18787,7 +18787,7 @@ it wanted to.
 
 ### NVGS — Navigator Holdings Ltd.  _(borderline)_
 
-`score 62%` · `coverage 84%` · $1,509m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581804&type=10-K)
+`score 62%` · `coverage 84%` · $1,631m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581804&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 2.7%, min -0.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18809,7 +18809,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 297% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -18.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,049,368 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,099,090 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18819,7 +18819,7 @@ it wanted to.
 
 ### SGU — STAR GROUP, L.P.  _(borderline)_
 
-`score 62%` · `coverage 84%` · $423m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001002590&type=10-K)
+`score 62%` · `coverage 84%` · $414m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001002590&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 10.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -18841,7 +18841,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 189% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 38% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 246,380 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 232,413 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -18851,7 +18851,7 @@ it wanted to.
 
 ### CTRN — Citi Trends Inc  _(borderline)_
 
-`score 62%` · `coverage 68%` · $506m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318484&type=10-K)
+`score 62%` · `coverage 68%` · $462m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318484&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg 48.8%, min -23.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18869,7 +18869,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 77% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,471,520 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,216,480 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -18883,7 +18883,7 @@ it wanted to.
 
 ### OSW — ONESPAWORLD HOLDINGS Ltd  _(borderline)_
 
-`score 62%` · `coverage 68%` · $2,207m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001758488&type=10-K)
+`score 62%` · `coverage 68%` · $2,220m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001758488&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -16.5%, min -42.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -18915,7 +18915,7 @@ it wanted to.
 
 ### MLGO — MicroAlgo Inc.  _(borderline)_
 
-`score 62%` · `coverage 60%` · $188m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800392&type=10-K)
+`score 62%` · `coverage 60%` · $176m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800392&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -9.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -18931,7 +18931,7 @@ it wanted to.
 - `5.11` diluted share count -92.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 8% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 189,655 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 185,535 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -18947,7 +18947,7 @@ it wanted to.
 
 ### MNDY — monday.com Ltd.  _(borderline)_
 
-`score 62%` · `coverage 60%` · $4,443m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845338&type=10-K)
+`score 62%` · `coverage 60%` · $4,355m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845338&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 65.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -18963,7 +18963,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -20.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 111,498,843 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 111,234,723 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -18979,7 +18979,7 @@ it wanted to.
 
 ### AVPT — AvePoint, Inc.  _(borderline)_
 
-`score 62%` · `coverage 60%` · $2,678m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001777921&type=10-K)
+`score 62%` · `coverage 60%` · $2,791m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001777921&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR 12.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -18995,7 +18995,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing +4.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,295,666 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,869,631 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19034,7 +19034,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 319% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,155,320 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,253,817 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -19043,7 +19043,7 @@ it wanted to.
 
 ### PNTG — Pennant Group, Inc.  _(borderline)_
 
-`score 62%` · `coverage 88%` · $1,369m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001766400&type=10-K)
+`score 62%` · `coverage 88%` · $1,384m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001766400&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 8.2%, min 2.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19066,7 +19066,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 100% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +3.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,267,095 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,303,324 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.11` gross margin: not derivable from filings
@@ -19075,7 +19075,7 @@ it wanted to.
 
 ### IRDM — Iridium Communications Inc.  _(borderline)_
 
-`score 62%` · `coverage 80%` · $5,012m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418819&type=10-K)
+`score 62%` · `coverage 80%` · $4,956m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418819&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 1.5%, min 0.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19096,7 +19096,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 7.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 77,650,856 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 75,775,603 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -19107,7 +19107,7 @@ it wanted to.
 
 ### ECVT — Ecovyst Inc.  _(borderline)_
 
-`score 62%` · `coverage 80%` · $1,086m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001708035&type=10-K)
+`score 62%` · `coverage 80%` · $1,143m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001708035&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 3.6%, min 1.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19128,7 +19128,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -18.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 21% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,947,640 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 15,539,628 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -19160,7 +19160,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 80% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 19,360,649 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 19,118,160 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19192,7 +19192,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -43.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 202,685,626 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 197,381,748 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -19203,7 +19203,7 @@ it wanted to.
 
 ### AGO — ASSURED GUARANTY LTD  _(borderline)_
 
-`score 62%` · `coverage 72%` · $3,207m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001273813&type=10-K)
+`score 62%` · `coverage 72%` · $3,094m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001273813&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR -15.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -19216,13 +19216,13 @@ it wanted to.
 **Passed (9)**
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 43.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.10 (P/E 4.3 ÷ EPS growth 43%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.10 (P/E 4.2 ÷ EPS growth 43%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 43.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 680,000,000 due within 3 years vs 2,811,000,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.11` diluted share count -11.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 27,635,036 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,738,967 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19235,7 +19235,7 @@ it wanted to.
 
 ### CTEV — Claritev Corp  _(borderline)_
 
-`score 62%` · `coverage 64%` · $610m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001793229&type=10-K)
+`score 62%` · `coverage 64%` · $522m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001793229&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 2.5%, min -1.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19252,7 +19252,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -4.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,212,428 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,325,796 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -19267,7 +19267,7 @@ it wanted to.
 
 ### PLOW — DOUGLAS DYNAMICS, INC  _(borderline)_
 
-`score 62%` · `coverage 84%` · $929m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001287213&type=10-K)
+`score 62%` · `coverage 84%` · $921m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001287213&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 9.7%, min -13.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19289,7 +19289,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 1819% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,580,021 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,170,513 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -19299,7 +19299,7 @@ it wanted to.
 
 ### CVGI — Commercial Vehicle Group, Inc.  _(borderline)_
 
-`score 62%` · `coverage 84%` · $129m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001290900&type=10-K)
+`score 62%` · `coverage 84%` · $119m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001290900&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 9.5%, min -6.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19321,7 +19321,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 202% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -17.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,704,002 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,606,668 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -19331,7 +19331,7 @@ it wanted to.
 
 ### CURV — Torrid Holdings Inc.  _(borderline)_
 
-`score 62%` · `coverage 84%` · $224m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001792781&type=10-K)
+`score 62%` · `coverage 84%` · $229m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001792781&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 5.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -19385,7 +19385,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 123% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,442,325 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,500,848 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -19410,7 +19410,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -233.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 92,284 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 86,152 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19427,7 +19427,7 @@ it wanted to.
 
 ### ITIC — INVESTORS TITLE CO  _(borderline)_
 
-`score 62%` · `coverage 68%` · $562m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720858&type=10-K)
+`score 62%` · `coverage 68%` · $546m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720858&type=10-K)
 
 **Failed (5)**
 - `2.10` FCF ÷ net income (3y) = 40% (need ≥ 80%) — SOURCED: Smith
@@ -19445,7 +19445,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,511,376 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,401,542 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19459,7 +19459,7 @@ it wanted to.
 
 ### ECPG — ENCORE CAPITAL GROUP INC  _(borderline)_
 
-`score 62%` · `coverage 68%` · $2,090m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001084961&type=10-K)
+`score 62%` · `coverage 68%` · $2,111m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001084961&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 32.2%, min 1.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19477,7 +19477,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 147% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,734,535 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,033,717 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -19509,7 +19509,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 235% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 68,314,895 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 66,927,708 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19523,7 +19523,7 @@ it wanted to.
 
 ### IBKR — Interactive Brokers Group, Inc.  _(borderline)_
 
-`score 62%` · `coverage 68%` · $3,859m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001381197&type=10-K)
+`score 62%` · `coverage 68%` · $3,830m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001381197&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 6.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -19555,7 +19555,7 @@ it wanted to.
 
 ### NAVI — NAVIENT CORP  _(borderline)_
 
-`score 62%` · `coverage 68%` · $883m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001593538&type=10-K)
+`score 62%` · `coverage 68%` · $892m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001593538&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -5.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -19573,7 +19573,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 142% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,400,120 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,939,783 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19587,12 +19587,12 @@ it wanted to.
 
 ### PSTL — Postal Realty Trust, Inc.  _(borderline)_
 
-`score 62%` · `coverage 88%` · $702m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001759774&type=10-K)
+`score 62%` · `coverage 88%` · $715m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001759774&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 2.3%, min 0.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital 5.8% (need ≥ 15%) — JUDGMENT
-- `3.2` PEG 4.28 (P/E 106.4 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.36 (P/E 108.4 ÷ EPS growth 25%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 6.80x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 177,219,000 due within 3 years vs 102,308,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.11` diluted share count +33.9%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -19619,7 +19619,7 @@ it wanted to.
 
 ### MNRO — MONRO, INC.  _(borderline)_
 
-`score 62%` · `coverage 88%` · $384m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000876427&type=10-K)
+`score 62%` · `coverage 88%` · $363m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000876427&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 7.6%, min 6.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19627,7 +19627,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 45% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 5.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = -0.09x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.98 (P/E 10.2 ÷ EPS growth 5%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.88 (P/E 9.7 ÷ EPS growth 5%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 5.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 45% (need ≤ 40%) — JUDGMENT threshold
 
@@ -19651,14 +19651,14 @@ it wanted to.
 
 ### RBC — RBC Bearings INC  _(borderline)_
 
-`score 62%` · `coverage 100%` · $15,666m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001324948&type=10-K)
+`score 62%` · `coverage 100%` · $15,862m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001324948&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 7.6%, min 3.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital 5.7% (need ≥ 15%) — JUDGMENT
 - `2.5` revenue CAGR 36.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.13` goodwill + intangibles = 47% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 2.85 (P/E 74.6 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.89 (P/E 75.6 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 1.72x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.11` diluted share count +3.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.8` goodwill + intangibles ÷ assets = 47% (need ≤ 40%) — JUDGMENT threshold
@@ -19677,18 +19677,18 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 146% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -29.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 137,879,764 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 145,627,857 (need ≥ 50,000) — JUDGMENT threshold
 
 ### CECO — CECO ENVIRONMENTAL CORP  _(borderline)_
 
-`score 62%` · `coverage 100%` · $4,588m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000003197&type=10-K)
+`score 62%` · `coverage 100%` · $4,069m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000003197&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 4.4%, min 1.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital 4.8% (need ≥ 15%) — JUDGMENT
 - `2.11` gross margin = 31% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 38% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 21.55 (P/E 355.4 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 19.12 (P/E 315.2 ÷ EPS growth 16%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 3.85x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 214,400,000 due within 3 years vs 146,621,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` interest coverage after a 30% revenue decline = -1.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -19707,18 +19707,18 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 136% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 38% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 59,151,497 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 59,553,182 (need ≥ 50,000) — JUDGMENT threshold
 
 ### HAE — HAEMONETICS CORP  _(borderline)_
 
-`score 62%` · `coverage 100%` · $4,672m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000313143&type=10-K)
+`score 62%` · `coverage 100%` · $4,932m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000313143&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 7.0%, min 4.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital 6.7% (need ≥ 15%) — JUDGMENT
 - `2.5` revenue CAGR 14.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.13` goodwill + intangibles = 41% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 2.87 (P/E 39.7 ÷ EPS growth 14%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.03 (P/E 42.0 ÷ EPS growth 14%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 3.50x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -2.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `7.8` goodwill + intangibles ÷ assets = 41% (need ≤ 40%) — JUDGMENT threshold
@@ -19737,18 +19737,18 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 112% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -6.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 62,254,500 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 63,154,554 (need ≥ 50,000) — JUDGMENT threshold
 
 ### NOVT — NOVANTA INC  _(borderline)_
 
-`score 62%` · `coverage 100%` · $5,543m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001076930&type=10-K)
+`score 62%` · `coverage 100%` · $5,035m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001076930&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 8.0%, min 6.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital 9.5% (need ≥ 15%) — JUDGMENT
 - `2.5` revenue CAGR 14.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.13` goodwill + intangibles = 55% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 4.36 (P/E 76.1 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.96 (P/E 69.1 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net debt ÷ EBITDA = 1.93x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -0.3x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `7.8` goodwill + intangibles ÷ assets = 55% (need ≤ 40%) — JUDGMENT threshold
@@ -19767,18 +19767,18 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 152% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 64,866,297 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 64,001,684 (need ≥ 50,000) — JUDGMENT threshold
 
 ### ATMU — Atmus Filtration Technologies Inc.  _(borderline)_
 
-`score 62%` · `coverage 100%` · $3,705m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001921963&type=10-K)
+`score 62%` · `coverage 100%` · $3,581m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001921963&type=10-K)
 
 **Failed (8)**
 - `2.3` return on incremental invested capital 4.8% (need ≥ 15%) — JUDGMENT
 - `2.5` revenue CAGR 6.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 27% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 0.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 74.09 (P/E 21.6 ÷ EPS growth 0%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 71.61 (P/E 20.9 ÷ EPS growth 0%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 0.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.51x (need ≤ 1.50x) — JUDGMENT threshold
 - `7.2` receivables growing +14.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
@@ -19797,11 +19797,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 88% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 33,843,017 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 33,487,884 (need ≥ 50,000) — JUDGMENT threshold
 
 ### MEI — METHODE ELECTRONICS INC  _(borderline)_
 
-`score 62%` · `coverage 80%` · $522m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065270&type=10-K)
+`score 62%` · `coverage 80%` · $473m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065270&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 7.7%, min -9.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19822,7 +19822,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 132% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,319,570 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,428,307 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -19865,7 +19865,7 @@ it wanted to.
 
 ### VIR — Vir Biotechnology, Inc.  _(borderline)_
 
-`score 62%` · `coverage 60%` · $1,797m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001706431&type=10-K)
+`score 62%` · `coverage 60%` · $1,794m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001706431&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 4.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -19881,7 +19881,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,069,576 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 15,729,397 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19897,7 +19897,7 @@ it wanted to.
 
 ### RPD — Rapid7, Inc.  _(borderline)_
 
-`score 62%` · `coverage 60%` · $695m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001560327&type=10-K)
+`score 62%` · `coverage 60%` · $807m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001560327&type=10-K)
 
 **Failed (4)**
 - `2.13` goodwill + intangibles = 38% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -19913,7 +19913,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.8` goodwill + intangibles ÷ assets = 38% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 18,954,500 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,366,881 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19929,7 +19929,7 @@ it wanted to.
 
 ### EQ — Equillium, Inc.  _(borderline)_
 
-`score 62%` · `coverage 60%` · $134m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001746466&type=10-K)
+`score 62%` · `coverage 60%` · $122m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001746466&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -270.9%, min -839.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -19945,7 +19945,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 9.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -97.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,105,800 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,137,010 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -19961,7 +19961,7 @@ it wanted to.
 
 ### FOR — Forestar Group Inc.  _(borderline)_
 
-`score 61%` · `coverage 84%` · $1,370m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001406587&type=10-K)
+`score 61%` · `coverage 84%` · $1,327m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001406587&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 11.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -19975,7 +19975,7 @@ it wanted to.
 **Passed (11)**
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 38.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.22 (P/E 8.2 ÷ EPS growth 38%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.21 (P/E 8.0 ÷ EPS growth 38%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 38.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 108,429,000 due within 3 years vs 1,569,600,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
@@ -19983,7 +19983,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,744,960 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,752,910 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -19993,7 +19993,7 @@ it wanted to.
 
 ### AAT — American Assets Trust, Inc.  _(borderline)_
 
-`score 61%` · `coverage 84%` · $1,320m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001500217&type=10-K)
+`score 61%` · `coverage 84%` · $1,348m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001500217&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 3.1%, min 2.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20008,14 +20008,14 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 341% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 21.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.93 (P/E 20.4 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.95 (P/E 20.8 ÷ EPS growth 22%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 21.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 425,000,000 due within 3 years vs 991,912,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 323% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,288,804 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,564,773 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20025,7 +20025,7 @@ it wanted to.
 
 ### HOUR — Hour Loop, Inc  _(borderline)_
 
-`score 61%` · `coverage 72%` · $65m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001874875&type=10-K)
+`score 61%` · `coverage 72%` · $62m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001874875&type=10-K)
 
 **Failed (6)**
 - `2.18` operating income growth ÷ revenue growth = -1.62x (need ≥ 1.00x) — JUDGMENT threshold
@@ -20033,7 +20033,7 @@ it wanted to.
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = -41% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +105.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 40,664 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 38,220 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (9)**
 - `2.5` revenue CAGR 30.1% — near Mayer's band (SOURCED: Mayer)
@@ -20057,13 +20057,13 @@ it wanted to.
 
 ### FIZZ — NATIONAL BEVERAGE CORP  _(borderline)_
 
-`score 61%` · `coverage 96%` · $2,937m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000069891&type=10-K)
+`score 61%` · `coverage 96%` · $2,958m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000069891&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 3.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 0.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = -0.39x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 33.98 (P/E 16.6 ÷ EPS growth 0%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 34.23 (P/E 16.7 ÷ EPS growth 0%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 0.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.11` diluted share count +297.9%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` preferred stock of 150,000 ranks ahead of common
@@ -20082,21 +20082,21 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 94% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +0.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,381,426 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,902,181 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### WDFC — WD 40 CO  _(borderline)_
 
-`score 61%` · `coverage 96%` · $2,615m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000105132&type=10-K)
+`score 61%` · `coverage 96%` · $2,540m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000105132&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 9.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.10` FCF ÷ net income (3y) = 76% (need ≥ 80%) — SOURCED: Smith
 - `2.17` diluted EPS CAGR 3.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.54x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 12.74 (P/E 39.6 ÷ EPS growth 3%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 12.38 (P/E 38.5 ÷ EPS growth 3%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 3.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 1.3x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 
@@ -20121,14 +20121,14 @@ it wanted to.
 
 ### TREX — TREX CO INC  _(borderline)_
 
-`score 61%` · `coverage 96%` · $4,579m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001069878&type=10-K)
+`score 61%` · `coverage 96%` · $4,349m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001069878&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 7.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.10` FCF ÷ net income (3y) = 61% (need ≥ 80%) — SOURCED: Smith
 - `2.17` diluted EPS CAGR 7.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.74x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 3.00 (P/E 22.4 ÷ EPS growth 7%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.85 (P/E 21.3 ÷ EPS growth 7%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 7.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 51% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 
@@ -20146,14 +20146,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -23.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 78,859,862 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 76,667,485 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### DSX — DIANA SHIPPING INC.  _(borderline)_
 
-`score 61%` · `coverage 76%` · $344m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318885&type=10-K)
+`score 61%` · `coverage 76%` · $360m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318885&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 3.8%, min -9.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20173,7 +20173,7 @@ it wanted to.
 - `5.11` diluted share count -0.5%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.1` FCF ÷ net income (5y) = 441% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,644,343 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,711,730 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20193,7 +20193,7 @@ it wanted to.
 - `2.11` gross margin = 35% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 32% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `5.5` interest coverage after a 30% revenue decline = -7.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
-- `8.8` median daily dollar volume 9,676 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,732 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (10)**
 - `2.10` FCF ÷ net income (3y) = 123% (need ≥ 80%) — SOURCED: Smith
@@ -20237,7 +20237,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -214.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 286,150 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 267,332 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.17` EPS CAGR not derivable
@@ -20249,7 +20249,7 @@ it wanted to.
 
 ### VIAV — VIAVI SOLUTIONS INC.  _(borderline)_
 
-`score 61%` · `coverage 76%` · $9,562m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912093&type=10-K)
+`score 61%` · `coverage 76%` · $8,725m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912093&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 20.1%, min 3.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20269,7 +20269,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 426% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 34% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 235,733,481 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 227,042,950 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20281,7 +20281,7 @@ it wanted to.
 
 ### USIO — Usio, Inc.  _(borderline)_
 
-`score 61%` · `coverage 76%` · $70m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088034&type=10-K)
+`score 61%` · `coverage 76%` · $68m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088034&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -21.8%, min -54.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20301,7 +20301,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -9.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 328,615 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 398,137 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -20313,7 +20313,7 @@ it wanted to.
 
 ### CVEO — Civeo Corp  _(borderline)_
 
-`score 61%` · `coverage 76%` · $352m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590584&type=10-K)
+`score 61%` · `coverage 76%` · $355m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590584&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -3.7%, min -25.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20333,7 +20333,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -17.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 14% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,989,510 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,026,926 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20345,7 +20345,7 @@ it wanted to.
 
 ### ONT — Onterris, Inc.  _(borderline)_
 
-`score 61%` · `coverage 76%` · $644m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001643615&type=10-K)
+`score 61%` · `coverage 76%` · $636m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001643615&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -6.3%, min -12.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20365,7 +20365,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 7.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -6.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,764,383 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 10,501,050 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -20377,7 +20377,7 @@ it wanted to.
 
 ### HIW — HIGHWOODS PROPERTIES, INC.  _(borderline)_
 
-`score 61%` · `coverage 80%` · $3,411m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921082&type=10-K)
+`score 61%` · `coverage 80%` · $3,354m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921082&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 4.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -20398,7 +20398,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 171% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 38,591,687 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 38,826,808 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.11` gross margin: not derivable from filings
@@ -20409,13 +20409,13 @@ it wanted to.
 
 ### VICR — VICOR CORP  _(borderline)_
 
-`score 61%` · `coverage 92%` · $5,339m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000751978&type=10-K)
+`score 61%` · `coverage 92%` · $6,009m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000751978&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 11.6%, min 5.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 11.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.10` FCF ÷ net income (3y) = 5% (need ≥ 80%) — SOURCED: Smith
-- `3.2` PEG 2.32 (P/E 99.6 ÷ EPS growth 43%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.61 (P/E 112.1 ÷ EPS growth 43%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.11` diluted share count +2.0%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.1` FCF ÷ net income (5y) = 13% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 
@@ -20441,7 +20441,7 @@ it wanted to.
 
 ### DTI — Drilling Tools International Corp  _(borderline)_
 
-`score 61%` · `coverage 92%` · $93m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001884516&type=10-K)
+`score 61%` · `coverage 92%` · $87m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001884516&type=10-K)
 
 **Failed (8)**
 - `2.5` revenue CAGR 9.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -20458,14 +20458,14 @@ it wanted to.
 - `2.13` goodwill + intangibles = 22% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 35.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.88 (P/E 30.8 ÷ EPS growth 35%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.82 (P/E 28.9 ÷ EPS growth 35%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 35.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 0.40x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 22% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 527,589 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 525,845 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -20488,7 +20488,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -22.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 21% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 30,924,292 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,420,020 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -20520,7 +20520,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 2.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 112,216 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 113,364 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -20537,7 +20537,7 @@ it wanted to.
 
 ### ACIC — AMERICAN COASTAL INSURANCE Corp  _(borderline)_
 
-`score 61%` · `coverage 60%` · $453m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401521&type=10-K)
+`score 61%` · `coverage 60%` · $445m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401521&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -18.5%, min -36.9% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20553,7 +20553,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,695,321 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,687,520 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20588,7 +20588,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -12.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 217,350 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 204,828 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -20601,7 +20601,7 @@ it wanted to.
 
 ### IMAX — IMAX CORP  _(borderline)_
 
-`score 61%` · `coverage 72%` · $2,857m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921582&type=10-K)
+`score 61%` · `coverage 72%` · $2,894m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921582&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -4.1%, min -57.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20620,7 +20620,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -40.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 43,291,989 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 45,474,519 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20633,7 +20633,7 @@ it wanted to.
 
 ### HCSG — HEALTHCARE SERVICES GROUP INC  _(borderline)_
 
-`score 61%` · `coverage 72%` · $1,509m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731012&type=10-K)
+`score 61%` · `coverage 72%` · $1,474m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731012&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -1.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -20652,7 +20652,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 126% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,852,080 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,854,280 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -20665,7 +20665,7 @@ it wanted to.
 
 ### XGN — EXAGEN INC.  _(borderline)_
 
-`score 61%` · `coverage 72%` · $170m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001274737&type=10-K)
+`score 61%` · `coverage 72%` · $204m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001274737&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -60.3%, min -70.9% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20684,7 +20684,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -16.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,301,620 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,383,338 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20697,7 +20697,7 @@ it wanted to.
 
 ### ANGO — ANGIODYNAMICS INC  _(borderline)_
 
-`score 61%` · `coverage 72%` · $631m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001275187&type=10-K)
+`score 61%` · `coverage 72%` · $638m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001275187&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg -22.7%, min -57.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20716,7 +20716,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 3.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -7.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,525,470 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,685,256 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20729,7 +20729,7 @@ it wanted to.
 
 ### MDXG — MIMEDX GROUP, INC.  _(borderline)_
 
-`score 61%` · `coverage 72%` · $666m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001376339&type=10-K)
+`score 61%` · `coverage 72%` · $695m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001376339&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 9.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -20748,7 +20748,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +2.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,684,336 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,550,806 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -20761,7 +20761,7 @@ it wanted to.
 
 ### IRTC — iRhythm Holdings, Inc.  _(borderline)_
 
-`score 61%` · `coverage 72%` · $3,673m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=10-K)
+`score 61%` · `coverage 72%` · $3,604m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -82.8%, min -112.8% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20780,7 +20780,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -3.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 62,596,811 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 61,464,238 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20793,7 +20793,7 @@ it wanted to.
 
 ### SGHT — Sight Sciences, Inc.  _(borderline)_
 
-`score 61%` · `coverage 72%` · $448m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001531177&type=10-K)
+`score 61%` · `coverage 72%` · $442m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001531177&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -88.4%, min -101.8% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20825,7 +20825,7 @@ it wanted to.
 
 ### AMPY — Amplify Energy Corp.  _(borderline)_
 
-`score 61%` · `coverage 72%` · $204m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001533924&type=10-K)
+`score 61%` · `coverage 72%` · $187m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001533924&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 15.8%, min -51.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20844,7 +20844,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -19.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,887,200 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,832,830 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20864,7 +20864,7 @@ it wanted to.
 - `2.5` revenue CAGR 45.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 98% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `5.5` interest coverage after a 30% revenue decline = -44.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
-- `8.8` median daily dollar volume 42,660 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 37,407 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (10)**
 - `2.10` FCF ÷ net income (3y) = 2541% (need ≥ 80%) — SOURCED: Smith
@@ -20889,7 +20889,7 @@ it wanted to.
 
 ### GRWG — GrowGeneration Corp.  _(borderline)_
 
-`score 61%` · `coverage 72%` · $90m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604868&type=10-K)
+`score 61%` · `coverage 72%` · $93m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604868&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -24.4%, min -53.9% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20908,7 +20908,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +3.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 458,631 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 434,854 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20921,7 +20921,7 @@ it wanted to.
 
 ### KLXE — KLX Energy Services Holdings, Inc.  _(borderline)_
 
-`score 61%` · `coverage 72%` · $33m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001738827&type=10-K)
+`score 61%` · `coverage 72%` · $32m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001738827&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 1.9%, min -18.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -20940,7 +20940,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -19.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 690,908 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 689,130 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -20953,12 +20953,12 @@ it wanted to.
 
 ### GATX — GATX CORP  _(borderline)_
 
-`score 61%` · `coverage 76%` · $6,302m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000040211&type=10-K)
+`score 61%` · `coverage 76%` · $6,280m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000040211&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 3.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.10` FCF ÷ net income (3y) = 77% (need ≥ 80%) — SOURCED: Smith
-- `3.2` PEG 1.72 (P/E 24.3 ÷ EPS growth 14%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.71 (P/E 24.2 ÷ EPS growth 14%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.4` 2,332,600,000 due within 3 years vs 550,100,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `7.1` FCF ÷ net income (5y) = -46% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 
@@ -20973,7 +20973,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -19.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 35,337,327 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 35,204,887 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -20985,7 +20985,7 @@ it wanted to.
 
 ### ATLCP — Atlanticus Holdings Corp  _(borderline)_
 
-`score 61%` · `coverage 76%` · $365m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001464343&type=10-K)
+`score 61%` · `coverage 76%` · $367m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001464343&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 136.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -20999,13 +20999,13 @@ it wanted to.
 - `2.11` gross margin = 42% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 1% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 0.40 (P/E 3.3 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.41 (P/E 3.3 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 316% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 85,579 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 81,177 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21040,7 +21040,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 111% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 51,720,391 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 50,499,530 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21049,7 +21049,7 @@ it wanted to.
 
 ### STRT — STRATTEC SECURITY CORP  _(borderline)_
 
-`score 60%` · `coverage 88%` · $284m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000933034&type=10-K)
+`score 60%` · `coverage 88%` · $269m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000933034&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 7.6%, min -2.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -21065,14 +21065,14 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 21% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 31.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.38x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.55 (P/E 17.4 ÷ EPS growth 31%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.53 (P/E 16.5 ÷ EPS growth 31%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 31.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.11` diluted share count +1.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +4.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,683,066 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 6,633,169 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21081,14 +21081,14 @@ it wanted to.
 
 ### NHC — NATIONAL HEALTHCARE CORP  _(borderline)_
 
-`score 60%` · `coverage 92%` · $3,516m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047335&type=10-K)
+`score 60%` · `coverage 92%` · $3,479m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047335&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 4.5%, min 2.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital 1.3% (need ≥ 15%) — JUDGMENT
 - `2.5` revenue CAGR 5.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.10` FCF ÷ net income (3y) = 37% (need ≥ 80%) — SOURCED: Smith
-- `3.2` PEG 3.13 (P/E 52.6 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.09 (P/E 52.1 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.12` preferred stock of 170,494,000 ranks ahead of common
 - `7.2` receivables growing +6.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 
@@ -21113,7 +21113,7 @@ it wanted to.
 
 ### STRW — Strawberry Fields REIT, Inc.  _(borderline)_
 
-`score 60%` · `coverage 92%` · $196m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001782430&type=10-K)
+`score 60%` · `coverage 92%` · $194m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001782430&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 6.5%, min 5.6% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -21130,14 +21130,14 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 36.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 1.79x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.31 (P/E 47.8 ÷ EPS growth 37%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.30 (P/E 47.5 ÷ EPS growth 37%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 36.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 2376% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 398,580 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 402,589 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -21145,12 +21145,12 @@ it wanted to.
 
 ### QXO — QXO, Inc.  _(borderline)_
 
-`score 60%` · `coverage 92%` · $12,772m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001236275&type=10-K)
+`score 60%` · `coverage 92%` · $11,807m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001236275&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg -19.8%, min -57.3% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 8.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
-- `3.2` PEG 12.35 (P/E 456.1 ÷ EPS growth 37%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 11.41 (P/E 421.7 ÷ EPS growth 37%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = -779.3x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +88.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `6.15` stock-based comp ÷ revenue = 60.5% (need ≤ 10.0%) — JUDGMENT threshold
@@ -21177,7 +21177,7 @@ it wanted to.
 
 ### NRC — NRC HEALTH  _(borderline)_
 
-`score 60%` · `coverage 88%` · $467m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000070487&type=10-K)
+`score 60%` · `coverage 88%` · $455m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000070487&type=10-K)
 
 **Failed (8)**
 - `2.3` return on incremental invested capital -3.1% (need ≥ 15%) — JUDGMENT
@@ -21200,7 +21200,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 96% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -10.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,192,253 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,145,594 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.11` gross margin: not derivable from filings
@@ -21209,7 +21209,7 @@ it wanted to.
 
 ### SVV — Savers Value Village, Inc.  _(borderline)_
 
-`score 60%` · `coverage 88%` · $1,500m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001883313&type=10-K)
+`score 60%` · `coverage 88%` · $1,390m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001883313&type=10-K)
 
 **Failed (8)**
 - `2.5` revenue CAGR 11.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21232,7 +21232,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 126% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,533,133 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,574,972 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21241,7 +21241,7 @@ it wanted to.
 
 ### NTWK — NETSOL TECHNOLOGIES INC  _(borderline)_
 
-`score 60%` · `coverage 84%` · $48m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039280&type=10-K)
+`score 60%` · `coverage 84%` · $52m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039280&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -3.2%, min -37.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -21263,7 +21263,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 73,080 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 73,584 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21273,12 +21273,12 @@ it wanted to.
 
 ### SOGP — Sound Group Inc.  _(borderline)_
 
-`score 60%` · `coverage 84%` · $9,901m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001783407&type=10-K)
+`score 60%` · `coverage 84%` · $9,776m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001783407&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 11.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 29% (need ≥ 35%) — JUDGMENT threshold
-- `3.2` PEG 11.53 (P/E 313.8 ÷ EPS growth 27%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 11.38 (P/E 309.8 ÷ EPS growth 27%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = -136.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +32.9%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` preferred stock of 61,900,000 ranks ahead of common
@@ -21295,7 +21295,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -45.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 154,388 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 143,676 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21327,7 +21327,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 162% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -7.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,848,644 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,094,101 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21359,7 +21359,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 155% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +3.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 29% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 95,962,363 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 94,072,001 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -21369,7 +21369,7 @@ it wanted to.
 
 ### AAMI — Acadian Asset Management Inc.  _(borderline)_
 
-`score 60%` · `coverage 76%` · $3,230m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001748824&type=10-K)
+`score 60%` · `coverage 76%` · $3,220m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001748824&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR -5.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21389,7 +21389,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 30,478,726 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 32,315,587 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21409,7 +21409,7 @@ it wanted to.
 - `2.11` gross margin = 4% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 27% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
-- `8.8` median daily dollar volume 24,875 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,022 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (8)**
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -21433,7 +21433,7 @@ it wanted to.
 
 ### LEDS — SemiLEDs Corp  _(borderline)_
 
-`score 60%` · `coverage 68%` · $18m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001333822&type=10-K)
+`score 60%` · `coverage 68%` · $19m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001333822&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -42.9%, min -54.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -21451,7 +21451,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -24.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 66,456 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 61,046 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21497,7 +21497,7 @@ it wanted to.
 
 ### NTCT — NETSCOUT SYSTEMS INC  _(borderline)_
 
-`score 60%` · `coverage 68%` · $2,767m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001078075&type=10-K)
+`score 60%` · `coverage 68%` · $2,778m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001078075&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 0.2%, min -7.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -21515,7 +21515,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 8.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +3.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 23,203,012 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 23,774,230 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21529,7 +21529,7 @@ it wanted to.
 
 ### CHGG — CHEGG, INC  _(borderline)_
 
-`score 60%` · `coverage 68%` · $81m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364954&type=10-K)
+`score 60%` · `coverage 68%` · $78m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364954&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 3.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21547,7 +21547,7 @@ it wanted to.
 - `5.11` diluted share count +1.9%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 270% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 1,208,922 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,115,778 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21561,7 +21561,7 @@ it wanted to.
 
 ### BOX — BOX INC  _(borderline)_
 
-`score 60%` · `coverage 68%` · $4,631m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001372612&type=10-K)
+`score 60%` · `coverage 68%` · $4,626m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001372612&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 10.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21579,7 +21579,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -5.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 9% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 67,610,447 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 69,656,311 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21593,7 +21593,7 @@ it wanted to.
 
 ### TNDM — TANDEM DIABETES CARE INC  _(borderline)_
 
-`score 60%` · `coverage 68%` · $1,190m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001438133&type=10-K)
+`score 60%` · `coverage 68%` · $1,174m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001438133&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR 14.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21611,7 +21611,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -13.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 34,778,574 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 35,158,812 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21643,7 +21643,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -23.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,365,950 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,433,590 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21657,7 +21657,7 @@ it wanted to.
 
 ### ETON — Eton Pharmaceuticals, Inc.  _(borderline)_
 
-`score 60%` · `coverage 68%` · $1,632m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001710340&type=10-K)
+`score 60%` · `coverage 68%` · $1,586m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001710340&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -282.1%, min -758.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -21675,7 +21675,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 9.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -833.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,633,450 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 18,471,089 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -21707,7 +21707,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +2.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 310,100 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 282,600 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21721,11 +21721,11 @@ it wanted to.
 
 ### COFS — CHOICEONE FINANCIAL SERVICES INC  _(borderline)_
 
-`score 60%` · `coverage 60%` · $509m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000803164&type=10-K)
+`score 60%` · `coverage 60%` · $499m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000803164&type=10-K)
 
 **Failed (4)**
 - `2.17` diluted EPS CAGR 10.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 2.25 (P/E 24.0 ÷ EPS growth 11%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.20 (P/E 23.5 ÷ EPS growth 11%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 10.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.11` diluted share count +15.9%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 
@@ -21737,7 +21737,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 151% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,572,668 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,634,084 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21753,7 +21753,7 @@ it wanted to.
 
 ### SLG — SL GREEN REALTY CORP  _(borderline)_
 
-`score 60%` · `coverage 56%` · $3,775m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001040971&type=10-K)
+`score 60%` · `coverage 56%` · $3,704m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001040971&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -4.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21785,7 +21785,7 @@ it wanted to.
 
 ### HR — Healthcare Realty Trust Inc  _(borderline)_
 
-`score 60%` · `coverage 56%` · $6,477m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001360604&type=10-K)
+`score 60%` · `coverage 56%` · $6,258m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001360604&type=10-K)
 
 **Failed (4)**
 - `2.16` worst peak-to-trough revenue decline 99% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -21800,7 +21800,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 72,373,490 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 69,149,105 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21817,7 +21817,7 @@ it wanted to.
 
 ### DBRG — DigitalBridge Group, Inc.  _(borderline)_
 
-`score 60%` · `coverage 56%` · $2,981m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679688&type=10-K)
+`score 60%` · `coverage 56%` · $2,977m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679688&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -14.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21832,7 +21832,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -19.3%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 43,048,701 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 43,656,471 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21849,7 +21849,7 @@ it wanted to.
 
 ### SLDP — Solid Power, Inc.  _(borderline)_
 
-`score 60%` · `coverage 56%` · $577m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001844862&type=10-K)
+`score 60%` · `coverage 56%` · $564m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001844862&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -21.7%, min -24.5% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -21864,7 +21864,7 @@ it wanted to.
 - `5.4` 130,000 due within 3 years vs 118,197,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,427,560 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,732,420 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -21881,7 +21881,7 @@ it wanted to.
 
 ### DHC — DIVERSIFIED HEALTHCARE TRUST  _(borderline)_
 
-`score 60%` · `coverage 56%` · $1,816m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001075415&type=10-K)
+`score 60%` · `coverage 56%` · $1,939m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001075415&type=10-K)
 
 **Failed (4)**
 - `2.5` revenue CAGR -4.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21896,7 +21896,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,095,417 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,166,791 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21910,6 +21910,38 @@ it wanted to.
 - `5.5` interest coverage after a 30% revenue decline: not derivable from filings
 - `7.1` FCF ÷ net income (5y): not derivable from filings
 - `7.2` receivables or revenue history incomplete
+
+### NAMI — Jinxin Technology Holding Co  _(borderline)_
+
+`score 60%` · `coverage 52%` · $2,818m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001967631&type=10-K)
+
+**Failed (4)**
+- `2.11` gross margin = 11% (need ≥ 35%) — JUDGMENT threshold
+- `5.5` interest coverage after a 30% revenue decline = -4215.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
+- `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
+- `6.15` stock-based comp ÷ revenue = 10.2% (need ≤ 10.0%) — JUDGMENT threshold
+
+**Passed (6)**
+- `2.13` goodwill + intangibles = 23% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
+- `5.1` net cash position of 9,190,000 — JUDGMENT: net cash passes the leverage test outright
+- `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
+- `7.2` receivables growing -53.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
+- `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
+- `8.8` median daily dollar volume 59,150 (need ≥ 50,000) — JUDGMENT threshold
+
+**Unanswered (12)**
+- `2.1` fewer than 3 years of derivable ROIC
+- `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
+- `2.5` 3-year revenue CAGR not derivable
+- `2.10` FCF ÷ net income (3y): not derivable from filings
+- `2.16` insufficient revenue history to test cyclicality
+- `2.17` EPS CAGR not derivable
+- `2.18` operating income growth ÷ revenue growth: not derivable from filings
+- `3.2` PEG needs price, positive earnings and positive EPS growth
+- `3.7` EPS growth not derivable
+- `5.4` maturity schedule not tagged in XBRL
+- `5.11` share count history not derivable
+- `7.1` FCF ÷ net income (5y): not derivable from filings
 
 ### FLYX — FLYEXCLUSIVE INC.  _(borderline)_
 
@@ -21927,7 +21959,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 546,694 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 531,760 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -21945,7 +21977,7 @@ it wanted to.
 
 ### GIC — GLOBAL INDUSTRIAL Co  _(borderline)_
 
-`score 60%` · `coverage 100%` · $1,486m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000945114&type=10-K)
+`score 60%` · `coverage 100%` · $1,539m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000945114&type=10-K)
 
 **Failed (9)**
 - `2.5` revenue CAGR 7.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -21954,7 +21986,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 64% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 2.2% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.64x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 9.63 (P/E 21.0 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 9.98 (P/E 21.8 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 2.2%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -31.1x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 
@@ -21971,11 +22003,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 88% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -1.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,646,727 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,680,180 (need ≥ 50,000) — JUDGMENT threshold
 
 ### HLIO — HELIOS TECHNOLOGIES, INC.  _(borderline)_
 
-`score 60%` · `coverage 100%` · $2,328m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024795&type=10-K)
+`score 60%` · `coverage 100%` · $2,283m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024795&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 9.2%, min 2.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -21983,7 +22015,7 @@ it wanted to.
 - `2.5` revenue CAGR 12.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 31% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 56% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 2.33 (P/E 62.1 ÷ EPS growth 27%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.28 (P/E 60.9 ÷ EPS growth 27%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = 2.9x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +2.2%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.8` goodwill + intangibles ÷ assets = 56% (need ≤ 40%) — JUDGMENT threshold
@@ -22001,11 +22033,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 119% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -16.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,634,426 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,938,107 (need ≥ 50,000) — JUDGMENT threshold
 
 ### ADUS — Addus HomeCare Corp  _(borderline)_
 
-`score 60%` · `coverage 100%` · $2,187m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001468328&type=10-K)
+`score 60%` · `coverage 100%` · $2,186m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001468328&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 8.1%, min 6.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22031,17 +22063,17 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 162% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 22,622,688 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 22,539,093 (need ≥ 50,000) — JUDGMENT threshold
 
 ### KRT — Karat Packaging Inc.  _(borderline)_
 
-`score 60%` · `coverage 100%` · $936m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001758021&type=10-K)
+`score 60%` · `coverage 100%` · $994m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001758021&type=10-K)
 
 **Failed (7)**
 - `2.3` return on incremental invested capital 14.1% (need ≥ 15%) — JUDGMENT
 - `2.5` revenue CAGR 5.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 10.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 3.12 (P/E 31.2 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.32 (P/E 33.2 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 10.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -5.4x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +6.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -22061,11 +22093,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 92% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,369,627 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,631,932 (need ≥ 50,000) — JUDGMENT threshold
 
 ### UDR — UDR, Inc.  _(borderline)_
 
-`score 60%` · `coverage 88%` · $11,411m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000074208&type=10-K)
+`score 60%` · `coverage 88%` · $11,015m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000074208&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 3.5%, min 2.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22082,13 +22114,13 @@ it wanted to.
 - `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 83.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.48x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.31 (P/E 25.7 ÷ EPS growth 84%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.30 (P/E 24.8 ÷ EPS growth 84%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 83.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 1,601,517,000 due within 3 years vs 2,485,868,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `7.1` FCF ÷ net income (5y) = 382% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 131,088,805 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 131,945,951 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.11` gross margin: not derivable from filings
@@ -22097,7 +22129,7 @@ it wanted to.
 
 ### AXR — AMREP CORP.  _(borderline)_
 
-`score 60%` · `coverage 88%` · $121m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006207&type=10-K)
+`score 60%` · `coverage 88%` · $119m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006207&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 12.2%, min 7.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22120,7 +22152,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 82% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 140,952 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 147,668 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -22129,7 +22161,7 @@ it wanted to.
 
 ### TRS — TRIMAS CORP  _(borderline)_
 
-`score 60%` · `coverage 84%` · $1,375m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000842633&type=10-K)
+`score 60%` · `coverage 84%` · $1,366m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000842633&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 3.9%, min -7.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22151,7 +22183,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 155% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +2.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 28% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 16,924,891 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 16,430,972 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -22183,7 +22215,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -1.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 138,320 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 135,000 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -22193,7 +22225,7 @@ it wanted to.
 
 ### VNDA — Vanda Pharmaceuticals Inc.  _(borderline)_
 
-`score 60%` · `coverage 84%` · $308m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001347178&type=10-K)
+`score 60%` · `coverage 84%` · $310m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001347178&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 4.5%, min -2.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22215,7 +22247,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 112% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,966,940 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,849,210 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -22266,7 +22298,7 @@ it wanted to.
 - `2.17` diluted EPS CAGR -1.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `3.7` EPS growth alone delivers -1.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.2` receivables growing +12.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 44,200 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 41,097 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (11)**
 - `2.1` ROIC avg 119.3%, min 23.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22289,7 +22321,7 @@ it wanted to.
 
 ### LXU — LSB INDUSTRIES, INC.  _(borderline)_
 
-`score 60%` · `coverage 84%` · $834m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000060714&type=10-K)
+`score 60%` · `coverage 84%` · $795m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000060714&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 10.1%, min -4.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22311,7 +22343,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 201% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -42.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,027,445 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,898,356 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -22321,7 +22353,7 @@ it wanted to.
 
 ### MCFT — MasterCraft Boat Holdings, Inc.  _(borderline)_
 
-`score 60%` · `coverage 84%` · $478m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001638290&type=10-K)
+`score 60%` · `coverage 84%` · $482m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001638290&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 38.8%, min -16.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22343,7 +22375,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 139% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -31.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,772,300 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,783,693 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -22375,7 +22407,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 268% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 26% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,769,185 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 26,957,581 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -22385,12 +22417,12 @@ it wanted to.
 
 ### FR — FIRST INDUSTRIAL REALTY TRUST INC  _(borderline)_
 
-`score 59%` · `coverage 72%` · $8,137m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921825&type=10-K)
+`score 59%` · `coverage 72%` · $8,193m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921825&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 11.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 10.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 2.78 (P/E 29.6 ÷ EPS growth 11%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.80 (P/E 29.8 ÷ EPS growth 11%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 10.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.4` 1,247,266,000 due within 3 years vs 958,957,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 
@@ -22404,7 +22436,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 110% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 59,234,122 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 60,897,287 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -22417,7 +22449,7 @@ it wanted to.
 
 ### NBHC — National Bank Holdings Corp  _(borderline)_
 
-`score 59%` · `coverage 72%` · $1,860m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001475841&type=10-K)
+`score 59%` · `coverage 72%` · $1,825m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001475841&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 13.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -22430,13 +22462,13 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 183% (need ≥ 80%) — SOURCED: Smith
 - `2.13` goodwill + intangibles = 4% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 0% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 1.40 (P/E 13.1 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.37 (P/E 12.8 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.1` net cash position of 73,337,000 — JUDGMENT: net cash passes the leverage test outright
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 126% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,540,661 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 14,610,235 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -22449,7 +22481,7 @@ it wanted to.
 
 ### CLDT — Chatham Lodging Trust  _(borderline)_
 
-`score 59%` · `coverage 68%` · $601m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001476045&type=10-K)
+`score 59%` · `coverage 68%` · $604m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001476045&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 1.1%, min -3.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22481,7 +22513,7 @@ it wanted to.
 
 ### TALO — TALOS ENERGY INC.  _(borderline)_
 
-`score 59%` · `coverage 68%` · $2,952m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001724965&type=10-K)
+`score 59%` · `coverage 68%` · $2,840m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001724965&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 13.2%, min -16.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22499,7 +22531,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -25.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 26,331,154 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 26,544,671 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.11` gross margin: not derivable from filings
@@ -22531,7 +22563,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 163% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,378,300 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,351,092 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -22545,7 +22577,7 @@ it wanted to.
 
 ### MTRX — MATRIX SERVICE CO  _(borderline)_
 
-`score 59%` · `coverage 64%` · $300m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866273&type=10-K)
+`score 59%` · `coverage 64%` · $279m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866273&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -25.5%, min -46.8% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22562,7 +22594,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -2.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,887,926 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,928,590 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -22577,7 +22609,7 @@ it wanted to.
 
 ### GSIT — GSI TECHNOLOGY INC  _(borderline)_
 
-`score 59%` · `coverage 64%` · $196m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001126741&type=10-K)
+`score 59%` · `coverage 64%` · $204m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001126741&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -30.1%, min -42.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22594,7 +22626,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -3.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 21% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 6,200,175 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,352,660 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -22609,7 +22641,7 @@ it wanted to.
 
 ### RSSS — Research Solutions, Inc.  _(borderline)_
 
-`score 59%` · `coverage 64%` · $72m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001386301&type=10-K)
+`score 59%` · `coverage 64%` · $70m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001386301&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 14.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -22626,7 +22658,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 4.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -4.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 91,371 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 98,112 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -22658,7 +22690,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -1.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 335,202 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 342,411 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -22673,7 +22705,7 @@ it wanted to.
 
 ### INFU — InfuSystem Holdings, Inc  _(borderline)_
 
-`score 59%` · `coverage 96%` · $242m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001337013&type=10-K)
+`score 59%` · `coverage 96%` · $256m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001337013&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 5.7%, min 2.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22705,7 +22737,7 @@ it wanted to.
 
 ### KFRC — KFORCE INC  _(borderline)_
 
-`score 59%` · `coverage 96%` · $918m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000930420&type=10-K)
+`score 59%` · `coverage 96%` · $929m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000930420&type=10-K)
 
 **Failed (8)**
 - `2.3` return on incremental invested capital 4.5% (need ≥ 15%) — JUDGMENT
@@ -22713,7 +22745,7 @@ it wanted to.
 - `2.11` gross margin = 28% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 6.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.89x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 2.45 (P/E 15.0 ÷ EPS growth 6%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.48 (P/E 15.2 ÷ EPS growth 6%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 6.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -33.5x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 
@@ -22730,14 +22762,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 98% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -9.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 10,393,340 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,390,563 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### ERII — Energy Recovery, Inc.  _(borderline)_
 
-`score 59%` · `coverage 96%` · $385m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001421517&type=10-K)
+`score 59%` · `coverage 96%` · $357m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001421517&type=10-K)
 
 **Failed (8)**
 - `2.5` revenue CAGR 2.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -22762,14 +22794,14 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 6.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,142,739 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,076,513 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### LTC — LTC PROPERTIES INC  _(borderline)_
 
-`score 59%` · `coverage 84%` · $2,279m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887905&type=10-K)
+`score 59%` · `coverage 84%` · $2,294m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887905&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 5.2%, min 2.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22791,7 +22823,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 128% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 18,338,044 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 18,532,376 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.11` gross margin: not derivable from filings
@@ -22823,7 +22855,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 203% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 528,069 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 547,447 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.11` gross margin: not derivable from filings
@@ -22833,12 +22865,12 @@ it wanted to.
 
 ### ICR-PA — InPoint Commercial Real Estate Income, Inc.  _(borderline)_
 
-`score 59%` · `coverage 52%` · $162m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001690012&type=10-K)
+`score 59%` · `coverage 52%` · $161m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001690012&type=10-K)
 
 **Failed (3)**
 - `5.11` diluted share count +22.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` preferred stock of 4,000 ranks ahead of common
-- `8.8` median daily dollar volume 43,438 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 43,590 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (7)**
 - `2.5` revenue CAGR 17.1% — near Mayer's band (SOURCED: Mayer)
@@ -22865,7 +22897,7 @@ it wanted to.
 
 ### MNSB — MainStreet Bancshares, Inc.  _(borderline)_
 
-`score 59%` · `coverage 52%` · $180m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001693577&type=10-K)
+`score 59%` · `coverage 52%` · $176m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001693577&type=10-K)
 
 **Failed (3)**
 - `2.5` revenue CAGR -4.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -22879,7 +22911,7 @@ it wanted to.
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 794,056 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 792,876 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (12)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -22897,7 +22929,7 @@ it wanted to.
 
 ### VREX — Varex Imaging Corp  _(borderline)_
 
-`score 59%` · `coverage 80%` · $777m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001681622&type=10-K)
+`score 59%` · `coverage 80%` · $778m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001681622&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 4.2%, min -3.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22918,7 +22950,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 384% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -6.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,694,136 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,839,480 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -22929,7 +22961,7 @@ it wanted to.
 
 ### KEQU — KEWAUNEE SCIENTIFIC CORP /DE/  _(borderline)_
 
-`score 59%` · `coverage 80%` · $100m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000055529&type=10-K)
+`score 59%` · `coverage 80%` · $99m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000055529&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 10.3%, min -5.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22961,7 +22993,7 @@ it wanted to.
 
 ### LCUT — LIFETIME BRANDS, INC  _(borderline)_
 
-`score 59%` · `coverage 80%` · $197m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874396&type=10-K)
+`score 59%` · `coverage 80%` · $189m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874396&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 5.0%, min -7.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -22982,7 +23014,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +0.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 34% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,393,676 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,405,543 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -22993,7 +23025,7 @@ it wanted to.
 
 ### VRA — Vera Bradley, Inc.  _(borderline)_
 
-`score 59%` · `coverage 80%` · $89m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495320&type=10-K)
+`score 59%` · `coverage 80%` · $122m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495320&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -3.5%, min -43.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23025,7 +23057,7 @@ it wanted to.
 
 ### ATEN — A10 Networks, Inc.  _(borderline)_
 
-`score 59%` · `coverage 80%` · $1,796m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001580808&type=10-K)
+`score 59%` · `coverage 80%` · $1,899m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001580808&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 68.2%, min -144.8% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23046,7 +23078,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 91% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 34,998,938 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 36,906,704 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -23057,7 +23089,7 @@ it wanted to.
 
 ### GYRE — GYRE THERAPEUTICS, INC.  _(borderline)_
 
-`score 59%` · `coverage 76%` · $750m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001124105&type=10-K)
+`score 59%` · `coverage 76%` · $842m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001124105&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -59.8%, min -237.6% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23077,7 +23109,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 438,828 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 453,560 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -23089,7 +23121,7 @@ it wanted to.
 
 ### ZD — ZIFF DAVIS, INC.  _(borderline)_
 
-`score 59%` · `coverage 92%` · $1,928m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001084048&type=10-K)
+`score 59%` · `coverage 92%` · $1,971m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001084048&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 6.2%, min 2.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23113,7 +23145,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 2.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 162% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 27,764,437 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 28,123,404 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -23121,7 +23153,7 @@ it wanted to.
 
 ### ZWS — Zurn Elkay Water Solutions Corp  _(borderline)_
 
-`score 59%` · `coverage 92%` · $7,706m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001439288&type=10-K)
+`score 59%` · `coverage 92%` · $7,688m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001439288&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 9.0%, min 3.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23145,7 +23177,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 192% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 39,735,603 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,438,784 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -23153,13 +23185,13 @@ it wanted to.
 
 ### PGNY — Progyny, Inc.  _(borderline)_
 
-`score 59%` · `coverage 92%` · $2,098m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551306&type=10-K)
+`score 59%` · `coverage 92%` · $2,082m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551306&type=10-K)
 
 **Failed (7)**
 - `2.5` revenue CAGR 46.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 22% (need ≥ 35%) — JUDGMENT threshold
 - `2.17` diluted EPS CAGR 9.5% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 3.55 (P/E 33.8 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.52 (P/E 33.6 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 9.5%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.11` diluted share count +78.6%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `6.15` stock-based comp ÷ revenue = 11.3% (need ≤ 10.0%) — JUDGMENT threshold
@@ -23177,7 +23209,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 162% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -26.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 33,424,811 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 31,422,573 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -23185,7 +23217,7 @@ it wanted to.
 
 ### GEL — GENESIS ENERGY LP  _(borderline)_
 
-`score 59%` · `coverage 64%` · $1,382m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001022321&type=10-K)
+`score 59%` · `coverage 64%` · $1,299m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001022321&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR -1.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -23202,7 +23234,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,331,462 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,273,868 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23241,7 +23273,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 329% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 39,888,135 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 39,012,065 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -23273,7 +23305,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 5.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 159% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 89,977,600 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 89,914,235 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -23281,7 +23313,7 @@ it wanted to.
 
 ### LTRX — LANTRONIX INC  _(borderline)_
 
-`score 58%` · `coverage 76%` · $245m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001114925&type=10-K)
+`score 58%` · `coverage 76%` · $273m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001114925&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -7.8%, min -14.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23301,7 +23333,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +0.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 26% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,632,353 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,688,465 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -23313,7 +23345,7 @@ it wanted to.
 
 ### CRNT — CERAGON NETWORKS LTD  _(borderline)_
 
-`score 58%` · `coverage 76%` · $183m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001119769&type=10-K)
+`score 58%` · `coverage 76%` · $184m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001119769&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 0.7%, min -6.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23333,7 +23365,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +1.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,262,625 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,087,604 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -23345,7 +23377,7 @@ it wanted to.
 
 ### RAMP — LiveRamp Holdings, Inc.  _(borderline)_
 
-`score 58%` · `coverage 76%` · $2,286m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000733269&type=10-K)
+`score 58%` · `coverage 76%` · $2,290m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000733269&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg -15.4%, min -27.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23365,7 +23397,7 @@ it wanted to.
 - `5.11` diluted share count -2.0%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -6.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 37,710,242 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 38,160,254 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -23377,7 +23409,7 @@ it wanted to.
 
 ### QNST — QUINSTREET, INC  _(borderline)_
 
-`score 58%` · `coverage 76%` · $1,049m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001117297&type=10-K)
+`score 58%` · `coverage 76%` · $1,002m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001117297&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 1.4%, min -13.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23397,7 +23429,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 241% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,728,570 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,799,464 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -23409,7 +23441,7 @@ it wanted to.
 
 ### FIVN — Five9, Inc.  _(borderline)_
 
-`score 58%` · `coverage 76%` · $2,291m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001288847&type=10-K)
+`score 58%` · `coverage 76%` · $2,426m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001288847&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -17.8%, min -51.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23429,7 +23461,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -16.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 60,053,668 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 60,142,795 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -23441,7 +23473,7 @@ it wanted to.
 
 ### ATRC — AtriCure, Inc.  _(borderline)_
 
-`score 58%` · `coverage 76%` · $2,774m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001323885&type=10-K)
+`score 58%` · `coverage 76%` · $2,955m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001323885&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg -10.9%, min -38.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23461,7 +23493,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 8.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -2.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 28,285,036 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 29,221,443 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -23473,7 +23505,7 @@ it wanted to.
 
 ### UPWK — UPWORK, INC  _(borderline)_
 
-`score 58%` · `coverage 76%` · $1,089m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001627475&type=10-K)
+`score 58%` · `coverage 76%` · $1,043m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001627475&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -104.9%, min -464.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23493,7 +23525,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -18.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 27,969,372 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,411,441 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -23505,7 +23537,7 @@ it wanted to.
 
 ### FEDU — Four Seasons Education (Cayman) Inc.  _(borderline)_
 
-`score 58%` · `coverage 76%` · $226m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001709819&type=10-K)
+`score 58%` · `coverage 76%` · $231m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001709819&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg -14.3%, min -55.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23514,7 +23546,7 @@ it wanted to.
 - `2.11` gross margin = 26% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 91% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
-- `8.8` median daily dollar volume 969 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 964 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (9)**
 - `2.3` return on incremental invested capital 19.5% (need ≥ 15%) — JUDGMENT
@@ -23537,7 +23569,7 @@ it wanted to.
 
 ### GTM — ZoomInfo Technologies Inc.  _(borderline)_
 
-`score 58%` · `coverage 76%` · $1,106m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001794515&type=10-K)
+`score 58%` · `coverage 76%` · $1,112m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001794515&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 5.8%, min 4.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23557,7 +23589,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 443% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -28.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 30% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 27,727,537 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 26,973,060 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.11` gross margin: not derivable from filings
@@ -23569,11 +23601,11 @@ it wanted to.
 
 ### BOH — BANK OF HAWAII CORP  _(borderline)_
 
-`score 58%` · `coverage 68%` · $2,990m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046195&type=10-K)
+`score 58%` · `coverage 68%` · $2,945m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046195&type=10-K)
 
 **Failed (5)**
 - `2.17` diluted EPS CAGR 4.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 4.32 (P/E 17.5 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.26 (P/E 17.2 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 4.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.12` preferred stock of 180,000,000 ranks ahead of common
 - `6.15` stock-based comp ÷ revenue = 13.5% (need ≤ 10.0%) — JUDGMENT threshold
@@ -23587,7 +23619,7 @@ it wanted to.
 - `5.11` diluted share count -1.3%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.1` FCF ÷ net income (5y) = 105% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 26,940,587 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 25,342,063 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23633,7 +23665,7 @@ it wanted to.
 
 ### PCOR — PROCORE TECHNOLOGIES, INC.  _(borderline)_
 
-`score 58%` · `coverage 60%` · $8,093m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001611052&type=10-K)
+`score 58%` · `coverage 60%` · $7,791m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001611052&type=10-K)
 
 **Failed (4)**
 - `2.13` goodwill + intangibles = 31% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -23649,7 +23681,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -4.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 31% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 140,179,727 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 137,820,583 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23665,7 +23697,7 @@ it wanted to.
 
 ### AIP — Arteris, Inc.  _(borderline)_
 
-`score 58%` · `coverage 60%` · $1,115m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001667011&type=10-K)
+`score 58%` · `coverage 60%` · $1,096m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001667011&type=10-K)
 
 **Failed (4)**
 - `5.5` interest coverage after a 30% revenue decline = -193.1x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -23681,7 +23713,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -1.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 26,564,784 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,935,135 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23713,7 +23745,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -66.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 22% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 443,000,540 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 413,661,173 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23752,7 +23784,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 8.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 156% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -15.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,963,353 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,838,722 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -23761,7 +23793,7 @@ it wanted to.
 
 ### HSTM — HEALTHSTREAM INC  _(borderline)_
 
-`score 58%` · `coverage 88%` · $851m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095565&type=10-K)
+`score 58%` · `coverage 88%` · $855m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095565&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 3.7%, min 2.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23769,7 +23801,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 50% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 4.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.09x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 13.87 (P/E 56.0 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 13.93 (P/E 56.2 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 4.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 50% (need ≤ 40%) — JUDGMENT threshold
 
@@ -23784,7 +23816,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 361% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 5,300,830 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 5,246,656 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -23793,7 +23825,7 @@ it wanted to.
 
 ### SBRA — Sabra Health Care REIT, Inc.  _(borderline)_
 
-`score 58%` · `coverage 64%` · $5,242m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001492298&type=10-K)
+`score 58%` · `coverage 64%` · $5,043m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001492298&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 14.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -23810,7 +23842,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 5609% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 48,852,403 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 49,037,173 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23825,7 +23857,7 @@ it wanted to.
 
 ### CHCT — Community Healthcare Trust Inc  _(borderline)_
 
-`score 58%` · `coverage 64%` · $419m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001631569&type=10-K)
+`score 58%` · `coverage 64%` · $406m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001631569&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 300.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -23842,7 +23874,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 325% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,636,204 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,609,504 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23874,7 +23906,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 241% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 18% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 51,463,968 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 53,246,365 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23889,7 +23921,7 @@ it wanted to.
 
 ### ABCL — AbCellera Biologics Inc.  _(borderline)_
 
-`score 58%` · `coverage 64%` · $3,339m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001703057&type=10-K)
+`score 58%` · `coverage 64%` · $3,873m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001703057&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 9.9%, min -18.5% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23921,7 +23953,7 @@ it wanted to.
 
 ### AFCG — Advanced Flower Capital Inc.  _(borderline)_
 
-`score 58%` · `coverage 64%` · $80m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001822523&type=10-K)
+`score 58%` · `coverage 64%` · $78m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001822523&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -21.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -23938,7 +23970,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 81% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 325,076 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 302,237 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -23953,14 +23985,14 @@ it wanted to.
 
 ### ONTO — ONTO INNOVATION INC.  _(borderline)_
 
-`score 58%` · `coverage 100%` · $13,803m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000704532&type=10-K)
+`score 58%` · `coverage 100%` · $12,928m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000704532&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 6.8%, min -11.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.3` return on incremental invested capital 6.1% (need ≥ 15%) — JUDGMENT
 - `2.17` diluted EPS CAGR 9.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.73x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 12.68 (P/E 113.9 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 11.88 (P/E 106.7 ÷ EPS growth 9%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 9.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -35.1x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +11.9%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -23979,11 +24011,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 118% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 21% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 322,615,855 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 322,603,458 (need ≥ 50,000) — JUDGMENT threshold
 
 ### AIN — ALBANY INTERNATIONAL CORP /DE/  _(borderline)_
 
-`score 58%` · `coverage 100%` · $1,712m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000819793&type=10-K)
+`score 58%` · `coverage 100%` · $1,721m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000819793&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 12.2%, min 10.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -23991,7 +24023,7 @@ it wanted to.
 - `2.5` revenue CAGR 8.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 5.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 0.04x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 2.93 (P/E 15.4 ÷ EPS growth 5%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 2.95 (P/E 15.5 ÷ EPS growth 5%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 5.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 2.0x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 
@@ -24009,11 +24041,11 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 89% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +0.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 14,577,382 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 14,582,407 (need ≥ 50,000) — JUDGMENT threshold
 
 ### LESL — Leslie's, Inc.  _(borderline)_
 
-`score 58%` · `coverage 100%` · $5m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001821806&type=10-K)
+`score 58%` · `coverage 100%` · $4m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001821806&type=10-K)
 
 **Failed (8)**
 - `2.3` return on incremental invested capital -6.2% (need ≥ 15%) — JUDGMENT
@@ -24031,7 +24063,7 @@ it wanted to.
 - `2.13` goodwill + intangibles = 19% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.16` worst peak-to-trough revenue decline 7% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 99.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 0.00 (P/E 0.2 ÷ EPS growth 99%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.00 (P/E 0.1 ÷ EPS growth 99%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 99.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -50.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -24039,18 +24071,18 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -3.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,612,166 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,621,776 (need ≥ 50,000) — JUDGMENT threshold
 
 ### NEN — NEW ENGLAND REALTY ASSOCIATES LIMITED PARTNERSHIP  _(borderline)_
 
-`score 58%` · `coverage 60%` · $174m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000746514&type=10-K)
+`score 58%` · `coverage 60%` · $162m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000746514&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 10.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 99% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.18` operating income growth ÷ revenue growth = 0.78x (need ≥ 1.00x) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 14.43x (need ≤ 1.50x) — JUDGMENT threshold
-- `8.8` median daily dollar volume 16,350 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 17,273 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (7)**
 - `2.10` FCF ÷ net income (3y) = 649% (need ≥ 80%) — SOURCED: Smith
@@ -24091,7 +24123,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 238,306 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 217,179 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -24107,7 +24139,7 @@ it wanted to.
 
 ### IREN — IREN Ltd  _(borderline)_
 
-`score 58%` · `coverage 60%` · $15,664m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878848&type=10-K)
+`score 58%` · `coverage 60%` · $16,682m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878848&type=10-K)
 
 **Failed (5)**
 - `5.1` net debt ÷ EBITDA = 16.86x (need ≤ 1.50x) — JUDGMENT threshold
@@ -24123,7 +24155,7 @@ it wanted to.
 - `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,995,369,218 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,899,802,288 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -24155,7 +24187,7 @@ it wanted to.
 - `5.11` diluted share count -47.6%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 23% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 934,800 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,014,574 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -24171,7 +24203,7 @@ it wanted to.
 
 ### SHIM — Shimmick Corp  _(borderline)_
 
-`score 58%` · `coverage 60%` · $142m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001887944&type=10-K)
+`score 58%` · `coverage 60%` · $138m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001887944&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR -15.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -24187,7 +24219,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +2.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 446,016 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 425,432 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (10)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -24203,7 +24235,7 @@ it wanted to.
 
 ### RAIL — FreightCar America, Inc.  _(borderline)_
 
-`score 58%` · `coverage 72%` · $223m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001320854&type=10-K)
+`score 58%` · `coverage 72%` · $241m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001320854&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 19.3%, min -60.0% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24235,7 +24267,7 @@ it wanted to.
 
 ### HUIZ — Huize Holding Ltd  _(borderline)_
 
-`score 58%` · `coverage 72%` · $739m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001778982&type=10-K)
+`score 58%` · `coverage 72%` · $686m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001778982&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -8.1%, min -41.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24243,7 +24275,7 @@ it wanted to.
 - `2.11` gross margin = 27% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 52% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `5.11` diluted share count +17.6%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
-- `8.8` median daily dollar volume 17,063 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 20,352 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (9)**
 - `2.10` FCF ÷ net income (3y) = 128% (need ≥ 80%) — SOURCED: Smith
@@ -24265,41 +24297,9 @@ it wanted to.
 - `5.4` maturity schedule not tagged in XBRL
 - `7.1` FCF ÷ net income (5y): not derivable from filings
 
-### ZSTK — ZeroStack Corp.  _(borderline)_
-
-`score 58%` · `coverage 72%` · $85m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001790169&type=10-K)
-
-**Failed (8)**
-- `2.1` ROIC avg -469.5%, min -1221.0% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
-- `2.5` revenue CAGR 58.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
-- `2.11` gross margin = 6% (need ≥ 35%) — JUDGMENT threshold
-- `2.13` goodwill + intangibles = 93% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `2.16` worst peak-to-trough revenue decline 53% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
-- `7.8` goodwill + intangibles ÷ assets = 93% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 46,546 (need ≥ 50,000) — JUDGMENT threshold
-
-**Passed (7)**
-- `5.1` net cash position of 3,143,000 — JUDGMENT: net cash passes the leverage test outright
-- `5.4` 2,759,000 due within 3 years vs 5,223,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
-- `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
-- `5.11` diluted share count -71.2%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
-- `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
-- `6.15` stock-based comp ÷ revenue = 7.7% (need ≤ 10.0%) — JUDGMENT threshold
-- `7.2` receivables growing -92.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-
-**Unanswered (7)**
-- `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
-- `2.10` FCF ÷ net income (3y): not derivable from filings
-- `2.17` EPS CAGR not derivable
-- `2.18` operating income growth ÷ revenue growth: not derivable from filings
-- `3.2` PEG needs price, positive earnings and positive EPS growth
-- `3.7` EPS growth not derivable
-- `7.1` FCF ÷ net income (5y): not derivable from filings
-
 ### DH — Definitive Healthcare Corp.  _(borderline)_
 
-`score 58%` · `coverage 72%` · $112m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001861795&type=10-K)
+`score 58%` · `coverage 72%` · $102m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001861795&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -12.3%, min -55.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24329,41 +24329,9 @@ it wanted to.
 - `3.7` EPS growth not derivable
 - `7.1` FCF ÷ net income (5y): not derivable from filings
 
-### HAIN — HAIN CELESTIAL GROUP INC  _(borderline)_
-
-`score 58%` · `coverage 72%` · $56m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000910406&type=10-K)
-
-**Failed (8)**
-- `2.1` ROIC avg 1.0%, min -3.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
-- `2.5` revenue CAGR -4.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
-- `2.11` gross margin = 22% (need ≥ 35%) — JUDGMENT threshold
-- `2.13` goodwill + intangibles = 47% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `2.16` worst peak-to-trough revenue decline 31% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `5.4` 706,664,000 due within 3 years vs 254,764,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
-- `7.2` receivables growing +5.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `7.8` goodwill + intangibles ÷ assets = 47% (need ≤ 40%) — JUDGMENT threshold
-
-**Passed (7)**
-- `2.10` FCF ÷ net income (3y) = 888% (need ≥ 80%) — SOURCED: Smith
-- `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
-- `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
-- `5.11` diluted share count -3.1%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
-- `5.12` no preferred stock outstanding — JUDGMENT
-- `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 486,632 (need ≥ 50,000) — JUDGMENT threshold
-
-**Unanswered (7)**
-- `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
-- `2.17` EPS CAGR not derivable
-- `2.18` operating income growth ÷ revenue growth: not derivable from filings
-- `3.2` PEG needs price, positive earnings and positive EPS growth
-- `3.7` EPS growth not derivable
-- `5.1` net debt ÷ EBITDA: not derivable from filings
-- `7.1` FCF ÷ net income (5y): not derivable from filings
-
 ### LUNG — Pulmonx Corp  _(borderline)_
 
-`score 58%` · `coverage 72%` · $79m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001127537&type=10-K)
+`score 58%` · `coverage 72%` · $89m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001127537&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -45.3%, min -53.9% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24382,7 +24350,7 @@ it wanted to.
 - `5.4` 58,578,000 due within 3 years vs 70,905,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 574,294 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 544,040 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -24395,7 +24363,7 @@ it wanted to.
 
 ### CDXS — CODEXIS, INC.  _(borderline)_
 
-`score 58%` · `coverage 72%` · $161m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001200375&type=10-K)
+`score 58%` · `coverage 72%` · $149m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001200375&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -62.4%, min -98.9% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24414,7 +24382,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -23.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,758,097 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,630,195 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -24427,7 +24395,7 @@ it wanted to.
 
 ### CSTL — CASTLE BIOSCIENCES INC  _(borderline)_
 
-`score 58%` · `coverage 72%` · $988m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001447362&type=10-K)
+`score 58%` · `coverage 72%` · $1,080m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001447362&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -34.3%, min -46.3% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24446,7 +24414,7 @@ it wanted to.
 - `5.4` 26,688,000 due within 3 years vs 293,130,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,606,112 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,521,740 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -24459,7 +24427,7 @@ it wanted to.
 
 ### FRPT — Freshpet, Inc.  _(borderline)_
 
-`score 58%` · `coverage 72%` · $3,063m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001611647&type=10-K)
+`score 58%` · `coverage 72%` · $2,953m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001611647&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -4.8%, min -9.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24478,7 +24446,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -8.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 78,206,879 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 76,605,934 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -24545,7 +24513,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -1.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 336,285 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 295,914 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -24555,7 +24523,7 @@ it wanted to.
 
 ### NAT — NORDIC AMERICAN TANKERS Ltd  _(borderline)_
 
-`score 57%` · `coverage 84%` · $1,580m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000177&type=10-K)
+`score 57%` · `coverage 84%` · $1,747m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000177&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 4.2%, min -13.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24571,13 +24539,13 @@ it wanted to.
 - `2.13` goodwill + intangibles = 2% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 12.1% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 4.85x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 1.32 (P/E 16.0 ÷ EPS growth 12%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.46 (P/E 17.7 ÷ EPS growth 12%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 12.1%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.6% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 18,682,143 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 19,515,076 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -24587,7 +24555,7 @@ it wanted to.
 
 ### TRNS — TRANSCAT INC  _(borderline)_
 
-`score 57%` · `coverage 96%` · $789m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000099302&type=10-K)
+`score 57%` · `coverage 96%` · $805m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000099302&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 12.4%, min 7.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24595,7 +24563,7 @@ it wanted to.
 - `2.5` revenue CAGR 14.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 32% (need ≥ 35%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 42% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `3.2` PEG 3.49 (P/E 57.8 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.56 (P/E 59.0 ÷ EPS growth 17%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = -2.9x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +2.2%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.8` goodwill + intangibles ÷ assets = 42% (need ≤ 40%) — JUDGMENT threshold
@@ -24612,14 +24580,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 133% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -2.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,568,575 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,642,688 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### BLBD — Blue Bird Corp  _(borderline)_
 
-`score 57%` · `coverage 96%` · $1,959m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001589526&type=10-K)
+`score 57%` · `coverage 96%` · $1,914m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001589526&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 12.1%, min -35.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24627,7 +24595,7 @@ it wanted to.
 - `2.5` revenue CAGR 8.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.11` gross margin = 12% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 33% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `3.2` PEG 4.58 (P/E 82.3 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.48 (P/E 80.4 ÷ EPS growth 18%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `5.5` interest coverage after a 30% revenue decline = 0.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `5.11` diluted share count +2.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.2` receivables growing +72.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
@@ -24644,14 +24612,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 132% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 31,065,227 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 30,087,761 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
 
 ### PRGS — PROGRESS SOFTWARE CORP /MA  _(borderline)_
 
-`score 57%` · `coverage 96%` · $1,637m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000876167&type=10-K)
+`score 57%` · `coverage 96%` · $1,645m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000876167&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 13.8%, min 4.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24676,14 +24644,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 5.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 226% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 17,846,358 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 18,877,664 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### EVTC — EVERTEC, Inc.  _(borderline)_
 
-`score 57%` · `coverage 96%` · $1,749m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001559865&type=10-K)
+`score 57%` · `coverage 96%` · $1,652m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001559865&type=10-K)
 
 **Failed (9)**
 - `2.3` return on incremental invested capital -0.3% (need ≥ 15%) — JUDGMENT
@@ -24708,14 +24676,14 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 134% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,736,859 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,367,127 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### OEC — Orion S.A.  _(borderline)_
 
-`score 57%` · `coverage 96%` · $328m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001609804&type=10-K)
+`score 57%` · `coverage 96%` · $324m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001609804&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 11.3%, min 5.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24733,21 +24701,21 @@ it wanted to.
 - `2.13` goodwill + intangibles = 5% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 79.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 2.17x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.04 (P/E 3.2 ÷ EPS growth 80%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.04 (P/E 3.1 ÷ EPS growth 80%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 79.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.11` diluted share count -0.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -28.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 5% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,095,293 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,055,356 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `5.4` maturity schedule not tagged in XBRL
 
 ### SPXC — SPX Technologies, Inc.  _(borderline)_
 
-`score 57%` · `coverage 96%` · $9,607m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000088205&type=10-K)
+`score 57%` · `coverage 96%` · $9,104m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000088205&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 16.3%, min 3.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24779,7 +24747,7 @@ it wanted to.
 
 ### RGR — STURM RUGER & CO INC  _(borderline)_
 
-`score 57%` · `coverage 84%` · $603m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000095029&type=10-K)
+`score 57%` · `coverage 84%` · $654m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000095029&type=10-K)
 
 **Failed (8)**
 - `2.3` return on incremental invested capital 12.3% (need ≥ 15%) — JUDGMENT
@@ -24811,7 +24779,7 @@ it wanted to.
 
 ### CRSR — Corsair Gaming, Inc.  _(borderline)_
 
-`score 57%` · `coverage 84%` · $1,465m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001743759&type=10-K)
+`score 57%` · `coverage 84%` · $1,447m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001743759&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 6.6%, min -5.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24843,7 +24811,7 @@ it wanted to.
 
 ### ACDC — ProFrac Holding Corp.  _(borderline)_
 
-`score 57%` · `coverage 84%` · $949m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001881487&type=10-K)
+`score 57%` · `coverage 84%` · $942m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001881487&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 2.4%, min -16.8% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24865,7 +24833,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 147% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -44.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,161,652 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,196,552 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.17` EPS CAGR not derivable
@@ -24875,7 +24843,7 @@ it wanted to.
 
 ### IRT — INDEPENDENCE REALTY TRUST, INC.  _(borderline)_
 
-`score 57%` · `coverage 72%` · $3,581m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001466085&type=10-K)
+`score 57%` · `coverage 72%` · $3,487m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001466085&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 46.1% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -24894,7 +24862,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 348% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 42,152,848 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 46,226,042 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -24907,7 +24875,7 @@ it wanted to.
 
 ### ETD — ETHAN ALLEN INTERIORS INC  _(borderline)_
 
-`score 57%` · `coverage 96%` · $553m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896156&type=10-K)
+`score 57%` · `coverage 96%` · $540m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896156&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 21.5%, min 3.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24915,7 +24883,7 @@ it wanted to.
 - `2.10` FCF ÷ net income (3y) = 78% (need ≥ 80%) — SOURCED: Smith
 - `2.16` worst peak-to-trough revenue decline 26% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 1.7% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 5.14 (P/E 8.7 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 5.02 (P/E 8.5 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 1.7%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -199.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 
@@ -24932,21 +24900,21 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 108% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -27.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 9,569,544 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 9,646,627 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
 
 ### ELS — EQUITY LIFESTYLE PROPERTIES INC  _(borderline)_
 
-`score 57%` · `coverage 84%` · $11,652m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895417&type=10-K)
+`score 57%` · `coverage 84%` · $11,714m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895417&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 4.8%, min 4.4% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 10.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 98% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 10.4% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 3.40 (P/E 35.3 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.42 (P/E 35.5 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 10.4%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 6.25x (need ≤ 1.50x) — JUDGMENT threshold
 
@@ -24961,7 +24929,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 137% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 90,869,611 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 92,214,938 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (4)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -24971,7 +24939,7 @@ it wanted to.
 
 ### ACCO — ACCO BRANDS Corp  _(borderline)_
 
-`score 57%` · `coverage 80%` · $391m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000712034&type=10-K)
+`score 57%` · `coverage 80%` · $385m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000712034&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 4.8%, min 1.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -24992,7 +24960,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 272% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -9.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,945,563 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,927,513 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25003,7 +24971,7 @@ it wanted to.
 
 ### MRDN — Meridian Holdings Inc./NV  _(borderline)_
 
-`score 57%` · `coverage 80%` · $174m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437925&type=10-K)
+`score 57%` · `coverage 80%` · $178m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437925&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 10.1%, min 1.5% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25024,7 +24992,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 347% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -156.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 840,576 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 844,935 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25035,7 +25003,7 @@ it wanted to.
 
 ### FBNC — FIRST BANCORP /NC/  _(borderline)_
 
-`score 57%` · `coverage 72%` · $2,660m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000811589&type=10-K)
+`score 57%` · `coverage 72%` · $2,622m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000811589&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 13.8% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -25054,7 +25022,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 111% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,087,605 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,235,843 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -25067,7 +25035,7 @@ it wanted to.
 
 ### WD — Walker & Dunlop, Inc.  _(borderline)_
 
-`score 57%` · `coverage 72%` · $1,391m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001497770&type=10-K)
+`score 57%` · `coverage 72%` · $1,296m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001497770&type=10-K)
 
 **Failed (6)**
 - `2.16` worst peak-to-trough revenue decline 89% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
@@ -25086,7 +25054,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.1` FCF ÷ net income (5y) = 140% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 15,280,130 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 15,127,784 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -25099,13 +25067,13 @@ it wanted to.
 
 ### ALLY — Ally Financial Inc.  _(borderline)_
 
-`score 57%` · `coverage 72%` · $12,798m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000040729&type=10-K)
+`score 57%` · `coverage 72%` · $12,168m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000040729&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 8.7% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 86% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 2.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 4.59 (P/E 13.4 ÷ EPS growth 3%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 4.36 (P/E 12.7 ÷ EPS growth 3%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 2.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.12` preferred stock of 2,324,000,000 ranks ahead of common
 
@@ -25118,7 +25086,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 265% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 132,610,525 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 132,607,002 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (7)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -25131,13 +25099,13 @@ it wanted to.
 
 ### CFG — CITIZENS FINANCIAL GROUP INC/RI  _(borderline)_
 
-`score 57%` · `coverage 72%` · $29,685m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000759944&type=10-K)
+`score 57%` · `coverage 72%` · $28,236m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000759944&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 5.4% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.16` worst peak-to-trough revenue decline 78% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 11.0% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.68 (P/E 18.5 ÷ EPS growth 11%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.60 (P/E 17.6 ÷ EPS growth 11%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 11.0%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.12` preferred stock of 2,113,000,000 ranks ahead of common
 
@@ -25172,7 +25140,7 @@ it wanted to.
 - `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
 - `5.11` diluted share count +2.2%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `7.2` receivables growing +21.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 46,000 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 41,583 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (7)**
 - `2.13` goodwill + intangibles = 3% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
@@ -25195,7 +25163,7 @@ it wanted to.
 
 ### LE — LANDS' END, INC.  _(borderline)_
 
-`score 57%` · `coverage 68%` · $306m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000799288&type=10-K)
+`score 57%` · `coverage 68%` · $298m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000799288&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg 2.5%, min -12.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25213,7 +25181,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -2.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 34% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 2,548,170 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 2,548,520 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25227,7 +25195,7 @@ it wanted to.
 
 ### GH — Guardant Health, Inc.  _(borderline)_
 
-`score 57%` · `coverage 68%` · $21,120m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001576280&type=10-K)
+`score 57%` · `coverage 68%` · $24,072m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001576280&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -256.8%, min -644.8% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25245,7 +25213,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -21.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 295,316,050 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 311,743,959 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25259,14 +25227,14 @@ it wanted to.
 
 ### ZJK — ZJK Industrial Co., Ltd.  _(borderline)_
 
-`score 57%` · `coverage 68%` · $146m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001941506&type=10-K)
+`score 57%` · `coverage 68%` · $135m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001941506&type=10-K)
 
 **Failed (5)**
 - `2.3` return on incremental invested capital -67.2% (need ≥ 15%) — JUDGMENT
 - `2.10` FCF ÷ net income (3y) = 33% (need ≥ 80%) — SOURCED: Smith
 - `2.18` operating income growth ÷ revenue growth = 0.01x (need ≥ 1.00x) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 33% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `8.8` median daily dollar volume 28,120 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,560 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (9)**
 - `2.11` gross margin = 38% (need ≥ 35%) — JUDGMENT threshold
@@ -25291,7 +25259,7 @@ it wanted to.
 
 ### HUHU — HUHUTECH International Group Inc.  _(borderline)_
 
-`score 57%` · `coverage 68%` · $98m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001945415&type=10-K)
+`score 57%` · `coverage 68%` · $141m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001945415&type=10-K)
 
 **Failed (5)**
 - `2.10` FCF ÷ net income (3y) = 49% (need ≥ 80%) — SOURCED: Smith
@@ -25309,7 +25277,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -41.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 190,960 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 198,259 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -25341,7 +25309,7 @@ it wanted to.
 - `5.11` diluted share count -58.4%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 25% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 55,080 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 50,393 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25355,7 +25323,7 @@ it wanted to.
 
 ### FOSL — Fossil Group, Inc.  _(borderline)_
 
-`score 57%` · `coverage 68%` · $280m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000883569&type=10-K)
+`score 57%` · `coverage 68%` · $323m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000883569&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg -14.9%, min -56.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25373,7 +25341,39 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -9.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,365,934 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,423,222 (need ≥ 50,000) — JUDGMENT threshold
+
+**Unanswered (8)**
+- `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
+- `2.10` FCF ÷ net income (3y): not derivable from filings
+- `2.17` EPS CAGR not derivable
+- `2.18` operating income growth ÷ revenue growth: not derivable from filings
+- `3.2` PEG needs price, positive earnings and positive EPS growth
+- `3.7` EPS growth not derivable
+- `5.1` net debt ÷ EBITDA: not derivable from filings
+- `7.1` FCF ÷ net income (5y): not derivable from filings
+
+### HAIN — HAIN CELESTIAL GROUP INC  _(borderline)_
+
+`score 57%` · `coverage 68%` · $51m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000910406&type=10-K)
+
+**Failed (7)**
+- `2.1` ROIC avg -3.8%, min -25.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
+- `2.5` revenue CAGR -7.5% — outside 15–35% (SOURCED: Mayer's 20–25%)
+- `2.11` gross margin = 21% (need ≥ 35%) — JUDGMENT threshold
+- `2.13` goodwill + intangibles = 60% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
+- `2.16` worst peak-to-trough revenue decline 40% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
+- `5.4` 558,216,000 due within 3 years vs 120,700,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
+- `7.8` goodwill + intangibles ÷ assets = 60% (need ≤ 40%) — JUDGMENT threshold
+
+**Passed (7)**
+- `5.5` no material interest burden to stress — JUDGMENT: absence of interest expense on a tagged balance sheet is read as unlevered
+- `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
+- `5.11` diluted share count -2.8%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
+- `5.12` no preferred stock outstanding — JUDGMENT
+- `6.15` stock-based comp ÷ revenue = 0.5% (need ≤ 10.0%) — JUDGMENT threshold
+- `7.2` receivables growing +4.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
+- `8.8` median daily dollar volume 496,345 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25387,7 +25387,7 @@ it wanted to.
 
 ### PRTS — CarParts.com, Inc.  _(borderline)_
 
-`score 57%` · `coverage 68%` · $75m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001378950&type=10-K)
+`score 57%` · `coverage 68%` · $69m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001378950&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -23.9%, min -93.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25417,9 +25417,41 @@ it wanted to.
 - `5.4` maturity schedule not tagged in XBRL
 - `7.1` FCF ÷ net income (5y): not derivable from filings
 
+### AYTU — AYTU BIOPHARMA, INC  _(borderline)_
+
+`score 57%` · `coverage 68%` · $23m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001385818&type=10-K)
+
+**Failed (7)**
+- `2.1` ROIC avg -78.5%, min -250.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
+- `2.5` revenue CAGR -0.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
+- `2.13` goodwill + intangibles = 44% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
+- `2.16` worst peak-to-trough revenue decline 39% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
+- `5.5` interest coverage after a 30% revenue decline = -3.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
+- `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
+- `7.8` goodwill + intangibles ÷ assets = 44% (need ≤ 40%) — JUDGMENT threshold
+
+**Passed (7)**
+- `2.11` gross margin = 75% (need ≥ 35%) — JUDGMENT threshold
+- `5.1` net cash position of 8,295,362 — JUDGMENT: net cash passes the leverage test outright
+- `5.4` 5,571,000 due within 3 years vs 21,047,362 of cash plus 3 years of current FCF — JUDGMENT coverage test
+- `5.12` no preferred stock outstanding — JUDGMENT
+- `6.15` stock-based comp ÷ revenue = 3.6% (need ≤ 10.0%) — JUDGMENT threshold
+- `7.2` receivables growing -5.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
+- `8.8` median daily dollar volume 52,650 (need ≥ 50,000) — JUDGMENT threshold
+
+**Unanswered (8)**
+- `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
+- `2.10` FCF ÷ net income (3y): not derivable from filings
+- `2.17` EPS CAGR not derivable
+- `2.18` operating income growth ÷ revenue growth: not derivable from filings
+- `3.2` PEG needs price, positive earnings and positive EPS growth
+- `3.7` EPS growth not derivable
+- `5.11` share count history not derivable
+- `7.1` FCF ÷ net income (5y): not derivable from filings
+
 ### AROC — Archrock, Inc.  _(borderline)_
 
-`score 57%` · `coverage 68%` · $5,746m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001389050&type=10-K)
+`score 57%` · `coverage 68%` · $5,534m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001389050&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 4.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -25437,7 +25469,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 104% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +3.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 61,594,682 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 60,590,025 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -25451,7 +25483,7 @@ it wanted to.
 
 ### VISN — Vistance Networks, Inc.  _(borderline)_
 
-`score 57%` · `coverage 68%` · $1,494m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001517228&type=10-K)
+`score 57%` · `coverage 68%` · $1,515m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001517228&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -4.8%, min -12.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25469,7 +25501,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 2.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -5.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 20% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 43,327,173 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 42,680,488 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25483,7 +25515,7 @@ it wanted to.
 
 ### LIVN — LivaNova PLC  _(borderline)_
 
-`score 57%` · `coverage 68%` · $4,307m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001639691&type=10-K)
+`score 57%` · `coverage 68%` · $4,298m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001639691&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -6.0%, min -15.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25501,7 +25533,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -5.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 52,250,402 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 51,601,312 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25515,7 +25547,7 @@ it wanted to.
 
 ### SPRU — SPRUCE POWER HOLDING CORP  _(borderline)_
 
-`score 57%` · `coverage 68%` · $32m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001772720&type=10-K)
+`score 57%` · `coverage 68%` · $37m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001772720&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -5.3%, min -7.3% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25547,7 +25579,7 @@ it wanted to.
 
 ### HSAI — Hesai Group  _(borderline)_
 
-`score 57%` · `coverage 68%` · $2,703m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001861737&type=10-K)
+`score 57%` · `coverage 68%` · $2,580m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001861737&type=10-K)
 
 **Failed (5)**
 - `2.1` ROIC avg -16.6%, min -40.3% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25565,7 +25597,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +1.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 1% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 27,634,382 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 27,569,886 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25579,7 +25611,7 @@ it wanted to.
 
 ### BJRI — BJs RESTAURANTS INC  _(borderline)_
 
-`score 57%` · `coverage 92%` · $1,293m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013488&type=10-K)
+`score 57%` · `coverage 92%` · $1,267m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013488&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 4.2%, min -18.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25603,7 +25635,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 143% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -8.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 25,317,201 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 25,355,296 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -25611,13 +25643,13 @@ it wanted to.
 
 ### CORT — CORCEPT THERAPEUTICS INC  _(borderline)_
 
-`score 57%` · `coverage 92%` · $12,192m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-K)
+`score 57%` · `coverage 92%` · $11,922m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-K)
 
 **Failed (8)**
 - `2.5` revenue CAGR 10.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 3.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = -0.53x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 31.68 (P/E 114.9 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 30.97 (P/E 112.3 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 3.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = -20.9x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
 - `6.15` stock-based comp ÷ revenue = 10.1% (need ≤ 10.0%) — JUDGMENT threshold
@@ -25635,7 +25667,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.1` FCF ÷ net income (5y) = 134% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 83,437,184 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 91,067,175 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25652,7 +25684,7 @@ it wanted to.
 - `2.11` gross margin = 20% (need ≥ 35%) — JUDGMENT threshold
 - `2.16` worst peak-to-trough revenue decline 31% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `5.5` interest coverage after a 30% revenue decline = -5.6x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
-- `8.8` median daily dollar volume 22,192 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 18,954 (need ≥ 50,000) — JUDGMENT threshold
 
 **Passed (10)**
 - `2.10` FCF ÷ net income (3y) = 189% (need ≥ 80%) — SOURCED: Smith
@@ -25675,7 +25707,7 @@ it wanted to.
 
 ### FLXS — FLEXSTEEL INDUSTRIES INC  _(borderline)_
 
-`score 56%` · `coverage 80%` · $333m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000037472&type=10-K)
+`score 56%` · `coverage 80%` · $326m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000037472&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 4.2%, min -13.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25696,7 +25728,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 123% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -0.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,419,136 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,724,875 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25707,7 +25739,7 @@ it wanted to.
 
 ### OMCL — OMNICELL, INC.  _(borderline)_
 
-`score 56%` · `coverage 80%` · $1,496m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000926326&type=10-K)
+`score 56%` · `coverage 80%` · $1,470m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000926326&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 5.3%, min -4.2% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25728,7 +25760,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 424% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -6.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,444,122 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,490,410 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -25739,7 +25771,7 @@ it wanted to.
 
 ### SLAB — SILICON LABORATORIES INC.  _(borderline)_
 
-`score 56%` · `coverage 80%` · $7,352m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001038074&type=10-K)
+`score 56%` · `coverage 80%` · $7,357m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001038074&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg -86.5%, min -328.3% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25760,7 +25792,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -33.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 34% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 73,795,622 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 69,476,316 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.17` EPS CAGR not derivable
@@ -25777,7 +25809,7 @@ it wanted to.
 - `2.1` ROIC avg 3.9%, min 1.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.5` revenue CAGR 7.3% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 7.8% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 3.96 (P/E 30.8 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 3.97 (P/E 30.9 ÷ EPS growth 8%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 7.8%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 6.60x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.11` diluted share count +8.2%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -25795,7 +25827,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 237% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 15% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 24,717,857 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 24,742,429 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -25803,7 +25835,7 @@ it wanted to.
 
 ### SOTK — SONO TEK CORP  _(borderline)_
 
-`score 56%` · `coverage 92%` · $72m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000806172&type=10-K)
+`score 56%` · `coverage 92%` · $73m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000806172&type=10-K)
 
 **Failed (9)**
 - `2.3` return on incremental invested capital -11.8% (need ≥ 15%) — JUDGMENT
@@ -25827,7 +25859,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 3.1% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 195,825 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 198,740 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -25835,7 +25867,7 @@ it wanted to.
 
 ### CODA — Coda Octopus Group, Inc.  _(borderline)_
 
-`score 56%` · `coverage 92%` · $113m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001334325&type=10-K)
+`score 56%` · `coverage 92%` · $122m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001334325&type=10-K)
 
 **Failed (7)**
 - `2.3` return on incremental invested capital 0.7% (need ≥ 15%) — JUDGMENT
@@ -25859,7 +25891,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 75% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 13% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 971,964 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 975,224 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -25867,7 +25899,7 @@ it wanted to.
 
 ### ULH — UNIVERSAL LOGISTICS HOLDINGS, INC.  _(borderline)_
 
-`score 56%` · `coverage 92%` · $488m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001308208&type=10-K)
+`score 56%` · `coverage 92%` · $467m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001308208&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 13.3%, min 7.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25883,7 +25915,7 @@ it wanted to.
 - `2.16` worst peak-to-trough revenue decline 18% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
 - `2.17` diluted EPS CAGR 25.6% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
 - `2.18` operating income growth ÷ revenue growth = 3.58x (need ≥ 1.00x) — JUDGMENT threshold
-- `3.2` PEG 0.21 (P/E 5.3 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 0.20 (P/E 5.0 ÷ EPS growth 26%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 25.6%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
 - `5.11` diluted share count -1.5%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
@@ -25891,7 +25923,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.0% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -11.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 16% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 795,063 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 780,985 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (2)**
 - `2.11` gross margin: not derivable from filings
@@ -25899,7 +25931,7 @@ it wanted to.
 
 ### ORN — Orion Group Holdings Inc  _(borderline)_
 
-`score 56%` · `coverage 68%` · $379m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001402829&type=10-K)
+`score 56%` · `coverage 68%` · $366m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001402829&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 0.7%, min -4.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25917,7 +25949,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 0.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 4,952,808 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,806,540 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25931,7 +25963,7 @@ it wanted to.
 
 ### XHR — Xenia Hotels & Resorts, Inc.  _(borderline)_
 
-`score 56%` · `coverage 68%` · $1,627m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001616000&type=10-K)
+`score 56%` · `coverage 68%` · $1,635m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001616000&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 0.2%, min -8.7% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25949,7 +25981,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 1.3% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,502,541 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 13,821,282 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25963,7 +25995,7 @@ it wanted to.
 
 ### CCCC — C4 Therapeutics, Inc.  _(borderline)_
 
-`score 56%` · `coverage 68%` · $432m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662579&type=10-K)
+`score 56%` · `coverage 68%` · $417m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662579&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -45.5%, min -67.5% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -25981,7 +26013,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -10.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,785,600 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,620,812 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -25995,7 +26027,7 @@ it wanted to.
 
 ### EVCM — EverCommerce Inc.  _(borderline)_
 
-`score 56%` · `coverage 68%` · $1,115m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001853145&type=10-K)
+`score 56%` · `coverage 68%` · $1,373m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001853145&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -13.2%, min -44.3% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26013,7 +26045,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `6.15` stock-based comp ÷ revenue = 4.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -25.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,393,392 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,410,755 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (8)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -26027,12 +26059,12 @@ it wanted to.
 
 ### CXW — CoreCivic, Inc.  _(borderline)_
 
-`score 56%` · `coverage 80%` · $3,454m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070985&type=10-K)
+`score 56%` · `coverage 80%` · $3,484m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070985&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR -0.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.17` diluted EPS CAGR 9.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 5.18 (P/E 51.1 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 5.22 (P/E 51.5 ÷ EPS growth 10%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 9.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 2.33x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.4` 616,519,000 due within 3 years vs 599,943,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
@@ -26048,7 +26080,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 204% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +0.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 36,519,784 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 36,928,988 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (5)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -26074,7 +26106,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 793,697 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 786,555 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -26091,7 +26123,7 @@ it wanted to.
 
 ### IPSC — Century Therapeutics, Inc.  _(borderline)_
 
-`score 56%` · `coverage 56%` · $351m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001850119&type=10-K)
+`score 56%` · `coverage 56%` · $337m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001850119&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 8.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -26106,7 +26138,7 @@ it wanted to.
 - `5.4` 13,148,000 due within 3 years vs 189,292,000 of cash plus 3 years of current FCF — JUDGMENT coverage test
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.8` goodwill + intangibles ÷ assets = 10% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,552,908 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,552,096 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (11)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -26123,7 +26155,7 @@ it wanted to.
 
 ### STAG — STAG Industrial, Inc.  _(borderline)_
 
-`score 56%` · `coverage 68%` · $7,101m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001479094&type=10-K)
+`score 56%` · `coverage 68%` · $7,189m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001479094&type=10-K)
 
 **Failed (5)**
 - `2.5` revenue CAGR 13.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -26155,7 +26187,7 @@ it wanted to.
 
 ### DSGR — Distribution Solutions Group, Inc.  _(borderline)_
 
-`score 56%` · `coverage 88%` · $1,607m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000703604&type=10-K)
+`score 56%` · `coverage 88%` · $1,611m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000703604&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 6.3%, min 2.5% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26178,7 +26210,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 543% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing +1.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 39% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,015,900 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 4,229,415 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.17` EPS CAGR not derivable
@@ -26187,7 +26219,7 @@ it wanted to.
 
 ### PCRX — Pacira BioSciences, Inc.  _(borderline)_
 
-`score 56%` · `coverage 88%` · $1,011m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001396814&type=10-K)
+`score 56%` · `coverage 88%` · $984m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001396814&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 6.1%, min 4.9% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26210,7 +26242,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 185% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -10.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 36% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 12,457,536 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,877,030 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -26219,13 +26251,13 @@ it wanted to.
 
 ### JBI — Janus International Group, Inc.  _(borderline)_
 
-`score 56%` · `coverage 100%` · $626m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001839839&type=10-K)
+`score 56%` · `coverage 100%` · $587m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001839839&type=10-K)
 
 **Failed (9)**
 - `2.1` ROIC avg 14.1%, min 10.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
 - `2.13` goodwill + intangibles = 47% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
 - `2.17` diluted EPS CAGR 2.3% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 2.02 (P/E 4.6 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.89 (P/E 4.3 ÷ EPS growth 2%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 2.3%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `5.1` net debt ÷ EBITDA = 1.80x (need ≤ 1.50x) — JUDGMENT threshold
 - `5.5` interest coverage after a 30% revenue decline = 1.8x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
@@ -26245,11 +26277,11 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.7% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 130% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -16.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 7,877,628 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 7,967,512 (need ≥ 50,000) — JUDGMENT threshold
 
 ### AD — ARRAY DIGITAL INFRASTRUCTURE, INC.  _(borderline)_
 
-`score 56%` · `coverage 88%` · $2,026m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821130&type=10-K)
+`score 56%` · `coverage 88%` · $1,892m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821130&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 1.7%, min -2.0% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26272,7 +26304,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 245% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -5.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 8,183,970 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 8,309,872 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -26304,7 +26336,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 2% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 664,269 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 746,501 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -26313,7 +26345,7 @@ it wanted to.
 
 ### FORR — FORRESTER RESEARCH, INC.  _(borderline)_
 
-`score 56%` · `coverage 88%` · $224m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001023313&type=10-K)
+`score 56%` · `coverage 88%` · $211m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001023313&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 5.5%, min -10.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26336,7 +26368,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 3.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 442% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -16.2%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 963,414 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 1,023,120 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
@@ -26345,7 +26377,7 @@ it wanted to.
 
 ### SUPN — SUPERNUS PHARMACEUTICALS, INC.  _(borderline)_
 
-`score 56%` · `coverage 88%` · $2,420m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001356576&type=10-K)
+`score 56%` · `coverage 88%` · $2,441m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001356576&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 107.6%, min -0.3% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26368,7 +26400,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 4.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 154% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -11.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `8.8` median daily dollar volume 29,447,808 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 28,607,813 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (3)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -26377,7 +26409,7 @@ it wanted to.
 
 ### KRMD — KORU Medical Systems, Inc.  _(borderline)_
 
-`score 56%` · `coverage 76%` · $146m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000704440&type=10-K)
+`score 56%` · `coverage 76%` · $149m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000704440&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -42.8%, min -62.8% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26397,7 +26429,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 7.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing +4.0%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 3% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 510,920 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 518,094 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -26409,7 +26441,7 @@ it wanted to.
 
 ### CRVL — CORVEL CORP  _(borderline)_
 
-`score 56%` · `coverage 76%` · $3,499m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874866&type=10-K)
+`score 56%` · `coverage 76%` · $3,570m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874866&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 12.9% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -26429,7 +26461,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 95% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -4.9%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,384,793 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,893,644 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -26441,7 +26473,7 @@ it wanted to.
 
 ### PEN — Penumbra Inc  _(borderline)_
 
-`score 56%` · `coverage 76%` · $12,515m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321732&type=10-K)
+`score 56%` · `coverage 76%` · $12,510m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321732&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg 2.3%, min -4.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26473,7 +26505,7 @@ it wanted to.
 
 ### CLAR — Clarus Corp  _(borderline)_
 
-`score 56%` · `coverage 76%` · $136m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000913277&type=10-K)
+`score 56%` · `coverage 76%` · $137m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000913277&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -3.8%, min -15.4% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26493,7 +26525,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 1.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -21.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 12% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 475,637 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 464,100 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -26503,41 +26535,9 @@ it wanted to.
 - `3.7` EPS growth not derivable
 - `7.1` FCF ÷ net income (5y): not derivable from filings
 
-### EPM — EVOLUTION PETROLEUM CORP  _(borderline)_
-
-`score 56%` · `coverage 76%` · $133m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001006655&type=10-K)
-
-**Failed (6)**
-- `2.1` ROIC avg 24.1%, min -23.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
-- `2.3` return on incremental invested capital 11.7% (need ≥ 15%) — JUDGMENT
-- `2.5` revenue CAGR 38.0% — outside 15–35% (SOURCED: Mayer's 20–25%)
-- `2.16` worst peak-to-trough revenue decline 33% over available history (need ≤ 25%) — JUDGMENT; large declines suggest Lynch's cyclical, not a fast grower
-- `5.5` interest coverage after a 30% revenue decline = -2.3x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
-- `5.12` preferred stock of 317 ranks ahead of common
-
-**Passed (10)**
-- `2.10` FCF ÷ net income (3y) = 176% (need ≥ 80%) — SOURCED: Smith
-- `2.11` gross margin = 44% (need ≥ 35%) — JUDGMENT threshold
-- `2.13` goodwill + intangibles = 0% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
-- `5.10` operating cash covers capex over 3 years — JUDGMENT: cumulative FCF above zero is my operationalization of Cassel's self-funding test
-- `5.11` diluted share count -0.2%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
-- `6.15` stock-based comp ÷ revenue = 2.5% (need ≤ 10.0%) — JUDGMENT threshold
-- `7.1` FCF ÷ net income (5y) = 234% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
-- `7.2` receivables growing -30.4%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
-- `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 1,333,345 (need ≥ 50,000) — JUDGMENT threshold
-
-**Unanswered (6)**
-- `2.17` EPS CAGR not derivable
-- `2.18` operating income growth ÷ revenue growth: not derivable from filings
-- `3.2` PEG needs price, positive earnings and positive EPS growth
-- `3.7` EPS growth not derivable
-- `5.1` net debt ÷ EBITDA: not derivable from filings
-- `5.4` maturity schedule not tagged in XBRL
-
 ### IZEA — IZEA Worldwide, Inc.  _(borderline)_
 
-`score 56%` · `coverage 76%` · $50m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495231&type=10-K)
+`score 56%` · `coverage 76%` · $46m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495231&type=10-K)
 
 **Failed (6)**
 - `2.1` ROIC avg -72.9%, min -132.8% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26557,7 +26557,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 6.5% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -28.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 0% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 155,064 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 143,714 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.10` FCF ÷ net income (3y): not derivable from filings
@@ -26569,7 +26569,7 @@ it wanted to.
 
 ### MEC — Mayville Engineering Company, Inc.  _(borderline)_
 
-`score 56%` · `coverage 76%` · $487m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001766368&type=10-K)
+`score 56%` · `coverage 76%` · $439m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001766368&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 2.6%, min -2.9% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26589,7 +26589,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 399% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -21.6%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 32% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 13,878,000 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 14,363,720 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.17` EPS CAGR not derivable
@@ -26618,7 +26618,7 @@ it wanted to.
 - `5.11` diluted share count -38.7%/yr over 5 years (need ≤ +2%) — JUDGMENT threshold on Fisher #13
 - `6.15` stock-based comp ÷ revenue = 5.2% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 11% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 158,598 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 158,283 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -26665,7 +26665,7 @@ it wanted to.
 
 ### GRPN — Groupon, Inc.  _(borderline)_
 
-`score 56%` · `coverage 64%` · $762m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001490281&type=10-K)
+`score 56%` · `coverage 64%` · $776m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001490281&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR -28.6% — outside 15–35% (SOURCED: Mayer's 20–25%)
@@ -26682,7 +26682,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 2.8% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 30% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 30,024,064 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 28,877,092 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.1` fewer than 3 years of derivable ROIC
@@ -26697,7 +26697,7 @@ it wanted to.
 
 ### BL — BLACKLINE, INC.  _(borderline)_
 
-`score 56%` · `coverage 64%` · $1,648m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001666134&type=10-K)
+`score 56%` · `coverage 64%` · $1,636m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001666134&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -31.3%, min -50.4% over 3y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26714,7 +26714,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -6.3%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 28% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 34,453,033 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 32,603,469 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -26729,7 +26729,7 @@ it wanted to.
 
 ### GDYN — GRID DYNAMICS HOLDINGS, INC.  _(borderline)_
 
-`score 56%` · `coverage 64%` · $647m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001743725&type=10-K)
+`score 56%` · `coverage 64%` · $616m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001743725&type=10-K)
 
 **Failed (4)**
 - `2.1` ROIC avg -7.6%, min -15.5% over 4y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26746,7 +26746,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `7.2` receivables growing -19.8%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 17% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,919,826 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 11,749,452 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -26761,7 +26761,7 @@ it wanted to.
 
 ### PUMP — ProPetro Holding Corp.  _(borderline)_
 
-`score 55%` · `coverage 76%` · $1,406m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001680247&type=10-K)
+`score 55%` · `coverage 76%` · $1,287m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001680247&type=10-K)
 
 **Failed (7)**
 - `2.1` ROIC avg 2.9%, min -11.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26781,7 +26781,7 @@ it wanted to.
 - `6.15` stock-based comp ÷ revenue = 0.9% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.2` receivables growing -12.1%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 6% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 56,209,933 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 53,103,550 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.11` gross margin: not derivable from filings
@@ -26810,7 +26810,7 @@ it wanted to.
 - `5.12` no preferred stock outstanding — JUDGMENT
 - `7.2` receivables growing -3.5%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 33% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 3,881,724 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 3,729,440 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (9)**
 - `2.3` ROIIC not derivable (capital did not grow, or gaps in data)
@@ -26825,7 +26825,7 @@ it wanted to.
 
 ### MSA — MSA Safety Inc  _(borderline)_
 
-`score 55%` · `coverage 96%` · $7,028m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000066570&type=10-K)
+`score 55%` · `coverage 96%` · $6,931m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000066570&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 10.2%, min 1.6% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26850,14 +26850,14 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 116% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -6.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 38% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 46,680,338 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 45,826,737 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
 
 ### AEIS — ADVANCED ENERGY INDUSTRIES INC  _(borderline)_
 
-`score 55%` · `coverage 96%` · $11,504m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927003&type=10-K)
+`score 55%` · `coverage 96%` · $10,501m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927003&type=10-K)
 
 **Failed (8)**
 - `2.1` ROIC avg 13.4%, min 6.1% over 5y (need avg ≥ 15% and min ≥ 10%) — JUDGMENT threshold
@@ -26882,7 +26882,7 @@ it wanted to.
 - `7.1` FCF ÷ net income (5y) = 86% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 - `7.2` receivables growing -12.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 19% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 219,096,277 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 214,111,276 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (1)**
 - `3.2` PEG needs price, positive earnings and positive EPS growth
@@ -26909,7 +26909,7 @@ it wanted to.
 - `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
 - `6.15` stock-based comp ÷ revenue = 1.4% (need ≤ 10.0%) — JUDGMENT threshold
 - `7.8` goodwill + intangibles ÷ assets = 4% (need ≤ 40%) — JUDGMENT threshold
-- `8.8` median daily dollar volume 11,745,261 (need ≥ 50,000) — JUDGMENT threshold
+- `8.8` median daily dollar volume 12,272,680 (need ≥ 50,000) — JUDGMENT threshold
 
 **Unanswered (6)**
 - `2.11` gross margin: not derivable from filings
@@ -26921,13 +26921,13 @@ it wanted to.
 
 ### EIG — Employers Holdings, Inc.  _(borderline)_
 
-`score 55%` · `coverage 76%` · $892m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001379041&type=10-K)
+`score 55%` · `coverage 76%` · $880m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001379041&type=10-K)
 
 **Failed (6)**
 - `2.5` revenue CAGR 6.2% — outside 15–35% (SOURCED: Mayer's 20–25%)
 - `2.10` FCF ÷ net income (3y) = 56% (need ≥ 80%) — SOURCED: Smith
 - `2.17` diluted EPS CAGR 3.9% (need ≥ 12%) — growth that survives dilution — JUDGMENT threshold
-- `3.2` PEG 1.92 (P/E 7.6 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
+- `3.2` PEG 1.89 (P/E 7.4 ÷ EPS growth 4%); need ≤ 1.5 — SOURCED: Mayer's 'not much above 1'
 - `3.7` EPS growth alone delivers 3.9%/yr with no multiple expansion (need ≥ 12%) — JUDGMENT threshold
 - `7.1` FCF ÷ net income (5y) = 56% (need ≥ 70%) — JUDGMENT threshold; persistent shortfall means reported profit is not turning into cash
 
@@ -26950,6 +26950,38 @@ it wanted to.
 - `2.18` operating income growth ÷ revenue growth: not derivable from filings
 - `5.5` interest coverage after a 30% revenue decline: not derivable from filings
 - `7.2` receivables or revenue history incomplete
+
+### KNDI — Kandi Technologies Group, Inc.  _(borderline)_
+
+`score 55%` · `coverage 52%` · $43m · [filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720250&type=10-K)
+
+**Failed (5)**
+- `2.11` gross margin = 33% (need ≥ 35%) — JUDGMENT threshold
+- `5.5` interest coverage after a 30% revenue decline = -19.2x (need ≥ 3.0x) — JUDGMENT: both the 30% shock and the 3x floor are my choices
+- `5.10` capex exceeds operating cash over 3 years — growth needs outside money, Cassel's principal micro-cap risk — JUDGMENT
+- `7.2` receivables growing +34.7%/yr faster than revenue (need ≤ +5pp) — JUDGMENT threshold
+- `8.8` median daily dollar volume 48,990 (need ≥ 50,000) — JUDGMENT threshold
+
+**Passed (5)**
+- `2.3` return on incremental invested capital 122.4% (need ≥ 15%) — JUDGMENT
+- `2.13` goodwill + intangibles = 7% of assets (need ≤ 30%) — JUDGMENT proxy for acquisitive growth
+- `5.12` no preferred stock reported — JUDGMENT: absence on a tagged balance sheet is read as none outstanding
+- `6.15` stock-based comp ÷ revenue = 8.9% (need ≤ 10.0%) — JUDGMENT threshold
+- `7.8` goodwill + intangibles ÷ assets = 7% (need ≤ 40%) — JUDGMENT threshold
+
+**Unanswered (12)**
+- `2.1` fewer than 3 years of derivable ROIC
+- `2.5` 3-year revenue CAGR not derivable
+- `2.10` FCF ÷ net income (3y): not derivable from filings
+- `2.16` insufficient revenue history to test cyclicality
+- `2.17` EPS CAGR not derivable
+- `2.18` operating income growth ÷ revenue growth: not derivable from filings
+- `3.2` PEG needs price, positive earnings and positive EPS growth
+- `3.7` EPS growth not derivable
+- `5.1` net debt ÷ EBITDA: not derivable from filings
+- `5.4` maturity schedule not tagged in XBRL
+- `5.11` share count history not derivable
+- `7.1` FCF ÷ net income (5y): not derivable from filings
 
 ## Everything that cleared the gates
 
@@ -26987,14 +27019,14 @@ it wanted to.
 | BSM | worth reading | 96% | 60% | — |
 | PEW | insufficient data | 95% | 48% | — |
 | SDHC | insufficient data | 95% | 48% | — |
-| CAMT | worth reading | 94% | 96% | PEG 1.96 (P/E 86.2 ÷ EPS growth 44%); need ≤ 1.5 |
+| CAMT | worth reading | 94% | 96% | PEG 1.98 (P/E 86.9 ÷ EPS growth 44%); need ≤ 1.5 |
 | ITRN | worth reading | 94% | 96% | revenue CAGR 9.2% |
 | UTMD | worth reading | 94% | 96% | revenue CAGR 6.0% |
 | ACLS | worth reading | 93% | 92% | ROIC avg 261.0%, min 9.6% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | INMD | worth reading | 93% | 92% | diluted share count +19.7%/yr over 5 years (need ≤ +2%) |
 | BKE | worth reading | 93% | 88% | revenue CAGR 11.8% |
 | CRAI | worth reading | 93% | 84% | revenue CAGR 7.1% |
-| MANH | worth reading | 92% | 84% | PEG 2.41 (P/E 66.6 ÷ EPS growth 28%); need ≤ 1.5 |
+| MANH | worth reading | 92% | 84% | PEG 2.53 (P/E 69.8 ÷ EPS growth 28%); need ≤ 1.5 |
 | ALX | worth reading | 92% | 76% | revenue CAGR 4.1% |
 | UVE | worth reading | 92% | 76% | revenue CAGR 9.1% |
 | WING | worth reading | 92% | 100% | net debt ÷ EBITDA = 7.08x (need ≤ 1.50x) |
@@ -27006,7 +27038,7 @@ it wanted to.
 | NSSC | worth reading | 92% | 96% | FCF ÷ net income (3y) = 75% (need ≥ 80%) |
 | PCTY | worth reading | 92% | 96% | stock-based comp ÷ revenue = 11.4% (need ≤ 10.0%) |
 | IOSP | worth reading | 92% | 96% | ROIC avg 10.9%, min 2.7% over 5y (need avg ≥ 15% and min ≥ 10%) |
-| FIX | worth reading | 92% | 92% | PEG 6.10 (P/E 184.0 ÷ EPS growth 30%); need ≤ 1.5 |
+| FIX | worth reading | 92% | 92% | PEG 5.96 (P/E 179.7 ÷ EPS growth 30%); need ≤ 1.5 |
 | CMRE | worth reading | 92% | 76% | ROIC avg 8.2%, min 1.3% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | CAAS | insufficient data | 92% | 36% | — |
 | XZO | insufficient data | 92% | 36% | — |
@@ -27069,7 +27101,7 @@ it wanted to.
 | NRP | worth reading | 86% | 64% | revenue CAGR 13.4% |
 | AGYS | worth reading | 86% | 76% | diluted share count +3.7%/yr over 5 years (need ≤ +2%) |
 | INVX | worth reading | 86% | 76% | ROIC avg 11.8%, min -13.2% over 5y (need avg ≥ 15% and min ≥ 10%) |
-| QLYS | worth reading | 86% | 88% | PEG 1.60 (P/E 34.3 ÷ EPS growth 22%); need ≤ 1.5 |
+| QLYS | worth reading | 86% | 88% | PEG 1.86 (P/E 39.9 ÷ EPS growth 22%); need ≤ 1.5 |
 | CHR | worth reading | 86% | 96% | revenue CAGR 7.2% |
 | CIX | worth reading | 86% | 96% | revenue CAGR 12.1% |
 | MPTI | worth reading | 86% | 84% | FCF ÷ net income (3y) = 76% (need ≥ 80%) |
@@ -27096,7 +27128,7 @@ it wanted to.
 | ROOT | worth reading | 84% | 56% | revenue CAGR 9.5% |
 | MSGS | worth reading | 84% | 56% | revenue CAGR 35.2% |
 | ODD | worth reading | 84% | 80% | ROIC avg 17.1%, min 8.6% over 3y (need avg ≥ 15% and min ≥ 10%) |
-| EGP | worth reading | 84% | 72% | PEG 3.11 (P/E 53.1 ÷ EPS growth 17%); need ≤ 1.5 |
+| EGP | worth reading | 84% | 72% | PEG 3.18 (P/E 54.3 ÷ EPS growth 17%); need ≤ 1.5 |
 | ZION | worth reading | 84% | 72% | revenue CAGR 7.8% |
 | PGC | worth reading | 84% | 72% | revenue CAGR 6.6% |
 | NMIH | worth reading | 84% | 72% | revenue CAGR 10.1% |
@@ -27232,7 +27264,7 @@ it wanted to.
 | SCOR | worth reading | 76% | 72% | ROIC avg -28.9%, min -61.3% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | BYRN | worth reading | 76% | 72% | ROIC avg -1.9%, min -24.1% over 3y (need avg ≥ 15% and min ≥ 10%) |
 | HRMY | worth reading | 76% | 80% | revenue CAGR 53.9% |
-| TRNO | worth reading | 76% | 72% | PEG 2.98 (P/E 47.0 ÷ EPS growth 16%); need ≤ 1.5 |
+| TRNO | worth reading | 76% | 72% | PEG 3.00 (P/E 47.3 ÷ EPS growth 16%); need ≤ 1.5 |
 | WTFC | worth reading | 76% | 72% | revenue CAGR 9.0% |
 | OPXS | worth reading | 76% | 88% | ROIC avg 16.5%, min -3.9% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | POWL | worth reading | 76% | 96% | ROIC avg 10.7%, min 0.3% over 4y (need avg ≥ 15% and min ≥ 10%) |
@@ -27397,7 +27429,6 @@ it wanted to.
 | CVLT | borderline | 70% | 68% | revenue CAGR 5.1% |
 | FMNB | borderline | 70% | 60% | diluted EPS CAGR -3.3% (need ≥ 12%) |
 | BKV | borderline | 70% | 60% | return on incremental invested capital -6.5% (need ≥ 15%) |
-| KNDI | borderline | 70% | 52% | interest coverage after a 30% revenue decline = -19.2x (need ≥ 3.0x) |
 | CSTE | borderline | 70% | 72% | ROIC avg -5.8%, min -32.5% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | MOV | borderline | 70% | 72% | ROIC avg 13.0%, min -44.6% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | VERX | borderline | 70% | 72% | ROIC avg 2.7%, min -3.1% over 4y (need avg ≥ 15% and min ≥ 10%) |
@@ -27475,6 +27506,7 @@ it wanted to.
 | ATNI | borderline | 67% | 72% | ROIC avg 0.6%, min -1.5% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | CXDO | borderline | 67% | 72% | ROIC avg -17.9%, min -61.5% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | TUSK | borderline | 67% | 72% | ROIC avg -15.7%, min -28.4% over 5y (need avg ≥ 15% and min ≥ 10%) |
+| ZSTK | borderline | 67% | 72% | ROIC avg -469.5%, min -1221.0% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | EE | borderline | 67% | 72% | ROIC avg 14.5%, min 10.3% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | UEIC | borderline | 67% | 72% | ROIC avg 2.2%, min -27.9% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | SLNG | borderline | 67% | 72% | revenue CAGR 1.9% |
@@ -27535,7 +27567,7 @@ it wanted to.
 | CSBR | borderline | 65% | 80% | ROIC avg -1444.3%, min -4665.4% over 3y (need avg ≥ 15% and min ≥ 10%) |
 | CASS | borderline | 65% | 72% | revenue CAGR 2.4% |
 | IVT | borderline | 65% | 72% | ROIC avg -0.0%, min -1.1% over 5y (need avg ≥ 15% and min ≥ 10%) |
-| REXR | borderline | 65% | 72% | PEG 1.55 (P/E 35.6 ÷ EPS growth 23%); need ≤ 1.5 |
+| REXR | borderline | 65% | 72% | PEG 1.57 (P/E 36.0 ÷ EPS growth 23%); need ≤ 1.5 |
 | KEY | borderline | 65% | 72% | revenue CAGR -7.7% |
 | FORM | borderline | 65% | 96% | ROIC avg 11.3%, min 6.7% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | SEAL-PA | borderline | 65% | 76% | revenue CAGR 7.1% |
@@ -27633,6 +27665,7 @@ it wanted to.
 | CRCT | borderline | 62% | 84% | return on incremental invested capital 2.0% (need ≥ 15%) |
 | MSGY | borderline | 62% | 56% | FCF ÷ net income (3y) = -313% (need ≥ 80%) |
 | AEBI | insufficient data | 62% | 48% | net debt ÷ EBITDA = 3.88x (need ≤ 1.50x) |
+| FPS | insufficient data | 62% | 48% | net debt ÷ EBITDA = 2.85x (need ≤ 1.50x) |
 | ITIC | borderline | 62% | 68% | FCF ÷ net income (3y) = 40% (need ≥ 80%) |
 | ECPG | borderline | 62% | 68% | ROIC avg 32.2%, min 1.3% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | VIRT | borderline | 62% | 68% | revenue CAGR -8.8% |
@@ -27711,6 +27744,7 @@ it wanted to.
 | DBRG | borderline | 60% | 56% | revenue CAGR -14.1% |
 | SLDP | borderline | 60% | 56% | ROIC avg -21.7%, min -24.5% over 3y (need avg ≥ 15% and min ≥ 10%) |
 | DHC | borderline | 60% | 56% | revenue CAGR -4.8% |
+| NAMI | borderline | 60% | 52% | interest coverage after a 30% revenue decline = -4215.6x (need ≥ 3.0x) |
 | FLYX | borderline | 60% | 52% | revenue CAGR 1.1% |
 | GIC | borderline | 60% | 100% | revenue CAGR 7.4% |
 | HLIO | borderline | 60% | 100% | ROIC avg 9.2%, min 2.8% over 5y (need avg ≥ 15% and min ≥ 10%) |
@@ -27787,9 +27821,7 @@ it wanted to.
 | SHIM | borderline | 58% | 60% | revenue CAGR -15.0% |
 | RAIL | borderline | 58% | 72% | ROIC avg 19.3%, min -60.0% over 3y (need avg ≥ 15% and min ≥ 10%) |
 | HUIZ | borderline | 58% | 72% | ROIC avg -8.1%, min -41.9% over 5y (need avg ≥ 15% and min ≥ 10%) |
-| ZSTK | borderline | 58% | 72% | ROIC avg -469.5%, min -1221.0% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | DH | borderline | 58% | 72% | ROIC avg -12.3%, min -55.3% over 5y (need avg ≥ 15% and min ≥ 10%) |
-| HAIN | borderline | 58% | 72% | ROIC avg 1.0%, min -3.9% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | LUNG | borderline | 58% | 72% | ROIC avg -45.3%, min -53.9% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | CDXS | borderline | 58% | 72% | ROIC avg -62.4%, min -98.9% over 3y (need avg ≥ 15% and min ≥ 10%) |
 | CSTL | borderline | 58% | 72% | ROIC avg -34.3%, min -46.3% over 4y (need avg ≥ 15% and min ≥ 10%) |
@@ -27825,7 +27857,9 @@ it wanted to.
 | HUHU | borderline | 57% | 68% | FCF ÷ net income (3y) = 49% (need ≥ 80%) |
 | UK | borderline | 57% | 68% | ROIC avg -3100.2%, min -11074.9% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | FOSL | borderline | 57% | 68% | ROIC avg -14.9%, min -56.6% over 5y (need avg ≥ 15% and min ≥ 10%) |
+| HAIN | borderline | 57% | 68% | ROIC avg -3.8%, min -25.2% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | PRTS | borderline | 57% | 68% | ROIC avg -23.9%, min -93.8% over 5y (need avg ≥ 15% and min ≥ 10%) |
+| AYTU | borderline | 57% | 68% | ROIC avg -78.5%, min -250.9% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | AROC | borderline | 57% | 68% | revenue CAGR 4.2% |
 | VISN | borderline | 57% | 68% | ROIC avg -4.8%, min -12.2% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | LIVN | borderline | 57% | 68% | ROIC avg -6.0%, min -15.4% over 5y (need avg ≥ 15% and min ≥ 10%) |
@@ -27860,7 +27894,6 @@ it wanted to.
 | CRVL | borderline | 56% | 76% | revenue CAGR 12.9% |
 | PEN | borderline | 56% | 76% | ROIC avg 2.3%, min -4.6% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | CLAR | borderline | 56% | 76% | ROIC avg -3.8%, min -15.4% over 5y (need avg ≥ 15% and min ≥ 10%) |
-| EPM | borderline | 56% | 76% | ROIC avg 24.1%, min -23.1% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | IZEA | borderline | 56% | 76% | ROIC avg -72.9%, min -132.8% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | MEC | borderline | 56% | 76% | ROIC avg 2.6%, min -2.9% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | WIMI | borderline | 56% | 64% | revenue CAGR -15.0% |
@@ -27876,10 +27909,12 @@ it wanted to.
 | AEIS | borderline | 55% | 96% | ROIC avg 13.4%, min 6.1% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | OPY | borderline | 55% | 76% | ROIC avg 10.3%, min 3.7% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | EIG | borderline | 55% | 76% | revenue CAGR 6.2% |
+| KNDI | borderline | 55% | 52% | interest coverage after a 30% revenue decline = -19.2x (need ≥ 3.0x) |
 | PRHI | not yet | 55% | 64% | revenue CAGR -13.4% |
 | POWI | not yet | 55% | 84% | ROIC avg 69.3%, min 6.1% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | PSHG | not yet | 55% | 84% | ROIC avg 21.4%, min -3.8% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | BOOM | not yet | 55% | 84% | ROIC avg 8.0%, min -0.4% over 5y (need avg ≥ 15% and min ≥ 10%) |
+| EPM | not yet | 55% | 84% | ROIC avg 24.0%, min -23.1% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | UFI | not yet | 55% | 72% | ROIC avg -1.5%, min -9.8% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | VCEL | not yet | 55% | 72% | ROIC avg -13.0%, min -33.9% over 4y (need avg ≥ 15% and min ≥ 10%) |
 | MX | not yet | 55% | 72% | ROIC avg 9.4%, min -16.4% over 3y (need avg ≥ 15% and min ≥ 10%) |
@@ -27975,7 +28010,6 @@ it wanted to.
 | MAYS | not yet | 47% | 68% | ROIC avg -0.8%, min -1.5% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | DLTH | not yet | 47% | 68% | ROIC avg 3.4%, min -16.2% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | ACTG | not yet | 47% | 68% | revenue CAGR 11.6% |
-| AYTU | not yet | 47% | 68% | ROIC avg -78.5%, min -250.9% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | TDUP | not yet | 47% | 68% | ROIC avg -35.8%, min -37.5% over 3y (need avg ≥ 15% and min ≥ 10%) |
 | EVH | not yet | 47% | 68% | ROIC avg -16.8%, min -48.7% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | LSF | not yet | 47% | 68% | ROIC avg -48.8%, min -71.2% over 4y (need avg ≥ 15% and min ≥ 10%) |
@@ -28027,7 +28061,6 @@ it wanted to.
 | CDR-PB | not yet | 45% | 64% | ROIC avg -3.0%, min -25.7% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | LMAT | not yet | 45% | 84% | ROIC avg 14.5%, min 8.8% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | ATRA | not yet | 45% | 52% | ROIC avg -346.8%, min -602.3% over 3y (need avg ≥ 15% and min ≥ 10%) |
-| NAMI | not yet | 45% | 52% | interest coverage after a 30% revenue decline = -4215.6x (need ≥ 3.0x) |
 | BTOC | not yet | 45% | 52% | return on incremental invested capital -53.2% (need ≥ 15%) |
 | ECX | not yet | 45% | 52% | revenue CAGR 8.7% |
 | GNK | not yet | 45% | 64% | ROIC avg 1.8%, min -15.4% over 5y (need avg ≥ 15% and min ≥ 10%) |
@@ -28048,7 +28081,7 @@ it wanted to.
 | EQPT | insufficient data | 44% | 44% | net debt ÷ EBITDA = 3.93x (need ≤ 1.50x) |
 | ACU | not yet | 44% | 88% | ROIC avg 10.0%, min 4.3% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | TECH | not yet | 44% | 88% | ROIC avg 13.2%, min 9.5% over 5y (need avg ≥ 15% and min ≥ 10%) |
-| RLGT | not yet | 44% | 80% | ROIC avg 11.3%, min 4.3% over 5y (need avg ≥ 15% and min ≥ 10%) |
+| RLGT | not yet | 44% | 80% | ROIC avg 11.2%, min 4.3% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | CFTR-PA | insufficient data | 44% | 44% | revenue CAGR 38.0% |
 | NTIC | not yet | 44% | 80% | ROIC avg 7.7%, min 2.5% over 5y (need avg ≥ 15% and min ≥ 10%) |
 | LGCL | not yet | 44% | 80% | ROIC avg 12.6%, min 4.2% over 3y (need avg ≥ 15% and min ≥ 10%) |
@@ -28074,6 +28107,7 @@ it wanted to.
 | AMSF | not yet | 43% | 60% | revenue CAGR -3.3% |
 | PFSI | not yet | 43% | 60% | diluted EPS CAGR -49.2% (need ≥ 12%) |
 | WIX | not yet | 43% | 56% | interest coverage after a 30% revenue decline = -1294.4x (need ≥ 3.0x) |
+| ISPR | not yet | 43% | 56% | revenue CAGR 13.1% |
 | WHWK | not yet | 43% | 56% | interest coverage after a 30% revenue decline = -482.8x (need ≥ 3.0x) |
 | ZIP | not yet | 42% | 84% | ROIC avg 9.8%, min -2.5% over 3y (need avg ≥ 15% and min ≥ 10%) |
 | MRCY | not yet | 42% | 72% | ROIC avg 0.8%, min -8.5% over 5y (need avg ≥ 15% and min ≥ 10%) |
@@ -28318,93 +28352,92 @@ it wanted to.
 | BHST | insufficient data | — | 8% | — |
 | GLAS | insufficient data | — | 8% | — |
 | SOBO | insufficient data | — | 8% | — |
-| FPS | insufficient data | — | 8% | — |
 | JAN | insufficient data | — | 8% | — |
 | AYRWF | insufficient data | — | 4% | — |
 
-## Excluded at the gates (751)
+## Excluded at the gates (750)
 
-- **KG** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-08-11 — JUDGMENT: 2-year recency window
+- **KG** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-08-11 — JUDGMENT: 2-year recency window
 - **FIGR** — 0.12: operations burn cash; financing covers 197% of the gap — funded by issuance, not by customers
 - **LIFE** — 0.12: operations burn cash; financing covers 200% of the gap — funded by issuance, not by customers
-- **HIVE** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 10-Q 2026-08-11, NT 10-K 2026-06-02 — JUDGMENT: 2-year recency window
-- **MGN** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 20-F 2026-04-30 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 132% of the gap — funded by issuance, not by customers
+- **HIVE** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 10-Q 2026-08-11, NT 10-K 2026-06-02 — JUDGMENT: 2-year recency window
+- **MGN** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 20-F 2026-04-30 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 132% of the gap — funded by issuance, not by customers
 - **ANTA** — 0.12: operations burn cash; financing covers 388% of the gap — funded by issuance, not by customers
 - **NSRX** — 0.12: operations burn cash; financing covers 103% of the gap — funded by issuance, not by customers
-- **INFQ** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-Q 2026-08-17 — JUDGMENT: 2-year recency window
-- **GVH** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 20-F 2026-01-28, NT 20-F 2025-01-31 — JUDGMENT: 2-year recency window
+- **INFQ** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-Q 2026-08-17 — JUDGMENT: 2-year recency window
+- **GVH** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 20-F 2026-01-28, NT 20-F 2025-01-31 — JUDGMENT: 2-year recency window
 - **MPU** — 0.12: operations burn cash; financing covers 107% of the gap — funded by issuance, not by customers
-- **ZBAO** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 20-F 2025-11-03 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 165% of the gap — funded by issuance, not by customers
+- **ZBAO** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 20-F 2025-11-03 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 165% of the gap — funded by issuance, not by customers
 - **BBNX** — 0.12: operations burn cash; financing covers 194% of the gap — funded by issuance, not by customers
 - **SLGB** — 0.12: operations burn cash; financing covers 82% of the gap — funded by issuance, not by customers
-- **MAMK** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 20-F 2026-03-03 — JUDGMENT: 2-year recency window
+- **MAMK** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 20-F 2026-03-03 — JUDGMENT: 2-year recency window
 - **PLBL** — 0.12: operations burn cash; financing covers 150% of the gap — funded by issuance, not by customers
 - **FBLA** — 0.12: operations burn cash; financing covers 3566% of the gap — funded by issuance, not by customers
 - **AMBQ** — 0.12: operations burn cash; financing covers 275% of the gap — funded by issuance, not by customers
-- **JLHL** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 20-F 2026-01-30 — JUDGMENT: 2-year recency window
-- **CASH** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-08-11, NT 10-Q 2025-05-12 — JUDGMENT: 2-year recency window
+- **JLHL** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 20-F 2026-01-30 — JUDGMENT: 2-year recency window
+- **CASH** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-08-11, NT 10-Q 2025-05-12 — JUDGMENT: 2-year recency window
 - **BBXIB** — 0.11: listed on OTC
 - **ROLR** — 0.12: operations burn cash; financing covers 234% of the gap — funded by issuance, not by customers
 - **ABIT** — 0.11: listed on OTC
 - **LZMH** — 0.12: operations burn cash; financing covers 210% of the gap — funded by issuance, not by customers
 - **ALAB** — 0.12: operations burn cash; financing covers 311% of the gap — funded by issuance, not by customers
-- **MGTE** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-K 2025-03-31 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
-- **LHAI** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-05-15 — JUDGMENT: 2-year recency window
-- **SOAR** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-Q 2024-11-14 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 94% of the gap — funded by issuance, not by customers
-- **GRUSF** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-K 2026-03-30, NT 20-F 2024-03-01, NT 20-F 2023-03-01, NT 20-F 2022-03-01 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
+- **MGTE** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-K 2025-03-31 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
+- **LHAI** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-05-15 — JUDGMENT: 2-year recency window
+- **SOAR** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-Q 2024-11-14 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 94% of the gap — funded by issuance, not by customers
+- **GRUSF** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-K 2026-03-30, NT 20-F 2024-03-01, NT 20-F 2023-03-01, NT 20-F 2022-03-01 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
 - **ITXP** — 0.11: listed on OTC; 0.12: pre-revenue
 - **AISP** — 0.12: operations burn cash; financing covers 179% of the gap — funded by issuance, not by customers
 - **SDSYA** — 0.11: listed on OTC
 - **PONY** — 0.12: operations burn cash; financing covers 104% of the gap — funded by issuance, not by customers
-- **RCT** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 20-F 2026-04-30, NT 20-F 2025-04-30 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 97% of the gap — funded by issuance, not by customers
-- **KLNG** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-05-15, NT 10-K 2025-03-31, NT 10-K 2019-04-01, NT 10-Q 2011-05-17 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
-- **TRUG** — 0.6: 4 late-filing notice(s) since 2024-09-13: NT 10-Q 2026-05-15, NT 10-K 2026-03-31, NT 10-Q 2025-08-15, NT 10-K 2025-03-31 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 1312% of the gap — funded by issuance, not by customers
+- **RCT** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 20-F 2026-04-30, NT 20-F 2025-04-30 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 97% of the gap — funded by issuance, not by customers
+- **KLNG** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-05-15, NT 10-K 2025-03-31, NT 10-K 2019-04-01, NT 10-Q 2011-05-17 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
+- **TRUG** — 0.6: 4 late-filing notice(s) since 2024-09-20: NT 10-Q 2026-05-15, NT 10-K 2026-03-31, NT 10-Q 2025-08-15, NT 10-K 2025-03-31 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 1312% of the gap — funded by issuance, not by customers
 - **IBTA** — 0.12: operations burn cash; financing covers 226% of the gap — funded by issuance, not by customers
 - **URGN** — 0.12: operations burn cash; financing covers 157% of the gap — funded by issuance, not by customers
 - **MITQ** — 0.12: operations burn cash; financing covers 219% of the gap — funded by issuance, not by customers
 - **TTSH** — 0.11: listed on OTC
-- **LNZA** — 0.6: 4 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-11-17, NT 10-Q 2025-08-15, NT 10-Q 2025-05-09, NT 10-K 2025-04-01 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 84% of the gap — funded by issuance, not by customers
+- **LNZA** — 0.6: 4 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-11-17, NT 10-Q 2025-08-15, NT 10-Q 2025-05-09, NT 10-K 2025-04-01 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 84% of the gap — funded by issuance, not by customers
 - **BFRI** — 0.12: operations burn cash; financing covers 73% of the gap — funded by issuance, not by customers
-- **PNRG** — 0.6: 6 late-filing notice(s) since 2024-09-13: NT 10-Q 2026-05-14, NT 10-K 2026-04-01, NT 10-Q 2025-11-14, NT 10-Q 2025-08-15 — JUDGMENT: 2-year recency window
-- **TH** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-05-08, NT 10-K 2025-03-11 — JUDGMENT: 2-year recency window
+- **PNRG** — 0.6: 6 late-filing notice(s) since 2024-09-20: NT 10-Q 2026-05-14, NT 10-K 2026-04-01, NT 10-Q 2025-11-14, NT 10-Q 2025-08-15 — JUDGMENT: 2-year recency window
+- **TH** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-05-08, NT 10-K 2025-03-11 — JUDGMENT: 2-year recency window
 - **CODQL** — 0.11: listed on OTC
-- **SVA** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 20-F 2026-04-30, NT 20-F 2025-04-29, NT 20-F/A 2018-05-08, NT 20-F 2018-04-30 — JUDGMENT: 2-year recency window
+- **SVA** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 20-F 2026-04-30, NT 20-F 2025-04-29, NT 20-F/A 2018-05-08, NT 20-F 2018-04-30 — JUDGMENT: 2-year recency window
 - **HFUS** — 0.11: listed on OTC; 0.12: operations burn cash; financing covers 537% of the gap — funded by issuance, not by customers
 - **NXB** — 0.12: operations burn cash; financing covers 118% of the gap — funded by issuance, not by customers
 - **FTCO** — 0.11: listed on OTC
-- **ZYBT** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 20-F 2025-04-29 — JUDGMENT: 2-year recency window
-- **FLUX** — 0.6: 3 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-02-14, NT 10-Q 2024-11-15, NT 10-K 2024-09-30 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 89% of the gap — funded by issuance, not by customers
-- **GNE** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 10-Q 2026-05-12, NT 10-K 2026-03-16, NT 10-K 2019-03-19 — JUDGMENT: 2-year recency window
+- **ZYBT** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 20-F 2025-04-29 — JUDGMENT: 2-year recency window
+- **FLUX** — 0.6: 3 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-02-14, NT 10-Q 2024-11-15, NT 10-K 2024-09-30 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 89% of the gap — funded by issuance, not by customers
+- **GNE** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 10-Q 2026-05-12, NT 10-K 2026-03-16, NT 10-K 2019-03-19 — JUDGMENT: 2-year recency window
 - **PLNH** — 0.11: listed on OTC; 0.12: operations burn cash; financing covers 56% of the gap — funded by issuance, not by customers
-- **PREM** — 0.6: 3 late-filing notice(s) since 2024-09-13: NT 10-K 2026-03-31, NT 10-Q 2025-08-15, NT 10-K 2025-03-31, NT 10-Q 2024-08-14 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
-- **IAUX** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-K 2025-04-01 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 93% of the gap — funded by issuance, not by customers
-- **FIP** — 0.6: 4 late-filing notice(s) since 2024-09-13: NT 10-K 2026-03-03, NT 10-Q 2025-08-12, NT 10-Q 2025-05-13, NT 10-K 2025-03-04 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 1389% of the gap — funded by issuance, not by customers
+- **PREM** — 0.6: 3 late-filing notice(s) since 2024-09-20: NT 10-K 2026-03-31, NT 10-Q 2025-08-15, NT 10-K 2025-03-31, NT 10-Q 2024-08-14 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
+- **IAUX** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-K 2025-04-01 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 93% of the gap — funded by issuance, not by customers
+- **FIP** — 0.6: 4 late-filing notice(s) since 2024-09-20: NT 10-K 2026-03-03, NT 10-Q 2025-08-12, NT 10-Q 2025-05-13, NT 10-K 2025-03-04 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 1389% of the gap — funded by issuance, not by customers
 - **LEEEF** — 0.11: listed on OTC; 0.12: operations burn cash; financing covers 346% of the gap — funded by issuance, not by customers
-- **ESEA** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 20-F 2025-04-30 — JUDGMENT: 2-year recency window
+- **ESEA** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 20-F 2025-04-30 — JUDGMENT: 2-year recency window
 - **NLCP** — 0.11: listed on OTC
 - **UTGN** — 0.11: listed on OTC
-- **QXL** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-08-14, NT 10-Q 2024-11-12, NT 10-Q 2024-05-15, NT 10-Q 2022-11-14 — JUDGMENT: 2-year recency window
+- **QXL** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-08-14, NT 10-Q 2024-11-12, NT 10-Q 2024-05-15, NT 10-Q 2022-11-14 — JUDGMENT: 2-year recency window
 - **REAL** — 0.12: operations burn cash; financing covers 87% of the gap — funded by issuance, not by customers
-- **CURR** — 0.6: 3 late-filing notice(s) since 2024-09-13: NT 10-Q 2025-05-14, NT 10-K 2025-03-31, NT 10-Q 2024-11-14, NT 10-Q 2024-08-15 — JUDGMENT: 2-year recency window
-- **ICTSF** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 20-F 2025-04-25, NT 20-F 2024-04-26, NT 20-F 2023-04-24, NT 20-F 2022-04-27 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
-- **ORRF** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-K 2025-03-18 — JUDGMENT: 2-year recency window
-- **WYY** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-K 2025-03-31 — JUDGMENT: 2-year recency window
+- **CURR** — 0.6: 3 late-filing notice(s) since 2024-09-20: NT 10-Q 2025-05-14, NT 10-K 2025-03-31, NT 10-Q 2024-11-14, NT 10-Q 2024-08-15 — JUDGMENT: 2-year recency window
+- **ICTSF** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 20-F 2025-04-25, NT 20-F 2024-04-26, NT 20-F 2023-04-24, NT 20-F 2022-04-27 — JUDGMENT: 2-year recency window; 0.11: listed on OTC
+- **ORRF** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-K 2025-03-18 — JUDGMENT: 2-year recency window
+- **WYY** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-K 2025-03-31 — JUDGMENT: 2-year recency window
 - **KEEL** — 0.12: operations burn cash; financing covers 83% of the gap — funded by issuance, not by customers
-- **STAK** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 20-F 2025-10-31 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 324% of the gap — funded by issuance, not by customers
+- **STAK** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 20-F 2025-10-31 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 324% of the gap — funded by issuance, not by customers
 - **KURA** — 0.12: pre-revenue
 - **GOSS** — 0.12: pre-revenue
-- **ELWT** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-Q 2026-08-14 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 92% of the gap — funded by issuance, not by customers
+- **ELWT** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-Q 2026-08-14 — JUDGMENT: 2-year recency window; 0.12: operations burn cash; financing covers 92% of the gap — funded by issuance, not by customers
 - **BUR** — 0.12: operations burn cash; financing covers 93% of the gap — funded by issuance, not by customers
-- **LGCY** — 0.6: 1 late-filing notice(s) since 2024-09-13: NT 10-K 2024-10-01 — JUDGMENT: 2-year recency window
+- **LGCY** — 0.6: 1 late-filing notice(s) since 2024-09-20: NT 10-K 2024-10-01 — JUDGMENT: 2-year recency window
 - **MRP** — 0.12: operations burn cash; financing covers 100% of the gap — funded by issuance, not by customers
 - **CMDB** — 0.12: pre-revenue
 - **MLCI** — 0.12: operations burn cash; financing covers 201% of the gap — funded by issuance, not by customers
 - **NOBH** — 0.11: listed on OTC
-- **KRMN** — 0.6: 2 late-filing notice(s) since 2024-09-13: NT 10-K 2026-04-01, NT 10-K 2025-04-01 — JUDGMENT: 2-year recency window
+- **KRMN** — 0.6: 2 late-filing notice(s) since 2024-09-20: NT 10-K 2026-04-01, NT 10-K 2025-04-01 — JUDGMENT: 2-year recency window
 - **CBLL** — 0.12: operations burn cash; financing covers 302% of the gap — funded by issuance, not by customers
 - **MYO** — 0.12: operations burn cash; financing covers 158% of the gap — funded by issuance, not by customers
-- **UUU** — 0.6: 6 late-filing notice(s) since 2024-09-13: NT 10-K 2026-06-29, NT 10-Q 2026-02-13, NT 10-Q 2025-11-13, NT 10-Q 2025-08-14 — JUDGMENT: 2-year recency window
-- _…and 671 more_
+- **UUU** — 0.6: 6 late-filing notice(s) since 2024-09-20: NT 10-K 2026-06-29, NT 10-Q 2026-02-13, NT 10-Q 2025-11-13, NT 10-Q 2025-08-14 — JUDGMENT: 2-year recency window
+- _…and 670 more_
 
 ---
 
